@@ -1,0 +1,2531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>928</lata>
+</inputdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>202</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7773</ocn>
+<company-name>COMCAST PHONE OF VIRGINIA, INC. - VA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>202480</exch>
+<rc>Crozet</rc>
+<region>VA</region>
+<switch>CHVLVACFDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>5E</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5933</rc-v>
+<rc-h>1717</rc-h>
+<rc-lat>38.066176</rc-lat>
+<rc-lon>-78.701728</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>207</nxx>
+<x>A</x>
+<exch>204180</exch>
+<rc>Palmyra</rc>
+<region>VA</region>
+<switch>CHVLVACFDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>5E</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5929</rc-v>
+<rc-h>1630</rc-h>
+<rc-lat>37.860386</rc-lat>
+<rc-lon>-78.267979</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>204550</exch>
+<rc>Scottsville</rc>
+<region>VA</region>
+<switch>SCVLVAXADS0</switch>
+<switchname>SCOTTSVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5961</rc-v>
+<rc-h>1655</rc-h>
+<rc-lat>37.802155</rc-lat>
+<rc-lon>-78.491544</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>202900</exch>
+<rc>Fork Union</rc>
+<region>VA</region>
+<switch>CHVLVAXAIMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8825</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5947</rc-v>
+<rc-h>1617</rc-h>
+<rc-lat>37.758788</rc-lat>
+<rc-lon>-78.263276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>218</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXVX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4644</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - VA                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>220</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVACPRS0</switch>
+<switchname></switchname>
+<switchtype>EXM</switchtype>
+<ocn>7849</ocn>
+<company-name>LUMOS NETWORKS INC. - VA                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAX0X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6855</ocn>
+<company-name>OMNIPOINT COMMUNICATIONS CAP OPERATIONS, LLC              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>231</nxx>
+<x>A</x>
+<exch>204540</exch>
+<rc>Schuyler</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5983</rc-v>
+<rc-h>1684</rc-h>
+<rc-lat>37.791753</rc-lat>
+<rc-lon>-78.702124</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-12 01:24:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>275G</ocn>
+<company-name>PEERLESS NETWORK OF VIRGINIA, LLC - VA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBQ01</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>243</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBQ01</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>255</nxx>
+<x>A</x>
+<exch>201620</exch>
+<rc>Arvonia</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>275G</ocn>
+<company-name>PEERLESS NETWORK OF VIRGINIA, LLC - VA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5969</rc-v>
+<rc-h>1620</rc-h>
+<rc-lat>37.68271</rc-lat>
+<rc-lon>-78.34842</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXRX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>079F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - VA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>270</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXASMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>367E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - VA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>284</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAY4X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>204550</exch>
+<rc>Scottsville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXRX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>079F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - VA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5961</rc-v>
+<rc-h>1655</rc-h>
+<rc-lat>37.802155</rc-lat>
+<rc-lon>-78.491544</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>204550</exch>
+<rc>Scottsville</rc>
+<region>VA</region>
+<switch>SCVLVAXADS0</switch>
+<switchname>SCOTTSVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5961</rc-v>
+<rc-h>1655</rc-h>
+<rc-lat>37.802155</rc-lat>
+<rc-lon>-78.491544</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>293</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>297</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVACPRS0</switch>
+<switchname></switchname>
+<switchtype>EXM</switchtype>
+<ocn>7849</ocn>
+<company-name>LUMOS NETWORKS INC. - VA                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAIMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8825</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>327</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAX8X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8357</ocn>
+<company-name>US LEC OF VIRGINIA, LLC                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>328</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>SCVLVAAB0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>365</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4979</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-09-28 01:07:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>204180</exch>
+<rc>Palmyra</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5929</rc-v>
+<rc-h>1630</rc-h>
+<rc-lat>37.860386</rc-lat>
+<rc-lon>-78.267979</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-05 23:30:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>400</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>145J</ocn>
+<company-name>TERRA NOVA TELECOM INC.                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-22 01:45:34</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>409</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXPX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>410</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXZX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7238</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - VA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>424</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-24 23:38:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-09 01:49:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-07 01:28:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>465</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-05 23:30:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>466</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBQ01</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>481</nxx>
+<x>A</x>
+<exch>204690</exch>
+<rc>Stanardsville</rc>
+<region>VA</region>
+<switch>CHVLVACFDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>5E</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5865</rc-v>
+<rc-h>1707</rc-h>
+<rc-lat>38.300013</rc-lat>
+<rc-lon>-78.433788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>484</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>510</nxx>
+<x>A</x>
+<exch>204180</exch>
+<rc>Palmyra</rc>
+<region>VA</region>
+<switch>PLMYVAXARS0</switch>
+<switchname>PALMYRA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5929</rc-v>
+<rc-h>1630</rc-h>
+<rc-lat>37.860386</rc-lat>
+<rc-lon>-78.267979</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>529</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8357</ocn>
+<company-name>US LEC OF VIRGINIA, LLC                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>531</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>566</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXHX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8825</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>581</nxx>
+<x>A</x>
+<exch>201620</exch>
+<rc>Arvonia</rc>
+<region>VA</region>
+<switch>ARVNVAXARS0</switch>
+<switchname>ARVONIA</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5969</rc-v>
+<rc-h>1620</rc-h>
+<rc-lat>37.68271</rc-lat>
+<rc-lon>-78.34842</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>204180</exch>
+<rc>Palmyra</rc>
+<region>VA</region>
+<switch>PLMYVAXARS0</switch>
+<switchname>PALMYRA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5929</rc-v>
+<rc-h>1630</rc-h>
+<rc-lat>37.860386</rc-lat>
+<rc-lon>-78.267979</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>591</nxx>
+<x>A</x>
+<exch>204180</exch>
+<rc>Palmyra</rc>
+<region>VA</region>
+<switch>PLMYVAXARS0</switch>
+<switchname>PALMYRA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5929</rc-v>
+<rc-h>1630</rc-h>
+<rc-lat>37.860386</rc-lat>
+<rc-lon>-78.267979</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>654</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-13 02:30:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>760</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-12-30 02:51:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>806</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXPX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>812</nxx>
+<x>A</x>
+<exch>202480</exch>
+<rc>Crozet</rc>
+<region>VA</region>
+<switch>CRZTVAXARS0</switch>
+<switchname>CROZET</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5933</rc-v>
+<rc-h>1717</rc-h>
+<rc-lat>38.066176</rc-lat>
+<rc-lon>-78.701728</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>813</nxx>
+<x>A</x>
+<exch>202900</exch>
+<rc>Fork Union</rc>
+<region>VA</region>
+<switch>FKUNVAXARS0</switch>
+<switchname>FORK UNION</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5947</rc-v>
+<rc-h>1617</rc-h>
+<rc-lat>37.758788</rc-lat>
+<rc-lon>-78.263276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVACFDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>5E</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>823</nxx>
+<x>A</x>
+<exch>202480</exch>
+<rc>Crozet</rc>
+<region>VA</region>
+<switch>CRZTVAXARS0</switch>
+<switchname>CROZET</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5933</rc-v>
+<rc-h>1717</rc-h>
+<rc-lat>38.066176</rc-lat>
+<rc-lon>-78.701728</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>825</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXAXPX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>831</nxx>
+<x>A</x>
+<exch>204540</exch>
+<rc>Schuyler</rc>
+<region>VA</region>
+<switch>SCHLVAXARS0</switch>
+<switchname>SCHUYLER</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5983</rc-v>
+<rc-h>1684</rc-h>
+<rc-lat>37.791753</rc-lat>
+<rc-lon>-78.702124</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>842</nxx>
+<x>A</x>
+<exch>202900</exch>
+<rc>Fork Union</rc>
+<region>VA</region>
+<switch>FKUNVAXARS0</switch>
+<switchname>FORK UNION</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5947</rc-v>
+<rc-h>1617</rc-h>
+<rc-lat>37.758788</rc-lat>
+<rc-lon>-78.263276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>872</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>882</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-12-07 02:22:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>906</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>923</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>924</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>939</nxx>
+<x>A</x>
+<exch>204690</exch>
+<rc>Stanardsville</rc>
+<region>VA</region>
+<switch>CHVLVAXACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6283</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - VIRGINIA                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5865</rc-v>
+<rc-h>1707</rc-h>
+<rc-lat>38.300013</rc-lat>
+<rc-lon>-78.433788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>951</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVACFDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>5E</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>953</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6283</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - VIRGINIA                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>956</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6283</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - VIRGINIA                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>960</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6283</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - VIRGINIA                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>961</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>962</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>963</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>964</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>970</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>971</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>972</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>973</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>974</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>975</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>977</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>978</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>979</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>980</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>981</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>982</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>984</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXADS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>985</nxx>
+<x>A</x>
+<exch>204690</exch>
+<rc>Stanardsville</rc>
+<region>VA</region>
+<switch>SDVLVAXADS0</switch>
+<switchname>STANARDSVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5865</rc-v>
+<rc-h>1707</rc-h>
+<rc-lat>38.300013</rc-lat>
+<rc-lon>-78.433788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>987</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBCM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>990</nxx>
+<x>A</x>
+<exch>204690</exch>
+<rc>Stanardsville</rc>
+<region>VA</region>
+<switch>SDVLVAXADS0</switch>
+<switchname>STANARDSVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5865</rc-v>
+<rc-h>1707</rc-h>
+<rc-lat>38.300013</rc-lat>
+<rc-lon>-78.433788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>992</nxx>
+<x>A</x>
+<exch>204690</exch>
+<rc>Stanardsville</rc>
+<region>VA</region>
+<switch>SDVLVAXADS0</switch>
+<switchname>STANARDSVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5865</rc-v>
+<rc-h>1707</rc-h>
+<rc-lat>38.300013</rc-lat>
+<rc-lon>-78.433788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>995</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBDS0</switch>
+<switchname>CHARLOTTESVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0254</ocn>
+<company-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>996</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch>CHVLVAXBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>434</npa>
+<nxx>999</nxx>
+<x>A</x>
+<exch>202200</exch>
+<rc>Charlottesville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>939H</ocn>
+<company-name>COMMIO, LLC                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0254</ilec-ocn>
+<ilec-name>CENTRAL TEL. CO. OF VIRGINIA DBA CENTURYLINK              </ilec-name>
+<lata>928</lata>
+<lir></lir>
+<rc-v>5919</rc-v>
+<rc-h>1683</rc-h>
+<rc-lat>38.033326</rc-lat>
+<rc-lon>-78.491902</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-25 00:47:49</udate>
+</prefixdata>
+</root>

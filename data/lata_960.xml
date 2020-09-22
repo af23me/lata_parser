@@ -1,0 +1,4156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>960</lata>
+</inputdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>045000</exch>
+<rc>Hayden Lake</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6211</rc-v>
+<rc-h>8087</rc-h>
+<rc-lat>47.760105</rc-lat>
+<rc-lon>-116.781122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>210</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-26 23:27:36</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>044370</exch>
+<rc>Albeni</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>808G</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA - ID - LLC                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6123</rc-v>
+<rc-h>8135</rc-h>
+<rc-lat>48.189566</rc-lat>
+<rc-lon>-117.024883</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-06 02:36:49</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>044990</exch>
+<rc>Harrison</rc>
+<region>ID</region>
+<switch>CRALIDXXOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7558</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS - ID                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6278</rc-v>
+<rc-h>8078</rc-h>
+<rc-lat>47.451267</rc-lat>
+<rc-lon>-116.782993</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>898G</ocn>
+<company-name>ONVOY, LLC - ID                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>216</nxx>
+<x>A</x>
+<exch>044470</exch>
+<rc>Bayview</rc>
+<region>ID</region>
+<switch>CRALIDXXGT0</switch>
+<switchname></switchname>
+<switchtype>TG</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6162</rc-v>
+<rc-h>8063</rc-h>
+<rc-lat>47.965376</rc-lat>
+<rc-lon>-116.573317</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>222</nxx>
+<x>A</x>
+<exch>045220</exch>
+<rc>Lakeview</rc>
+<region>ID</region>
+<switch>LKVWIDXCDS0</switch>
+<switchname>LAKEVIEW</switchname>
+<switchtype>M38</switchtype>
+<ocn>2226</ocn>
+<company-name>MIDVALE TELEPHONE EXCHANGE, INC.                          </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2226</ilec-ocn>
+<ilec-name>MIDVALE TELEPHONE EXCHANGE, INC.                          </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6154</rc-v>
+<rc-h>8028</rc-h>
+<rc-lat>47.977524</rc-lat>
+<rc-lon>-116.329225</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>045930</exch>
+<rc>St Maries</rc>
+<region>ID</region>
+<switch>STMRIDXXDS1</switch>
+<switchname>ST MARIES</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6302</rc-v>
+<rc-h>8042</rc-h>
+<rc-lat>47.318418</rc-lat>
+<rc-lon>-116.564928</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>255</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>SNPNIDXXCG0</switch>
+<switchname>SANDPOINT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>262</nxx>
+<x>A</x>
+<exch>045640</exch>
+<rc>Post Falls</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6226</rc-v>
+<rc-h>8109</rc-h>
+<rc-lat>47.706928</rc-lat>
+<rc-lon>-116.943022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>SNPNIDXXCG0</switch>
+<switchname>SANDPOINT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>264</nxx>
+<x>A</x>
+<exch>045050</exch>
+<rc>Hope</rc>
+<region>ID</region>
+<switch>HOPEIDXXDS1</switch>
+<switchname>HOPE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6096</rc-v>
+<rc-h>8032</rc-h>
+<rc-lat>48.242349</rc-lat>
+<rc-lon>-116.300199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>SNPNIDXXCG0</switch>
+<switchname>SANDPOINT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>266</nxx>
+<x>A</x>
+<exch>044640</exch>
+<rc>Clark Fork</rc>
+<region>ID</region>
+<switch>CLFKIDXXRS1</switch>
+<switchname>CLARK FORK</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6115</rc-v>
+<rc-h>8011</rc-h>
+<rc-lat>48.14189</rc-lat>
+<rc-lon>-116.176292</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>267</nxx>
+<x>A</x>
+<exch>044530</exch>
+<rc>Bonners Ferry</rc>
+<region>ID</region>
+<switch>BNFYIDXXDS1</switch>
+<switchname>BONNERS FERRY</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>5999</rc-v>
+<rc-h>8048</rc-h>
+<rc-lat>48.691665</rc-lat>
+<rc-lon>-116.315472</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>277</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>678B</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC - ID            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>044890</exch>
+<rc>Genesee</rc>
+<region>ID</region>
+<switch>GENSIDXXRS1</switch>
+<switchname>GENESEE</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6476</rc-v>
+<rc-h>8072</rc-h>
+<rc-lat>46.552365</rc-lat>
+<rc-lon>-116.926484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>290</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>SNPNID03Q00</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>292</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>044530</exch>
+<rc>Bonners Ferry</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>898G</ocn>
+<company-name>ONVOY, LLC - ID                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>5999</rc-v>
+<rc-h>8048</rc-h>
+<rc-lat>48.691665</rc-lat>
+<rc-lon>-116.315472</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>045700</exch>
+<rc>Priest River</rc>
+<region>ID</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6122</rc-v>
+<rc-h>8118</rc-h>
+<rc-lat>48.182944</rc-lat>
+<rc-lon>-116.908543</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>310</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>400</nxx>
+<x>A</x>
+<exch>045550</exch>
+<rc>Orofino</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6476</rc-v>
+<rc-h>7969</rc-h>
+<rc-lat>46.48146</rc-lat>
+<rc-lon>-116.249167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>415</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>416</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>428</nxx>
+<x>A</x>
+<exch>045700</exch>
+<rc>Priest River</rc>
+<region>ID</region>
+<switch>PRRVIDXXDS1</switch>
+<switchname>PRIEST RIVER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6122</rc-v>
+<rc-h>8118</rc-h>
+<rc-lat>48.182944</rc-lat>
+<rc-lon>-116.908543</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>435</nxx>
+<x>A</x>
+<exch>046070</exch>
+<rc>Weippe</rc>
+<region>ID</region>
+<switch>WEPPIDXXRS1</switch>
+<switchname>WEIPPE</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6490</rc-v>
+<rc-h>7920</rc-h>
+<rc-lat>46.383129</rc-lat>
+<rc-lon>-115.941596</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>437</nxx>
+<x>A</x>
+<exch>044370</exch>
+<rc>Albeni</rc>
+<region>ID</region>
+<switch>NWPTWAXXDS1</switch>
+<switchname>NEWPORT</switchname>
+<switchtype>DMO</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6123</rc-v>
+<rc-h>8135</rc-h>
+<rc-lat>48.189566</rc-lat>
+<rc-lon>-117.024883</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>045690</exch>
+<rc>Priest Lake</rc>
+<region>ID</region>
+<switch>PRLKIDXXDS1</switch>
+<switchname>PRIEST LAKE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6048</rc-v>
+<rc-h>8130</rc-h>
+<rc-lat>48.525314</rc-lat>
+<rc-lon>-116.922521</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>444</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>448</nxx>
+<x>A</x>
+<exch>045700</exch>
+<rc>Priest River</rc>
+<region>ID</region>
+<switch>PRRVIDXXDS1</switch>
+<switchname>PRIEST RIVER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6122</rc-v>
+<rc-h>8118</rc-h>
+<rc-lat>48.182944</rc-lat>
+<rc-lon>-116.908543</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>449</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXKMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7558</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS - ID                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>457</nxx>
+<x>A</x>
+<exch>045640</exch>
+<rc>Post Falls</rc>
+<region>ID</region>
+<switch>PSFLIDXXDS0</switch>
+<switchname>POST FALLS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6226</rc-v>
+<rc-h>8109</rc-h>
+<rc-lat>47.706928</rc-lat>
+<rc-lon>-116.943022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>464</nxx>
+<x>A</x>
+<exch>045610</exch>
+<rc>Pierce</rc>
+<region>ID</region>
+<switch>PIRCIDXXRS0</switch>
+<switchname>PIERCE</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6463</rc-v>
+<rc-h>7903</rc-h>
+<rc-lat>46.492684</rc-lat>
+<rc-lon>-115.802934</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>045550</exch>
+<rc>Orofino</rc>
+<region>ID</region>
+<switch>ORFNIDXCDS0</switch>
+<switchname>OROFINO</switchname>
+<switchtype>DMO</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6476</rc-v>
+<rc-h>7969</rc-h>
+<rc-lat>46.48146</rc-lat>
+<rc-lon>-116.249167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>486</nxx>
+<x>A</x>
+<exch>045600</exch>
+<rc>Peck</rc>
+<region>ID</region>
+<switch>PECKIDXXRS1</switch>
+<switchname>PECK</switchname>
+<switchtype>1RC</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6481</rc-v>
+<rc-h>7995</rc-h>
+<rc-lat>46.477136</rc-lat>
+<rc-lon>-116.424789</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>500</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-16 02:44:44</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>508</nxx>
+<x>A</x>
+<exch>045720</exch>
+<rc>Rathdrum</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>898G</ocn>
+<company-name>ONVOY, LLC - ID                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6201</rc-v>
+<rc-h>8105</rc-h>
+<rc-lat>47.817282</rc-lat>
+<rc-lon>-116.893141</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>512</nxx>
+<x>A</x>
+<exch>045150</exch>
+<rc>Kellogg</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6244</rc-v>
+<rc-h>7983</rc-h>
+<rc-lat>47.539421</rc-lat>
+<rc-lon>-116.114433</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>518</nxx>
+<x>A</x>
+<exch>045000</exch>
+<rc>Hayden Lake</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6211</rc-v>
+<rc-h>8087</rc-h>
+<rc-lat>47.760105</rc-lat>
+<rc-lon>-116.781122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>551</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>441J</ocn>
+<company-name>TDS METROCOM, LLC - ID                                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-31 00:55:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>046030</exch>
+<rc>Wallace</rc>
+<region>ID</region>
+<switch>WLLCIDXXDS1</switch>
+<switchname>WALLACE</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6254</rc-v>
+<rc-h>7953</rc-h>
+<rc-lat>47.47286</rc-lat>
+<rc-lon>-115.923651</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>561</nxx>
+<x>A</x>
+<exch>044470</exch>
+<rc>Bayview</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6162</rc-v>
+<rc-h>8063</rc-h>
+<rc-lat>47.965376</rc-lat>
+<rc-lon>-116.573317</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>568</nxx>
+<x>A</x>
+<exch>045930</exch>
+<rc>St Maries</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6302</rc-v>
+<rc-h>8042</rc-h>
+<rc-lat>47.318418</rc-lat>
+<rc-lon>-116.564928</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>582</nxx>
+<x>A</x>
+<exch>045930</exch>
+<rc>St Maries</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6302</rc-v>
+<rc-h>8042</rc-h>
+<rc-lat>47.318418</rc-lat>
+<rc-lon>-116.564928</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>596</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>597</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>601</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>425J</ocn>
+<company-name>CSC WIRELESS, LLC                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-31 01:23:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>603</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>678B</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC - ID            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-09-26 21:55:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>610</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>618</nxx>
+<x>A</x>
+<exch>045640</exch>
+<rc>Post Falls</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6226</rc-v>
+<rc-h>8109</rc-h>
+<rc-lat>47.706928</rc-lat>
+<rc-lon>-116.943022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>619</nxx>
+<x>A</x>
+<exch>045640</exch>
+<rc>Post Falls</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6226</rc-v>
+<rc-h>8109</rc-h>
+<rc-lat>47.706928</rc-lat>
+<rc-lon>-116.943022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>620</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>623</nxx>
+<x>A</x>
+<exch>045900</exch>
+<rc>Spirit Lake</rc>
+<region>ID</region>
+<switch>SPLKIDXXRS0</switch>
+<switchname>SPIRIT LAKE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6168</rc-v>
+<rc-h>8106</rc-h>
+<rc-lat>47.9671</rc-lat>
+<rc-lon>-116.869522</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>625</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>626</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>093J</ocn>
+<company-name>NATIVE NETWORK, INC. - ID                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-09-28 01:07:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>627</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>635</nxx>
+<x>A</x>
+<exch>045000</exch>
+<rc>Hayden Lake</rc>
+<region>ID</region>
+<switch>CRALIDXXNMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6211</rc-v>
+<rc-h>8087</rc-h>
+<rc-lat>47.760105</rc-lat>
+<rc-lon>-116.781122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>640</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>641</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>651</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>659</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>660</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>661</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXCG0</switch>
+<switchname>COEURDALENE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>665</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXCG0</switch>
+<switchname>COEURDALENE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXCG0</switch>
+<switchname>COEURDALENE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>667</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXCG0</switch>
+<switchname>COEURDALENE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>668</nxx>
+<x>A</x>
+<exch>044670</exch>
+<rc>Cora</rc>
+<region>ID</region>
+<switch>GRFDWAXXRS1</switch>
+<switchname>GARFIELD</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6378</rc-v>
+<rc-h>8102</rc-h>
+<rc-lat>47.015258</rc-lat>
+<rc-lon>-117.035066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>669</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>MSCWIDDL0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>1484</ocn>
+<company-name>INLAND CELLULAR LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXCG0</switch>
+<switchname>COEURDALENE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>682</nxx>
+<x>A</x>
+<exch>045150</exch>
+<rc>Kellogg</rc>
+<region>ID</region>
+<switch>PNHRIDXADS1</switch>
+<switchname>PINEHURST</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6244</rc-v>
+<rc-h>7983</rc-h>
+<rc-lat>47.539421</rc-lat>
+<rc-lon>-116.114433</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>683</nxx>
+<x>A</x>
+<exch>044470</exch>
+<rc>Bayview</rc>
+<region>ID</region>
+<switch>BYVWIDXXDS1</switch>
+<switchname>BAYVIEW</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6162</rc-v>
+<rc-h>8063</rc-h>
+<rc-lat>47.965376</rc-lat>
+<rc-lon>-116.573317</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>686</nxx>
+<x>A</x>
+<exch>045620</exch>
+<rc>Plummer-Worley</rc>
+<region>ID</region>
+<switch>PLMRIDXXDS1</switch>
+<switchname>PLUMMER WORLEY</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6300</rc-v>
+<rc-h>8090</rc-h>
+<rc-lat>47.359857</rc-lat>
+<rc-lon>-116.883626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>687</nxx>
+<x>A</x>
+<exch>045720</exch>
+<rc>Rathdrum</rc>
+<region>ID</region>
+<switch>RTHDIDXXDS0</switch>
+<switchname>RATHDRUM</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6201</rc-v>
+<rc-h>8105</rc-h>
+<rc-lat>47.817282</rc-lat>
+<rc-lon>-116.893141</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>044990</exch>
+<rc>Harrison</rc>
+<region>ID</region>
+<switch>HRSNIDXARS1</switch>
+<switchname>HARRISON</switchname>
+<switchtype>GTR</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6278</rc-v>
+<rc-h>8078</rc-h>
+<rc-lat>47.451267</rc-lat>
+<rc-lon>-116.782993</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>691</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>699</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>704</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>712</nxx>
+<x>A</x>
+<exch>045720</exch>
+<rc>Rathdrum</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6201</rc-v>
+<rc-h>8105</rc-h>
+<rc-lat>47.817282</rc-lat>
+<rc-lon>-116.893141</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>714</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7558</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS - ID                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>719</nxx>
+<x>A</x>
+<exch>045000</exch>
+<rc>Hayden Lake</rc>
+<region>ID</region>
+<switch>CRALIDXXXEX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7511</ocn>
+<company-name>LEVEL 3 TELECOM OF IDAHO, LLC - ID                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6211</rc-v>
+<rc-h>8087</rc-h>
+<rc-lat>47.760105</rc-lat>
+<rc-lon>-116.781122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>744</nxx>
+<x>A</x>
+<exch>045460</exch>
+<rc>Mullan</rc>
+<region>ID</region>
+<switch>MLLNIDXXRS1</switch>
+<switchname>MULLAN</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6252</rc-v>
+<rc-h>7934</rc-h>
+<rc-lat>47.468172</rc-lat>
+<rc-lon>-115.794643</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>752</nxx>
+<x>A</x>
+<exch>046030</exch>
+<rc>Wallace</rc>
+<region>ID</region>
+<switch>WLLCIDXXDS1</switch>
+<switchname>WALLACE</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6254</rc-v>
+<rc-h>7953</rc-h>
+<rc-lat>47.47286</rc-lat>
+<rc-lon>-115.923651</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>753</nxx>
+<x>A</x>
+<exch>046030</exch>
+<rc>Wallace</rc>
+<region>ID</region>
+<switch>WLLCIDXXDS1</switch>
+<switchname>WALLACE</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6254</rc-v>
+<rc-h>7953</rc-h>
+<rc-lat>47.47286</rc-lat>
+<rc-lon>-115.923651</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>755</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>758</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>898G</ocn>
+<company-name>ONVOY, LLC - ID                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>762</nxx>
+<x>A</x>
+<exch>045000</exch>
+<rc>Hayden Lake</rc>
+<region>ID</region>
+<switch>HYLKIDXXDS0</switch>
+<switchname>HAYDEN LAKE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6211</rc-v>
+<rc-h>8087</rc-h>
+<rc-lat>47.760105</rc-lat>
+<rc-lon>-116.781122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>763</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXX0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>765</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXCG0</switch>
+<switchname>COEURDALENE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>769</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXCG0</switch>
+<switchname>COEURDALENE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>770</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXLMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7511</ocn>
+<company-name>LEVEL 3 TELECOM OF IDAHO, LLC - ID                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>771</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>045000</exch>
+<rc>Hayden Lake</rc>
+<region>ID</region>
+<switch>HYLKIDXXDS0</switch>
+<switchname>HAYDEN LAKE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6211</rc-v>
+<rc-h>8087</rc-h>
+<rc-lat>47.760105</rc-lat>
+<rc-lon>-116.781122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>773</nxx>
+<x>A</x>
+<exch>045640</exch>
+<rc>Post Falls</rc>
+<region>ID</region>
+<switch>PSFLIDXXDS0</switch>
+<switchname>POST FALLS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6226</rc-v>
+<rc-h>8109</rc-h>
+<rc-lat>47.706928</rc-lat>
+<rc-lon>-116.943022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>045640</exch>
+<rc>Post Falls</rc>
+<region>ID</region>
+<switch>PSFLIDXXDS0</switch>
+<switchname>POST FALLS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6226</rc-v>
+<rc-h>8109</rc-h>
+<rc-lat>47.706928</rc-lat>
+<rc-lon>-116.943022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>045150</exch>
+<rc>Kellogg</rc>
+<region>ID</region>
+<switch>KLLGIDXXDS1</switch>
+<switchname>KELLOGG</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6244</rc-v>
+<rc-h>7983</rc-h>
+<rc-lat>47.539421</rc-lat>
+<rc-lon>-116.114433</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>784</nxx>
+<x>A</x>
+<exch>045150</exch>
+<rc>Kellogg</rc>
+<region>ID</region>
+<switch>KLLGIDXXDS1</switch>
+<switchname>KELLOGG</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6244</rc-v>
+<rc-h>7983</rc-h>
+<rc-lat>47.539421</rc-lat>
+<rc-lon>-116.114433</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>786</nxx>
+<x>A</x>
+<exch>045150</exch>
+<rc>Kellogg</rc>
+<region>ID</region>
+<switch>KLLGIDXXDS1</switch>
+<switchname>KELLOGG</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6244</rc-v>
+<rc-h>7983</rc-h>
+<rc-lat>47.539421</rc-lat>
+<rc-lon>-116.114433</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXJMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>818</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>819</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6565</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - ID              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>826</nxx>
+<x>A</x>
+<exch>044540</exch>
+<rc>Bovill</rc>
+<region>ID</region>
+<switch>BOVLIDXXRS1</switch>
+<switchname>BOVILL</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6398</rc-v>
+<rc-h>8003</rc-h>
+<rc-lat>46.857721</rc-lat>
+<rc-lon>-116.397593</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>045550</exch>
+<rc>Orofino</rc>
+<region>ID</region>
+<switch>ORFNID020MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>1484</ocn>
+<company-name>INLAND CELLULAR LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6476</rc-v>
+<rc-h>7969</rc-h>
+<rc-lat>46.48146</rc-lat>
+<rc-lon>-116.249167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>858</nxx>
+<x>A</x>
+<exch>046090</exch>
+<rc>Wellesley</rc>
+<region>ID</region>
+<switch>PALSWAXXRS1</switch>
+<switchname>PALOUSE</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6401</rc-v>
+<rc-h>8099</rc-h>
+<rc-lat>46.909315</rc-lat>
+<rc-lon>-117.036117</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>874</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>MSCWIDXXRS0</switch>
+<switchname>MOSCOW ORM</switchname>
+<switchtype>ORM</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>875</nxx>
+<x>A</x>
+<exch>045650</exch>
+<rc>Potlatch</rc>
+<region>ID</region>
+<switch>PTLTIDXXDS1</switch>
+<switchname>POTLATCH</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6395</rc-v>
+<rc-h>8079</rc-h>
+<rc-lat>46.923143</rc-lat>
+<rc-lon>-116.898034</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>877</nxx>
+<x>A</x>
+<exch>044720</exch>
+<rc>Deary</rc>
+<region>ID</region>
+<switch>DERYIDXXDS1</switch>
+<switchname>DEARY</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6414</rc-v>
+<rc-h>8025</rc-h>
+<rc-lat>46.800656</rc-lat>
+<rc-lon>-116.55838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>882</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>MSCWIDXXDS1</switch>
+<switchname>MOSCOW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>883</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>MSCWIDXXDS1</switch>
+<switchname>MOSCOW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>885</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>MSCWIDXXRS0</switch>
+<switchname>MOSCOW ORM</switchname>
+<switchtype>ORM</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>889</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>808G</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA - ID - LLC                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>892</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch>MSCWIDXXDS1</switch>
+<switchname>MOSCOW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>902</nxx>
+<x>A</x>
+<exch>044990</exch>
+<rc>Harrison</rc>
+<region>ID</region>
+<switch>CRALIDXXGT0</switch>
+<switchname></switchname>
+<switchtype>TG</switchtype>
+<ocn>3052</ocn>
+<company-name>XO IDAHO, INC.                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6278</rc-v>
+<rc-h>8078</rc-h>
+<rc-lat>47.451267</rc-lat>
+<rc-lon>-116.782993</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>916</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>920</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>929</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>930</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>446G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SERVICES (IDAHO), ID        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>946</nxx>
+<x>A</x>
+<exch>045830</exch>
+<rc>Sandpoint</rc>
+<region>ID</region>
+<switch>CRALIDXXOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7558</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS - ID                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6095</rc-v>
+<rc-h>8070</rc-h>
+<rc-lat>48.272898</rc-lat>
+<rc-lon>-116.557354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>952</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXX9X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>961E</ocn>
+<company-name>ELTOPIA COMMUNICATIONS, LLC - ID                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>956</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXXBX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>351E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - ID                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>964</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDCYQ00</switch>
+<switchname></switchname>
+<switchtype>DM5</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>966</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch>CRALIDXXXFX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>446G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SERVICES (IDAHO), ID        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>967</nxx>
+<x>A</x>
+<exch>044660</exch>
+<rc>Coeur D'Alene</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6228</rc-v>
+<rc-h>8085</rc-h>
+<rc-lat>47.681935</rc-lat>
+<rc-lon>-116.783464</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>981</nxx>
+<x>A</x>
+<exch>045640</exch>
+<rc>Post Falls</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>446G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SERVICES (IDAHO), ID        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6226</rc-v>
+<rc-h>8109</rc-h>
+<rc-lat>47.706928</rc-lat>
+<rc-lon>-116.943022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>987</nxx>
+<x>A</x>
+<exch>045620</exch>
+<rc>Plummer-Worley</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>898G</ocn>
+<company-name>ONVOY, LLC - ID                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6300</rc-v>
+<rc-h>8090</rc-h>
+<rc-lat>47.359857</rc-lat>
+<rc-lon>-116.883626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>208</npa>
+<nxx>997</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7558</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS - ID                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>406</npa>
+<nxx>283</nxx>
+<x>A</x>
+<exch>107120</exch>
+<rc>Libby</rc>
+<region>MT</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>002H</ocn>
+<company-name>MONTANA SKY WEST LLC - MT                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4322</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6048</rc-v>
+<rc-h>7929</rc-h>
+<rc-lat>48.38576</rc-lat>
+<rc-lon>-115.552496</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>406</npa>
+<nxx>291</nxx>
+<x>A</x>
+<exch>107120</exch>
+<rc>Libby</rc>
+<region>MT</region>
+<switch>LBBYMTQACM1</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6564</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MT              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4322</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6048</rc-v>
+<rc-h>7929</rc-h>
+<rc-lat>48.38576</rc-lat>
+<rc-lon>-115.552496</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>406</npa>
+<nxx>293</nxx>
+<x>A</x>
+<exch>107120</exch>
+<rc>Libby</rc>
+<region>MT</region>
+<switch>LBBYMTXCDS0</switch>
+<switchname>LIBBY</switchname>
+<switchtype>DMO</switchtype>
+<ocn>4322</ocn>
+<company-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4322</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6048</rc-v>
+<rc-h>7929</rc-h>
+<rc-lat>48.38576</rc-lat>
+<rc-lon>-115.552496</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>406</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>108070</exch>
+<rc>Troy</rc>
+<region>MT</region>
+<switch>TROYMTXCDS1</switch>
+<switchname></switchname>
+<switchtype>DSF</switchtype>
+<ocn>4322</ocn>
+<company-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4322</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6040</rc-v>
+<rc-h>7980</rc-h>
+<rc-lat>48.458778</rc-lat>
+<rc-lon>-115.891394</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>406</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>106500</exch>
+<rc>Eureka</rc>
+<region>MT</region>
+<switch>EURKMTXCRS0</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>4322</ocn>
+<company-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4322</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>5929</rc-v>
+<rc-h>7874</rc-h>
+<rc-lat>48.881999</rc-lat>
+<rc-lon>-115.051674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>406</npa>
+<nxx>334</nxx>
+<x>A</x>
+<exch>107120</exch>
+<rc>Libby</rc>
+<region>MT</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4322</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO OF MT-FRONTIER COMM OF MT             </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6048</rc-v>
+<rc-h>7929</rc-h>
+<rc-lat>48.38576</rc-lat>
+<rc-lon>-115.552496</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAAD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>1484</ocn>
+<company-name>INLAND CELLULAR LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>332</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAXXDS0</switch>
+<switchname>PULLMAN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAXXDS0</switch>
+<switchname>PULLMAN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>334</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAXXDS0</switch>
+<switchname>PULLMAN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>335</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAXXDS0</switch>
+<switchname>PULLMAN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>336</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAXXDS0</switch>
+<switchname>PULLMAN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>338</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAXXDS0</switch>
+<switchname>PULLMAN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>339</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PLMNWAXXDS0</switch>
+<switchname>PULLMAN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>432</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>442</nxx>
+<x>A</x>
+<exch>207710</exch>
+<rc>Ione</rc>
+<region>WA</region>
+<switch>IONEWAXXRS0</switch>
+<switchname>IONE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>2418</ocn>
+<company-name>PEND OREILLE TELEPHONE COMPANY                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2418</ilec-ocn>
+<ilec-name>PEND OREILLE TELEPHONE COMPANY                            </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6011</rc-v>
+<rc-h>8207</rc-h>
+<rc-lat>48.741927</rc-lat>
+<rc-lon>-117.417056</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>445</nxx>
+<x>A</x>
+<exch>207230</exch>
+<rc>Cusick</rc>
+<region>WA</region>
+<switch>CUSKWAXXDS1</switch>
+<switchname>CUSICK</switchname>
+<switchtype>DMO</switchtype>
+<ocn>2418</ocn>
+<company-name>PEND OREILLE TELEPHONE COMPANY                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2418</ilec-ocn>
+<ilec-name>PEND OREILLE TELEPHONE COMPANY                            </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6096</rc-v>
+<rc-h>8179</rc-h>
+<rc-lat>48.339957</rc-lat>
+<rc-lon>-117.300031</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>208030</exch>
+<rc>Metaline Falls</rc>
+<region>WA</region>
+<switch>MTFLWAXXRS2</switch>
+<switchname>METALINE FALLS</switchname>
+<switchtype>RLCM</switchtype>
+<ocn>2418</ocn>
+<company-name>PEND OREILLE TELEPHONE COMPANY                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2418</ilec-ocn>
+<ilec-name>PEND OREILLE TELEPHONE COMPANY                            </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>5985</rc-v>
+<rc-h>8203</rc-h>
+<rc-lat>48.856974</rc-lat>
+<rc-lon>-117.366861</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>447</nxx>
+<x>A</x>
+<exch>208170</exch>
+<rc>Newport</rc>
+<region>WA</region>
+<switch>NWPTWAXXDS1</switch>
+<switchname>NEWPORT</switchname>
+<switchtype>DMO</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6125</rc-v>
+<rc-h>8138</rc-h>
+<rc-lat>48.18248</rc-lat>
+<rc-lon>-117.047067</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>208170</exch>
+<rc>Newport</rc>
+<region>WA</region>
+<switch>PSFLIDAAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6125</rc-v>
+<rc-h>8138</rc-h>
+<rc-lat>48.18248</rc-lat>
+<rc-lon>-117.047067</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>208170</exch>
+<rc>Newport</rc>
+<region>WA</region>
+<switch>CRALIDABXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6125</rc-v>
+<rc-h>8138</rc-h>
+<rc-lat>48.18248</rc-lat>
+<rc-lon>-117.047067</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>592</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>CRALIDXXOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6121</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - WA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>595</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5812</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - WA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>635</nxx>
+<x>A</x>
+<exch>207500</exch>
+<rc>Garfield</rc>
+<region>WA</region>
+<switch>GRFDWAXXRS1</switch>
+<switchname>GARFIELD</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6382</rc-v>
+<rc-h>8119</rc-h>
+<rc-lat>47.008344</rc-lat>
+<rc-lon>-117.15161</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>671</nxx>
+<x>A</x>
+<exch>208170</exch>
+<rc>Newport</rc>
+<region>WA</region>
+<switch>CRALIDABCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5812</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - WA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6125</rc-v>
+<rc-h>8138</rc-h>
+<rc-lat>48.18248</rc-lat>
+<rc-lon>-117.047067</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>715</nxx>
+<x>A</x>
+<exch>208480</exch>
+<rc>Pullman</rc>
+<region>WA</region>
+<switch>CRALIDXXOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6121</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - WA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>8114</rc-h>
+<rc-lat>46.733849</rc-lat>
+<rc-lon>-117.172557</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>872</nxx>
+<x>A</x>
+<exch>207510</exch>
+<rc>Garrison</rc>
+<region>WA</region>
+<switch>MSCWIDXXDS1</switch>
+<switchname>MOSCOW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4321</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8097</rc-h>
+<rc-lat>46.74075</rc-lat>
+<rc-lon>-117.056582</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>509</npa>
+<nxx>878</nxx>
+<x>A</x>
+<exch>208330</exch>
+<rc>Palouse</rc>
+<region>WA</region>
+<switch>PALSWAXXRS1</switch>
+<switchname>PALOUSE</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4324</ocn>
+<company-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4324</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST INC. - WA               </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6402</rc-v>
+<rc-h>8105</rc-h>
+<rc-lat>46.908753</rc-lat>
+<rc-lon>-117.076802</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>986</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>045650</exch>
+<rc>Potlatch</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6395</rc-v>
+<rc-h>8079</rc-h>
+<rc-lat>46.923143</rc-lat>
+<rc-lon>-116.898034</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-05 02:02:13</udate>
+</prefixdata>
+<prefixdata>
+<npa>986</npa>
+<nxx>600</nxx>
+<x>A</x>
+<exch>045440</exch>
+<rc>Moscow</rc>
+<region>ID</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4321</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS NORTHWEST, INC. - ID              </ilec-name>
+<lata>960</lata>
+<lir></lir>
+<rc-v>6438</rc-v>
+<rc-h>8088</rc-h>
+<rc-lat>46.734787</rc-lat>
+<rc-lon>-116.997111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-06 10:06:45</udate>
+</prefixdata>
+</root>

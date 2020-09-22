@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>929</lata>
+</inputdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>233</nxx>
+<x>A</x>
+<exch>205190</exch>
+<rc>Woodstock</rc>
+<region>VA</region>
+<switch>EDBGVAXA8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5767</rc-v>
+<rc-h>1788</rc-h>
+<rc-lat>38.8792</rc-lat>
+<rc-lon>-78.509504</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>331</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXADS0</switch>
+<switchname>EDINBURG</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXACM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>335</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>436</nxx>
+<x>A</x>
+<exch>204880</exch>
+<rc>Toms Brook</rc>
+<region>VA</region>
+<switch>TMBKVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5748</rc-v>
+<rc-h>1786</rc-h>
+<rc-lat>38.946418</rc-lat>
+<rc-lon>-78.437485</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>205190</exch>
+<rc>Woodstock</rc>
+<region>VA</region>
+<switch>WDSTVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5767</rc-v>
+<rc-h>1788</rc-h>
+<rc-lat>38.8792</rc-lat>
+<rc-lon>-78.509504</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>465</nxx>
+<x>A</x>
+<exch>204750</exch>
+<rc>Strasburg</rc>
+<region>VA</region>
+<switch>STBGVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5733</rc-v>
+<rc-h>1781</rc-h>
+<rc-lat>38.990719</rc-lat>
+<rc-lon>-78.363774</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>477</nxx>
+<x>A</x>
+<exch>203890</exch>
+<rc>Mount Jackson</rc>
+<region>VA</region>
+<switch>MTJCVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5804</rc-v>
+<rc-h>1791</rc-h>
+<rc-lat>38.745865</rc-lat>
+<rc-lon>-78.644932</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>481</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>624</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXA8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>630</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXA2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6855</ocn>
+<company-name>OMNIPOINT COMMUNICATIONS CAP OPERATIONS, LLC              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>740</nxx>
+<x>A</x>
+<exch>203970</exch>
+<rc>New Market</rc>
+<region>VA</region>
+<switch>NWMRVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5825</rc-v>
+<rc-h>1783</rc-h>
+<rc-lat>38.645496</rc-lat>
+<rc-lon>-78.674131</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>758</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXA8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>852</nxx>
+<x>A</x>
+<exch>201760</exch>
+<rc>Bergton</rc>
+<region>VA</region>
+<switch>BGTNVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5829</rc-v>
+<rc-h>1835</rc-h>
+<rc-lat>38.761847</rc-lat>
+<rc-lon>-78.941541</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>856</nxx>
+<x>A</x>
+<exch>201700</exch>
+<rc>Basye</rc>
+<region>VA</region>
+<switch>BASYVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5805</rc-v>
+<rc-h>1816</rc-h>
+<rc-lat>38.805442</rc-lat>
+<rc-lon>-78.770529</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>933</nxx>
+<x>A</x>
+<exch>202920</exch>
+<rc>Fort Valley</rc>
+<region>VA</region>
+<switch>FTVLVAXARS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5764</rc-v>
+<rc-h>1771</rc-h>
+<rc-lat>38.847334</rc-lat>
+<rc-lon>-78.416554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>975</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-06 14:22:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>984</nxx>
+<x>A</x>
+<exch>202760</exch>
+<rc>Edinburg</rc>
+<region>VA</region>
+<switch>EDBGVAXADS0</switch>
+<switchname>EDINBURG</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0250</ocn>
+<company-name>SHENANDOAH TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0250</ilec-ocn>
+<ilec-name>SHENANDOAH TELEPHONE CO.                                  </ilec-name>
+<lata>929</lata>
+<lir></lir>
+<rc-v>5783</rc-v>
+<rc-h>1789</rc-h>
+<rc-lat>38.820811</rc-lat>
+<rc-lon>-78.566685</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

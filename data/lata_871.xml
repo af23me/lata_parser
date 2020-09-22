@@ -1,0 +1,2306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>871</lata>
+</inputdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGUSPDS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>332E</ocn>
+<company-name>PACIFIC DATA SYSTEMS - GU                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>339</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>343</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>344</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>349</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>355</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>400</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGUSPDS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>332E</ocn>
+<company-name>PACIFIC DATA SYSTEMS - GU                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>456</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>471</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>472</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>473</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>474</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>475</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>477</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>478</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>479</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>480</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>482</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>483</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>486</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU03GT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>487</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU03GT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>488</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU03GT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>563</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>564</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>565</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>588</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>633</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>634</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>635</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>637</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>642</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>644</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>645</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS8</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>646</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>648</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>649</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU07DS7</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>653</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>654</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU03DS3</switch>
+<switchname>DEDEDO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>682</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>683</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>685</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>686</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>687</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>688</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>707</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>726</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>HRMNGUABDS0</switch>
+<switchname></switchname>
+<switchtype>351</switchtype>
+<ocn>599E</ocn>
+<company-name>PTI PACIFICA INC. DBA IT&amp;E                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>734</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>735</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>747</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>787</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>788</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>789</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>828</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>AGANGU01DS1</switch>
+<switchname>AGANA</switchname>
+<switchtype>D12</switchtype>
+<ocn>3800</ocn>
+<company-name>TELEGUAM HOLDINGS, LLC                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>838</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>651C</ocn>
+<company-name>WAVE RUNNER, LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>848</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>651C</ocn>
+<company-name>WAVE RUNNER, LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>858</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>651C</ocn>
+<company-name>WAVE RUNNER, LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3922</ocn>
+<company-name>PULSE MOBILE LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>868</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>878</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>922</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>HRMNGUABDS0</switch>
+<switchname></switchname>
+<switchtype>351</switchtype>
+<ocn>335E</ocn>
+<company-name>PTI PACIFICA INC. DBA IT&amp;E - GU                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>929</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>967</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>969</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU10DS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>897F</ocn>
+<company-name>DOCOMO PACIFIC, INC.                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>971</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>972</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>977</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>979</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>HRMNGUABDS0</switch>
+<switchname></switchname>
+<switchtype>351</switchtype>
+<ocn>335E</ocn>
+<company-name>PTI PACIFICA INC. DBA IT&amp;E - GU                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>987</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>988</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>TMNGGU01CM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3945</ocn>
+<company-name>GUAM WIRELESS TELEPHONE COMPANY, LLC                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>DEDOGU10DS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>897F</ocn>
+<company-name>DOCOMO PACIFIC, INC.                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>997</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>671</npa>
+<nxx>998</nxx>
+<x>A</x>
+<exch>036100</exch>
+<rc>Agana</rc>
+<region>GU</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3800</ilec-ocn>
+<ilec-name>TELEGUAM HOLDINGS, LLC                                    </ilec-name>
+<lata>871</lata>
+<lir></lir>
+<rc-v>4239</rc-v>
+<rc-h>26640</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

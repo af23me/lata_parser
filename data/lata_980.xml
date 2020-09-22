@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>980</lata>
+</inputdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>206</nxx>
+<x>A</x>
+<exch>014500</exch>
+<rc>Tuba City</rc>
+<region>AZ</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8533</rc-v>
+<rc-h>6737</rc-h>
+<rc-lat>36.131938</rc-lat>
+<rc-lon>-111.251535</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>014610</exch>
+<rc>Window Rock</rc>
+<region>AZ</region>
+<switch>STMCAZAB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8537</rc-v>
+<rc-h>6336</rc-h>
+<rc-lat>35.67685</rc-lat>
+<rc-lon>-109.058973</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>280</nxx>
+<x>A</x>
+<exch>014500</exch>
+<rc>Tuba City</rc>
+<region>AZ</region>
+<switch>STMCAZXE5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5736</ocn>
+<company-name>COMMNET WIRELESS, LLC                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8533</rc-v>
+<rc-h>6737</rc-h>
+<rc-lat>36.131938</rc-lat>
+<rc-lon>-111.251535</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>283</nxx>
+<x>A</x>
+<exch>014500</exch>
+<rc>Tuba City</rc>
+<region>AZ</region>
+<switch>TBCYAZXCRS0</switch>
+<switchname>TUBA CITY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8533</rc-v>
+<rc-h>6737</rc-h>
+<rc-lat>36.131938</rc-lat>
+<rc-lon>-111.251535</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>014610</exch>
+<rc>Window Rock</rc>
+<region>AZ</region>
+<switch>STMCAZAB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8537</rc-v>
+<rc-h>6336</rc-h>
+<rc-lat>35.67685</rc-lat>
+<rc-lon>-109.058973</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>319</nxx>
+<x>A</x>
+<exch>013480</exch>
+<rc>Dilcon</rc>
+<region>AZ</region>
+<switch>STMCAZXE5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5736</ocn>
+<company-name>COMMNET WIRELESS, LLC                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8655</rc-v>
+<rc-h>6538</rc-h>
+<rc-lat>35.374314</rc-lat>
+<rc-lon>-110.32323</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>349</nxx>
+<x>A</x>
+<exch>013400</exch>
+<rc>Chinle</rc>
+<region>AZ</region>
+<switch>STMCAZXE2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8458</rc-v>
+<rc-h>6447</rc-h>
+<rc-lat>36.155663</rc-lat>
+<rc-lon>-109.554313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>357</nxx>
+<x>A</x>
+<exch>014610</exch>
+<rc>Window Rock</rc>
+<region>AZ</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3285</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AZ                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8537</rc-v>
+<rc-h>6336</rc-h>
+<rc-lat>35.67685</rc-lat>
+<rc-lon>-109.058973</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-03 01:59:39</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>013400</exch>
+<rc>Chinle</rc>
+<region>AZ</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5736</ocn>
+<company-name>COMMNET WIRELESS, LLC                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8458</rc-v>
+<rc-h>6447</rc-h>
+<rc-lat>36.155663</rc-lat>
+<rc-lon>-109.554313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>401</nxx>
+<x>A</x>
+<exch>014500</exch>
+<rc>Tuba City</rc>
+<region>AZ</region>
+<switch>TBCYAZXC0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8533</rc-v>
+<rc-h>6737</rc-h>
+<rc-lat>36.131938</rc-lat>
+<rc-lon>-111.251535</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>429</nxx>
+<x>A</x>
+<exch>013760</exch>
+<rc>Kayenta</rc>
+<region>AZ</region>
+<switch>STMCAZXE2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8368</rc-v>
+<rc-h>6597</rc-h>
+<rc-lat>36.723452</rc-lat>
+<rc-lon>-110.257425</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>013760</exch>
+<rc>Kayenta</rc>
+<region>AZ</region>
+<switch>STMCAZXE5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5736</ocn>
+<company-name>COMMNET WIRELESS, LLC                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8368</rc-v>
+<rc-h>6597</rc-h>
+<rc-lat>36.723452</rc-lat>
+<rc-lon>-110.257425</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>652</nxx>
+<x>A</x>
+<exch>014570</exch>
+<rc>Wide Ruins</rc>
+<region>AZ</region>
+<switch>WDRNAZXCRL0</switch>
+<switchname>WIDE RUINS</switchname>
+<switchtype>RDE</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8610</rc-v>
+<rc-h>6396</rc-h>
+<rc-lat>35.418757</rc-lat>
+<rc-lon>-109.488748</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>653</nxx>
+<x>A</x>
+<exch>014180</exch>
+<rc>Red Valley</rc>
+<region>AZ</region>
+<switch>RDVYAZXCRL0</switch>
+<switchname>RED VALLEY RESERVATION</switchname>
+<switchtype>RDE</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8344</rc-v>
+<rc-h>6385</rc-h>
+<rc-lat>36.595099</rc-lat>
+<rc-lon>-109.051276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>654</nxx>
+<x>A</x>
+<exch>013640</exch>
+<rc>Greasewood</rc>
+<region>AZ</region>
+<switch>GSWDAZXCRS0</switch>
+<switchname>GREASEWOOD</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8604</rc-v>
+<rc-h>6465</rc-h>
+<rc-lat>35.522623</rc-lat>
+<rc-lon>-109.855928</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>656</nxx>
+<x>A</x>
+<exch>014450</exch>
+<rc>Teec Nos Pos</rc>
+<region>AZ</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8279</rc-v>
+<rc-h>6412</rc-h>
+<rc-lat>36.916285</rc-lat>
+<rc-lon>-109.107256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2015-12-17 11:18:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>657</nxx>
+<x>A</x>
+<exch>013480</exch>
+<rc>Dilcon</rc>
+<region>AZ</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8655</rc-v>
+<rc-h>6538</rc-h>
+<rc-lat>35.374314</rc-lat>
+<rc-lon>-110.32323</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2015-12-17 11:18:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>013470</exch>
+<rc>Dennehotso</rc>
+<region>AZ</region>
+<switch>DNHSAZXCRL0</switch>
+<switchname>DENNEHOTSO</switchname>
+<switchtype>RDE</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>6534</rc-h>
+<rc-lat>36.842723</rc-lat>
+<rc-lon>-109.850157</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>659</nxx>
+<x>A</x>
+<exch>014190</exch>
+<rc>Rock Point</rc>
+<region>AZ</region>
+<switch>RKPNAZXCRL0</switch>
+<switchname>ROCK POINT</switchname>
+<switchtype>RDE</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8342</rc-v>
+<rc-h>6489</rc-h>
+<rc-lat>36.721324</rc-lat>
+<rc-lon>-109.623139</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>013400</exch>
+<rc>Chinle</rc>
+<region>AZ</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5736</ocn>
+<company-name>COMMNET WIRELESS, LLC                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8458</rc-v>
+<rc-h>6447</rc-h>
+<rc-lat>36.155663</rc-lat>
+<rc-lon>-109.554313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>672</nxx>
+<x>A</x>
+<exch>014340</exch>
+<rc>Shonto</rc>
+<region>AZ</region>
+<switch>SHNTAZXCRS0</switch>
+<switchname>SHONTO</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8411</rc-v>
+<rc-h>6656</rc-h>
+<rc-lat>36.594053</rc-lat>
+<rc-lon>-110.642606</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>013750</exch>
+<rc>Kaibito</rc>
+<region>AZ</region>
+<switch>KABTAZXCRS0</switch>
+<switchname>KAIBITO</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8428</rc-v>
+<rc-h>6730</rc-h>
+<rc-lat>36.595645</rc-lat>
+<rc-lon>-111.075385</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>674</nxx>
+<x>A</x>
+<exch>013400</exch>
+<rc>Chinle</rc>
+<region>AZ</region>
+<switch>CHNLAZXCRS0</switch>
+<switchname>CHINLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8458</rc-v>
+<rc-h>6447</rc-h>
+<rc-lat>36.155663</rc-lat>
+<rc-lon>-109.554313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>675</nxx>
+<x>A</x>
+<exch>014120</exch>
+<rc>Pinon Cottonwood</rc>
+<region>AZ</region>
+<switch>STMCAZXE2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8491</rc-v>
+<rc-h>6499</rc-h>
+<rc-lat>36.065817</rc-lat>
+<rc-lon>-109.885763</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>677</nxx>
+<x>A</x>
+<exch>013260</exch>
+<rc>Black Mesa</rc>
+<region>AZ</region>
+<switch>BLMSAZXFRS0</switch>
+<switchname>BLACK MESA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8423</rc-v>
+<rc-h>6608</rc-h>
+<rc-lat>36.488982</rc-lat>
+<rc-lon>-110.393139</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>686</nxx>
+<x>A</x>
+<exch>013850</exch>
+<rc>Leupp</rc>
+<region>AZ</region>
+<switch>LEPPAZXCRS0</switch>
+<switchname>LEUPP</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8699</rc-v>
+<rc-h>6652</rc-h>
+<rc-lat>35.298847</rc-lat>
+<rc-lon>-111.00278</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>697</nxx>
+<x>A</x>
+<exch>013760</exch>
+<rc>Kayenta</rc>
+<region>AZ</region>
+<switch>KYNTAZXCRS0</switch>
+<switchname>KAYENTA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8368</rc-v>
+<rc-h>6597</rc-h>
+<rc-lat>36.723452</rc-lat>
+<rc-lon>-110.257425</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>698</nxx>
+<x>A</x>
+<exch>013840</exch>
+<rc>Le Chee</rc>
+<region>AZ</region>
+<switch>LCHEAZXCRL0</switch>
+<switchname>LECHEE</switchname>
+<switchtype>RDE</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8388</rc-v>
+<rc-h>6805</rc-h>
+<rc-lat>36.85239</rc-lat>
+<rc-lon>-111.440082</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>724</nxx>
+<x>A</x>
+<exch>014490</exch>
+<rc>Tsaile</rc>
+<region>AZ</region>
+<switch>TSILAZXCRS0</switch>
+<switchname>TSAILE</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8414</rc-v>
+<rc-h>6392</rc-h>
+<rc-lat>36.290317</rc-lat>
+<rc-lon>-109.189956</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>725</nxx>
+<x>A</x>
+<exch>014120</exch>
+<rc>Pinon Cottonwood</rc>
+<region>AZ</region>
+<switch>PINNAZXCRS1</switch>
+<switchname>PINON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8491</rc-v>
+<rc-h>6499</rc-h>
+<rc-lat>36.065817</rc-lat>
+<rc-lon>-109.885763</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>728</nxx>
+<x>A</x>
+<exch>014210</exch>
+<rc>Rough Rock</rc>
+<region>AZ</region>
+<switch>RHRKAZXCRS0</switch>
+<switchname>ROUGH ROCK</switchname>
+<switchtype>RDE</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8419</rc-v>
+<rc-h>6515</rc-h>
+<rc-lat>36.405641</rc-lat>
+<rc-lon>-109.874142</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>729</nxx>
+<x>A</x>
+<exch>013570</exch>
+<rc>Fort Defiance</rc>
+<region>AZ</region>
+<switch>FTDFAZXCRS0</switch>
+<switchname>FORT DEFIANCE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8523</rc-v>
+<rc-h>6344</rc-h>
+<rc-lat>35.748554</rc-lat>
+<rc-lon>-109.0826</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>730</nxx>
+<x>A</x>
+<exch>013570</exch>
+<rc>Fort Defiance</rc>
+<region>AZ</region>
+<switch>STMCAZXE5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5736</ocn>
+<company-name>COMMNET WIRELESS, LLC                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8523</rc-v>
+<rc-h>6344</rc-h>
+<rc-lat>35.748554</rc-lat>
+<rc-lon>-109.0826</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>736</nxx>
+<x>A</x>
+<exch>014480</exch>
+<rc>Toyei</rc>
+<region>AZ</region>
+<switch>TOYIAZXCRL0</switch>
+<switchname>TOYEI</switchname>
+<switchtype>RDE</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8566</rc-v>
+<rc-h>6485</rc-h>
+<rc-lat>35.714761</rc-lat>
+<rc-lon>-109.912631</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>755</nxx>
+<x>A</x>
+<exch>013590</exch>
+<rc>Ganado</rc>
+<region>AZ</region>
+<switch>GANDAZXCRS0</switch>
+<switchname>GANADO</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8550</rc-v>
+<rc-h>6421</rc-h>
+<rc-lat>35.715131</rc-lat>
+<rc-lon>-109.540895</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>781</nxx>
+<x>A</x>
+<exch>013400</exch>
+<rc>Chinle</rc>
+<region>AZ</region>
+<switch>MNFRAZXCRS0</switch>
+<switchname>MANY FARMS</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8458</rc-v>
+<rc-h>6447</rc-h>
+<rc-lat>36.155663</rc-lat>
+<rc-lon>-109.554313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>787</nxx>
+<x>A</x>
+<exch>013880</exch>
+<rc>Lukachukai</rc>
+<region>AZ</region>
+<switch>LKCHAZXCRS0</switch>
+<switchname>LUKACHUKAI</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8391</rc-v>
+<rc-h>6409</rc-h>
+<rc-lat>36.412395</rc-lat>
+<rc-lon>-109.250724</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>014500</exch>
+<rc>Tuba City</rc>
+<region>AZ</region>
+<switch>STMCAZAB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8533</rc-v>
+<rc-h>6737</rc-h>
+<rc-lat>36.131938</rc-lat>
+<rc-lon>-111.251535</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>810</nxx>
+<x>A</x>
+<exch>014610</exch>
+<rc>Window Rock</rc>
+<region>AZ</region>
+<switch>STMCAZXEDS0</switch>
+<switchname>ST MICHAELS</switchname>
+<switchtype>D12</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8537</rc-v>
+<rc-h>6336</rc-h>
+<rc-lat>35.67685</rc-lat>
+<rc-lon>-109.058973</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>815</nxx>
+<x>A</x>
+<exch>014610</exch>
+<rc>Window Rock</rc>
+<region>AZ</region>
+<switch>STMCAZXEPS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8537</rc-v>
+<rc-h>6336</rc-h>
+<rc-lat>35.67685</rc-lat>
+<rc-lon>-109.058973</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>871</nxx>
+<x>A</x>
+<exch>014610</exch>
+<rc>Window Rock</rc>
+<region>AZ</region>
+<switch>STMCAZXEDS0</switch>
+<switchname>ST MICHAELS</switchname>
+<switchtype>D12</switchtype>
+<ocn>4449</ocn>
+<company-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8537</rc-v>
+<rc-h>6336</rc-h>
+<rc-lat>35.67685</rc-lat>
+<rc-lon>-109.058973</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>928</npa>
+<nxx>902</nxx>
+<x>A</x>
+<exch>014610</exch>
+<rc>Window Rock</rc>
+<region>AZ</region>
+<switch>STMCAZAB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4146</ocn>
+<company-name>SMITH BAGLEY INC. DBA CELLULAR ONE OF NE ARIZONA          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4449</ilec-ocn>
+<ilec-name>NAVAJO COMM CO INC - AZ DBA FRONTIER NAVAJO COM           </ilec-name>
+<lata>980</lata>
+<lir></lir>
+<rc-v>8537</rc-v>
+<rc-h>6336</rc-h>
+<rc-lat>35.67685</rc-lat>
+<rc-lon>-109.058973</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

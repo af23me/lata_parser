@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>45012</lata>
+</inputdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXA9MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>272</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXAVMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>317</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>352</nxx>
+<x>A</x>
+<exch>029930</exch>
+<rc>Cottondale</rc>
+<region>FL</region>
+<switch>CTDLFLXARS0</switch>
+<switchname>COTTONDALE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7910</rc-v>
+<rc-h>1935</rc-h>
+<rc-lat>30.80095</rc-lat>
+<rc-lon>-85.384631</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>369</nxx>
+<x>A</x>
+<exch>030390</exch>
+<rc>Greenwood</rc>
+<region>FL</region>
+<switch>MRNNFLXAXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7877</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.871676</rc-lat>
+<rc-lon>-85.170026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 02:03:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>372</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXADS0</switch>
+<switchname>MARIANNA</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>029620</exch>
+<rc>Bonifay</rc>
+<region>FL</region>
+<switch>BNFYFLXARS0</switch>
+<switchname>BONIFAY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7939</rc-v>
+<rc-h>1983</rc-h>
+<rc-lat>30.790323</rc-lat>
+<rc-lon>-85.682187</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>394</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXATMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6744</ocn>
+<company-name>SOUTHERN COMMUNICATIONS SERVICES                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>482</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXADS0</switch>
+<switchname>MARIANNA</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>486</nxx>
+<x>A</x>
+<exch>029930</exch>
+<rc>Cottondale</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7910</rc-v>
+<rc-h>1935</rc-h>
+<rc-lat>30.80095</rc-lat>
+<rc-lon>-85.384631</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>526</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXADS0</switch>
+<switchname>MARIANNA</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>547</nxx>
+<x>A</x>
+<exch>029620</exch>
+<rc>Bonifay</rc>
+<region>FL</region>
+<switch>BNFYFLXARS0</switch>
+<switchname>BONIFAY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7939</rc-v>
+<rc-h>1983</rc-h>
+<rc-lat>30.790323</rc-lat>
+<rc-lon>-85.682187</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>548</nxx>
+<x>A</x>
+<exch>032170</exch>
+<rc>Westville</rc>
+<region>FL</region>
+<switch>WSTVFLXARS0</switch>
+<switchname>WESTVILLE</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7955</rc-v>
+<rc-h>2010</rc-h>
+<rc-lat>30.785252</rc-lat>
+<rc-lon>-85.848743</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>557</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXA9MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>569</nxx>
+<x>A</x>
+<exch>030390</exch>
+<rc>Greenwood</rc>
+<region>FL</region>
+<switch>MALNFLXARS0</switch>
+<switchname>MALONE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7877</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.871676</rc-lat>
+<rc-lon>-85.170026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 02:03:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>573</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>579</nxx>
+<x>A</x>
+<exch>030390</exch>
+<rc>Greenwood</rc>
+<region>FL</region>
+<switch>ALFRFLXARS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7877</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.871676</rc-lat>
+<rc-lon>-85.170026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 02:04:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>592</nxx>
+<x>A</x>
+<exch>030390</exch>
+<rc>Greenwood</rc>
+<region>FL</region>
+<switch>GDRGFLXADS0</switch>
+<switchname>GRAND RIDGE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7877</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.871676</rc-lat>
+<rc-lon>-85.170026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 02:04:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>593</nxx>
+<x>A</x>
+<exch>031770</exch>
+<rc>Sneads</rc>
+<region>FL</region>
+<switch>SNDSFLXARS0</switch>
+<switchname>SNEADS</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7886</rc-v>
+<rc-h>1850</rc-h>
+<rc-lat>30.707581</rc-lat>
+<rc-lon>-84.927566</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>594</nxx>
+<x>A</x>
+<exch>030390</exch>
+<rc>Greenwood</rc>
+<region>FL</region>
+<switch>GNWDFLXARS0</switch>
+<switchname>GREENWOOD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7877</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.871676</rc-lat>
+<rc-lon>-85.170026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>614</nxx>
+<x>A</x>
+<exch>029620</exch>
+<rc>Bonifay</rc>
+<region>FL</region>
+<switch>MRNNFLXA8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7939</rc-v>
+<rc-h>1983</rc-h>
+<rc-lat>30.790323</rc-lat>
+<rc-lon>-85.682187</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>030390</exch>
+<rc>Greenwood</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7877</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.871676</rc-lat>
+<rc-lon>-85.170026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 02:04:55</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>633</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>693</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXA9MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>718</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch>MRNNFLXADS0</switch>
+<switchname>MARIANNA</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>768</nxx>
+<x>A</x>
+<exch>029620</exch>
+<rc>Bonifay</rc>
+<region>FL</region>
+<switch>MRNNFLXA9MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7939</rc-v>
+<rc-h>1983</rc-h>
+<rc-lat>30.790323</rc-lat>
+<rc-lon>-85.682187</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>795</nxx>
+<x>A</x>
+<exch>030390</exch>
+<rc>Greenwood</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7877</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.871676</rc-lat>
+<rc-lon>-85.170026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 02:05:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>825</nxx>
+<x>A</x>
+<exch>031770</exch>
+<rc>Sneads</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7886</rc-v>
+<rc-h>1850</rc-h>
+<rc-lat>30.707581</rc-lat>
+<rc-lon>-84.927566</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-27 02:36:27</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>844</nxx>
+<x>A</x>
+<exch>029620</exch>
+<rc>Bonifay</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7939</rc-v>
+<rc-h>1983</rc-h>
+<rc-lat>30.790323</rc-lat>
+<rc-lon>-85.682187</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>886</nxx>
+<x>A</x>
+<exch>030990</exch>
+<rc>Marianna</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>1907</rc-h>
+<rc-lat>30.774814</rc-lat>
+<rc-lon>-85.23118</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-19 02:26:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>956</nxx>
+<x>A</x>
+<exch>031640</exch>
+<rc>Reynolds Hill</rc>
+<region>FL</region>
+<switch>RYHLFLXARS0</switch>
+<switchname>REYNOLDS HILL</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>45012</lata>
+<lir></lir>
+<rc-v>7935</rc-v>
+<rc-h>2033</rc-h>
+<rc-lat>30.917118</rc-lat>
+<rc-lon>-85.906039</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

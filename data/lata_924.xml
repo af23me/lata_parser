@@ -1,0 +1,5106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>924</lata>
+</inputdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>002F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - PA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>162990</exch>
+<rc>Franklin</rc>
+<region>PA</region>
+<switch>ERIEPANKXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7237</ocn>
+<company-name>TELCOVE OF PENNSYLVANIA, INC. - PA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.396756</rc-lat>
+<rc-lon>-79.826248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>162090</exch>
+<rc>Conneaut Lake</rc>
+<region>PA</region>
+<switch>MDVLPAXM3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5436</rc-v>
+<rc-h>2365</rc-h>
+<rc-lat>41.598003</rc-lat>
+<rc-lon>-80.307219</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPANKXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7237</ocn>
+<company-name>TELCOVE OF PENNSYLVANIA, INC. - PA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>218</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPA01EMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXM0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4007</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - PA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>162620</exch>
+<rc>Edinboro</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5370</rc-v>
+<rc-h>2374</rc-h>
+<rc-lat>41.874617</rc-lat>
+<rc-lon>-80.132152</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>252</nxx>
+<x>A</x>
+<exch>162090</exch>
+<rc>Conneaut Lake</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5436</rc-v>
+<rc-h>2365</rc-h>
+<rc-lat>41.598003</rc-lat>
+<rc-lon>-80.307219</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>271</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>ERIEPAUHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>273</nxx>
+<x>A</x>
+<exch>162620</exch>
+<rc>Edinboro</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5370</rc-v>
+<rc-h>2374</rc-h>
+<rc-lat>41.874617</rc-lat>
+<rc-lon>-80.132152</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXM6MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>162100</exch>
+<rc>Conneautville</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>031G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (PA), PA               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.757563</rc-lat>
+<rc-lon>-80.36587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>314</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMYMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>031G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (PA), PA               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>332</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMDS0</switch>
+<switchname>MEADVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMDS0</switch>
+<switchname>MEADVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>336</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMDS0</switch>
+<switchname>MEADVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMDS0</switch>
+<switchname>MEADVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>340</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPANKH05</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5338</ocn>
+<company-name>BUFFALO-LAKE ERIE WIRELESS SYSTEMS CO., LLC               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>346</nxx>
+<x>A</x>
+<exch>162990</exch>
+<rc>Franklin</rc>
+<region>PA</region>
+<switch>ERIEPAXMYMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.396756</rc-lat>
+<rc-lon>-79.826248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>347</nxx>
+<x>A</x>
+<exch>165620</exch>
+<rc>North East</rc>
+<region>PA</region>
+<switch>ERIEPAXMYMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5281</rc-v>
+<rc-h>2374</rc-h>
+<rc-lat>42.216632</rc-lat>
+<rc-lon>-79.830572</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>350</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXM4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>351</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-09 00:30:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>354</nxx>
+<x>A</x>
+<exch>168120</exch>
+<rc>Venus</rc>
+<region>PA</region>
+<switch>VENSPAXVDS0</switch>
+<switchname>VENUS</switchname>
+<switchtype>DS</switchtype>
+<ocn>0210</ocn>
+<company-name>VENUS TELEPHONE CORP                                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0210</ilec-ocn>
+<ilec-name>VENUS TELEPHONE CORP                                      </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5404</rc-v>
+<rc-h>2223</rc-h>
+<rc-lat>41.365961</rc-lat>
+<rc-lon>-79.473732</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>374</nxx>
+<x>A</x>
+<exch>162160</exch>
+<rc>Cooperstown (Venango)</rc>
+<region>PA</region>
+<switch>CPSVPAXCRS0</switch>
+<switchname>COOPERSTOWN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5416</rc-v>
+<rc-h>2294</rc-h>
+<rc-lat>41.498056</rc-lat>
+<rc-lon>-79.876326</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>162090</exch>
+<rc>Conneaut Lake</rc>
+<region>PA</region>
+<switch>CNLKPAXCRS0</switch>
+<switchname>CONNEAUT LAKE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5436</rc-v>
+<rc-h>2365</rc-h>
+<rc-lat>41.598003</rc-lat>
+<rc-lon>-80.307219</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>384</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPA01EMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>385</nxx>
+<x>A</x>
+<exch>162000</exch>
+<rc>Clintonville</rc>
+<region>PA</region>
+<switch>CIVLPAXCRS0</switch>
+<switchname>CLINTONVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5470</rc-v>
+<rc-h>2258</rc-h>
+<rc-lat>41.200583</rc-lat>
+<rc-lon>-79.87346</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>388</nxx>
+<x>A</x>
+<exch>162990</exch>
+<rc>Franklin</rc>
+<region>PA</region>
+<switch>ERIEPAUHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.396756</rc-lat>
+<rc-lon>-79.826248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>396</nxx>
+<x>A</x>
+<exch>167050</exch>
+<rc>Saegertown</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5400</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>41.719289</rc-lat>
+<rc-lon>-80.15071</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>398</nxx>
+<x>A</x>
+<exch>161710</exch>
+<rc>Cambridge Springs</rc>
+<region>PA</region>
+<switch>CMSPPAXCRS0</switch>
+<switchname>CAMBRIDGE SPRINGS</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5377</rc-v>
+<rc-h>2355</rc-h>
+<rc-lat>41.800318</rc-lat>
+<rc-lon>-80.057954</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>163130</exch>
+<rc>Girard</rc>
+<region>PA</region>
+<switch>ERIEPA01EMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5362</rc-v>
+<rc-h>2415</rc-h>
+<rc-lat>42.007436</rc-lat>
+<rc-lon>-80.316708</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>403</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7978</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - PA                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>412</nxx>
+<x>A</x>
+<exch>167050</exch>
+<rc>Saegertown</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7978</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - PA                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5400</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>41.719289</rc-lat>
+<rc-lon>-80.15071</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>413</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>002F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - PA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-17 00:19:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>415</nxx>
+<x>A</x>
+<exch>162860</exch>
+<rc>Fairview (Erie)</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>2410</rc-h>
+<rc-lat>42.033537</rc-lat>
+<rc-lon>-80.25719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>425</nxx>
+<x>A</x>
+<exch>162040</exch>
+<rc>Cochranton</rc>
+<region>PA</region>
+<switch>CCHRPAXCRS0</switch>
+<switchname>COCHRANTON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5427</rc-v>
+<rc-h>2321</rc-h>
+<rc-lat>41.523186</rc-lat>
+<rc-lon>-80.051409</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>428</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>ERIEPA902MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>431</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>432</nxx>
+<x>A</x>
+<exch>162990</exch>
+<rc>Franklin</rc>
+<region>PA</region>
+<switch>FKLNPAXFDS0</switch>
+<switchname>FRANKLIN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.396756</rc-lat>
+<rc-lon>-79.826248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>434</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>436</nxx>
+<x>A</x>
+<exch>163200</exch>
+<rc>Grand Valley</rc>
+<region>PA</region>
+<switch>GDVYPAXGRS0</switch>
+<switchname>GRAND VALLEY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5345</rc-v>
+<rc-h>2276</rc-h>
+<rc-lat>41.725242</rc-lat>
+<rc-lon>-79.544559</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>437</nxx>
+<x>A</x>
+<exch>162990</exch>
+<rc>Franklin</rc>
+<region>PA</region>
+<switch>FKLNPAXFDS0</switch>
+<switchname>FRANKLIN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.396756</rc-lat>
+<rc-lon>-79.826248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>438</nxx>
+<x>A</x>
+<exch>168050</exch>
+<rc>Union City</rc>
+<region>PA</region>
+<switch>UNCYPAXURS0</switch>
+<switchname>UNION CITY</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5340</rc-v>
+<rc-h>2337</rc-h>
+<rc-lat>41.897509</rc-lat>
+<rc-lon>-79.840449</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>439</nxx>
+<x>A</x>
+<exch>162090</exch>
+<rc>Conneaut Lake</rc>
+<region>PA</region>
+<switch>MDVLPAXMBMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5436</rc-v>
+<rc-h>2365</rc-h>
+<rc-lat>41.598003</rc-lat>
+<rc-lon>-80.307219</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>440</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>449</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>450</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>451</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>452</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>453</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>454</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>455</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>456</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>460</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>461</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>462</nxx>
+<x>A</x>
+<exch>162180</exch>
+<rc>Corry</rc>
+<region>PA</region>
+<switch>ERIEPAUHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5318</rc-v>
+<rc-h>2312</rc-h>
+<rc-lat>41.91918</rc-lat>
+<rc-lon>-79.637354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>464</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMYMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>474</nxx>
+<x>A</x>
+<exch>162860</exch>
+<rc>Fairview (Erie)</rc>
+<region>PA</region>
+<switch>FRERPAXFRS0</switch>
+<switchname>FAIRVIEW</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>2410</rc-h>
+<rc-lat>42.033537</rc-lat>
+<rc-lon>-80.25719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>164730</exch>
+<rc>McKean</rc>
+<region>PA</region>
+<switch>MCKNPAXMRS0</switch>
+<switchname>MCKEAN</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5349</rc-v>
+<rc-h>2389</rc-h>
+<rc-lat>41.992809</rc-lat>
+<rc-lon>-80.138658</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>480</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>488</nxx>
+<x>A</x>
+<exch>162990</exch>
+<rc>Franklin</rc>
+<region>PA</region>
+<switch>ERIEPAXMXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.396756</rc-lat>
+<rc-lon>-79.826248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>490</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>493</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>ERIEPAXMYMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>498</nxx>
+<x>A</x>
+<exch>166930</exch>
+<rc>Rockland</rc>
+<region>PA</region>
+<switch>RKLDPAXRRS0</switch>
+<switchname>ROCKLAND</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5441</rc-v>
+<rc-h>2245</rc-h>
+<rc-lat>41.2794</rc-lat>
+<rc-lon>-79.710195</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>499</nxx>
+<x>A</x>
+<exch>167880</exch>
+<rc>Titusville</rc>
+<region>PA</region>
+<switch>ERIEPAXMLMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5375</rc-v>
+<rc-h>2282</rc-h>
+<rc-lat>41.625355</rc-lat>
+<rc-lon>-79.676835</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>504</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAUHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>508</nxx>
+<x>A</x>
+<exch>166930</exch>
+<rc>Rockland</rc>
+<region>PA</region>
+<switch>RKLDPAXRRP0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5441</rc-v>
+<rc-h>2245</rc-h>
+<rc-lat>41.2794</rc-lat>
+<rc-lon>-79.710195</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>510</nxx>
+<x>A</x>
+<exch>162090</exch>
+<rc>Conneaut Lake</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7978</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - PA                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5436</rc-v>
+<rc-h>2365</rc-h>
+<rc-lat>41.598003</rc-lat>
+<rc-lon>-80.307219</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>513</nxx>
+<x>A</x>
+<exch>168120</exch>
+<rc>Venus</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0210</ilec-ocn>
+<ilec-name>VENUS TELEPHONE CORP                                      </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5404</rc-v>
+<rc-h>2223</rc-h>
+<rc-lat>41.365961</rc-lat>
+<rc-lon>-79.473732</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-28 01:49:34</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>516</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>ERIEPANKXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7237</ocn>
+<company-name>TELCOVE OF PENNSYLVANIA, INC. - PA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>518</nxx>
+<x>A</x>
+<exch>162990</exch>
+<rc>Franklin</rc>
+<region>PA</region>
+<switch>FKLNPAXFDS0</switch>
+<switchname>FRANKLIN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.396756</rc-lat>
+<rc-lon>-79.826248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>520</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>522</nxx>
+<x>A</x>
+<exch>164290</exch>
+<rc>Lincolnville</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5359</rc-v>
+<rc-h>2317</rc-h>
+<rc-lat>41.774489</rc-lat>
+<rc-lon>-79.802043</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>528</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>529</nxx>
+<x>A</x>
+<exch>168050</exch>
+<rc>Union City</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547E</ocn>
+<company-name>ONVOY, LLC - PA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5340</rc-v>
+<rc-h>2337</rc-h>
+<rc-lat>41.897509</rc-lat>
+<rc-lon>-79.840449</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>547</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>549</nxx>
+<x>A</x>
+<exch>162000</exch>
+<rc>Clintonville</rc>
+<region>PA</region>
+<switch>ERIEPA902MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5470</rc-v>
+<rc-h>2258</rc-h>
+<rc-lat>41.200583</rc-lat>
+<rc-lon>-79.87346</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5562</ocn>
+<company-name>METRO PCS, INC.                                           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-11 02:30:28</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>564</nxx>
+<x>A</x>
+<exch>167880</exch>
+<rc>Titusville</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5375</rc-v>
+<rc-h>2282</rc-h>
+<rc-lat>41.625355</rc-lat>
+<rc-lon>-79.676835</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>566</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>572</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>573</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXM6MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>576</nxx>
+<x>A</x>
+<exch>162100</exch>
+<rc>Conneautville</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.757563</rc-lat>
+<rc-lon>-80.36587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>580</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPA01OMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>283E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>581</nxx>
+<x>A</x>
+<exch>167500</exch>
+<rc>Spartansburg</rc>
+<region>PA</region>
+<switch>SPRBPAXSRS0</switch>
+<switchname>SPARTANSBURG</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5339</rc-v>
+<rc-h>2307</rc-h>
+<rc-lat>41.826132</rc-lat>
+<rc-lon>-79.683016</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>587</nxx>
+<x>A</x>
+<exch>162100</exch>
+<rc>Conneautville</rc>
+<region>PA</region>
+<switch>CNTVPAXCRS0</switch>
+<switchname>CONNEAUTVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.757563</rc-lat>
+<rc-lon>-80.36587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>588</nxx>
+<x>A</x>
+<exch>160960</exch>
+<rc>Albion</rc>
+<region>PA</region>
+<switch>ALBNPAXAPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>2408</rc-h>
+<rc-lat>41.889821</rc-lat>
+<rc-lon>-80.367937</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>166550</exch>
+<rc>Pleasantville (Venango)</rc>
+<region>PA</region>
+<switch>PLSVPAXPRS0</switch>
+<switchname>PLEASANTVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5372</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.591645</rc-lat>
+<rc-lon>-79.574682</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>602</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>613</nxx>
+<x>A</x>
+<exch>163200</exch>
+<rc>Grand Valley</rc>
+<region>PA</region>
+<switch>GDVYPAXGRS0</switch>
+<switchname>GRAND VALLEY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5345</rc-v>
+<rc-h>2276</rc-h>
+<rc-lat>41.725242</rc-lat>
+<rc-lon>-79.544559</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>616</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>622</nxx>
+<x>A</x>
+<exch>163130</exch>
+<rc>Girard</rc>
+<region>PA</region>
+<switch>ERIEPANKXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7237</ocn>
+<company-name>TELCOVE OF PENNSYLVANIA, INC. - PA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5362</rc-v>
+<rc-h>2415</rc-h>
+<rc-lat>42.007436</rc-lat>
+<rc-lon>-80.316708</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>636</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMX4X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>002F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - PA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>162040</exch>
+<rc>Cochranton</rc>
+<region>PA</region>
+<switch>MDVLPAXM3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5427</rc-v>
+<rc-h>2321</rc-h>
+<rc-lat>41.523186</rc-lat>
+<rc-lon>-80.051409</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>645</nxx>
+<x>A</x>
+<exch>163300</exch>
+<rc>Guys Mills</rc>
+<region>PA</region>
+<switch>MDVLPAXM3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5400</rc-v>
+<rc-h>2324</rc-h>
+<rc-lat>41.634508</rc-lat>
+<rc-lon>-79.976174</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>651</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMX2X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7978</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - PA                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>654</nxx>
+<x>A</x>
+<exch>167500</exch>
+<rc>Spartansburg</rc>
+<region>PA</region>
+<switch>SPRBPAXSRS0</switch>
+<switchname>SPARTANSBURG</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5339</rc-v>
+<rc-h>2307</rc-h>
+<rc-lat>41.826132</rc-lat>
+<rc-lon>-79.683016</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>657</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>OLCYPAAICM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>162180</exch>
+<rc>Corry</rc>
+<region>PA</region>
+<switch>CRRYPAXCDS0</switch>
+<switchname>CORRY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5318</rc-v>
+<rc-h>2312</rc-h>
+<rc-lat>41.91918</rc-lat>
+<rc-lon>-79.637354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>162180</exch>
+<rc>Corry</rc>
+<region>PA</region>
+<switch>CRRYPAXCDS0</switch>
+<switchname>CORRY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5318</rc-v>
+<rc-h>2312</rc-h>
+<rc-lat>41.91918</rc-lat>
+<rc-lon>-79.637354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>665</nxx>
+<x>A</x>
+<exch>162180</exch>
+<rc>Corry</rc>
+<region>PA</region>
+<switch>CRRYPAXCDS0</switch>
+<switchname>CORRY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5318</rc-v>
+<rc-h>2312</rc-h>
+<rc-lat>41.91918</rc-lat>
+<rc-lon>-79.637354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>165620</exch>
+<rc>North East</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547E</ocn>
+<company-name>ONVOY, LLC - PA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5281</rc-v>
+<rc-h>2374</rc-h>
+<rc-lat>42.216632</rc-lat>
+<rc-lon>-79.830572</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-10-06 00:20:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>668</nxx>
+<x>A</x>
+<exch>166930</exch>
+<rc>Rockland</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5441</rc-v>
+<rc-h>2245</rc-h>
+<rc-lat>41.2794</rc-lat>
+<rc-lon>-79.710195</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>670</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>OLCYPAXO2MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6063</ocn>
+<company-name>COMCAST PHONE OF PENNSYLVANIA, LLC - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>671</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>ERIEPA902MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>ERIEPA902MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>675</nxx>
+<x>A</x>
+<exch>167920</exch>
+<rc>Townville</rc>
+<region>PA</region>
+<switch>ERIEPAXMHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4007</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - PA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5383</rc-v>
+<rc-h>2317</rc-h>
+<rc-lat>41.68234</rc-lat>
+<rc-lon>-79.883062</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>OLCYPAXODS0</switch>
+<switchname>OIL CITY</switchname>
+<switchtype>D12</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>677</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>OLCYPAXODS0</switch>
+<switchname>OIL CITY</switchname>
+<switchtype>D12</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>OLCYPAXODS0</switch>
+<switchname>OIL CITY</switchname>
+<switchtype>D12</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>679</nxx>
+<x>A</x>
+<exch>168230</exch>
+<rc>Waterford</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>002F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - PA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5345</rc-v>
+<rc-h>2362</rc-h>
+<rc-lat>41.940828</rc-lat>
+<rc-lon>-79.985988</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>683</nxx>
+<x>A</x>
+<exch>164310</exch>
+<rc>Linesville</rc>
+<region>PA</region>
+<switch>LNSVPAXLRS0</switch>
+<switchname>LINESVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5435</rc-v>
+<rc-h>2388</rc-h>
+<rc-lat>41.658916</rc-lat>
+<rc-lon>-80.422136</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>694</nxx>
+<x>A</x>
+<exch>164290</exch>
+<rc>Lincolnville</rc>
+<region>PA</region>
+<switch>LNVLPAXLRS0</switch>
+<switchname>LINCOLNVILLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5359</rc-v>
+<rc-h>2317</rc-h>
+<rc-lat>41.774489</rc-lat>
+<rc-lon>-79.802043</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>705</nxx>
+<x>A</x>
+<exch>163200</exch>
+<rc>Grand Valley</rc>
+<region>PA</region>
+<switch>ERIEPAXMHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4007</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - PA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5345</rc-v>
+<rc-h>2276</rc-h>
+<rc-lat>41.725242</rc-lat>
+<rc-lon>-79.544559</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>707</nxx>
+<x>A</x>
+<exch>167880</exch>
+<rc>Titusville</rc>
+<region>PA</region>
+<switch>ERIEPAXMHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4007</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - PA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5375</rc-v>
+<rc-h>2282</rc-h>
+<rc-lat>41.625355</rc-lat>
+<rc-lon>-79.676835</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>708</nxx>
+<x>A</x>
+<exch>166550</exch>
+<rc>Pleasantville (Venango)</rc>
+<region>PA</region>
+<switch>ERIEPAXMHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4007</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - PA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5372</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.591645</rc-lat>
+<rc-lon>-79.574682</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>720</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMBMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>722</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>724</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMDS0</switch>
+<switchname>MEADVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>725</nxx>
+<x>A</x>
+<exch>165620</exch>
+<rc>North East</rc>
+<region>PA</region>
+<switch>NRTEPAXNDS0</switch>
+<switchname>NORTH EAST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5281</rc-v>
+<rc-h>2374</rc-h>
+<rc-lat>42.216632</rc-lat>
+<rc-lon>-79.830572</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>731</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>078H</ocn>
+<company-name>MOSAIC NETWORX LLC - PA                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>732</nxx>
+<x>A</x>
+<exch>162620</exch>
+<rc>Edinboro</rc>
+<region>PA</region>
+<switch>EDNBPAXEDS0</switch>
+<switchname>EDINBORO</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5370</rc-v>
+<rc-h>2374</rc-h>
+<rc-lat>41.874617</rc-lat>
+<rc-lon>-80.132152</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>734</nxx>
+<x>A</x>
+<exch>162620</exch>
+<rc>Edinboro</rc>
+<region>PA</region>
+<switch>EDNBPAXEDS0</switch>
+<switchname>EDINBORO</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5370</rc-v>
+<rc-h>2374</rc-h>
+<rc-lat>41.874617</rc-lat>
+<rc-lon>-80.132152</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>737</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2514</ocn>
+<company-name>US LEC OF PENNSYLVANIA, INC.                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>738</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>425J</ocn>
+<company-name>CSC WIRELESS, LLC                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-09 03:28:16</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>739</nxx>
+<x>A</x>
+<exch>168250</exch>
+<rc>Wattsburg</rc>
+<region>PA</region>
+<switch>WTBGPAXWRS0</switch>
+<switchname>WATTSBURG</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5318</rc-v>
+<rc-h>2345</rc-h>
+<rc-lat>42.001984</rc-lat>
+<rc-lon>-79.806982</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>741</nxx>
+<x>A</x>
+<exch>166550</exch>
+<rc>Pleasantville (Venango)</rc>
+<region>PA</region>
+<switch>PLSVPAXPRS0</switch>
+<switchname>PLEASANTVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5372</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.591645</rc-lat>
+<rc-lon>-79.574682</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>746</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4007</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - PA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>756</nxx>
+<x>A</x>
+<exch>160960</exch>
+<rc>Albion</rc>
+<region>PA</region>
+<switch>ALBNPAXADS1</switch>
+<switchname>ALBION (ERIE)</switchname>
+<switchtype>DMO</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>2408</rc-h>
+<rc-lat>41.889821</rc-lat>
+<rc-lon>-80.367937</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>758</nxx>
+<x>A</x>
+<exch>165720</exch>
+<rc>Oil City</rc>
+<region>PA</region>
+<switch>OLCYPAAICM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5412</rc-v>
+<rc-h>2264</rc-h>
+<rc-lat>41.438294</rc-lat>
+<rc-lon>-79.709627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>760</nxx>
+<x>A</x>
+<exch>164730</exch>
+<rc>McKean</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547E</ocn>
+<company-name>ONVOY, LLC - PA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5349</rc-v>
+<rc-h>2389</rc-h>
+<rc-lat>41.992809</rc-lat>
+<rc-lon>-80.138658</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>763</nxx>
+<x>A</x>
+<exch>167050</exch>
+<rc>Saegertown</rc>
+<region>PA</region>
+<switch>SAEGPAXSRS0</switch>
+<switchname>SAEGERTOWN</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5400</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>41.719289</rc-lat>
+<rc-lon>-80.15071</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>163130</exch>
+<rc>Girard</rc>
+<region>PA</region>
+<switch>GRRDPAXGDS0</switch>
+<switchname>GIRARD</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5362</rc-v>
+<rc-h>2415</rc-h>
+<rc-lat>42.007436</rc-lat>
+<rc-lon>-80.316708</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>775</nxx>
+<x>A</x>
+<exch>167880</exch>
+<rc>Titusville</rc>
+<region>PA</region>
+<switch>ERIEPAXMX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5375</rc-v>
+<rc-h>2282</rc-h>
+<rc-lat>41.625355</rc-lat>
+<rc-lon>-79.676835</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>167050</exch>
+<rc>Saegertown</rc>
+<region>PA</region>
+<switch>MDVLPAXM3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5400</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>41.719289</rc-lat>
+<rc-lon>-80.15071</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>785</nxx>
+<x>A</x>
+<exch>167920</exch>
+<rc>Townville</rc>
+<region>PA</region>
+<switch>MDVLPAXM3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5383</rc-v>
+<rc-h>2317</rc-h>
+<rc-lat>41.68234</rc-lat>
+<rc-lon>-79.883062</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>786</nxx>
+<x>A</x>
+<exch>168330</exch>
+<rc>Wesley</rc>
+<region>PA</region>
+<switch>WSLYPAXWDS0</switch>
+<switchname>WESLEY</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5475</rc-v>
+<rc-h>2275</rc-h>
+<rc-lat>41.223813</rc-lat>
+<rc-lon>-79.976775</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>789</nxx>
+<x>A</x>
+<exch>163300</exch>
+<rc>Guys Mills</rc>
+<region>PA</region>
+<switch>GYMLPAXGRS0</switch>
+<switchname>GUYS MILLS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5400</rc-v>
+<rc-h>2324</rc-h>
+<rc-lat>41.634508</rc-lat>
+<rc-lon>-79.976174</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>790</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>795</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXMBMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>796</nxx>
+<x>A</x>
+<exch>168230</exch>
+<rc>Waterford</rc>
+<region>PA</region>
+<switch>WTFRPAXWRS0</switch>
+<switchname>WATERFORD</switchname>
+<switchtype>GTR</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5345</rc-v>
+<rc-h>2362</rc-h>
+<rc-lat>41.940828</rc-lat>
+<rc-lon>-79.985988</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>806</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4007</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - PA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>807</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>MDVLPAXM3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>812</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXM9MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>813</nxx>
+<x>A</x>
+<exch>161710</exch>
+<rc>Cambridge Springs</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5377</rc-v>
+<rc-h>2355</rc-h>
+<rc-lat>41.800318</rc-lat>
+<rc-lon>-80.057954</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>815</nxx>
+<x>A</x>
+<exch>168390</exch>
+<rc>West Springfield</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5386</rc-v>
+<rc-h>2430</rc-h>
+<rc-lat>41.952088</rc-lat>
+<rc-lon>-80.474848</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>818</nxx>
+<x>A</x>
+<exch>164310</exch>
+<rc>Linesville</rc>
+<region>PA</region>
+<switch>MDVLPAXM3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5435</rc-v>
+<rc-h>2388</rc-h>
+<rc-lat>41.658916</rc-lat>
+<rc-lon>-80.422136</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>823</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXTDS0</switch>
+<switchname>ERIE SOUTHEAST</switchname>
+<switchtype>5E</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>824</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXTDS0</switch>
+<switchname>ERIE SOUTHEAST</switchname>
+<switchtype>5E</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>825</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXTDS0</switch>
+<switchname>ERIE SOUTHEAST</switchname>
+<switchtype>5E</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>167880</exch>
+<rc>Titusville</rc>
+<region>PA</region>
+<switch>TTVLPAXTDS0</switch>
+<switchname>TITUSVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5375</rc-v>
+<rc-h>2282</rc-h>
+<rc-lat>41.625355</rc-lat>
+<rc-lon>-79.676835</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>833</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXWDS0</switch>
+<switchname>ERIE WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>835</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXWDS0</switch>
+<switchname>ERIE WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>836</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXWDS0</switch>
+<switchname>ERIE WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>838</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXWDS0</switch>
+<switchname>ERIE WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>840</nxx>
+<x>A</x>
+<exch>162860</exch>
+<rc>Fairview (Erie)</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>031G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (PA), PA               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>2410</rc-h>
+<rc-lat>42.033537</rc-lat>
+<rc-lon>-80.25719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>844</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMXBX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7309</ocn>
+<company-name>TCG NEW JERSEY, INC. - PA                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>164770</exch>
+<rc>Meadville</rc>
+<region>PA</region>
+<switch>ERIEPAUHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5413</rc-v>
+<rc-h>2348</rc-h>
+<rc-lat>41.644342</rc-lat>
+<rc-lon>-80.142952</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>854</nxx>
+<x>A</x>
+<exch>168390</exch>
+<rc>West Springfield</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5386</rc-v>
+<rc-h>2430</rc-h>
+<rc-lat>41.952088</rc-lat>
+<rc-lon>-80.474848</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>859</nxx>
+<x>A</x>
+<exch>160960</exch>
+<rc>Albion</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>031G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (PA), PA               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>2408</rc-h>
+<rc-lat>41.889821</rc-lat>
+<rc-lon>-80.367937</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>860</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXSDS0</switch>
+<switchname>ERIE SOUTH</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXSDS0</switch>
+<switchname>ERIE SOUTH</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>866</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXSDS0</switch>
+<switchname>ERIE SOUTH</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>868</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXSDS0</switch>
+<switchname>ERIE SOUTH</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>870</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>871</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>872</nxx>
+<x>A</x>
+<exch>163300</exch>
+<rc>Guys Mills</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5400</rc-v>
+<rc-h>2324</rc-h>
+<rc-lat>41.634508</rc-lat>
+<rc-lon>-79.976174</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>873</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>874</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>875</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>877</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>878</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMDS0</switch>
+<switchname>ERIE MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>881</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>882</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAJHCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>164730</exch>
+<rc>McKean</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547E</ocn>
+<company-name>ONVOY, LLC - PA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5349</rc-v>
+<rc-h>2389</rc-h>
+<rc-lat>41.992809</rc-lat>
+<rc-lon>-80.138658</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>897</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXEDS0</switch>
+<switchname>ERIE EAST</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXEDS0</switch>
+<switchname>ERIE EAST</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>899</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXEDS0</switch>
+<switchname>ERIE EAST</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0169</ocn>
+<company-name>VERIZON NORTH INC.-PA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>908</nxx>
+<x>A</x>
+<exch>162000</exch>
+<rc>Clintonville</rc>
+<region>PA</region>
+<switch>OLCYPAXOBMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>422C</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - PA                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5470</rc-v>
+<rc-h>2258</rc-h>
+<rc-lat>41.200583</rc-lat>
+<rc-lon>-79.87346</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>909</nxx>
+<x>A</x>
+<exch>168390</exch>
+<rc>West Springfield</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>031G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (PA), PA               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5386</rc-v>
+<rc-h>2430</rc-h>
+<rc-lat>41.952088</rc-lat>
+<rc-lon>-80.474848</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>912</nxx>
+<x>A</x>
+<exch>164310</exch>
+<rc>Linesville</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5435</rc-v>
+<rc-h>2388</rc-h>
+<rc-lat>41.658916</rc-lat>
+<rc-lon>-80.422136</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>920</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMX7X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4024</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - PA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>922</nxx>
+<x>A</x>
+<exch>168390</exch>
+<rc>West Springfield</rc>
+<region>PA</region>
+<switch>WSPFPAXWDS0</switch>
+<switchname>WEST SPRINGFIELD</switchname>
+<switchtype>DMS</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5386</rc-v>
+<rc-h>2430</rc-h>
+<rc-lat>41.952088</rc-lat>
+<rc-lon>-80.474848</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>923</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch>ERIEPAXMXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547E</ocn>
+<company-name>ONVOY, LLC - PA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>964</nxx>
+<x>A</x>
+<exch>162180</exch>
+<rc>Corry</rc>
+<region>PA</region>
+<switch>ERIEPAAFCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5318</rc-v>
+<rc-h>2312</rc-h>
+<rc-lat>41.91918</rc-lat>
+<rc-lon>-79.637354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>967</nxx>
+<x>A</x>
+<exch>167920</exch>
+<rc>Townville</rc>
+<region>PA</region>
+<switch>TWVLPAXTRS0</switch>
+<switchname>TOWNVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0176</ocn>
+<company-name>WINDSTREAM PENNSYLVANIA, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5383</rc-v>
+<rc-h>2317</rc-h>
+<rc-lat>41.68234</rc-lat>
+<rc-lon>-79.883062</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>969</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6392</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - PA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-17 01:48:48</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>981</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-07-04 01:52:14</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>982</nxx>
+<x>A</x>
+<exch>167920</exch>
+<rc>Townville</rc>
+<region>PA</region>
+<switch>ERIEPAMFGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3806</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - PA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0176</ilec-ocn>
+<ilec-name>WINDSTREAM PENNSYLVANIA, INC.                             </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5383</rc-v>
+<rc-h>2317</rc-h>
+<rc-lat>41.68234</rc-lat>
+<rc-lon>-79.883062</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>814</npa>
+<nxx>983</nxx>
+<x>A</x>
+<exch>162770</exch>
+<rc>Erie</rc>
+<region>PA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>002F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - PA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0169</ilec-ocn>
+<ilec-name>VERIZON NORTH INC.-PA                                     </ilec-name>
+<lata>924</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>42.120475</rc-lat>
+<rc-lon>-80.085276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+</root>

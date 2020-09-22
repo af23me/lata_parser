@@ -1,0 +1,3581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>521</lata>
+</inputdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS1</switch>
+<switchname>COLUMBIA MAIN DMS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOCC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6275</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - MISSOURI                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>100350</exch>
+<rc>Meta</rc>
+<region>MO</region>
+<switch>METAMOBARS3</switch>
+<switchname>META</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7013</rc-v>
+<rc-h>3758</rc-h>
+<rc-lat>38.317779</rc-lat>
+<rc-lon>-92.169151</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>230</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>CLMAMOXAX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXBDS0</switch>
+<switchname>COLUMBIA WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>239</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>257</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>268</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>097370</exch>
+<rc>Clarksburg</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6982</rc-v>
+<rc-h>3866</rc-h>
+<rc-lat>38.657457</rc-lat>
+<rc-lon>-92.66598</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>289</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>291</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>294</nxx>
+<x>A</x>
+<exch>100550</exch>
+<rc>Morrison</rc>
+<region>MO</region>
+<switch>MRSNMOXARS0</switch>
+<switchname>MORRISON</switchname>
+<switchtype>1RE</switchtype>
+<ocn>9787</ocn>
+<company-name>CENTURYTEL MISSOURI LLC (SOUTHWEST)DBA CENTURYLINK        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9787</ilec-ocn>
+<ilec-name>CENTURYTEL MISSOURI LLC (SOUTHWEST)DBA CENTURYLINK        </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6906</rc-v>
+<rc-h>3707</rc-h>
+<rc-lat>38.66566</rc-lat>
+<rc-lon>-91.632197</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>102630</exch>
+<rc>Tebbetts</rc>
+<region>MO</region>
+<switch>AXVSMOXADS0</switch>
+<switchname>AUXVASSE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1901</ocn>
+<company-name>KINGDOM TELEPHONE COMPANY                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1901</ilec-ocn>
+<ilec-name>KINGDOM TELEPHONE COMPANY                                 </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6939</rc-v>
+<rc-h>3753</rc-h>
+<rc-lat>38.618127</rc-lat>
+<rc-lon>-91.958813</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>098860</exch>
+<rc>Hallsville</rc>
+<region>MO</region>
+<switch>CLMAMORSHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6860</rc-v>
+<rc-h>3839</rc-h>
+<rc-lat>39.117375</rc-lat>
+<rc-lon>-92.219489</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>JFCYMOXAX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7432</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC - MO                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>097040</exch>
+<rc>California</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6980</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>38.631106</rc-lat>
+<rc-lon>-92.565223</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>338</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAYMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6275</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - MISSOURI                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>353</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>CLMAMOXAX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>355</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>356</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>102610</exch>
+<rc>Taos</rc>
+<region>MO</region>
+<switch>TAOSMOXARS0</switch>
+<switchname>TAOS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6962</rc-v>
+<rc-h>3758</rc-h>
+<rc-lat>38.531569</rc-lat>
+<rc-lon>-92.042651</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>405</nxx>
+<x>A</x>
+<exch>102910</exch>
+<rc>Vienna</rc>
+<region>MO</region>
+<switch>JFCYMOXAJMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5814</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MO              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7023</rc-v>
+<rc-h>3712</rc-h>
+<rc-lat>38.185892</rc-lat>
+<rc-lon>-91.950987</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>415</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>417</nxx>
+<x>A</x>
+<exch>099940</exch>
+<rc>Linn</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6957</rc-v>
+<rc-h>3724</rc-h>
+<rc-lat>38.485819</rc-lat>
+<rc-lon>-91.85011</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>418</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAJMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5814</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MO              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>102910</exch>
+<rc>Vienna</rc>
+<region>MO</region>
+<switch>VINNMOGARS5</switch>
+<switchname>VIENNA</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7023</rc-v>
+<rc-h>3712</rc-h>
+<rc-lat>38.185892</rc-lat>
+<rc-lon>-91.950987</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>424</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>441</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>442</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>445</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXBDS0</switch>
+<switchname>COLUMBIA WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXBDS0</switch>
+<switchname>COLUMBIA WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>447</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXBDS0</switch>
+<switchname>COLUMBIA WEST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>449</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>455</nxx>
+<x>A</x>
+<exch>103190</exch>
+<rc>Westphalia</rc>
+<region>MO</region>
+<switch>WPHLMOGLRS4</switch>
+<switchname>WESTPHALIA</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6975</rc-v>
+<rc-h>3744</rc-h>
+<rc-lat>38.449687</rc-lat>
+<rc-lon>-92.000834</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>462</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAEMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>464</nxx>
+<x>A</x>
+<exch>097040</exch>
+<rc>California</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6980</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>38.631106</rc-lat>
+<rc-lon>-92.565223</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>469</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAX8X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7218</ocn>
+<company-name>TELEPORT COMMUNICATIONS GROUP - ST. LOUIS                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>474</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS1</switch>
+<switchname>COLUMBIA MAIN DMS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>250A</ocn>
+<company-name>CHARITON VALLEY COMMUNICATIONS CORPORATION                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>477</nxx>
+<x>A</x>
+<exch>102360</exch>
+<rc>St Thomas</rc>
+<region>MO</region>
+<switch>STTMMOXARS0</switch>
+<switchname>ST THOMAS</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7007</rc-v>
+<rc-h>3770</rc-h>
+<rc-lat>38.366343</rc-lat>
+<rc-lon>-92.217812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>488</nxx>
+<x>A</x>
+<exch>096290</exch>
+<rc>Ashland</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6930</rc-v>
+<rc-h>3814</rc-h>
+<rc-lat>38.775062</rc-lat>
+<rc-lon>-92.260578</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>491</nxx>
+<x>A</x>
+<exch>100720</exch>
+<rc>New Bloomfield</rc>
+<region>MO</region>
+<switch>NBFDMOXARS0</switch>
+<switchname>NEW BLOOMFIELD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6929</rc-v>
+<rc-h>3783</rc-h>
+<rc-lat>38.718767</rc-lat>
+<rc-lon>-92.093171</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>493</nxx>
+<x>A</x>
+<exch>102290</exch>
+<rc>St Elizabeth</rc>
+<region>MO</region>
+<switch>STEZMOXARS0</switch>
+<switchname>ST ELIZABETH</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1885</ocn>
+<company-name>WINDSTREAM MISSOURI, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1885</ilec-ocn>
+<ilec-name>WINDSTREAM MISSOURI, INC.                                 </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7030</rc-v>
+<rc-h>3768</rc-h>
+<rc-lat>38.265958</rc-lat>
+<rc-lon>-92.264003</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>496</nxx>
+<x>A</x>
+<exch>096830</exch>
+<rc>Brazito</rc>
+<region>MO</region>
+<switch>BRZTMOXARS0</switch>
+<switchname>BRAZITO</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6997</rc-v>
+<rc-h>3790</rc-h>
+<rc-lat>38.44724</rc-lat>
+<rc-lon>-92.299055</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>498</nxx>
+<x>A</x>
+<exch>098160</exch>
+<rc>Eugene</rc>
+<region>MO</region>
+<switch>EUGNMOXARS0</switch>
+<switchname>EUGENE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7023</rc-v>
+<rc-h>3797</rc-h>
+<rc-lat>38.351704</rc-lat>
+<rc-lon>-92.400245</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>499</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>506</nxx>
+<x>A</x>
+<exch>102630</exch>
+<rc>Tebbetts</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1901</ilec-ocn>
+<ilec-name>KINGDOM TELEPHONE COMPANY                                 </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6939</rc-v>
+<rc-h>3753</rc-h>
+<rc-lat>38.618127</rc-lat>
+<rc-lon>-91.958813</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-06 02:26:26</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>507</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>554A</ocn>
+<company-name>SOCKET TELECOM, LLC - MO                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-11-02 02:02:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>508</nxx>
+<x>A</x>
+<exch>102610</exch>
+<rc>Taos</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6962</rc-v>
+<rc-h>3758</rc-h>
+<rc-lat>38.531569</rc-lat>
+<rc-lon>-92.042651</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>514</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>520</nxx>
+<x>A</x>
+<exch>101870</exch>
+<rc>Russellville</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6994</rc-v>
+<rc-h>3818</rc-h>
+<rc-lat>38.514212</rc-lat>
+<rc-lon>-92.440218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>522</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXA1XD</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>526</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXA1XD</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>529</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAYMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>530</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-21 02:41:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>533</nxx>
+<x>A</x>
+<exch>097230</exch>
+<rc>Centertown</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5562</ocn>
+<company-name>METRO PCS, INC.                                           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6971</rc-v>
+<rc-h>3823</rc-h>
+<rc-lat>38.620488</rc-lat>
+<rc-lon>-92.410041</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>553</nxx>
+<x>A</x>
+<exch>103190</exch>
+<rc>Westphalia</rc>
+<region>MO</region>
+<switch>JFCYMOXAXKX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7218</ocn>
+<company-name>TELEPORT COMMUNICATIONS GROUP - ST. LOUIS                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6975</rc-v>
+<rc-h>3744</rc-h>
+<rc-lat>38.449687</rc-lat>
+<rc-lon>-92.000834</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>554</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>584</nxx>
+<x>A</x>
+<exch>097230</exch>
+<rc>Centertown</rc>
+<region>MO</region>
+<switch>CNTWMOXARS0</switch>
+<switchname>CENTERTOWN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6971</rc-v>
+<rc-h>3823</rc-h>
+<rc-lat>38.620488</rc-lat>
+<rc-lon>-92.410041</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>595</nxx>
+<x>A</x>
+<exch>098160</exch>
+<rc>Eugene</rc>
+<region>MO</region>
+<switch>CLMAMOWB0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7023</rc-v>
+<rc-h>3797</rc-h>
+<rc-lat>38.351704</rc-lat>
+<rc-lon>-92.400245</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>606</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>607</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>554A</ocn>
+<company-name>SOCKET TELECOM, LLC - MO                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>615</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>093F</ocn>
+<company-name>ONVOY, LLC  MO                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-11 12:14:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>616</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAX1X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>938F</ocn>
+<company-name>MCC TELEPHONY OF MISSOURI, LLC - MO                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>619</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>622</nxx>
+<x>A</x>
+<exch>097370</exch>
+<rc>Clarksburg</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6982</rc-v>
+<rc-h>3866</rc-h>
+<rc-lat>38.657457</rc-lat>
+<rc-lon>-92.66598</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>634</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>635</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>636</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAYMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>641</nxx>
+<x>A</x>
+<exch>097360</exch>
+<rc>Clark</rc>
+<region>MO</region>
+<switch>CLRKMOXARS0</switch>
+<switchname>CLARK</switchname>
+<switchtype>GTR</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6836</rc-v>
+<rc-h>3873</rc-h>
+<rc-lat>39.284249</rc-lat>
+<rc-lon>-92.341592</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>644</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>645</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>657</nxx>
+<x>A</x>
+<exch>096290</exch>
+<rc>Ashland</rc>
+<region>MO</region>
+<switch>ASLDMOXARS0</switch>
+<switchname>ASHLAND</switchname>
+<switchtype>GTR</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6930</rc-v>
+<rc-h>3814</rc-h>
+<rc-lat>38.775062</rc-lat>
+<rc-lon>-92.260578</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7432</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC - MO                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>659</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>100460</exch>
+<rc>Mokane</rc>
+<region>MO</region>
+<switch>AXVSMOXADS0</switch>
+<switchname>AUXVASSE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1901</ocn>
+<company-name>KINGDOM TELEPHONE COMPANY                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1901</ilec-ocn>
+<ilec-name>KINGDOM TELEPHONE COMPANY                                 </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6922</rc-v>
+<rc-h>3745</rc-h>
+<rc-lat>38.673606</rc-lat>
+<rc-lon>-91.873868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>680</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>681</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>682</nxx>
+<x>A</x>
+<exch>097260</exch>
+<rc>Centralia</rc>
+<region>MO</region>
+<switch>CENLMOXARS0</switch>
+<switchname>CENTRALIA</switchname>
+<switchtype>GTR</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6836</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>39.208235</rc-lat>
+<rc-lon>-92.132612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>687</nxx>
+<x>A</x>
+<exch>102540</exch>
+<rc>Sturgeon</rc>
+<region>MO</region>
+<switch>STGNMOXARS0</switch>
+<switchname>STURGEON</switchname>
+<switchtype>GTR</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6842</rc-v>
+<rc-h>3859</rc-h>
+<rc-lat>39.231838</rc-lat>
+<rc-lon>-92.281538</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>690</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>691</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAYMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6275</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - MISSOURI                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>694</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>696</nxx>
+<x>A</x>
+<exch>098860</exch>
+<rc>Hallsville</rc>
+<region>MO</region>
+<switch>HLVLMOXARS0</switch>
+<switchname>HALLSVILLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6860</rc-v>
+<rc-h>3839</rc-h>
+<rc-lat>39.117375</rc-lat>
+<rc-lon>-92.219489</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>698</nxx>
+<x>A</x>
+<exch>101780</exch>
+<rc>Rocheport</rc>
+<region>MO</region>
+<switch>RHPTMOXBRS0</switch>
+<switchname>ROCHEPORT</switchname>
+<switchtype>GTR</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6911</rc-v>
+<rc-h>3880</rc-h>
+<rc-lat>38.982907</rc-lat>
+<rc-lon>-92.565643</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>709</nxx>
+<x>A</x>
+<exch>097370</exch>
+<rc>Clarksburg</rc>
+<region>MO</region>
+<switch>CLMAMOXAQMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>554A</ocn>
+<company-name>SOCKET TELECOM, LLC - MO                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6982</rc-v>
+<rc-h>3866</rc-h>
+<rc-lat>38.657457</rc-lat>
+<rc-lon>-92.66598</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>728</nxx>
+<x>A</x>
+<exch>096240</exch>
+<rc>Argyle</rc>
+<region>MO</region>
+<switch>ARGYMOPARS1</switch>
+<switchname>ARGYLE</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7006</rc-v>
+<rc-h>3734</rc-h>
+<rc-lat>38.300218</rc-lat>
+<rc-lon>-92.024949</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>744</nxx>
+<x>A</x>
+<exch>098490</exch>
+<rc>Freeburg</rc>
+<region>MO</region>
+<switch>FEBGMORIRS2</switch>
+<switchname>FREEBURG</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6996</rc-v>
+<rc-h>3720</rc-h>
+<rc-lat>38.314671</rc-lat>
+<rc-lon>-91.926157</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>750</nxx>
+<x>A</x>
+<exch>098160</exch>
+<rc>Eugene</rc>
+<region>MO</region>
+<switch>CLMAMOWB8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>7023</rc-v>
+<rc-h>3797</rc-h>
+<rc-lat>38.351704</rc-lat>
+<rc-lon>-92.400245</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>751</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXA1XD</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>761</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>763</nxx>
+<x>A</x>
+<exch>097280</exch>
+<rc>Chamois</rc>
+<region>MO</region>
+<switch>CHMSMOXARS0</switch>
+<switchname>CHAMOIS</switchname>
+<switchtype>1RE</switchtype>
+<ocn>9787</ocn>
+<company-name>CENTURYTEL MISSOURI LLC (SOUTHWEST)DBA CENTURYLINK        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9787</ilec-ocn>
+<ilec-name>CENTURYTEL MISSOURI LLC (SOUTHWEST)DBA CENTURYLINK        </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6914</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>38.675607</rc-lat>
+<rc-lon>-91.768935</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>771</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS1</switch>
+<switchname>COLUMBIA MAIN DMS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAQMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>554A</ocn>
+<company-name>SOCKET TELECOM, LLC - MO                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>782</nxx>
+<x>A</x>
+<exch>101870</exch>
+<rc>Russellville</rc>
+<region>MO</region>
+<switch>RLVLMOXARS2</switch>
+<switchname>RUSSELLVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6994</rc-v>
+<rc-h>3818</rc-h>
+<rc-lat>38.514212</rc-lat>
+<rc-lon>-92.440218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>787</nxx>
+<x>A</x>
+<exch>097370</exch>
+<rc>Clarksburg</rc>
+<region>MO</region>
+<switch>CLBGMOXARS0</switch>
+<switchname>CLARKSBURG</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6982</rc-v>
+<rc-h>3866</rc-h>
+<rc-lat>38.657457</rc-lat>
+<rc-lon>-92.66598</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>796</nxx>
+<x>A</x>
+<exch>097040</exch>
+<rc>California</rc>
+<region>MO</region>
+<switch>CLFRMOXARS0</switch>
+<switchname>CALIFORNIA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6980</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>38.631106</rc-lat>
+<rc-lon>-92.565223</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXAEMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>799</nxx>
+<x>A</x>
+<exch>099940</exch>
+<rc>Linn</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6957</rc-v>
+<rc-h>3724</rc-h>
+<rc-lat>38.485819</rc-lat>
+<rc-lon>-91.85011</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-29 02:07:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>808</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>809</nxx>
+<x>A</x>
+<exch>100460</exch>
+<rc>Mokane</rc>
+<region>MO</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4932</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MO                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1901</ilec-ocn>
+<ilec-name>KINGDOM TELEPHONE COMPANY                                 </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6922</rc-v>
+<rc-h>3745</rc-h>
+<rc-lat>38.673606</rc-lat>
+<rc-lon>-91.873868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-06 02:26:26</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>814</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS1</switch>
+<switchname>COLUMBIA MAIN DMS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>815</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>818</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOCC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6275</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - MISSOURI                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>819</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOCC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6275</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - MISSOURI                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>821</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXANMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>823</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>825</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMORSCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>863</nxx>
+<x>A</x>
+<exch>097040</exch>
+<rc>California</rc>
+<region>MO</region>
+<switch>CLMAMOXAQMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>554A</ocn>
+<company-name>SOCKET TELECOM, LLC - MO                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6980</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>38.631106</rc-lat>
+<rc-lon>-92.565223</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>874</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>875</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>876</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS0</switch>
+<switchname>COLUMBIA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>881</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOCC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6275</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - MISSOURI                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>882</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS1</switch>
+<switchname>COLUMBIA MAIN DMS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS1</switch>
+<switchname>COLUMBIA MAIN DMS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>886</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXADS1</switch>
+<switchname>COLUMBIA MAIN DMS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9784</ocn>
+<company-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>893</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>JFCYMOXADS0</switch>
+<switchname>JEFFERSON CITY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>896</nxx>
+<x>A</x>
+<exch>099390</exch>
+<rc>Jefferson City</rc>
+<region>MO</region>
+<switch>HLSMMOXARS0</switch>
+<switchname>HOLTS SUMMIT</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1811</ocn>
+<company-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1811</ilec-ocn>
+<ilec-name>EMBARQ MISSOURI, INC. - MO DBA CENTURYLINK                </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6963</rc-v>
+<rc-h>3782</rc-h>
+<rc-lat>38.574277</rc-lat>
+<rc-lon>-92.172431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>897</nxx>
+<x>A</x>
+<exch>099940</exch>
+<rc>Linn</rc>
+<region>MO</region>
+<switch>LINNMOTWDS1</switch>
+<switchname>LINN</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6957</rc-v>
+<rc-h>3724</rc-h>
+<rc-lat>38.485819</rc-lat>
+<rc-lon>-91.85011</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>933</nxx>
+<x>A</x>
+<exch>097260</exch>
+<rc>Centralia</rc>
+<region>MO</region>
+<switch>CLMAMOXAX3X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>023B</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - MO                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6836</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>39.208235</rc-lat>
+<rc-lon>-92.132612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>943</nxx>
+<x>A</x>
+<exch>100600</exch>
+<rc>Mount Sterling</rc>
+<region>MO</region>
+<switch>MTSTMOXADS0</switch>
+<switchname>MOUNT STERLING</switchname>
+<switchtype>DSF</switchtype>
+<ocn>9787</ocn>
+<company-name>CENTURYTEL MISSOURI LLC (SOUTHWEST)DBA CENTURYLINK        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9787</ilec-ocn>
+<ilec-name>CENTURYTEL MISSOURI LLC (SOUTHWEST)DBA CENTURYLINK        </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6948</rc-v>
+<rc-h>3687</rc-h>
+<rc-lat>38.450549</rc-lat>
+<rc-lon>-91.631931</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>969</nxx>
+<x>A</x>
+<exch>097260</exch>
+<rc>Centralia</rc>
+<region>MO</region>
+<switch>CLMAMOXAX6X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5607</ocn>
+<company-name>CHARTER FIBERLINK, LLC - MO                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6836</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>39.208235</rc-lat>
+<rc-lon>-92.132612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>982</nxx>
+<x>A</x>
+<exch>097260</exch>
+<rc>Centralia</rc>
+<region>MO</region>
+<switch>CLMAMOXAQMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>554A</ocn>
+<company-name>SOCKET TELECOM, LLC - MO                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6836</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>39.208235</rc-lat>
+<rc-lon>-92.132612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>573</npa>
+<nxx>999</nxx>
+<x>A</x>
+<exch>097520</exch>
+<rc>Columbia</rc>
+<region>MO</region>
+<switch>CLMAMOXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9784</ilec-ocn>
+<ilec-name>CENTURYTEL OF MISSOURI LLC (CNTL) DBA CENTURYLINK         </ilec-name>
+<lata>521</lata>
+<lir></lir>
+<rc-v>6901</rc-v>
+<rc-h>3841</rc-h>
+<rc-lat>38.949276</rc-lat>
+<rc-lon>-92.332434</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>927</lata>
+</inputdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAA02</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXARMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7238</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - VA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVABFLMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4979</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>201980</exch>
+<rc>Broadway</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5835</rc-v>
+<rc-h>1797</rc-h>
+<rc-lat>38.642823</rc-lat>
+<rc-lon>-78.774995</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAXDX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7773</ocn>
+<company-name>COMCAST PHONE OF VIRGINIA, INC. - VA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>205090</exch>
+<rc>Weyers Cave</rc>
+<region>VA</region>
+<switch>WYCVVAXARS0</switch>
+<switchname>WEYERS CAVE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5913</rc-v>
+<rc-h>1773</rc-h>
+<rc-lat>38.284179</rc-lat>
+<rc-lon>-78.909698</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>236</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAY4X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>237</nxx>
+<x>A</x>
+<exch>201960</exch>
+<rc>Bridgewater</rc>
+<region>VA</region>
+<switch>HRBGVAXAWMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5901</rc-v>
+<rc-h>1794</rc-h>
+<rc-lat>38.383067</rc-lat>
+<rc-lon>-78.973499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>246</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAFC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>203100</exch>
+<rc>Grottoes</rc>
+<region>VA</region>
+<switch>GRTSVAXARS0</switch>
+<switchname>GROTTOES</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5907</rc-v>
+<rc-h>1758</rc-h>
+<rc-lat>38.269206</rc-lat>
+<rc-lon>-78.817359</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>269</nxx>
+<x>A</x>
+<exch>203390</exch>
+<rc>Keezletown</rc>
+<region>VA</region>
+<switch>KZTWVAXARS1</switch>
+<switchname>KEEZLETOWN</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1773</rc-h>
+<rc-lat>38.414089</rc-lat>
+<rc-lon>-78.800184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>271</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-12-07 02:22:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAXFX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4644</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - VA                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>289</nxx>
+<x>A</x>
+<exch>203740</exch>
+<rc>McGaheysville</rc>
+<region>VA</region>
+<switch>MGVLVAXARS1</switch>
+<switchname>MCGAHEYSVILLE</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5880</rc-v>
+<rc-h>1759</rc-h>
+<rc-lat>38.374833</rc-lat>
+<rc-lon>-78.735191</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>202780</exch>
+<rc>Elkton</rc>
+<region>VA</region>
+<switch>EKTNVAXARS1</switch>
+<switchname>ELKTON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5861</rc-v>
+<rc-h>1747</rc-h>
+<rc-lat>38.416892</rc-lat>
+<rc-lon>-78.615319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXATMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6855</ocn>
+<company-name>OMNIPOINT COMMUNICATIONS CAP OPERATIONS, LLC              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>405</nxx>
+<x>A</x>
+<exch>202780</exch>
+<rc>Elkton</rc>
+<region>VA</region>
+<switch>HRBGVAFC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5861</rc-v>
+<rc-h>1747</rc-h>
+<rc-lat>38.416892</rc-lat>
+<rc-lon>-78.615319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>417</nxx>
+<x>A</x>
+<exch>203740</exch>
+<rc>McGaheysville</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5880</rc-v>
+<rc-h>1759</rc-h>
+<rc-lat>38.374833</rc-lat>
+<rc-lon>-78.735191</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-12-08 02:37:14</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAW22</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>432</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>433</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>434</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>435</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVABF0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>437</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAH01</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>7849</ocn>
+<company-name>LUMOS NETWORKS INC. - VA                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>438</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>442</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>453</nxx>
+<x>A</x>
+<exch>205090</exch>
+<rc>Weyers Cave</rc>
+<region>VA</region>
+<switch>HRBGVAXAH01</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>7849</ocn>
+<company-name>LUMOS NETWORKS INC. - VA                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5913</rc-v>
+<rc-h>1773</rc-h>
+<rc-lat>38.284179</rc-lat>
+<rc-lon>-78.909698</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-12-07 02:22:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>478</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-12-07 02:22:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>515</nxx>
+<x>A</x>
+<exch>201960</exch>
+<rc>Bridgewater</rc>
+<region>VA</region>
+<switch>HRBGVAXAH01</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>7849</ocn>
+<company-name>LUMOS NETWORKS INC. - VA                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5901</rc-v>
+<rc-h>1794</rc-h>
+<rc-lat>38.383067</rc-lat>
+<rc-lon>-78.973499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>534</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-12-01 01:09:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>560</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVABF0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>564</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>568</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>578</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-12-30 02:51:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>584</nxx>
+<x>A</x>
+<exch>203100</exch>
+<rc>Grottoes</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>079F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - VA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5907</rc-v>
+<rc-h>1758</rc-h>
+<rc-lat>38.269206</rc-lat>
+<rc-lon>-78.817359</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-09 01:59:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>607</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>612</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAH01</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>7849</ocn>
+<company-name>LUMOS NETWORKS INC. - VA                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>615</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAEJZMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVA016MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>367E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - VA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>646</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-23 00:51:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAX2X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8825</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>705</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>079F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - VA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>713</nxx>
+<x>A</x>
+<exch>202780</exch>
+<rc>Elkton</rc>
+<region>VA</region>
+<switch>HRBGVAXAY4X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4860</ocn>
+<company-name>TELCOVE OF VIRGINIA, LLC - VA                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5861</rc-v>
+<rc-h>1747</rc-h>
+<rc-lat>38.416892</rc-lat>
+<rc-lon>-78.615319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>733</nxx>
+<x>A</x>
+<exch>202770</exch>
+<rc>Edom</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7238</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - VA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5864</rc-v>
+<rc-h>1795</rc-h>
+<rc-lat>38.527023</rc-lat>
+<rc-lon>-78.859096</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>746</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAFC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>801</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXADS0</switch>
+<switchname>HARRISONBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>810</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAW22</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAW22</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>828</nxx>
+<x>A</x>
+<exch>201960</exch>
+<rc>Bridgewater</rc>
+<region>VA</region>
+<switch>BRWRVAXARS0</switch>
+<switchname>BRIDGEWATER 1</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5901</rc-v>
+<rc-h>1794</rc-h>
+<rc-lat>38.383067</rc-lat>
+<rc-lon>-78.973499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>830</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAW22</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>833</nxx>
+<x>A</x>
+<exch>202770</exch>
+<rc>Edom</rc>
+<region>VA</region>
+<switch>EDOMVAXARS0</switch>
+<switchname>EDOM 1</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5864</rc-v>
+<rc-h>1795</rc-h>
+<rc-lat>38.527023</rc-lat>
+<rc-lon>-78.859096</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>867</nxx>
+<x>A</x>
+<exch>203250</exch>
+<rc>Hinton</rc>
+<region>VA</region>
+<switch>HITNVAXARS0</switch>
+<switchname>HINTON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5886</rc-v>
+<rc-h>1804</rc-h>
+<rc-lat>38.465664</rc-lat>
+<rc-lon>-78.974035</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>202590</exch>
+<rc>Dayton</rc>
+<region>VA</region>
+<switch>DYTNVAXARS0</switch>
+<switchname>DAYTON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5891</rc-v>
+<rc-h>1792</rc-h>
+<rc-lat>38.416258</rc-lat>
+<rc-lon>-78.931553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>896</nxx>
+<x>A</x>
+<exch>201980</exch>
+<rc>Broadway</rc>
+<region>VA</region>
+<switch>BRWYVAXARS2</switch>
+<switchname>BROADWAY 1</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5835</rc-v>
+<rc-h>1797</rc-h>
+<rc-lat>38.642823</rc-lat>
+<rc-lon>-78.774995</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>901</nxx>
+<x>A</x>
+<exch>201980</exch>
+<rc>Broadway</rc>
+<region>VA</region>
+<switch>BRWYVAXARS2</switch>
+<switchname>BROADWAY 1</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0233</ocn>
+<company-name>VERIZON SOUTH INC.-VA (CONTEL)                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5835</rc-v>
+<rc-h>1797</rc-h>
+<rc-lat>38.642823</rc-lat>
+<rc-lon>-78.774995</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>540</npa>
+<nxx>908</nxx>
+<x>A</x>
+<exch>203170</exch>
+<rc>Harrisonburg</rc>
+<region>VA</region>
+<switch>HRBGVAXAPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8825</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0233</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA (CONTEL)                            </ilec-name>
+<lata>927</lata>
+<lir></lir>
+<rc-v>5879</rc-v>
+<rc-h>1787</rc-h>
+<rc-lat>38.449491</rc-lat>
+<rc-lon>-78.868471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

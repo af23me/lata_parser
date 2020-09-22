@@ -1,0 +1,3831 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>976</lata>
+</inputdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>911E</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SERVICES-IL        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>218</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-23 01:34:34</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>046500</exch>
+<rc>Assumption</rc>
+<region>IL</region>
+<switch>ASMPILXCRS0</switch>
+<switchname>ASSUMPTION</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6547</rc-v>
+<rc-h>3395</rc-h>
+<rc-lat>39.520068</rc-lat>
+<rc-lon>-89.043066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>049240</exch>
+<rc>Farmersville</rc>
+<region>IL</region>
+<switch>FRVLILXCRS0</switch>
+<switchname>FARMERSVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6608</rc-v>
+<rc-h>3478</rc-h>
+<rc-lat>39.441286</rc-lat>
+<rc-lon>-89.646234</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>053550</exch>
+<rc>Raymond</rc>
+<region>IL</region>
+<switch>RYMNILXCRS0</switch>
+<switchname>RAYMOND</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6626</rc-v>
+<rc-h>3454</rc-h>
+<rc-lat>39.317295</rc-lat>
+<rc-lon>-89.567211</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>230</nxx>
+<x>A</x>
+<exch>048840</exch>
+<rc>Edinburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6546</rc-v>
+<rc-h>3460</rc-h>
+<rc-lat>39.659868</rc-lat>
+<rc-lon>-89.384626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>232</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-24 10:35:13</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCDS0</switch>
+<switchname>MATTOON</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCDS0</switch>
+<switchname>MATTOON</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>237</nxx>
+<x>A</x>
+<exch>050890</exch>
+<rc>Kincaid</rc>
+<region>IL</region>
+<switch>KNCDILXCRS0</switch>
+<switchname>KINCAID</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6562</rc-v>
+<rc-h>3458</rc-h>
+<rc-lat>39.589716</rc-lat>
+<rc-lon>-89.417061</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>238</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCDS0</switch>
+<switchname>MATTOON</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>246</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>051270</exch>
+<rc>Litchfield</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6659</rc-v>
+<rc-h>3453</rc-h>
+<rc-lat>39.178795</rc-lat>
+<rc-lon>-89.649782</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>258</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCDS0</switch>
+<switchname>MATTOON</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>259</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>266</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCVMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>268</nxx>
+<x>A</x>
+<exch>046380</exch>
+<rc>Arcola</rc>
+<region>IL</region>
+<switch>ARCLILXCRS0</switch>
+<switchname>ARCOLA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6458</rc-v>
+<rc-h>3301</rc-h>
+<rc-lat>39.687004</rc-lat>
+<rc-lon>-88.303465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>272</nxx>
+<x>A</x>
+<exch>054340</exch>
+<rc>Sorento</rc>
+<region>IL</region>
+<switch>SRNTILXCRS0</switch>
+<switchname>SORENTO</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6688</rc-v>
+<rc-h>3424</rc-h>
+<rc-lat>38.999079</rc-lat>
+<rc-lon>-89.573843</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>273</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>276</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>287</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCDS0</switch>
+<switchname>TAYLORVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>294</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>054160</exch>
+<rc>Shelbyville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6550</rc-v>
+<rc-h>3347</rc-h>
+<rc-lat>39.406915</rc-lat>
+<rc-lon>-88.797844</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>297</nxx>
+<x>A</x>
+<exch>052990</exch>
+<rc>Pana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6574</rc-v>
+<rc-h>3387</rc-h>
+<rc-lat>39.392179</rc-lat>
+<rc-lon>-89.073789</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>049240</exch>
+<rc>Farmersville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6608</rc-v>
+<rc-h>3478</rc-h>
+<rc-lat>39.441286</rc-lat>
+<rc-lon>-89.646234</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-08-25 02:19:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>312</nxx>
+<x>A</x>
+<exch>052940</exch>
+<rc>Owaneco</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6566</rc-v>
+<rc-h>3413</rc-h>
+<rc-lat>39.479482</rc-lat>
+<rc-lon>-89.189556</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-09-09 14:11:48</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>313</nxx>
+<x>A</x>
+<exch>051270</exch>
+<rc>Litchfield</rc>
+<region>IL</region>
+<switch>TYVLILXCCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6659</rc-v>
+<rc-h>3453</rc-h>
+<rc-lat>39.178795</rc-lat>
+<rc-lon>-89.649782</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>055780</exch>
+<rc>Witt</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6621</rc-v>
+<rc-h>3415</rc-h>
+<rc-lat>39.256982</rc-lat>
+<rc-lon>-89.347869</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-09-09 14:11:48</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>317</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCGMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>324</nxx>
+<x>A</x>
+<exch>051270</exch>
+<rc>Litchfield</rc>
+<region>IL</region>
+<switch>LTFDILXCRS0</switch>
+<switchname>LITCHFIELD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6659</rc-v>
+<rc-h>3453</rc-h>
+<rc-lat>39.178795</rc-lat>
+<rc-lon>-89.649782</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>054640</exch>
+<rc>Stonington</rc>
+<region>IL</region>
+<switch>SGTNILXCRS0</switch>
+<switchname>STONINGTON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6536</rc-v>
+<rc-h>3428</rc-h>
+<rc-lat>39.634388</rc-lat>
+<rc-lon>-89.18796</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>342</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>EFHMILXCRS0</switch>
+<switchname>EFFINGHAM</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>343</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>MTONILXCX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>345</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch>CHTNILXCDS0</switch>
+<switchname>CHARLESTON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>346</nxx>
+<x>A</x>
+<exch>052690</exch>
+<rc>Oakland</rc>
+<region>IL</region>
+<switch>OKLDILXCRS0</switch>
+<switchname>OAKLAND</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>3258</rc-h>
+<rc-lat>39.660703</rc-lat>
+<rc-lon>-88.032582</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>347</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>EFHMILXCRS0</switch>
+<switchname>EFFINGHAM</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>348</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch>CHTNILXCDS0</switch>
+<switchname>CHARLESTON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>349</nxx>
+<x>A</x>
+<exch>046480</exch>
+<rc>Ashmore</rc>
+<region>IL</region>
+<switch>ASMRILXCRS0</switch>
+<switchname>ASHMORE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6466</rc-v>
+<rc-h>3244</rc-h>
+<rc-lat>39.532593</rc-lat>
+<rc-lon>-88.02542</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>051690</exch>
+<rc>Martinsville</rc>
+<region>IL</region>
+<switch>MTVIILXCDS1</switch>
+<switchname>MARTINSVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1065</ocn>
+<company-name>ODIN TELEPHONE EXCHANGE, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1065</ilec-ocn>
+<ilec-name>ODIN TELEPHONE EXCHANGE, INC.                             </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6493</rc-v>
+<rc-h>3203</rc-h>
+<rc-lat>39.334345</rc-lat>
+<rc-lon>-87.885014</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>399</nxx>
+<x>A</x>
+<exch>050890</exch>
+<rc>Kincaid</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6562</rc-v>
+<rc-h>3458</rc-h>
+<rc-lat>39.589716</rc-lat>
+<rc-lon>-89.417061</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>456</nxx>
+<x>A</x>
+<exch>052460</exch>
+<rc>New Douglas</rc>
+<region>IL</region>
+<switch>NWDGILXCRS0</switch>
+<switchname>NEW DOUGLAS</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6699</rc-v>
+<rc-h>3436</rc-h>
+<rc-lat>38.978451</rc-lat>
+<rc-lon>-89.66616</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>055740</exch>
+<rc>Windsor</rc>
+<region>IL</region>
+<switch>WNDSILXCRS0</switch>
+<switchname>WINDSOR</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6529</rc-v>
+<rc-h>3319</rc-h>
+<rc-lat>39.434073</rc-lat>
+<rc-lon>-88.593153</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>460</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>500</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-10 02:16:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>507</nxx>
+<x>A</x>
+<exch>054650</exch>
+<rc>Strasburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6547</rc-v>
+<rc-h>3315</rc-h>
+<rc-lat>39.351731</rc-lat>
+<rc-lon>-88.621178</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>508</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch>MTONILXCX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>512</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch>CHTNILXC0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>515</nxx>
+<x>A</x>
+<exch>052690</exch>
+<rc>Oakland</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6442</rc-v>
+<rc-h>3258</rc-h>
+<rc-lat>39.660703</rc-lat>
+<rc-lon>-88.032582</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>518</nxx>
+<x>A</x>
+<exch>046380</exch>
+<rc>Arcola</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6458</rc-v>
+<rc-h>3301</rc-h>
+<rc-lat>39.687004</rc-lat>
+<rc-lon>-88.303465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>526</nxx>
+<x>A</x>
+<exch>052150</exch>
+<rc>Morrisonville</rc>
+<region>IL</region>
+<switch>MRSVILXCRS0</switch>
+<switchname>MORRISONVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>3448</rc-h>
+<rc-lat>39.424547</rc-lat>
+<rc-lon>-89.457986</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>532</nxx>
+<x>A</x>
+<exch>050410</exch>
+<rc>Hillsboro</rc>
+<region>IL</region>
+<switch>HLBOILXCRS0</switch>
+<switchname>HILLSBORO</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6651</rc-v>
+<rc-h>3427</rc-h>
+<rc-lat>39.157978</rc-lat>
+<rc-lon>-89.491326</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>533</nxx>
+<x>A</x>
+<exch>050650</exch>
+<rc>Irving</rc>
+<region>IL</region>
+<switch>IRNGILXCRS0</switch>
+<switchname>IRVING</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6636</rc-v>
+<rc-h>3418</rc-h>
+<rc-lat>39.201459</rc-lat>
+<rc-lon>-89.40377</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>534</nxx>
+<x>A</x>
+<exch>048070</exch>
+<rc>Coffeen</rc>
+<region>IL</region>
+<switch>COFNILXCRS0</switch>
+<switchname>COFFEEN</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6657</rc-v>
+<rc-h>3406</rc-h>
+<rc-lat>39.089685</rc-lat>
+<rc-lon>-89.396642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>536</nxx>
+<x>A</x>
+<exch>055430</exch>
+<rc>Watson</rc>
+<region>IL</region>
+<switch>WTSNILXCDS0</switch>
+<switchname>WATSON</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6607</rc-v>
+<rc-h>3275</rc-h>
+<rc-lat>39.022701</rc-lat>
+<rc-lon>-88.573718</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>537</nxx>
+<x>A</x>
+<exch>048580</exch>
+<rc>Donnellson</rc>
+<region>IL</region>
+<switch>DNSNILXCRS0</switch>
+<switchname>DONNELLSON</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6675</rc-v>
+<rc-h>3411</rc-h>
+<rc-lat>39.02581</rc-lat>
+<rc-lon>-89.470891</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>538</nxx>
+<x>A</x>
+<exch>049300</exch>
+<rc>Fillmore</rc>
+<region>IL</region>
+<switch>FLMRILXCRS0</switch>
+<switchname>FILLMORE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6643</rc-v>
+<rc-h>3390</rc-h>
+<rc-lat>39.11407</rc-lat>
+<rc-lon>-89.275036</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>539</nxx>
+<x>A</x>
+<exch>052720</exch>
+<rc>Oconee</rc>
+<region>IL</region>
+<switch>OCNEILXCRS0</switch>
+<switchname>OCONEE</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1055</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF MIDLAND, INC.                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1055</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF MIDLAND, INC.                  </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>3381</rc-h>
+<rc-lat>39.284936</rc-lat>
+<rc-lon>-89.104144</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>540</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>EFHMILXCRS0</switch>
+<switchname>EFFINGHAM</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>543</nxx>
+<x>A</x>
+<exch>046440</exch>
+<rc>Arthur</rc>
+<region>IL</region>
+<switch>ARTHILXCRS0</switch>
+<switchname>ARTHUR</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6465</rc-v>
+<rc-h>3329</rc-h>
+<rc-lat>39.71781</rc-lat>
+<rc-lon>-88.470565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>549</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch>MTONILXB1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>051270</exch>
+<rc>Litchfield</rc>
+<region>IL</region>
+<switch>TYVLILXCZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6659</rc-v>
+<rc-h>3453</rc-h>
+<rc-lat>39.178795</rc-lat>
+<rc-lon>-89.649782</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>561</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>052990</exch>
+<rc>Pana</rc>
+<region>IL</region>
+<switch>PANAILXCRS0</switch>
+<switchname>PANA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6574</rc-v>
+<rc-h>3387</rc-h>
+<rc-lat>39.392179</rc-lat>
+<rc-lon>-89.073789</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>563</nxx>
+<x>A</x>
+<exch>052580</exch>
+<rc>Nokomis</rc>
+<region>IL</region>
+<switch>NKMSILXCRS0</switch>
+<switchname>NOKOMIS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6608</rc-v>
+<rc-h>3409</rc-h>
+<rc-lat>39.298074</rc-lat>
+<rc-lon>-89.281378</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>565</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXC4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>055050</exch>
+<rc>Tower Hill</rc>
+<region>IL</region>
+<switch>TWHLILXCRS0</switch>
+<switchname>TOWER HILL</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6566</rc-v>
+<rc-h>3370</rc-h>
+<rc-lat>39.389473</rc-lat>
+<rc-lon>-88.96248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>573</nxx>
+<x>A</x>
+<exch>053550</exch>
+<rc>Raymond</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6626</rc-v>
+<rc-h>3454</rc-h>
+<rc-lat>39.317295</rc-lat>
+<rc-lon>-89.567211</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>578</nxx>
+<x>A</x>
+<exch>046550</exch>
+<rc>Atwood</rc>
+<region>IL</region>
+<switch>ATWDILXCRS0</switch>
+<switchname>ATWOOD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6448</rc-v>
+<rc-h>3335</rc-h>
+<rc-lat>39.800244</rc-lat>
+<rc-lon>-88.455492</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>581</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch>CHTNILXCDS0</switch>
+<switchname>CHARLESTON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>594</nxx>
+<x>A</x>
+<exch>055780</exch>
+<rc>Witt</rc>
+<region>IL</region>
+<switch>WITTILXCRS0</switch>
+<switchname>WITT</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6621</rc-v>
+<rc-h>3415</rc-h>
+<rc-lat>39.256982</rc-lat>
+<rc-lon>-89.347869</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>603</nxx>
+<x>A</x>
+<exch>046480</exch>
+<rc>Ashmore</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6466</rc-v>
+<rc-h>3244</rc-h>
+<rc-lat>39.532593</rc-lat>
+<rc-lon>-88.02542</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>608</nxx>
+<x>A</x>
+<exch>050410</exch>
+<rc>Hillsboro</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6651</rc-v>
+<rc-h>3427</rc-h>
+<rc-lat>39.157978</rc-lat>
+<rc-lon>-89.491326</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>609</nxx>
+<x>A</x>
+<exch>047550</exch>
+<rc>Casey</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6508</rc-v>
+<rc-h>3216</rc-h>
+<rc-lat>39.300902</rc-lat>
+<rc-lon>-87.994542</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>623</nxx>
+<x>A</x>
+<exch>048840</exch>
+<rc>Edinburg</rc>
+<region>IL</region>
+<switch>EDBGILXCRS0</switch>
+<switchname>EDINBURG</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6546</rc-v>
+<rc-h>3460</rc-h>
+<rc-lat>39.659868</rc-lat>
+<rc-lon>-89.384626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>630</nxx>
+<x>A</x>
+<exch>052580</exch>
+<rc>Nokomis</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6608</rc-v>
+<rc-h>3409</rc-h>
+<rc-lat>39.298074</rc-lat>
+<rc-lon>-89.281378</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch>CHTNILXCDS0</switch>
+<switchname>CHARLESTON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>644</nxx>
+<x>A</x>
+<exch>054650</exch>
+<rc>Strasburg</rc>
+<region>IL</region>
+<switch>STBGILXCRS0</switch>
+<switchname>STRASBURG</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6547</rc-v>
+<rc-h>3315</rc-h>
+<rc-lat>39.351731</rc-lat>
+<rc-lon>-88.621178</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>657</nxx>
+<x>A</x>
+<exch>054280</exch>
+<rc>Sigel</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3284</rc-h>
+<rc-lat>39.228683</rc-lat>
+<rc-lon>-88.496424</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>661</nxx>
+<x>A</x>
+<exch>046550</exch>
+<rc>Atwood</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6448</rc-v>
+<rc-h>3335</rc-h>
+<rc-lat>39.800244</rc-lat>
+<rc-lon>-88.455492</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>MTONILXCGMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>682</nxx>
+<x>A</x>
+<exch>054590</exch>
+<rc>Stewardson</rc>
+<region>IL</region>
+<switch>STSNILXCRS0</switch>
+<switchname>STEWARDSON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6564</rc-v>
+<rc-h>3308</rc-h>
+<rc-lat>39.26715</rc-lat>
+<rc-lon>-88.630639</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>683</nxx>
+<x>A</x>
+<exch>049700</exch>
+<rc>Gila</rc>
+<region>IL</region>
+<switch>GILAILXCRS0</switch>
+<switchname>GILA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1058</ocn>
+<company-name>MONTROSE MUTUAL TELEPHONE CO.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1058</ilec-ocn>
+<ilec-name>MONTROSE MUTUAL TELEPHONE CO.                             </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6566</rc-v>
+<rc-h>3236</rc-h>
+<rc-lat>39.106247</rc-lat>
+<rc-lon>-88.258522</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>690</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>MTONILXCX0X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>707</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>708</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>772H</ocn>
+<company-name>WABASH INDEPENDENT NETWORKS, INC DBA WABASH COMM          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-31 01:23:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>710</nxx>
+<x>A</x>
+<exch>051270</exch>
+<rc>Litchfield</rc>
+<region>IL</region>
+<switch>TYVLILXCZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6659</rc-v>
+<rc-h>3453</rc-h>
+<rc-lat>39.178795</rc-lat>
+<rc-lon>-89.649782</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>713</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCYMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7196</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>716</nxx>
+<x>A</x>
+<exch>047460</exch>
+<rc>Carlinville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7136</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6657</rc-v>
+<rc-h>3498</rc-h>
+<rc-lat>39.28015</rc-lat>
+<rc-lon>-89.882279</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>738</nxx>
+<x>A</x>
+<exch>055590</exch>
+<rc>Westervelt</rc>
+<region>IL</region>
+<switch>WVLTILXCRS0</switch>
+<switchname>WESTERVELT</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6541</rc-v>
+<rc-h>3364</rc-h>
+<rc-lat>39.479682</rc-lat>
+<rc-lon>-88.863061</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>739</nxx>
+<x>A</x>
+<exch>048990</exch>
+<rc>Elliottstown</rc>
+<region>IL</region>
+<switch>ELTWILXCRS0</switch>
+<switchname>ELLIOTTSTOWN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1058</ocn>
+<company-name>MONTROSE MUTUAL TELEPHONE CO.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1058</ilec-ocn>
+<ilec-name>MONTROSE MUTUAL TELEPHONE CO.                             </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6605</rc-v>
+<rc-h>3252</rc-h>
+<rc-lat>38.980045</rc-lat>
+<rc-lon>-88.448621</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>752</nxx>
+<x>A</x>
+<exch>049590</exch>
+<rc>Gays</rc>
+<region>IL</region>
+<switch>GAYSILXCRS0</switch>
+<switchname>GAYS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6517</rc-v>
+<rc-h>3306</rc-h>
+<rc-lat>39.455784</rc-lat>
+<rc-lon>-88.491908</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>756</nxx>
+<x>A</x>
+<exch>049310</exch>
+<rc>Findlay</rc>
+<region>IL</region>
+<switch>FNDYILXCDS0</switch>
+<switchname>FINDLAY</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1011</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF LAKESIDE, INC.                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1011</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF LAKESIDE, INC.                 </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6525</rc-v>
+<rc-h>3352</rc-h>
+<rc-lat>39.520173</rc-lat>
+<rc-lon>-88.756216</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>054160</exch>
+<rc>Shelbyville</rc>
+<region>IL</region>
+<switch>SHVLILXCRS0</switch>
+<switchname>SHELBYVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6550</rc-v>
+<rc-h>3347</rc-h>
+<rc-lat>39.406915</rc-lat>
+<rc-lon>-88.797844</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197H</ocn>
+<company-name>COMPUTER TECHNIQUES, INC. - IL                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>780</nxx>
+<x>A</x>
+<exch>047550</exch>
+<rc>Casey</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6508</rc-v>
+<rc-h>3216</rc-h>
+<rc-lat>39.300902</rc-lat>
+<rc-lon>-87.994542</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>048230</exch>
+<rc>Cowden</rc>
+<region>IL</region>
+<switch>CWDNILXCRS0</switch>
+<switchname>COWDEN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3341</rc-h>
+<rc-lat>39.246316</rc-lat>
+<rc-lon>-88.863824</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>790</nxx>
+<x>A</x>
+<exch>047680</exch>
+<rc>Charleston</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6485</rc-v>
+<rc-h>3262</rc-h>
+<rc-lat>39.493328</rc-lat>
+<rc-lon>-88.172524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-10-12 00:47:58</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>050930</exch>
+<rc>Kirksville</rc>
+<region>IL</region>
+<switch>KKVLILXCRS0</switch>
+<switchname>KIRKSVILLE</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1011</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF LAKESIDE, INC.                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1011</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF LAKESIDE, INC.                 </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6509</rc-v>
+<rc-h>3344</rc-h>
+<rc-lat>39.56901</rc-lat>
+<rc-lon>-88.670355</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>802</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-26 00:31:35</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>804</nxx>
+<x>A</x>
+<exch>054590</exch>
+<rc>Stewardson</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6564</rc-v>
+<rc-h>3308</rc-h>
+<rc-lat>39.26715</rc-lat>
+<rc-lon>-88.630639</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>809</nxx>
+<x>A</x>
+<exch>052250</exch>
+<rc>Mount Olive</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7136</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6685</rc-v>
+<rc-h>3454</rc-h>
+<rc-lat>39.073471</rc-lat>
+<rc-lon>-89.723969</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-16 01:51:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>810</nxx>
+<x>A</x>
+<exch>051690</exch>
+<rc>Martinsville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1065</ilec-ocn>
+<ilec-name>ODIN TELEPHONE EXCHANGE, INC.                             </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6493</rc-v>
+<rc-h>3203</rc-h>
+<rc-lat>39.334345</rc-lat>
+<rc-lon>-87.885014</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>813</nxx>
+<x>A</x>
+<exch>054870</exch>
+<rc>Teutopolis</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6578</rc-v>
+<rc-h>3272</rc-h>
+<rc-lat>39.133531</rc-lat>
+<rc-lon>-88.479788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>821</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>EFHMILXCCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>823</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>824</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCDS0</switch>
+<switchname>TAYLORVILLE</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>825</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch>TYVLILXCZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>835</nxx>
+<x>A</x>
+<exch>046870</exch>
+<rc>Benld</rc>
+<region>IL</region>
+<switch>BNLDILXCRS0</switch>
+<switchname>BENLD</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6686</rc-v>
+<rc-h>3468</rc-h>
+<rc-lat>39.098198</rc-lat>
+<rc-lon>-89.800478</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>839</nxx>
+<x>A</x>
+<exch>049710</exch>
+<rc>Gillespie</rc>
+<region>IL</region>
+<switch>GLLSILXCRS0</switch>
+<switchname>GILLESPIE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6681</rc-v>
+<rc-h>3473</rc-h>
+<rc-lat>39.12917</rc-lat>
+<rc-lon>-89.813659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>844</nxx>
+<x>A</x>
+<exch>054280</exch>
+<rc>Sigel</rc>
+<region>IL</region>
+<switch>SIGLILXCRS0</switch>
+<switchname>SIGEL</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3284</rc-h>
+<rc-lat>39.228683</rc-lat>
+<rc-lon>-88.496424</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>849</nxx>
+<x>A</x>
+<exch>054980</exch>
+<rc>Toledo</rc>
+<region>IL</region>
+<switch>TOLDILXCRS0</switch>
+<switchname>TOLEDO</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6534</rc-v>
+<rc-h>3251</rc-h>
+<rc-lat>39.269249</rc-lat>
+<rc-lon>-88.249487</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>851</nxx>
+<x>A</x>
+<exch>051270</exch>
+<rc>Litchfield</rc>
+<region>IL</region>
+<switch>TYVLILXC4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6659</rc-v>
+<rc-h>3453</rc-h>
+<rc-lat>39.178795</rc-lat>
+<rc-lon>-89.649782</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>854</nxx>
+<x>A</x>
+<exch>047460</exch>
+<rc>Carlinville</rc>
+<region>IL</region>
+<switch>CRVLILXCDS0</switch>
+<switchname>CARLINVILLE</switchname>
+<switchtype>5EH</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6657</rc-v>
+<rc-h>3498</rc-h>
+<rc-lat>39.28015</rc-lat>
+<rc-lon>-89.882279</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>856</nxx>
+<x>A</x>
+<exch>050550</exch>
+<rc>Humboldt</rc>
+<region>IL</region>
+<switch>HMBLILXCRS0</switch>
+<switchname>HUMBOLDT</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6475</rc-v>
+<rc-h>3295</rc-h>
+<rc-lat>39.604594</rc-lat>
+<rc-lon>-88.318679</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>857</nxx>
+<x>A</x>
+<exch>054870</exch>
+<rc>Teutopolis</rc>
+<region>IL</region>
+<switch>TTPLILXDDS0</switch>
+<switchname>TEUTOPOLIS</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6578</rc-v>
+<rc-h>3272</rc-h>
+<rc-lat>39.133531</rc-lat>
+<rc-lon>-88.479788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>868</nxx>
+<x>A</x>
+<exch>054240</exch>
+<rc>Shumway</rc>
+<region>IL</region>
+<switch>SHWYILXCDS0</switch>
+<switchname>SHUMWAY</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6581</rc-v>
+<rc-h>3303</rc-h>
+<rc-lat>39.186795</rc-lat>
+<rc-lon>-88.650563</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>052940</exch>
+<rc>Owaneco</rc>
+<region>IL</region>
+<switch>OWNCILXCRS0</switch>
+<switchname>OWANECO</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6566</rc-v>
+<rc-h>3413</rc-h>
+<rc-lat>39.479482</rc-lat>
+<rc-lon>-89.189556</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>881</nxx>
+<x>A</x>
+<exch>054240</exch>
+<rc>Shumway</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6581</rc-v>
+<rc-h>3303</rc-h>
+<rc-lat>39.186795</rc-lat>
+<rc-lon>-88.650563</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>895</nxx>
+<x>A</x>
+<exch>052390</exch>
+<rc>Neoga</rc>
+<region>IL</region>
+<switch>NEOGILXCRS1</switch>
+<switchname>NEOGA</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6540</rc-v>
+<rc-h>3287</rc-h>
+<rc-lat>39.321172</rc-lat>
+<rc-lon>-88.454871</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>905</nxx>
+<x>A</x>
+<exch>055740</exch>
+<rc>Windsor</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6529</rc-v>
+<rc-h>3319</rc-h>
+<rc-lat>39.434073</rc-lat>
+<rc-lon>-88.593153</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>910</nxx>
+<x>A</x>
+<exch>046500</exch>
+<rc>Assumption</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6547</rc-v>
+<rc-h>3395</rc-h>
+<rc-lat>39.520068</rc-lat>
+<rc-lon>-89.043066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>913</nxx>
+<x>A</x>
+<exch>054640</exch>
+<rc>Stonington</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6536</rc-v>
+<rc-h>3428</rc-h>
+<rc-lat>39.634388</rc-lat>
+<rc-lon>-89.18796</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>914</nxx>
+<x>A</x>
+<exch>052150</exch>
+<rc>Morrisonville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>3448</rc-h>
+<rc-lat>39.424547</rc-lat>
+<rc-lon>-89.457986</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>923</nxx>
+<x>A</x>
+<exch>050000</exch>
+<rc>Greenup</rc>
+<region>IL</region>
+<switch>GNUPILXCRS0</switch>
+<switchname>GREENUP</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6530</rc-v>
+<rc-h>3236</rc-h>
+<rc-lat>39.253649</rc-lat>
+<rc-lon>-88.15988</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>924</nxx>
+<x>A</x>
+<exch>052120</exch>
+<rc>Montrose</rc>
+<region>IL</region>
+<switch>MTRSILXCRS0</switch>
+<switchname>MONTROSE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1058</ocn>
+<company-name>MONTROSE MUTUAL TELEPHONE CO.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1058</ilec-ocn>
+<ilec-name>MONTROSE MUTUAL TELEPHONE CO.                             </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6564</rc-v>
+<rc-h>3260</rc-h>
+<rc-lat>39.165473</rc-lat>
+<rc-lon>-88.378738</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>925</nxx>
+<x>A</x>
+<exch>048530</exch>
+<rc>Dieterich</rc>
+<region>IL</region>
+<switch>DTRCILXCDS0</switch>
+<switchname>DIETERICH</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1058</ocn>
+<company-name>MONTROSE MUTUAL TELEPHONE CO.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1058</ilec-ocn>
+<ilec-name>MONTROSE MUTUAL TELEPHONE CO.                             </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6585</rc-v>
+<rc-h>3249</rc-h>
+<rc-lat>39.056057</rc-lat>
+<rc-lon>-88.378394</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>926</nxx>
+<x>A</x>
+<exch>046380</exch>
+<rc>Arcola</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6458</rc-v>
+<rc-h>3301</rc-h>
+<rc-lat>39.687004</rc-lat>
+<rc-lon>-88.303465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>928</nxx>
+<x>A</x>
+<exch>046440</exch>
+<rc>Arthur</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6465</rc-v>
+<rc-h>3329</rc-h>
+<rc-lat>39.71781</rc-lat>
+<rc-lon>-88.470565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>929</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCNMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7196</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>930</nxx>
+<x>A</x>
+<exch>047460</exch>
+<rc>Carlinville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6657</rc-v>
+<rc-h>3498</rc-h>
+<rc-lat>39.28015</rc-lat>
+<rc-lon>-89.882279</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>932</nxx>
+<x>A</x>
+<exch>047550</exch>
+<rc>Casey</rc>
+<region>IL</region>
+<switch>CASYILXCDS0</switch>
+<switchname>CASEY</switchname>
+<switchtype>D12</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6508</rc-v>
+<rc-h>3216</rc-h>
+<rc-lat>39.300902</rc-lat>
+<rc-lon>-87.994542</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>933</nxx>
+<x>A</x>
+<exch>050550</exch>
+<rc>Humboldt</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6475</rc-v>
+<rc-h>3295</rc-h>
+<rc-lat>39.604594</rc-lat>
+<rc-lon>-88.318679</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>940</nxx>
+<x>A</x>
+<exch>054860</exch>
+<rc>Taylorville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>39.545977</rc-lat>
+<rc-lon>-89.292495</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>948</nxx>
+<x>A</x>
+<exch>050790</exch>
+<rc>Kansas</rc>
+<region>IL</region>
+<switch>KNSSILXCRS0</switch>
+<switchname>KANSAS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6455</rc-v>
+<rc-h>3234</rc-h>
+<rc-lat>39.556138</rc-lat>
+<rc-lon>-87.94239</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>956</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCDS0</switch>
+<switchname>MATTOON</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>957</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch>MTONILXCDS0</switch>
+<switchname>MATTOON</switchname>
+<switchtype>D12</switchtype>
+<ocn>1037</ocn>
+<company-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>962</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>967</nxx>
+<x>A</x>
+<exch>055600</exch>
+<rc>Westfield</rc>
+<region>IL</region>
+<switch>WSFDILXCRS0</switch>
+<switchname>WESTFIELD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6477</rc-v>
+<rc-h>3232</rc-h>
+<rc-lat>39.46192</rc-lat>
+<rc-lon>-87.99282</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>975</nxx>
+<x>A</x>
+<exch>051750</exch>
+<rc>Mattoon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>39.485452</rc-lat>
+<rc-lon>-88.37184</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>994</nxx>
+<x>A</x>
+<exch>048860</exch>
+<rc>Effingham</rc>
+<region>IL</region>
+<switch>MTONILXCQMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3808</ocn>
+<company-name>AERO COMMUNICATIONS, INC - IL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6586</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>39.119775</rc-lat>
+<rc-lon>-88.548721</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>998</nxx>
+<x>A</x>
+<exch>049590</exch>
+<rc>Gays</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1037</ilec-ocn>
+<ilec-name>ILLINOIS CONSOLIDATED TELEPHONE CO.                       </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6517</rc-v>
+<rc-h>3306</rc-h>
+<rc-lat>39.455784</rc-lat>
+<rc-lon>-88.491908</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>999</nxx>
+<x>A</x>
+<exch>052250</exch>
+<rc>Mount Olive</rc>
+<region>IL</region>
+<switch>MTOLILXCDS0</switch>
+<switchname>MOUNT OLIVE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>976</lata>
+<lir></lir>
+<rc-v>6685</rc-v>
+<rc-h>3454</rc-h>
+<rc-lat>39.073471</rc-lat>
+<rc-lon>-89.723969</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

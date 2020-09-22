@@ -1,0 +1,5206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>530</lata>
+</inputdata>
+<prefixdata>
+<npa>318</npa>
+<nxx>571</nxx>
+<x>A</x>
+<exch>073690</exch>
+<rc>South Dodge City</rc>
+<region>LA</region>
+<switch>DDCYARXARSL</switch>
+<switchname></switchname>
+<switchtype>DCL</switchtype>
+<ocn>1727</ocn>
+<company-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1727</ilec-ocn>
+<ilec-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8113</rc-v>
+<rc-h>3408</rc-h>
+<rc-lat>33.015321</rc-lat>
+<rc-lon>-92.967882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>318</npa>
+<nxx>986</nxx>
+<x>A</x>
+<exch>073700</exch>
+<rc>South Junction City</rc>
+<region>LA</region>
+<switch>JNCYARXADSL</switch>
+<switchname>JUNCTION CITY</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1727</ocn>
+<company-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1727</ilec-ocn>
+<ilec-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>3368</rc-h>
+<rc-lat>33.018846</rc-lat>
+<rc-lon>-92.726494</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>218</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-16 02:44:44</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>220</nxx>
+<x>A</x>
+<exch>010540</exch>
+<rc>Fordyce</rc>
+<region>AR</region>
+<switch>FRDYARXADS0</switch>
+<switchname>FORDYCE</switchname>
+<switchtype>D12</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7915</rc-v>
+<rc-h>3388</rc-h>
+<rc-lat>33.810897</rc-lat>
+<rc-lon>-92.417801</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>222</nxx>
+<x>A</x>
+<exch>011650</exch>
+<rc>McGehee</rc>
+<region>AR</region>
+<switch>MCGHARMADS0</switch>
+<switchname>MCGEHEE</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>3204</rc-h>
+<rc-lat>33.631198</rc-lat>
+<rc-lon>-91.400983</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>224</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>PNBLAREKAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>012980</exch>
+<rc>Warren</rc>
+<region>AR</region>
+<switch>WRRNARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7926</rc-v>
+<rc-h>3312</rc-h>
+<rc-lat>33.617072</rc-lat>
+<rc-lon>-92.063913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch>PNBLAREKAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>231</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>CMDNARCURS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>MGNLARMADS0</switch>
+<switchname>MAGNOLIA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>MGNLARMADS0</switch>
+<switchname>MAGNOLIA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARCHRS1</switch>
+<switchname></switchname>
+<switchtype>DRL</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>010540</exch>
+<rc>Fordyce</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7915</rc-v>
+<rc-h>3388</rc-h>
+<rc-lat>33.810897</rc-lat>
+<rc-lon>-92.417801</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>009870</exch>
+<rc>Carthage</rc>
+<region>AR</region>
+<switch>CRTHARXARS1</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7875</rc-v>
+<rc-h>3433</rc-h>
+<rc-lat>34.066095</rc-lat>
+<rc-lon>-92.551151</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>010730</exch>
+<rc>Gould</rc>
+<region>AR</region>
+<switch>GOLDARXARS0</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1142</ocn>
+<company-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7816</rc-v>
+<rc-h>3264</rc-h>
+<rc-lat>33.98409</rc-lat>
+<rc-lon>-91.568093</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>011270</exch>
+<rc>Lake Village</rc>
+<region>AR</region>
+<switch>LKVGARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7921</rc-v>
+<rc-h>3157</rc-h>
+<rc-lat>33.333146</rc-lat>
+<rc-lon>-91.283027</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>267</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARCHRS1</switch>
+<switchname></switchname>
+<switchtype>DRL</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>299</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>010250</exch>
+<rc>Dermott</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7895</rc-v>
+<rc-h>3200</rc-h>
+<rc-lat>33.527061</rc-lat>
+<rc-lon>-91.435069</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch>CRSTARXADS0</switch>
+<switchname>CROSSETT</switchname>
+<switchtype>DS1</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch>CRSTARXADS0</switch>
+<switchname>CROSSETT</switchname>
+<switchtype>DS1</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>308</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>ELDOARMADS0</switch>
+<switchname>EL DORADO</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>310</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>312</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>313</nxx>
+<x>A</x>
+<exch>010540</exch>
+<rc>Fordyce</rc>
+<region>AR</region>
+<switch>FRDYARXADS0</switch>
+<switchname>FORDYCE</switchname>
+<switchtype>D12</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7915</rc-v>
+<rc-h>3388</rc-h>
+<rc-lat>33.810897</rc-lat>
+<rc-lon>-92.417801</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>314</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>012530</exch>
+<rc>Sheridan</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7818</rc-v>
+<rc-h>3429</rc-h>
+<rc-lat>34.298128</rc-lat>
+<rc-lon>-92.399369</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>012380</exch>
+<rc>Rison</rc>
+<region>AR</region>
+<switch>RISNARXADS0</switch>
+<switchname></switchname>
+<switchtype>DCO</switchtype>
+<ocn>1698</ocn>
+<company-name>CLEVELAND COUNTY TELEPHONE CO., INC.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1698</ilec-ocn>
+<ilec-name>CLEVELAND COUNTY TELEPHONE CO., INC.                      </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7868</rc-v>
+<rc-h>3363</rc-h>
+<rc-lat>33.959942</rc-lat>
+<rc-lon>-92.184191</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>329</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>332</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAREU1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6591</ocn>
+<company-name>TELETOUCH COMMUNICATIONS, INC.                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>341</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>348</nxx>
+<x>A</x>
+<exch>011220</exch>
+<rc>Kingsland</rc>
+<region>AR</region>
+<switch>KGLDARXARS1</switch>
+<switchname></switchname>
+<switchtype>DCR</switchtype>
+<ocn>1698</ocn>
+<company-name>CLEVELAND COUNTY TELEPHONE CO., INC.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1698</ilec-ocn>
+<ilec-name>CLEVELAND COUNTY TELEPHONE CO., INC.                      </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7897</rc-v>
+<rc-h>3373</rc-h>
+<rc-lat>33.857518</rc-lat>
+<rc-lon>-92.301304</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>352</nxx>
+<x>A</x>
+<exch>010540</exch>
+<rc>Fordyce</rc>
+<region>AR</region>
+<switch>FRDYARXADS0</switch>
+<switchname>FORDYCE</switchname>
+<switchtype>D12</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7915</rc-v>
+<rc-h>3388</rc-h>
+<rc-lat>33.810897</rc-lat>
+<rc-lon>-92.417801</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>355</nxx>
+<x>A</x>
+<exch>010440</exch>
+<rc>Eudora</rc>
+<region>AR</region>
+<switch>EUDRARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7963</rc-v>
+<rc-h>3132</rc-h>
+<rc-lat>33.107943</rc-lat>
+<rc-lon>-91.25788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>357</nxx>
+<x>A</x>
+<exch>012430</exch>
+<rc>Rowell</rc>
+<region>AR</region>
+<switch>ROWLARXBRS0</switch>
+<switchname></switchname>
+<switchtype>DCO</switchtype>
+<ocn>1698</ocn>
+<company-name>CLEVELAND COUNTY TELEPHONE CO., INC.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1698</ilec-ocn>
+<ilec-name>CLEVELAND COUNTY TELEPHONE CO., INC.                      </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7870</rc-v>
+<rc-h>3328</rc-h>
+<rc-lat>33.88334</rc-lat>
+<rc-lon>-92.013857</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>360</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>364</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch>CRSTARXADS0</switch>
+<switchname>CROSSETT</switchname>
+<switchtype>DS1</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>010130</exch>
+<rc>Dalark</rc>
+<region>AR</region>
+<switch>DLRKARXARS1</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7906</rc-v>
+<rc-h>3485</rc-h>
+<rc-lat>34.03544</rc-lat>
+<rc-lon>-92.883385</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>367</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>MNTIARMADS0</switch>
+<switchname>MONTICELLO</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>369</nxx>
+<x>A</x>
+<exch>013090</exch>
+<rc>Wilmot</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7999</rc-v>
+<rc-h>3178</rc-h>
+<rc-lat>33.048286</rc-lat>
+<rc-lon>-91.568674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-02-02 23:23:34</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>370</nxx>
+<x>A</x>
+<exch>012670</exch>
+<rc>Star City</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7846</rc-v>
+<rc-h>3306</rc-h>
+<rc-lat>33.940977</rc-lat>
+<rc-lon>-91.848059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>374</nxx>
+<x>A</x>
+<exch>010730</exch>
+<rc>Gould</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7816</rc-v>
+<rc-h>3264</rc-h>
+<rc-lat>33.98409</rc-lat>
+<rc-lon>-91.568093</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>377</nxx>
+<x>A</x>
+<exch>010340</exch>
+<rc>Dumas</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7830</rc-v>
+<rc-h>3244</rc-h>
+<rc-lat>33.886016</rc-lat>
+<rc-lon>-91.501275</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>380</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>095A</ocn>
+<company-name>E. RITTER COMMS DBA RITTER COMMUNICATIONS, INC. AR        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-02-16 03:32:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>010340</exch>
+<rc>Dumas</rc>
+<region>AR</region>
+<switch>DUMSARXADS0</switch>
+<switchname>DUMAS</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1142</ocn>
+<company-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7830</rc-v>
+<rc-h>3244</rc-h>
+<rc-lat>33.886016</rc-lat>
+<rc-lon>-91.501275</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>390</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>012790</exch>
+<rc>Tillar</rc>
+<region>AR</region>
+<switch>TLLRARXARS0</switch>
+<switchname></switchname>
+<switchtype>1RE</switchtype>
+<ocn>1142</ocn>
+<company-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7859</rc-v>
+<rc-h>3220</rc-h>
+<rc-lat>33.717236</rc-lat>
+<rc-lon>-91.449957</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARIF9MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>401</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7656</ocn>
+<company-name>WINDSTREAM COMMUNICATIONS, INC. - AR                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>412</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>PNBLAREK0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>413</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>415</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>417</nxx>
+<x>A</x>
+<exch>011270</exch>
+<rc>Lake Village</rc>
+<region>AR</region>
+<switch>PNBLAREKAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7921</rc-v>
+<rc-h>3157</rc-h>
+<rc-lat>33.333146</rc-lat>
+<rc-lon>-91.283027</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>419</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>440</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>441</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>444</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>048G</ocn>
+<company-name>TCA COMMUNICATIONS, LLC DBA SUDDENLINK COMM - AR          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>452</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>PNBLAREU1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6591</ocn>
+<company-name>TELETOUCH COMMUNICATIONS, INC.                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>454</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>PNBLARIFVMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>460</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>MNTIARMADS0</switch>
+<switchname>MONTICELLO</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>461</nxx>
+<x>A</x>
+<exch>012380</exch>
+<rc>Rison</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1698</ilec-ocn>
+<ilec-name>CLEVELAND COUNTY TELEPHONE CO., INC.                      </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7868</rc-v>
+<rc-h>3363</rc-h>
+<rc-lat>33.959942</rc-lat>
+<rc-lon>-92.184191</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>463</nxx>
+<x>A</x>
+<exch>010970</exch>
+<rc>Hermitage</rc>
+<region>AR</region>
+<switch>HRMTARXARS0</switch>
+<switchname></switchname>
+<switchtype>1RE</switchtype>
+<ocn>1702</ocn>
+<company-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1702</ilec-ocn>
+<ilec-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7967</rc-v>
+<rc-h>3315</rc-h>
+<rc-lat>33.450738</rc-lat>
+<rc-lon>-92.173467</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>465</nxx>
+<x>A</x>
+<exch>009520</exch>
+<rc>Banks</rc>
+<region>AR</region>
+<switch>BNKSARXARS0</switch>
+<switchname>BANKS</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1702</ocn>
+<company-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1702</ilec-ocn>
+<ilec-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7948</rc-v>
+<rc-h>3342</rc-h>
+<rc-lat>33.583027</rc-lat>
+<rc-lon>-92.264137</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>466</nxx>
+<x>A</x>
+<exch>012980</exch>
+<rc>Warren</rc>
+<region>AR</region>
+<switch>PNBLARIFPMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7926</rc-v>
+<rc-h>3312</rc-h>
+<rc-lat>33.617072</rc-lat>
+<rc-lon>-92.063913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>469</nxx>
+<x>A</x>
+<exch>013080</exch>
+<rc>Wilmar</rc>
+<region>AR</region>
+<switch>WLMRARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7912</rc-v>
+<rc-h>3291</rc-h>
+<rc-lat>33.634812</rc-lat>
+<rc-lon>-91.926906</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>472</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>PNBLAREU1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6591</ocn>
+<company-name>TELETOUCH COMMUNICATIONS, INC.                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>473</nxx>
+<x>A</x>
+<exch>013090</exch>
+<rc>Wilmot</rc>
+<region>AR</region>
+<switch>WLMTARXADS0</switch>
+<switchname></switchname>
+<switchtype>DMS</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7999</rc-v>
+<rc-h>3178</rc-h>
+<rc-lat>33.048286</rc-lat>
+<rc-lon>-91.568674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>479</nxx>
+<x>A</x>
+<exch>010740</exch>
+<rc>Grady</rc>
+<region>AR</region>
+<switch>GRDYARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7807</rc-v>
+<rc-h>3295</rc-h>
+<rc-lat>34.082832</rc-lat>
+<rc-lon>-91.701791</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>484</nxx>
+<x>A</x>
+<exch>012530</exch>
+<rc>Sheridan</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7818</rc-v>
+<rc-h>3429</rc-h>
+<rc-lat>34.298128</rc-lat>
+<rc-lon>-92.399369</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>498</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>CMDNARCURS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>500</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>501</nxx>
+<x>A</x>
+<exch>011650</exch>
+<rc>McGehee</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>3204</rc-h>
+<rc-lat>33.631198</rc-lat>
+<rc-lon>-91.400983</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>502</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>510</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>515</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>524</nxx>
+<x>A</x>
+<exch>012950</exch>
+<rc>Waldo</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>048G</ocn>
+<company-name>TCA COMMUNICATIONS, LLC DBA SUDDENLINK COMM - AR          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1144</ilec-ocn>
+<ilec-name>CENTURYTEL CENTRAL ARKANSAS, LLC DBA CENTURYLINK          </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8071</rc-v>
+<rc-h>3492</rc-h>
+<rc-lat>33.352418</rc-lat>
+<rc-lon>-93.291881</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>533</nxx>
+<x>A</x>
+<exch>012660</exch>
+<rc>Stamps</rc>
+<region>AR</region>
+<switch>STMPARMARS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>3526</rc-h>
+<rc-lat>33.357516</rc-lat>
+<rc-lon>-93.493066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>534</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>535</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>536</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>538</nxx>
+<x>A</x>
+<exch>010250</exch>
+<rc>Dermott</rc>
+<region>AR</region>
+<switch>DRMTARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7895</rc-v>
+<rc-h>3200</rc-h>
+<rc-lat>33.527061</rc-lat>
+<rc-lon>-91.435069</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>540</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>541</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>543</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>546</nxx>
+<x>A</x>
+<exch>011950</exch>
+<rc>Norphlet</rc>
+<region>AR</region>
+<switch>NRPHARMARS2</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8031</rc-v>
+<rc-h>3385</rc-h>
+<rc-lat>33.316901</rc-lat>
+<rc-lon>-92.668145</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>547</nxx>
+<x>A</x>
+<exch>010410</exch>
+<rc>Emerson</rc>
+<region>AR</region>
+<switch>EMSNARXADS0</switch>
+<switchname>EMERSON</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1724</ocn>
+<company-name>SOUTHWEST ARKANSAS TELEPHONE COOPERATIVE, INC.            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1724</ilec-ocn>
+<ilec-name>SOUTHWEST ARKANSAS TELEPHONE COOPERATIVE, INC.            </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8113</rc-v>
+<rc-h>3453</rc-h>
+<rc-lat>33.101011</rc-lat>
+<rc-lon>-93.191595</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>554</nxx>
+<x>A</x>
+<exch>011790</exch>
+<rc>Mount Holly</rc>
+<region>AR</region>
+<switch>MTHLARMARS2</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8056</rc-v>
+<rc-h>3430</rc-h>
+<rc-lat>33.297774</rc-lat>
+<rc-lon>-92.948874</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>560</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAR34CM0</switch>
+<switchname></switchname>
+<switchtype>G3E</switchtype>
+<ocn>6591</ocn>
+<company-name>TELETOUCH COMMUNICATIONS, INC.                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch>CRSTARXADS0</switch>
+<switchname>CROSSETT</switchname>
+<switchtype>DS1</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>CMDNARSHRS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>575</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>590</nxx>
+<x>A</x>
+<exch>012560</exch>
+<rc>Smackover</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8026</rc-v>
+<rc-h>3400</rc-h>
+<rc-lat>33.366784</rc-lat>
+<rc-lon>-92.731473</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>592</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>596</nxx>
+<x>A</x>
+<exch>012910</exch>
+<rc>Village</rc>
+<region>AR</region>
+<switch>VLLGARMARS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8071</rc-v>
+<rc-h>3443</rc-h>
+<rc-lat>33.259295</rc-lat>
+<rc-lon>-93.047471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>599</nxx>
+<x>A</x>
+<exch>010300</exch>
+<rc>Dodge City</rc>
+<region>AR</region>
+<switch>DDCYARXARS0</switch>
+<switchname></switchname>
+<switchtype>DCL</switchtype>
+<ocn>1727</ocn>
+<company-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1727</ilec-ocn>
+<ilec-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8113</rc-v>
+<rc-h>3408</rc-h>
+<rc-lat>33.015321</rc-lat>
+<rc-lon>-92.967882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>608</nxx>
+<x>A</x>
+<exch>009560</exch>
+<rc>Bearden</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7945</rc-v>
+<rc-h>3414</rc-h>
+<rc-lat>33.73484</rc-lat>
+<rc-lon>-92.616664</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>618</nxx>
+<x>A</x>
+<exch>012670</exch>
+<rc>Star City</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>802C</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - AR                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7846</rc-v>
+<rc-h>3306</rc-h>
+<rc-lat>33.940977</rc-lat>
+<rc-lon>-91.848059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-31 00:55:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>619</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAREKAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>626</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>PNBLAREK0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>628</nxx>
+<x>A</x>
+<exch>012670</exch>
+<rc>Star City</rc>
+<region>AR</region>
+<switch>STCYARXADS0</switch>
+<switchname></switchname>
+<switchtype>DSF</switchtype>
+<ocn>1142</ocn>
+<company-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1142</ilec-ocn>
+<ilec-name>CENTURYTEL NW AR-RUSSELVL DBA CENTURYLINK-RUSSELLV        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7846</rc-v>
+<rc-h>3306</rc-h>
+<rc-lat>33.940977</rc-lat>
+<rc-lon>-91.848059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>011270</exch>
+<rc>Lake Village</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7921</rc-v>
+<rc-h>3157</rc-h>
+<rc-lat>33.333146</rc-lat>
+<rc-lon>-91.283027</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>PNBLAREKAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>643</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>644</nxx>
+<x>A</x>
+<exch>013000</exch>
+<rc>Watson</rc>
+<region>AR</region>
+<switch>WTSNARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7809</rc-v>
+<rc-h>3203</rc-h>
+<rc-lat>33.892632</rc-lat>
+<rc-lon>-91.247587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>661</nxx>
+<x>A</x>
+<exch>012600</exch>
+<rc>Sparkman</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>3469</rc-h>
+<rc-lat>33.916287</rc-lat>
+<rc-lon>-92.851002</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAREKAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>665</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>671</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>675</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>677</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>012600</exch>
+<rc>Sparkman</rc>
+<region>AR</region>
+<switch>SPRKARXARS1</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>3469</rc-h>
+<rc-lat>33.916287</rc-lat>
+<rc-lon>-92.851002</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>685</nxx>
+<x>A</x>
+<exch>009970</exch>
+<rc>Chidester</rc>
+<region>AR</region>
+<switch>CHDSARMARS1</switch>
+<switchname>CHIDESTER</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7982</rc-v>
+<rc-h>3477</rc-h>
+<rc-lat>33.699652</rc-lat>
+<rc-lon>-93.016207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>687</nxx>
+<x>A</x>
+<exch>009560</exch>
+<rc>Bearden</rc>
+<region>AR</region>
+<switch>BRDNARXARS1</switch>
+<switchname>BEARDEN</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7945</rc-v>
+<rc-h>3414</rc-h>
+<rc-lat>33.73484</rc-lat>
+<rc-lon>-92.616664</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>011440</exch>
+<rc>Louann</rc>
+<region>AR</region>
+<switch>LONNARXARS0</switch>
+<switchname></switchname>
+<switchtype>1RE</switchtype>
+<ocn>1702</ocn>
+<company-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1702</ilec-ocn>
+<ilec-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8026</rc-v>
+<rc-h>3412</rc-h>
+<rc-lat>33.389808</rc-lat>
+<rc-lon>-92.791266</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>690</nxx>
+<x>A</x>
+<exch>011650</exch>
+<rc>McGehee</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>3204</rc-h>
+<rc-lat>33.631198</rc-lat>
+<rc-lon>-91.400983</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>692</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>693</nxx>
+<x>A</x>
+<exch>012950</exch>
+<rc>Waldo</rc>
+<region>AR</region>
+<switch>WALDARXADS0</switch>
+<switchname></switchname>
+<switchtype>DSF</switchtype>
+<ocn>1144</ocn>
+<company-name>CENTURYTEL CENTRAL ARKANSAS, LLC DBA CENTURYLINK          </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1144</ilec-ocn>
+<ilec-name>CENTURYTEL CENTRAL ARKANSAS, LLC DBA CENTURYLINK          </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8071</rc-v>
+<rc-h>3492</rc-h>
+<rc-lat>33.352418</rc-lat>
+<rc-lon>-93.291881</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>694</nxx>
+<x>A</x>
+<exch>012780</exch>
+<rc>Taylor</rc>
+<region>AR</region>
+<switch>TAYLARXADS0</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1144</ocn>
+<company-name>CENTURYTEL CENTRAL ARKANSAS, LLC DBA CENTURYLINK          </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1144</ilec-ocn>
+<ilec-name>CENTURYTEL CENTRAL ARKANSAS, LLC DBA CENTURYLINK          </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8133</rc-v>
+<rc-h>3498</rc-h>
+<rc-lat>33.101687</rc-lat>
+<rc-lon>-93.460336</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>695</nxx>
+<x>A</x>
+<exch>011660</exch>
+<rc>McNeil</rc>
+<region>AR</region>
+<switch>MCNLARMARS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8065</rc-v>
+<rc-h>3478</rc-h>
+<rc-lat>33.351206</rc-lat>
+<rc-lon>-93.208519</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>696</nxx>
+<x>A</x>
+<exch>011470</exch>
+<rc>Macedonia</rc>
+<region>AR</region>
+<switch>MCDNARMARS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8104</rc-v>
+<rc-h>3477</rc-h>
+<rc-lat>33.184561</rc-lat>
+<rc-lon>-93.290968</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>699</nxx>
+<x>A</x>
+<exch>012300</exch>
+<rc>Prattsville</rc>
+<region>AR</region>
+<switch>PRVIARXARS1</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7827</rc-v>
+<rc-h>3455</rc-h>
+<rc-lat>34.310516</rc-lat>
+<rc-lon>-92.551014</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>708</nxx>
+<x>A</x>
+<exch>012950</exch>
+<rc>Waldo</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>048G</ocn>
+<company-name>TCA COMMUNICATIONS, LLC DBA SUDDENLINK COMM - AR          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1144</ilec-ocn>
+<ilec-name>CENTURYTEL CENTRAL ARKANSAS, LLC DBA CENTURYLINK          </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8071</rc-v>
+<rc-h>3492</rc-h>
+<rc-lat>33.352418</rc-lat>
+<rc-lon>-93.291881</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>713</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>425J</ocn>
+<company-name>CSC WIRELESS, LLC                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-04-11 01:10:24</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>717</nxx>
+<x>A</x>
+<exch>009410</exch>
+<rc>Altheimer</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7772</rc-v>
+<rc-h>3339</rc-h>
+<rc-lat>34.315905</rc-lat>
+<rc-lon>-91.839984</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>718</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>723</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>725</nxx>
+<x>A</x>
+<exch>012560</exch>
+<rc>Smackover</rc>
+<region>AR</region>
+<switch>SMCKARMARS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8026</rc-v>
+<rc-h>3400</rc-h>
+<rc-lat>33.366784</rc-lat>
+<rc-lon>-92.731473</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEQMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7277</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC - AR            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>730</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>737</nxx>
+<x>A</x>
+<exch>012280</exch>
+<rc>Portland</rc>
+<region>AR</region>
+<switch>PTLDARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7956</rc-v>
+<rc-h>3186</rc-h>
+<rc-lat>33.244107</rc-lat>
+<rc-lon>-91.508228</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>742</nxx>
+<x>A</x>
+<exch>012700</exch>
+<rc>Strong</rc>
+<region>AR</region>
+<switch>PNBLARIFWMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8048</rc-v>
+<rc-h>3315</rc-h>
+<rc-lat>33.110292</rc-lat>
+<rc-lon>-92.359149</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>745</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>PNBLAREU1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6591</ocn>
+<company-name>TELETOUCH COMMUNICATIONS, INC.                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>748</nxx>
+<x>A</x>
+<exch>009820</exch>
+<rc>Calion</rc>
+<region>AR</region>
+<switch>CALNARMARS2</switch>
+<switchname>CALION</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8020</rc-v>
+<rc-h>3365</rc-h>
+<rc-lat>33.324705</rc-lat>
+<rc-lon>-92.543589</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>765</nxx>
+<x>A</x>
+<exch>011330</exch>
+<rc>Leola</rc>
+<region>AR</region>
+<switch>LEOLARXARS1</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7858</rc-v>
+<rc-h>3449</rc-h>
+<rc-lat>34.168488</rc-lat>
+<rc-lon>-92.592355</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>766</nxx>
+<x>A</x>
+<exch>009410</exch>
+<rc>Altheimer</rc>
+<region>AR</region>
+<switch>ALTHARMARS2</switch>
+<switchname>ALTHEIMER</switchname>
+<switchtype>DRL</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7772</rc-v>
+<rc-h>3339</rc-h>
+<rc-lat>34.315905</rc-lat>
+<rc-lon>-91.839984</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>786</nxx>
+<x>A</x>
+<exch>012680</exch>
+<rc>Stephens</rc>
+<region>AR</region>
+<switch>STPHARMARS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8041</rc-v>
+<rc-h>3460</rc-h>
+<rc-lat>33.418292</rc-lat>
+<rc-lon>-93.064636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>788</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>791</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>PNBLAR081MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>794</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>012700</exch>
+<rc>Strong</rc>
+<region>AR</region>
+<switch>STRNARMARS2</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8048</rc-v>
+<rc-h>3315</rc-h>
+<rc-lat>33.110292</rc-lat>
+<rc-lon>-92.359149</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>798</nxx>
+<x>A</x>
+<exch>010850</exch>
+<rc>Hampton</rc>
+<region>AR</region>
+<switch>HMPNARXADS0</switch>
+<switchname>HAMPTON</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1702</ocn>
+<company-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1702</ilec-ocn>
+<ilec-name>SOUTH ARKANSAS TELEPHONE CO., INC.                        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7973</rc-v>
+<rc-h>3371</rc-h>
+<rc-lat>33.534065</rc-lat>
+<rc-lon>-92.466079</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>807</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>814</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>818</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-16 01:51:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>012980</exch>
+<rc>Warren</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7926</rc-v>
+<rc-h>3312</rc-h>
+<rc-lat>33.617072</rc-lat>
+<rc-lon>-92.063913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>831</nxx>
+<x>A</x>
+<exch>010840</exch>
+<rc>Hamburg</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7981</rc-v>
+<rc-h>3233</rc-h>
+<rc-lat>33.231841</rc-lat>
+<rc-lon>-91.798863</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>833</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>835</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-18 01:01:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>836</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>CMDNARTERS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>837</nxx>
+<x>A</x>
+<exch>009830</exch>
+<rc>Camden</rc>
+<region>AR</region>
+<switch>CMDNARTERS1</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7991</rc-v>
+<rc-h>3435</rc-h>
+<rc-lat>33.581403</rc-lat>
+<rc-lon>-92.826553</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>843</nxx>
+<x>A</x>
+<exch>011190</exch>
+<rc>Junction City</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1727</ilec-ocn>
+<ilec-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>3368</rc-h>
+<rc-lat>33.018846</rc-lat>
+<rc-lon>-92.726494</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>850</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARJEDS0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>010840</exch>
+<rc>Hamburg</rc>
+<region>AR</region>
+<switch>HMBGARMARS1</switch>
+<switchname></switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7981</rc-v>
+<rc-h>3233</rc-h>
+<rc-lat>33.231841</rc-lat>
+<rc-lon>-91.798863</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>858</nxx>
+<x>A</x>
+<exch>012600</exch>
+<rc>Sparkman</rc>
+<region>AR</region>
+<switch>FRDYARXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>3469</rc-h>
+<rc-lat>33.916287</rc-lat>
+<rc-lon>-92.851002</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>862</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>ELDOARMADS0</switch>
+<switchname>EL DORADO</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>863</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>ELDOARMADS0</switch>
+<switchname>EL DORADO</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>ELDOARMADS0</switch>
+<switchname>EL DORADO</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>866</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>872</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>875</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>ELDOARMADS0</switch>
+<switchname>EL DORADO</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>877</nxx>
+<x>A</x>
+<exch>009450</exch>
+<rc>Arkansas City</rc>
+<region>AR</region>
+<switch>MCGHARMADS0</switch>
+<switchname>MCGEHEE</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7861</rc-v>
+<rc-h>3170</rc-h>
+<rc-lat>33.609753</rc-lat>
+<rc-lon>-91.206385</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARWCDS0</switch>
+<switchname></switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>881</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch>ELDOARMADS0</switch>
+<switchname>EL DORADO</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>883</nxx>
+<x>A</x>
+<exch>012530</exch>
+<rc>Sheridan</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7818</rc-v>
+<rc-h>3429</rc-h>
+<rc-lat>34.298128</rc-lat>
+<rc-lon>-92.399369</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>010540</exch>
+<rc>Fordyce</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7915</rc-v>
+<rc-h>3388</rc-h>
+<rc-lat>33.810897</rc-lat>
+<rc-lon>-92.417801</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>885</nxx>
+<x>A</x>
+<exch>009560</exch>
+<rc>Bearden</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7945</rc-v>
+<rc-h>3414</rc-h>
+<rc-lat>33.73484</rc-lat>
+<rc-lon>-92.616664</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>890</nxx>
+<x>A</x>
+<exch>010540</exch>
+<rc>Fordyce</rc>
+<region>AR</region>
+<switch>PNBLAREKAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5179</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - AR                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7915</rc-v>
+<rc-h>3388</rc-h>
+<rc-lat>33.810897</rc-lat>
+<rc-lon>-92.417801</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>893</nxx>
+<x>A</x>
+<exch>010540</exch>
+<rc>Fordyce</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7915</rc-v>
+<rc-h>3388</rc-h>
+<rc-lat>33.810897</rc-lat>
+<rc-lon>-92.417801</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>894</nxx>
+<x>A</x>
+<exch>009760</exch>
+<rc>Bradley</rc>
+<region>AR</region>
+<switch>BRDLARXARS0</switch>
+<switchname>BRADLEY</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1729</ocn>
+<company-name>WALNUT HILL TELEPHONE CO.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1729</ilec-ocn>
+<ilec-name>WALNUT HILL TELEPHONE CO.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8147</rc-v>
+<rc-h>3530</rc-h>
+<rc-lat>33.102713</rc-lat>
+<rc-lon>-93.65095</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>901</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>MGNLARMADS0</switch>
+<switchname>MAGNOLIA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>904</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>914</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>917</nxx>
+<x>A</x>
+<exch>012530</exch>
+<rc>Sheridan</rc>
+<region>AR</region>
+<switch>SHRDARXADS0</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7818</rc-v>
+<rc-h>3429</rc-h>
+<rc-lat>34.298128</rc-lat>
+<rc-lon>-92.399369</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>918</nxx>
+<x>A</x>
+<exch>010370</exch>
+<rc>El Dorado</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8051</rc-v>
+<rc-h>3376</rc-h>
+<rc-lat>33.21536</rc-lat>
+<rc-lon>-92.668809</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-16 01:51:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>920</nxx>
+<x>A</x>
+<exch>012980</exch>
+<rc>Warren</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>240H</ocn>
+<company-name>AIRECAST, LLC - AR                                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7926</rc-v>
+<rc-h>3312</rc-h>
+<rc-lat>33.617072</rc-lat>
+<rc-lon>-92.063913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>921</nxx>
+<x>A</x>
+<exch>011370</exch>
+<rc>Lewisville</rc>
+<region>AR</region>
+<switch>LWVLARXADS0</switch>
+<switchname>LEWISVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1729</ocn>
+<company-name>WALNUT HILL TELEPHONE CO.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1729</ilec-ocn>
+<ilec-name>WALNUT HILL TELEPHONE CO.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8088</rc-v>
+<rc-h>3541</rc-h>
+<rc-lat>33.37309</rc-lat>
+<rc-lon>-93.574754</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>924</nxx>
+<x>A</x>
+<exch>011190</exch>
+<rc>Junction City</rc>
+<region>AR</region>
+<switch>JNCYARXADS0</switch>
+<switchname>JUNCTION CITY</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1727</ocn>
+<company-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1727</ilec-ocn>
+<ilec-name>CENTURYTEL OF SOUTH ARKANSAS, INC. DBA CENTURYLINK        </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>3368</rc-h>
+<rc-lat>33.018846</rc-lat>
+<rc-lon>-92.726494</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>939</nxx>
+<x>A</x>
+<exch>012200</exch>
+<rc>Pine Bluff</rc>
+<region>AR</region>
+<switch>PNBLARIFUMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>802C</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - AR                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7803</rc-v>
+<rc-h>3358</rc-h>
+<rc-lat>34.223073</rc-lat>
+<rc-lon>-92.007885</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>940</nxx>
+<x>A</x>
+<exch>010840</exch>
+<rc>Hamburg</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7981</rc-v>
+<rc-h>3233</rc-h>
+<rc-lat>33.231841</rc-lat>
+<rc-lon>-91.798863</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>941</nxx>
+<x>A</x>
+<exch>012530</exch>
+<rc>Sheridan</rc>
+<region>AR</region>
+<switch>SHRDARXADS0</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7818</rc-v>
+<rc-h>3429</rc-h>
+<rc-lat>34.298128</rc-lat>
+<rc-lon>-92.399369</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>942</nxx>
+<x>A</x>
+<exch>012530</exch>
+<rc>Sheridan</rc>
+<region>AR</region>
+<switch>SHRDARXADS0</switch>
+<switchname></switchname>
+<switchtype>DMT</switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7818</rc-v>
+<rc-h>3429</rc-h>
+<rc-lat>34.298128</rc-lat>
+<rc-lon>-92.399369</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>943</nxx>
+<x>A</x>
+<exch>011090</exch>
+<rc>Huttig</rc>
+<region>AR</region>
+<switch>HTTGARMARS2</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8050</rc-v>
+<rc-h>3279</rc-h>
+<rc-lat>33.032046</rc-lat>
+<rc-lon>-92.185393</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>944</nxx>
+<x>A</x>
+<exch>012560</exch>
+<rc>Smackover</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8026</rc-v>
+<rc-h>3400</rc-h>
+<rc-lat>33.366784</rc-lat>
+<rc-lon>-92.731473</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>947</nxx>
+<x>A</x>
+<exch>012680</exch>
+<rc>Stephens</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8041</rc-v>
+<rc-h>3460</rc-h>
+<rc-lat>33.418292</rc-lat>
+<rc-lon>-93.064636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>949</nxx>
+<x>A</x>
+<exch>011490</exch>
+<rc>Magnolia</rc>
+<region>AR</region>
+<switch>PNBLAR231MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8084</rc-v>
+<rc-h>3476</rc-h>
+<rc-lat>33.267159</rc-lat>
+<rc-lon>-93.241185</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>951</nxx>
+<x>A</x>
+<exch>012700</exch>
+<rc>Strong</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8048</rc-v>
+<rc-h>3315</rc-h>
+<rc-lat>33.110292</rc-lat>
+<rc-lon>-92.359149</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>952</nxx>
+<x>A</x>
+<exch>012980</exch>
+<rc>Warren</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7926</rc-v>
+<rc-h>3312</rc-h>
+<rc-lat>33.617072</rc-lat>
+<rc-lon>-92.063913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>953</nxx>
+<x>A</x>
+<exch>012660</exch>
+<rc>Stamps</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>3526</rc-h>
+<rc-lat>33.357516</rc-lat>
+<rc-lon>-93.493066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>954</nxx>
+<x>A</x>
+<exch>011740</exch>
+<rc>Monticello</rc>
+<region>AR</region>
+<switch>PNBLAREU1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6591</ocn>
+<company-name>TELETOUCH COMMUNICATIONS, INC.                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7901</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>33.633919</rc-lat>
+<rc-lon>-91.7819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>962</nxx>
+<x>A</x>
+<exch>012890</exch>
+<rc>Urbana</rc>
+<region>AR</region>
+<switch>URBNARMARS2</switch>
+<switchname></switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8045</rc-v>
+<rc-h>3333</rc-h>
+<rc-lat>33.15773</rc-lat>
+<rc-lon>-92.441588</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>991</nxx>
+<x>A</x>
+<exch>009870</exch>
+<rc>Carthage</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7875</rc-v>
+<rc-h>3433</rc-h>
+<rc-lat>34.066095</rc-lat>
+<rc-lon>-92.551151</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>993</nxx>
+<x>A</x>
+<exch>010130</exch>
+<rc>Dalark</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7906</rc-v>
+<rc-h>3485</rc-h>
+<rc-lat>34.03544</rc-lat>
+<rc-lon>-92.883385</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>996</nxx>
+<x>A</x>
+<exch>013090</exch>
+<rc>Wilmot</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7999</rc-v>
+<rc-h>3178</rc-h>
+<rc-lat>33.048286</rc-lat>
+<rc-lon>-91.568674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>997</nxx>
+<x>A</x>
+<exch>010440</exch>
+<rc>Eudora</rc>
+<region>AR</region>
+<switch>FRDYARAD1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6805</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - AR              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>7963</rc-v>
+<rc-h>3132</rc-h>
+<rc-lat>33.107943</rc-lat>
+<rc-lon>-91.25788</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>870</npa>
+<nxx>999</nxx>
+<x>A</x>
+<exch>010100</exch>
+<rc>Crossett</rc>
+<region>AR</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1691</ocn>
+<company-name>WINDSTREAM ARKANSAS, INC.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1691</ilec-ocn>
+<ilec-name>WINDSTREAM ARKANSAS, INC.                                 </ilec-name>
+<lata>530</lata>
+<lir></lir>
+<rc-v>8013</rc-v>
+<rc-h>3250</rc-h>
+<rc-lat>33.130892</rc-lat>
+<rc-lon>-91.956909</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+</root>

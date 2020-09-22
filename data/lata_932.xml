@@ -1,0 +1,2756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>932</lata>
+</inputdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>202</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVAAKCM1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>210</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVAXAAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7238</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - VA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>201880</exch>
+<rc>Bluefield</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>425J</ocn>
+<company-name>CSC WIRELESS, LLC                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6321</rc-v>
+<rc-h>1995</rc-h>
+<rc-lat>37.257103</rc-lat>
+<rc-lon>-81.267389</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-23 03:01:15</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>201880</exch>
+<rc>Bluefield</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6321</rc-v>
+<rc-h>1995</rc-h>
+<rc-lat>37.257103</rc-lat>
+<rc-lon>-81.267389</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-17 00:19:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>241</nxx>
+<x>A</x>
+<exch>204110</exch>
+<rc>Oakwood</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>2098</rc-h>
+<rc-lat>37.207778</rc-lat>
+<rc-lon>-82.001026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-11 03:15:59</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>203110</exch>
+<rc>Grundy</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7229</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6393</rc-v>
+<rc-h>2120</rc-h>
+<rc-lat>37.276078</rc-lat>
+<rc-lon>-82.097224</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-21 02:17:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>203110</exch>
+<rc>Grundy</rc>
+<region>VA</region>
+<switch>GRNDVAXA1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6940</ocn>
+<company-name>EAST KENTUCKY NETWRK, LLC DBA APPALACHIAN WIRELESS        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6393</rc-v>
+<rc-h>2120</rc-h>
+<rc-lat>37.276078</rc-lat>
+<rc-lon>-82.097224</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>201880</exch>
+<rc>Bluefield</rc>
+<region>VA</region>
+<switch>RCLDVAAKCM1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6321</rc-v>
+<rc-h>1995</rc-h>
+<rc-lat>37.257103</rc-lat>
+<rc-lon>-81.267389</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>259</nxx>
+<x>A</x>
+<exch>202730</exch>
+<rc>Dwight</rc>
+<region>VA</region>
+<switch>DWGHVAXARL0</switch>
+<switchname>DWIGHT</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6381</rc-v>
+<rc-h>2092</rc-h>
+<rc-lat>37.256183</rc-lat>
+<rc-lon>-81.92367</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-17 00:19:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>204110</exch>
+<rc>Oakwood</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>2098</rc-h>
+<rc-lat>37.207778</rc-lat>
+<rc-lon>-82.001026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-08-23 10:27:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>312</nxx>
+<x>A</x>
+<exch>203110</exch>
+<rc>Grundy</rc>
+<region>VA</region>
+<switch>BLFDWVXAXDX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6393</rc-v>
+<rc-h>2120</rc-h>
+<rc-lat>37.276078</rc-lat>
+<rc-lon>-82.097224</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>322</nxx>
+<x>A</x>
+<exch>201880</exch>
+<rc>Bluefield</rc>
+<region>VA</region>
+<switch>BLFDVAXADS0</switch>
+<switchname>BLUEFIELD</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6321</rc-v>
+<rc-h>1995</rc-h>
+<rc-lat>37.257103</rc-lat>
+<rc-lon>-81.267389</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>201880</exch>
+<rc>Bluefield</rc>
+<region>VA</region>
+<switch>BLFDVAXADS0</switch>
+<switchname>BLUEFIELD</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6321</rc-v>
+<rc-h>1995</rc-h>
+<rc-lat>37.257103</rc-lat>
+<rc-lon>-81.267389</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>329</nxx>
+<x>A</x>
+<exch>204840</exch>
+<rc>Tazewell</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7773</ocn>
+<company-name>COMCAST PHONE OF VIRGINIA, INC. - VA                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6368</rc-v>
+<rc-h>2017</rc-h>
+<rc-lat>37.126773</rc-lat>
+<rc-lon>-81.516956</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>201800</exch>
+<rc>Big Prater</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>138E</ocn>
+<company-name>ONVOY, LLC  VA                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6413</rc-v>
+<rc-h>2129</rc-h>
+<rc-lat>37.21898</rc-lat>
+<rc-lon>-82.201169</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-17 00:19:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>345</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVA060MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>9809</ocn>
+<company-name>SUNSET FIBER - VA</company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>385</nxx>
+<x>A</x>
+<exch>204840</exch>
+<rc>Tazewell</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8571</ocn>
+<company-name>SPRINT SPECTRUM L.P.- VA                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6368</rc-v>
+<rc-h>2017</rc-h>
+<rc-lat>37.126773</rc-lat>
+<rc-lon>-81.516956</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-06 14:22:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>433</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>BLFDWVXAAMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4979</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - VA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>468</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7229</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-07-12 00:18:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>472</nxx>
+<x>A</x>
+<exch>202060</exch>
+<rc>Burkes Garden</rc>
+<region>VA</region>
+<switch>BRGRVAXA988</switch>
+<switchname>BURKES GARDEN</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0220</ocn>
+<company-name>BURKES GARDEN TELEPHONE CO., INC.                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0220</ilec-ocn>
+<ilec-name>BURKES GARDEN TELEPHONE CO., INC.                         </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6357</rc-v>
+<rc-h>1988</rc-h>
+<rc-lat>37.09969</rc-lat>
+<rc-lon>-81.342039</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>498</nxx>
+<x>A</x>
+<exch>204110</exch>
+<rc>Oakwood</rc>
+<region>VA</region>
+<switch>OKWDVAXARS1</switch>
+<switchname>OAKWOOD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>2098</rc-h>
+<rc-lat>37.207778</rc-lat>
+<rc-lon>-82.001026</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>528</nxx>
+<x>A</x>
+<exch>203300</exch>
+<rc>Hurley</rc>
+<region>VA</region>
+<switch>GRNDVAXA0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>210F</ocn>
+<company-name>MIKROTEC OF VIRGINIA, LLC - VA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6360</rc-v>
+<rc-h>2124</rc-h>
+<rc-lat>37.415168</rc-lat>
+<rc-lon>-82.01814</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>530</nxx>
+<x>A</x>
+<exch>201810</exch>
+<rc>Big Rock</rc>
+<region>VA</region>
+<switch>BGRKVAXARL0</switch>
+<switchname>BIG ROCK</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6385</rc-v>
+<rc-h>2142</rc-h>
+<rc-lat>37.360024</rc-lat>
+<rc-lon>-82.18164</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>531</nxx>
+<x>A</x>
+<exch>203710</exch>
+<rc>Maxie</rc>
+<region>VA</region>
+<switch>MAXIVAXARL0</switch>
+<switchname>MAXIE</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2136</rc-h>
+<rc-lat>37.290698</rc-lat>
+<rc-lon>-82.193882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>566</nxx>
+<x>A</x>
+<exch>203300</exch>
+<rc>Hurley</rc>
+<region>VA</region>
+<switch>HRLYVAXARL0</switch>
+<switchname>HURLEY</switchname>
+<switchtype>RLC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6360</rc-v>
+<rc-h>2124</rc-h>
+<rc-lat>37.415168</rc-lat>
+<rc-lon>-82.01814</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>596</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVAXADS0</switch>
+<switchname>RICHLANDS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>597</nxx>
+<x>A</x>
+<exch>201800</exch>
+<rc>Big Prater</rc>
+<region>VA</region>
+<switch>BGPRVAXARS0</switch>
+<switchname>BIG PRATER</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6413</rc-v>
+<rc-h>2129</rc-h>
+<rc-lat>37.21898</rc-lat>
+<rc-lon>-82.201169</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>598</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>028G</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (VIRGINIA), VA         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>701</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVAAKCM1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>722</nxx>
+<x>A</x>
+<exch>204450</exch>
+<rc>Rocky Gap</rc>
+<region>VA</region>
+<switch>RCLDVAAKCM1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6309</rc-v>
+<rc-h>1970</rc-h>
+<rc-lat>37.243181</rc-lat>
+<rc-lon>-81.108787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>881</nxx>
+<x>A</x>
+<exch>203370</exch>
+<rc>Jewell Ridge</rc>
+<region>VA</region>
+<switch>JWRGVAXARS0</switch>
+<switchname>JEWELL RIDGE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6382</rc-v>
+<rc-h>2063</rc-h>
+<rc-lat>37.182698</rc-lat>
+<rc-lon>-81.784327</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>928</nxx>
+<x>A</x>
+<exch>204450</exch>
+<rc>Rocky Gap</rc>
+<region>VA</region>
+<switch>RCGPVAXARS0</switch>
+<switchname>ROCKY GAP</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6309</rc-v>
+<rc-h>1970</rc-h>
+<rc-lat>37.243181</rc-lat>
+<rc-lon>-81.108787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>935</nxx>
+<x>A</x>
+<exch>203110</exch>
+<rc>Grundy</rc>
+<region>VA</region>
+<switch>GRNDVAXBRS0</switch>
+<switchname>GRUNDY 1</switchname>
+<switchtype>RSS</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6393</rc-v>
+<rc-h>2120</rc-h>
+<rc-lat>37.276078</rc-lat>
+<rc-lon>-82.097224</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>945</nxx>
+<x>A</x>
+<exch>204260</exch>
+<rc>Pocahontas</rc>
+<region>VA</region>
+<switch>PCHNVAXARS0</switch>
+<switchname>POCAHONTAS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6318</rc-v>
+<rc-h>2012</rc-h>
+<rc-lat>37.309922</rc-lat>
+<rc-lon>-81.341523</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>963</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVAXADS0</switch>
+<switchname>RICHLANDS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>964</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVAXADS0</switch>
+<switchname>RICHLANDS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>970</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>BLFDWVXAX9X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>971</nxx>
+<x>A</x>
+<exch>204400</exch>
+<rc>Richlands</rc>
+<region>VA</region>
+<switch>RCLDVAAKCM1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>6827</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - VA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>2056</rc-h>
+<rc-lat>37.099277</rc-lat>
+<rc-lon>-81.800963</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>979</nxx>
+<x>A</x>
+<exch>204840</exch>
+<rc>Tazewell</rc>
+<region>VA</region>
+<switch>TZWLVAXADS0</switch>
+<switchname>TAZEWELL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6368</rc-v>
+<rc-h>2017</rc-h>
+<rc-lat>37.126773</rc-lat>
+<rc-lon>-81.516956</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>276</npa>
+<nxx>988</nxx>
+<x>A</x>
+<exch>204840</exch>
+<rc>Tazewell</rc>
+<region>VA</region>
+<switch>TZWLVAXADS0</switch>
+<switchname>TAZEWELL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>4337</ocn>
+<company-name>VERIZON SOUTH INC.-VA                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4337</ilec-ocn>
+<ilec-name>VERIZON SOUTH INC.-VA                                     </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6368</rc-v>
+<rc-h>2017</rc-h>
+<rc-lat>37.126773</rc-lat>
+<rc-lon>-81.516956</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>248</nxx>
+<x>A</x>
+<exch>215550</exch>
+<rc>Bramwell</rc>
+<region>WV</region>
+<switch>BRWLWVXARS0</switch>
+<switchname>BRAMWELL</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6313</rc-v>
+<rc-h>2009</rc-h>
+<rc-lat>37.322078</rc-lat>
+<rc-lon>-81.311719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>297</nxx>
+<x>A</x>
+<exch>215830</exch>
+<rc>Coalwood</rc>
+<region>WV</region>
+<switch>CLWDWVXARS0</switch>
+<switchname>COALWOOD</switchname>
+<switchtype>RDE</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6333</rc-v>
+<rc-h>2066</rc-h>
+<rc-lat>37.381689</rc-lat>
+<rc-lon>-81.651683</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>215420</exch>
+<rc>Athens</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>391E</ocn>
+<company-name>CEBRIDGE TELECOM WV, LLC DBA SUDDENLINK COMMS - WV        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6267</rc-v>
+<rc-h>1977</rc-h>
+<rc-lat>37.424052</rc-lat>
+<rc-lon>-81.014981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>308</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6394</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - WV              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAX9X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXADS0</switch>
+<switchname>BLUEFIELD</switchname>
+<switchtype>D12</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>324</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXADS0</switch>
+<switchname>BLUEFIELD</switchname>
+<switchtype>D12</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXADS0</switch>
+<switchname>BLUEFIELD</switchname>
+<switchtype>D12</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>327</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXADS0</switch>
+<switchname>BLUEFIELD</switchname>
+<switchtype>D12</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>215370</exch>
+<rc>Anawalt</rc>
+<region>WV</region>
+<switch>ANWLWVXARS0</switch>
+<switchname>ANAWALT</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>2028</rc-h>
+<rc-lat>37.333003</rc-lat>
+<rc-lon>-81.432018</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>384</nxx>
+<x>A</x>
+<exch>215420</exch>
+<rc>Athens</rc>
+<region>WV</region>
+<switch>ATHNWVXARS2</switch>
+<switchname>ATHENS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6267</rc-v>
+<rc-h>1977</rc-h>
+<rc-lat>37.424052</rc-lat>
+<rc-lon>-81.014981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>396</nxx>
+<x>A</x>
+<exch>216830</exch>
+<rc>Oakvale</rc>
+<region>WV</region>
+<switch>BLFDWVXAXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6394</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - WV              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6279</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>37.331135</rc-lat>
+<rc-lon>-80.958684</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>409</nxx>
+<x>A</x>
+<exch>215530</exch>
+<rc>Bluewell</rc>
+<region>WV</region>
+<switch>BLFDWVXA1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>9944</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6305</rc-v>
+<rc-h>1993</rc-h>
+<rc-lat>37.314156</rc-lat>
+<rc-lon>-81.209275</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>425</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch>PRTNWVXARS1</switch>
+<switchname>PRINCETON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>431</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch>PRTNWVXARS1</switch>
+<switchname>PRINCETON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>436</nxx>
+<x>A</x>
+<exch>217460</exch>
+<rc>Welch</rc>
+<region>WV</region>
+<switch>WLCHWVXARS0</switch>
+<switchname>WELCH</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6317</rc-v>
+<rc-h>2062</rc-h>
+<rc-lat>37.436174</rc-lat>
+<rc-lon>-81.583081</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>448</nxx>
+<x>A</x>
+<exch>216120</exch>
+<rc>Gary</rc>
+<region>WV</region>
+<switch>GARYWVXARS0</switch>
+<switchname>GARY</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>2049</rc-h>
+<rc-lat>37.364165</rc-lat>
+<rc-lon>-81.550122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>467</nxx>
+<x>A</x>
+<exch>216620</exch>
+<rc>Matoaka</rc>
+<region>WV</region>
+<switch>MATKWVXARS3</switch>
+<switchname>MATOAKA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6288</rc-v>
+<rc-h>2010</rc-h>
+<rc-lat>37.422441</rc-lat>
+<rc-lon>-81.240539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>487</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch>PRTNWVXARS1</switch>
+<switchname>PRINCETON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>557</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6394</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - WV              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-17 01:48:48</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>585</nxx>
+<x>A</x>
+<exch>216440</exch>
+<rc>Kimball</rc>
+<region>WV</region>
+<switch>KMBLWVXARS0</switch>
+<switchname>KIMBALL</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6312</rc-v>
+<rc-h>2049</rc-h>
+<rc-lat>37.423593</rc-lat>
+<rc-lon>-81.504432</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>215530</exch>
+<rc>Bluewell</rc>
+<region>WV</region>
+<switch>BLWLWVXARS0</switch>
+<switchname>BLUEWELL</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6305</rc-v>
+<rc-h>1993</rc-h>
+<rc-lat>37.314156</rc-lat>
+<rc-lon>-81.209275</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>656</nxx>
+<x>A</x>
+<exch>215880</exch>
+<rc>Davy</rc>
+<region>WV</region>
+<switch>DAVYWVXARS0</switch>
+<switchname>DAVY</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>2078</rc-h>
+<rc-lat>37.477581</rc-lat>
+<rc-lon>-81.659132</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>705</nxx>
+<x>A</x>
+<exch>217460</exch>
+<rc>Welch</rc>
+<region>WV</region>
+<switch>BLFDWVXA8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4095</ocn>
+<company-name>FIBERNET WV                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6317</rc-v>
+<rc-h>2062</rc-h>
+<rc-lat>37.436174</rc-lat>
+<rc-lon>-81.583081</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>716</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch>BLFDWVXAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>9944</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAPMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>545B</ocn>
+<company-name>CITYNET WEST VIRGINIA, LLC - WV                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>809</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAXTX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7849</ocn>
+<company-name>LUMOS NETWORKS INC. - VA                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXA8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4095</ocn>
+<company-name>FIBERNET WV                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>818</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch>BLFDWVXA8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4095</ocn>
+<company-name>FIBERNET WV                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>819</nxx>
+<x>A</x>
+<exch>215420</exch>
+<rc>Athens</rc>
+<region>WV</region>
+<switch>BLFDWVXA8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4095</ocn>
+<company-name>FIBERNET WV                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6267</rc-v>
+<rc-h>1977</rc-h>
+<rc-lat>37.424052</rc-lat>
+<rc-lon>-81.014981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>216630</exch>
+<rc>Maybeury</rc>
+<region>WV</region>
+<switch>MYBRWVXARS0</switch>
+<switchname>MAYBEURY</switchname>
+<switchtype>D12</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6311</rc-v>
+<rc-h>2023</rc-h>
+<rc-lat>37.363107</rc-lat>
+<rc-lon>-81.374518</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>862</nxx>
+<x>A</x>
+<exch>216810</exch>
+<rc>Northfork</rc>
+<region>WV</region>
+<switch>NRFKWVXARS0</switch>
+<switchname>NORTHFORK</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6306</rc-v>
+<rc-h>2037</rc-h>
+<rc-lat>37.417752</rc-lat>
+<rc-lon>-81.427491</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>875</nxx>
+<x>A</x>
+<exch>217410</exch>
+<rc>War</rc>
+<region>WV</region>
+<switch>WAR WVXADS0</switch>
+<switchname>WAR</switchname>
+<switchtype>DCO</switchtype>
+<ocn>0258</ocn>
+<company-name>WAR TELEPHONE LLC                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0258</ilec-ocn>
+<ilec-name>WAR TELEPHONE LLC                                         </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6350</rc-v>
+<rc-h>2064</rc-h>
+<rc-lat>37.310409</rc-lat>
+<rc-lon>-81.693072</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>887</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAX9X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAX9X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>216830</exch>
+<rc>Oakvale</rc>
+<region>WV</region>
+<switch>OKVAWVXARS1</switch>
+<switchname>OAKVALE</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6279</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>37.331135</rc-lat>
+<rc-lon>-80.958684</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>910</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8575</ocn>
+<company-name>SPRINT SPECTRUM L.P.- WV                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-10 02:16:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>913</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>391E</ocn>
+<company-name>CEBRIDGE TELECOM WV, LLC DBA SUDDENLINK COMMS - WV        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>920</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6284</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - WEST VIRGINIA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>921</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6284</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - WEST VIRGINIA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>922</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8575</ocn>
+<company-name>SPRINT SPECTRUM L.P.- WV                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-10 02:16:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>952</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAXUX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8575</ocn>
+<company-name>SPRINT SPECTRUM L.P.- WV                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>960</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6394</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - WV              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>961</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch>BLFDWVXAXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6394</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - WV              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>970</nxx>
+<x>A</x>
+<exch>216440</exch>
+<rc>Kimball</rc>
+<region>WV</region>
+<switch>BLFDWVXAXWX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4095</ocn>
+<company-name>FIBERNET WV                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6312</rc-v>
+<rc-h>2049</rc-h>
+<rc-lat>37.423593</rc-lat>
+<rc-lon>-81.504432</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>304</npa>
+<nxx>977</nxx>
+<x>A</x>
+<exch>216620</exch>
+<rc>Matoaka</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>391E</ocn>
+<company-name>CEBRIDGE TELECOM WV, LLC DBA SUDDENLINK COMMS - WV        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6288</rc-v>
+<rc-h>2010</rc-h>
+<rc-lat>37.422441</rc-lat>
+<rc-lon>-81.240539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>201</nxx>
+<x>A</x>
+<exch>217460</exch>
+<rc>Welch</rc>
+<region>WV</region>
+<switch>BLFDWVXAXZX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6317</rc-v>
+<rc-h>2062</rc-h>
+<rc-lat>37.436174</rc-lat>
+<rc-lon>-81.583081</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>225</nxx>
+<x>A</x>
+<exch>217410</exch>
+<rc>War</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0258</ilec-ocn>
+<ilec-name>WAR TELEPHONE LLC                                         </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6350</rc-v>
+<rc-h>2064</rc-h>
+<rc-lat>37.310409</rc-lat>
+<rc-lon>-81.693072</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>232</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>077G</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - WV                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>239</nxx>
+<x>A</x>
+<exch>216810</exch>
+<rc>Northfork</rc>
+<region>WV</region>
+<switch>BLFDWVXAXZX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6306</rc-v>
+<rc-h>2037</rc-h>
+<rc-lat>37.417752</rc-lat>
+<rc-lon>-81.427491</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>251</nxx>
+<x>A</x>
+<exch>216630</exch>
+<rc>Maybeury</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6311</rc-v>
+<rc-h>2023</rc-h>
+<rc-lat>37.363107</rc-lat>
+<rc-lon>-81.374518</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>255</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>RCLDVAXAAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7229</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>391E</ocn>
+<company-name>CEBRIDGE TELECOM WV, LLC DBA SUDDENLINK COMMS - WV        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>284</nxx>
+<x>A</x>
+<exch>215550</exch>
+<rc>Bramwell</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>146D</ocn>
+<company-name>COMCAST PHONE OF WEST VIRGINIA, LLC - WV                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6313</rc-v>
+<rc-h>2009</rc-h>
+<rc-lat>37.322078</rc-lat>
+<rc-lon>-81.311719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>289</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7229</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-29 01:25:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-29 14:13:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch>BLFDWVXAPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0270</ocn>
+<company-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>329</nxx>
+<x>A</x>
+<exch>215830</exch>
+<rc>Coalwood</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6333</rc-v>
+<rc-h>2066</rc-h>
+<rc-lat>37.381689</rc-lat>
+<rc-lon>-81.651683</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>434</nxx>
+<x>A</x>
+<exch>216120</exch>
+<rc>Gary</rc>
+<region>WV</region>
+<switch>BLFDWVXAXZX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>2049</rc-h>
+<rc-lat>37.364165</rc-lat>
+<rc-lon>-81.550122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>439</nxx>
+<x>A</x>
+<exch>217000</exch>
+<rc>Princeton</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>425J</ocn>
+<company-name>CSC WIRELESS, LLC                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6284</rc-v>
+<rc-h>1984</rc-h>
+<rc-lat>37.374925</rc-lat>
+<rc-lon>-81.101049</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-30 01:57:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>499</nxx>
+<x>A</x>
+<exch>215370</exch>
+<rc>Anawalt</rc>
+<region>WV</region>
+<switch>BLFDWVXAXZX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>2028</rc-h>
+<rc-lat>37.333003</rc-lat>
+<rc-lon>-81.432018</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>510</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-09 01:49:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>621</nxx>
+<x>A</x>
+<exch>215520</exch>
+<rc>Bluefield</rc>
+<region>WV</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>1991</rc-h>
+<rc-lat>37.266885</rc-lat>
+<rc-lon>-81.232676</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-02-07 11:23:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>681</npa>
+<nxx>729</nxx>
+<x>A</x>
+<exch>215880</exch>
+<rc>Davy</rc>
+<region>WV</region>
+<switch>BLFDWVXAXZX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>489F</ocn>
+<company-name>SHENTEL COMMUNICATIONS, LLC - WV                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0270</ilec-ocn>
+<ilec-name>CITIZENS TEL CO OF WV DBA FRONTIER OF WV                  </ilec-name>
+<lata>932</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>2078</rc-h>
+<rc-lat>37.477581</rc-lat>
+<rc-lon>-81.659132</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>45010</lata>
+</inputdata>
+<prefixdata>
+<npa>229</npa>
+<nxx>662</nxx>
+<x>A</x>
+<exch>032980</exch>
+<rc>Chattahoochee</rc>
+<region>GA</region>
+<switch>CHTHFLXADS0</switch>
+<switchname></switchname>
+<switchtype>EWS</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1829</rc-h>
+<rc-lat>30.716717</rc-lat>
+<rc-lon>-84.794117</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>029590</exch>
+<rc>Blountstown</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7948</rc-v>
+<rc-h>1842</rc-h>
+<rc-lat>30.439713</rc-lat>
+<rc-lon>-85.048406</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-12-02 14:09:24</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>031580</exch>
+<rc>Port St Joe</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8091</rc-v>
+<rc-h>1818</rc-h>
+<rc-lat>29.808776</rc-lat>
+<rc-lon>-85.298162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>031580</exch>
+<rc>Port St Joe</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8091</rc-v>
+<rc-h>1818</rc-h>
+<rc-lat>29.808776</rc-lat>
+<rc-lon>-85.298162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>237</nxx>
+<x>A</x>
+<exch>029590</exch>
+<rc>Blountstown</rc>
+<region>FL</region>
+<switch>BLTWFLXADS0</switch>
+<switchname>BLOUNTSTOWN</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7948</rc-v>
+<rc-h>1842</rc-h>
+<rc-lat>30.439713</rc-lat>
+<rc-lon>-85.048406</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>031580</exch>
+<rc>Port St Joe</rc>
+<region>FL</region>
+<switch>PNCYFLMAX0Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8091</rc-v>
+<rc-h>1818</rc-h>
+<rc-lat>29.808776</rc-lat>
+<rc-lon>-85.298162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>032020</exch>
+<rc>Tyndall AFB</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1892</rc-h>
+<rc-lat>30.066328</rc-lat>
+<rc-lon>-85.582917</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>283</nxx>
+<x>A</x>
+<exch>032020</exch>
+<rc>Tyndall AFB</rc>
+<region>FL</region>
+<switch>TAFBFLXARS0</switch>
+<switchname>TYNDALL AIR FORCE BASE</switchname>
+<switchtype>5RS</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1892</rc-h>
+<rc-lat>30.066328</rc-lat>
+<rc-lon>-85.582917</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>032020</exch>
+<rc>Tyndall AFB</rc>
+<region>FL</region>
+<switch>TAFBFLXARS0</switch>
+<switchname>TYNDALL AIR FORCE BASE</switchname>
+<switchtype>5RS</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1892</rc-h>
+<rc-lat>30.066328</rc-lat>
+<rc-lon>-85.582917</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>029460</exch>
+<rc>Apalachicola</rc>
+<region>FL</region>
+<switch>PNCYFLMAX0Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8080</rc-v>
+<rc-h>1757</rc-h>
+<rc-lat>29.716859</rc-lat>
+<rc-lon>-84.989258</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>340</nxx>
+<x>A</x>
+<exch>031580</exch>
+<rc>Port St Joe</rc>
+<region>FL</region>
+<switch>PNCYFLMAX0Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8091</rc-v>
+<rc-h>1818</rc-h>
+<rc-lat>29.808776</rc-lat>
+<rc-lon>-85.298162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>349</nxx>
+<x>A</x>
+<exch>029440</exch>
+<rc>Alligator Point</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7985</rc-v>
+<rc-h>1675</rc-h>
+<rc-lat>29.914393</rc-lat>
+<rc-lon>-84.371156</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>370</nxx>
+<x>A</x>
+<exch>029460</exch>
+<rc>Apalachicola</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8080</rc-v>
+<rc-h>1757</rc-h>
+<rc-lat>29.716859</rc-lat>
+<rc-lon>-84.989258</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>379</nxx>
+<x>A</x>
+<exch>030540</exch>
+<rc>Hosford</rc>
+<region>FL</region>
+<switch>BLTWFLXADS0</switch>
+<switchname>BLOUNTSTOWN</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7935</rc-v>
+<rc-h>1795</rc-h>
+<rc-lat>30.386531</rc-lat>
+<rc-lon>-84.797431</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>440</nxx>
+<x>A</x>
+<exch>032020</exch>
+<rc>Tyndall AFB</rc>
+<region>FL</region>
+<switch>PTSJFLXA5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1892</rc-h>
+<rc-lat>30.066328</rc-lat>
+<rc-lon>-85.582917</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>447</nxx>
+<x>A</x>
+<exch>029680</exch>
+<rc>Bristol</rc>
+<region>FL</region>
+<switch>PNCYFLMAX0Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7943</rc-v>
+<rc-h>1831</rc-h>
+<rc-lat>30.435208</rc-lat>
+<rc-lon>-84.984663</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>451</nxx>
+<x>A</x>
+<exch>029450</exch>
+<rc>Altha</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7929</rc-v>
+<rc-h>1869</rc-h>
+<rc-lat>30.576826</rc-lat>
+<rc-lon>-85.125519</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>540</nxx>
+<x>A</x>
+<exch>029440</exch>
+<rc>Alligator Point</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7985</rc-v>
+<rc-h>1675</rc-h>
+<rc-lat>29.914393</rc-lat>
+<rc-lon>-84.371156</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>568</nxx>
+<x>A</x>
+<exch>032180</exch>
+<rc>Wewahitchka</rc>
+<region>FL</region>
+<switch>PTSJFLXA5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8023</rc-v>
+<rc-h>1834</rc-h>
+<rc-lat>30.119162</rc-lat>
+<rc-lon>-85.201173</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>620</nxx>
+<x>A</x>
+<exch>032020</exch>
+<rc>Tyndall AFB</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1892</rc-h>
+<rc-lat>30.066328</rc-lat>
+<rc-lon>-85.582917</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>032180</exch>
+<rc>Wewahitchka</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8023</rc-v>
+<rc-h>1834</rc-h>
+<rc-lat>30.119162</rc-lat>
+<rc-lon>-85.201173</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>643</nxx>
+<x>A</x>
+<exch>029680</exch>
+<rc>Bristol</rc>
+<region>FL</region>
+<switch>BLTWFLXADS0</switch>
+<switchname>BLOUNTSTOWN</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7943</rc-v>
+<rc-h>1831</rc-h>
+<rc-lat>30.435208</rc-lat>
+<rc-lon>-84.984663</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>646</nxx>
+<x>A</x>
+<exch>029780</exch>
+<rc>Carrabelle</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8025</rc-v>
+<rc-h>1717</rc-h>
+<rc-lat>29.848532</rc-lat>
+<rc-lon>-84.666145</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>031980</exch>
+<rc>The Beaches</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8074</rc-v>
+<rc-h>1851</rc-h>
+<rc-lat>29.950979</rc-lat>
+<rc-lon>-85.408068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>648</nxx>
+<x>A</x>
+<exch>031980</exch>
+<rc>The Beaches</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8074</rc-v>
+<rc-h>1851</rc-h>
+<rc-lat>29.950979</rc-lat>
+<rc-lon>-85.408068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>653</nxx>
+<x>A</x>
+<exch>029460</exch>
+<rc>Apalachicola</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8080</rc-v>
+<rc-h>1757</rc-h>
+<rc-lat>29.716859</rc-lat>
+<rc-lon>-84.989258</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>029820</exch>
+<rc>Chattahoochee</rc>
+<region>FL</region>
+<switch>CHTHFLXADS0</switch>
+<switchname></switchname>
+<switchtype>EWS</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7881</rc-v>
+<rc-h>1834</rc-h>
+<rc-lat>30.691741</rc-lat>
+<rc-lon>-84.840401</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>670</nxx>
+<x>A</x>
+<exch>030120</exch>
+<rc>Eastpoint</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1741</rc-h>
+<rc-lat>29.729352</rc-lat>
+<rc-lon>-84.88536</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>674</nxx>
+<x>A</x>
+<exch>029590</exch>
+<rc>Blountstown</rc>
+<region>FL</region>
+<switch>BLTWFLXADS0</switch>
+<switchname>BLOUNTSTOWN</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7948</rc-v>
+<rc-h>1842</rc-h>
+<rc-lat>30.439713</rc-lat>
+<rc-lon>-85.048406</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>697</nxx>
+<x>A</x>
+<exch>029780</exch>
+<rc>Carrabelle</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8025</rc-v>
+<rc-h>1717</rc-h>
+<rc-lat>29.848532</rc-lat>
+<rc-lon>-84.666145</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>705</nxx>
+<x>A</x>
+<exch>031580</exch>
+<rc>Port St Joe</rc>
+<region>FL</region>
+<switch>PTSJFLXA5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8091</rc-v>
+<rc-h>1818</rc-h>
+<rc-lat>29.808776</rc-lat>
+<rc-lon>-85.298162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>707</nxx>
+<x>A</x>
+<exch>029440</exch>
+<rc>Alligator Point</rc>
+<region>FL</region>
+<switch>PTSJFLXA5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7985</rc-v>
+<rc-h>1675</rc-h>
+<rc-lat>29.914393</rc-lat>
+<rc-lon>-84.371156</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>720</nxx>
+<x>A</x>
+<exch>029780</exch>
+<rc>Carrabelle</rc>
+<region>FL</region>
+<switch>PTSJFLXA5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8025</rc-v>
+<rc-h>1717</rc-h>
+<rc-lat>29.848532</rc-lat>
+<rc-lon>-84.666145</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>731</nxx>
+<x>A</x>
+<exch>031980</exch>
+<rc>The Beaches</rc>
+<region>FL</region>
+<switch>PTSJFLXA5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8074</rc-v>
+<rc-h>1851</rc-h>
+<rc-lat>29.950979</rc-lat>
+<rc-lon>-85.408068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>734</nxx>
+<x>A</x>
+<exch>030120</exch>
+<rc>Eastpoint</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1741</rc-h>
+<rc-lat>29.729352</rc-lat>
+<rc-lon>-84.88536</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>742</nxx>
+<x>A</x>
+<exch>032180</exch>
+<rc>Wewahitchka</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8023</rc-v>
+<rc-h>1834</rc-h>
+<rc-lat>30.119162</rc-lat>
+<rc-lon>-85.201173</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>762</nxx>
+<x>A</x>
+<exch>029450</exch>
+<rc>Altha</rc>
+<region>FL</region>
+<switch>BLTWFLXADS0</switch>
+<switchname>BLOUNTSTOWN</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7929</rc-v>
+<rc-h>1869</rc-h>
+<rc-lat>30.576826</rc-lat>
+<rc-lon>-85.125519</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>793</nxx>
+<x>A</x>
+<exch>029820</exch>
+<rc>Chattahoochee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>7881</rc-v>
+<rc-h>1834</rc-h>
+<rc-lat>30.691741</rc-lat>
+<rc-lon>-84.840401</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-06 10:09:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>799</nxx>
+<x>A</x>
+<exch>030120</exch>
+<rc>Eastpoint</rc>
+<region>FL</region>
+<switch>PTSJFLXA5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1741</rc-h>
+<rc-lat>29.729352</rc-lat>
+<rc-lon>-84.88536</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>031580</exch>
+<rc>Port St Joe</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8091</rc-v>
+<rc-h>1818</rc-h>
+<rc-lat>29.808776</rc-lat>
+<rc-lon>-85.298162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>899</nxx>
+<x>A</x>
+<exch>031580</exch>
+<rc>Port St Joe</rc>
+<region>FL</region>
+<switch>PTSJFLXA7MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8091</rc-v>
+<rc-h>1818</rc-h>
+<rc-lat>29.808776</rc-lat>
+<rc-lon>-85.298162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>927</nxx>
+<x>A</x>
+<exch>030120</exch>
+<rc>Eastpoint</rc>
+<region>FL</region>
+<switch>PTSJFLXADS2</switch>
+<switchname>PORT ST JOE</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8068</rc-v>
+<rc-h>1741</rc-h>
+<rc-lat>29.729352</rc-lat>
+<rc-lon>-84.88536</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>991</nxx>
+<x>A</x>
+<exch>031980</exch>
+<rc>The Beaches</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>45010</lata>
+<lir></lir>
+<rc-v>8074</rc-v>
+<rc-h>1851</rc-h>
+<rc-lat>29.950979</rc-lat>
+<rc-lon>-85.408068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

@@ -1,0 +1,6056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>736</lata>
+</inputdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>319</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>405</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>587</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA011KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6967</ocn>
+<company-name>33 WIRELESS INC.                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>602</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>651</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA011KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6967</ocn>
+<company-name>33 WIRELESS INC.                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>670</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>671</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>672</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>803</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>804</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>810</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>812</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>408</npa>
+<nxx>968</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>200</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>202</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7229</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-03 00:08:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>203</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA011KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6906</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>204</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01XPX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>258E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - CA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCA01X1Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7145</ocn>
+<company-name>TELEPORT COMMUNICATIONS GROUP - SAN FRANCISCO             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>206</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>207</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCABIOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-22 01:45:34</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>210</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01XQX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>220</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-02 12:45:51</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>221</nxx>
+<x>A</x>
+<exch>023910</exch>
+<rc>San Ardo</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8851</rc-v>
+<rc-h>8411</rc-h>
+<rc-lat>36.015235</rc-lat>
+<rc-lon>-120.898366</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>223</nxx>
+<x>A</x>
+<exch>024540</exch>
+<rc>Soledad</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8770</rc-v>
+<rc-h>8497</rc-h>
+<rc-lat>36.426733</rc-lat>
+<rc-lon>-121.324087</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>224</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01XQX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>225</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>230</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>231</nxx>
+<x>A</x>
+<exch>020540</exch>
+<rc>Greenfield (Monterey)</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8791</rc-v>
+<rc-h>8480</rc-h>
+<rc-lat>36.323009</rc-lat>
+<rc-lon>-121.243012</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-17 00:19:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>232</nxx>
+<x>A</x>
+<exch>019270</exch>
+<rc>Chualar</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8741</rc-v>
+<rc-h>8535</rc-h>
+<rc-lat>36.577135</rc-lat>
+<rc-lon>-121.518595</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>233</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01XXX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>236</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>237</nxx>
+<x>A</x>
+<exch>024540</exch>
+<rc>Soledad</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8770</rc-v>
+<rc-h>8497</rc-h>
+<rc-lat>36.426733</rc-lat>
+<rc-lon>-121.324087</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>238</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01XQX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>241</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01X1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>018740</exch>
+<rc>Big Sur</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>981E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8819</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.241777</rc-lat>
+<rc-lon>-121.768981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>018740</exch>
+<rc>Big Sur</rc>
+<region>CA</region>
+<switch>SLNSCA01XEX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8819</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.241777</rc-lat>
+<rc-lon>-121.768981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>258</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>261</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>262</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>021230</exch>
+<rc>King City</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8812</rc-v>
+<rc-h>8456</rc-h>
+<rc-lat>36.21553</rc-lat>
+<rc-lon>-121.122857</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>264</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCA01XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>267</nxx>
+<x>A</x>
+<exch>018740</exch>
+<rc>Big Sur</rc>
+<region>CA</region>
+<switch>SLNSCABI4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>748D</ocn>
+<company-name>MPOWER NETWORKS SERVICES INC. - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8819</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.241777</rc-lat>
+<rc-lon>-121.768981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>269</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01X1Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7145</ocn>
+<company-name>TELEPORT COMMUNICATIONS GROUP - SAN FRANCISCO             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>272</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-07 01:18:43</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>273</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-07 01:18:43</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>275</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA012MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>981E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>276</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>277</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>024540</exch>
+<rc>Soledad</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8770</rc-v>
+<rc-h>8497</rc-h>
+<rc-lat>36.426733</rc-lat>
+<rc-lon>-121.324087</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>287</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01XPX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>258E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - CA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>290</nxx>
+<x>A</x>
+<exch>020500</exch>
+<rc>Gonzales</rc>
+<region>CA</region>
+<switch>SLNSCA01XRX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8755</rc-v>
+<rc-h>8520</rc-h>
+<rc-lat>36.506275</rc-lat>
+<rc-lon>-121.44347</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>292</nxx>
+<x>A</x>
+<exch>024540</exch>
+<rc>Soledad</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8770</rc-v>
+<rc-h>8497</rc-h>
+<rc-lat>36.426733</rc-lat>
+<rc-lon>-121.324087</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-01-10 02:04:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>293</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-20 00:35:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>297</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCA01XQX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>019130</exch>
+<rc>Carmel Valley</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8769</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.467871</rc-lat>
+<rc-lon>-121.735324</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>299</nxx>
+<x>A</x>
+<exch>024930</exch>
+<rc>Tres Pinos</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8690</rc-v>
+<rc-h>8506</rc-h>
+<rc-lat>36.793113</rc-lat>
+<rc-lon>-121.319277</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>018740</exch>
+<rc>Big Sur</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8819</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.241777</rc-lat>
+<rc-lon>-121.768981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>024090</exch>
+<rc>San Juan</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8682</rc-v>
+<rc-h>8545</rc-h>
+<rc-lat>36.848935</rc-lat>
+<rc-lon>-121.534969</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>302</nxx>
+<x>A</x>
+<exch>024100</exch>
+<rc>San Lucas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8828</rc-v>
+<rc-h>8435</rc-h>
+<rc-lat>36.132084</rc-lat>
+<rc-lon>-121.016338</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>023910</exch>
+<rc>San Ardo</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8851</rc-v>
+<rc-h>8411</rc-h>
+<rc-lat>36.015235</rc-lat>
+<rc-lon>-120.898366</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>020540</exch>
+<rc>Greenfield (Monterey)</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8791</rc-v>
+<rc-h>8480</rc-h>
+<rc-lat>36.323009</rc-lat>
+<rc-lon>-121.243012</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>020500</exch>
+<rc>Gonzales</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8755</rc-v>
+<rc-h>8520</rc-h>
+<rc-lat>36.506275</rc-lat>
+<rc-lon>-121.44347</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>019270</exch>
+<rc>Chualar</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8741</rc-v>
+<rc-h>8535</rc-h>
+<rc-lat>36.577135</rc-lat>
+<rc-lon>-121.518595</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>307</nxx>
+<x>A</x>
+<exch>019170</exch>
+<rc>Castroville</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8704</rc-v>
+<rc-h>8580</rc-h>
+<rc-lat>36.766687</rc-lat>
+<rc-lon>-121.748319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>308</nxx>
+<x>A</x>
+<exch>019130</exch>
+<rc>Carmel Valley</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>981E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8769</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.467871</rc-lat>
+<rc-lon>-121.735324</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>981E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>313</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCA01XOX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>776C</ocn>
+<company-name>CHARTER FIBERLINK CA-CCO, LLC - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>024540</exch>
+<rc>Soledad</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8770</rc-v>
+<rc-h>8497</rc-h>
+<rc-lat>36.426733</rc-lat>
+<rc-lon>-121.324087</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>324</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7610</ocn>
+<company-name>COMCAST PHONE OF CALIFORNIA, LLC - CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2014-11-19 02:53:59</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>350</nxx>
+<x>A</x>
+<exch>024930</exch>
+<rc>Tres Pinos</rc>
+<region>CA</region>
+<switch>SLNSCA01XXX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8690</rc-v>
+<rc-h>8506</rc-h>
+<rc-lat>36.793113</rc-lat>
+<rc-lon>-121.319277</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>356</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-04 03:14:26</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>372</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>375</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>024100</exch>
+<rc>San Lucas</rc>
+<region>CA</region>
+<switch>SNLCCA11RS1</switch>
+<switchname>SAN LUCAS</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8828</rc-v>
+<rc-h>8435</rc-h>
+<rc-lat>36.132084</rc-lat>
+<rc-lon>-121.016338</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01X5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5562</ocn>
+<company-name>METRO PCS, INC.                                           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>384</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MARNCA11DS0</switch>
+<switchname>MARINA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>385</nxx>
+<x>A</x>
+<exch>021230</exch>
+<rc>King City</rc>
+<region>CA</region>
+<switch>KGCYCA11DS1</switch>
+<switchname>KING CITY</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8812</rc-v>
+<rc-h>8456</rc-h>
+<rc-lat>36.21553</rc-lat>
+<rc-lon>-121.122857</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>386</nxx>
+<x>A</x>
+<exch>021230</exch>
+<rc>King City</rc>
+<region>CA</region>
+<switch>KGCYCA11DS1</switch>
+<switchname>KING CITY</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8812</rc-v>
+<rc-h>8456</rc-h>
+<rc-lat>36.21553</rc-lat>
+<rc-lon>-121.122857</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>021230</exch>
+<rc>King City</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>981E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8812</rc-v>
+<rc-h>8456</rc-h>
+<rc-lat>36.21553</rc-lat>
+<rc-lon>-121.122857</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>389</nxx>
+<x>A</x>
+<exch>023250</exch>
+<rc>Pinnacles</rc>
+<region>CA</region>
+<switch>PNCLCAXFDS0</switch>
+<switchname>PINNACLES</switchname>
+<switchtype>M38</switchtype>
+<ocn>2346</ocn>
+<company-name>PINNACLES TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2346</ilec-ocn>
+<ilec-name>PINNACLES TELEPHONE CO.                                   </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8718</rc-v>
+<rc-h>8490</rc-h>
+<rc-lat>36.658295</rc-lat>
+<rc-lon>-121.24819</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SESDCA11DS0</switch>
+<switchname>SEASIDE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SESDCA11DS0</switch>
+<switchname>SEASIDE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>394</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SESDCA11DS0</switch>
+<switchname>SEASIDE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>417</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>424</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>442</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA11DS0</switch>
+<switchname>SALINAS HICKORY</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA11DS0</switch>
+<switchname>SALINAS HICKORY</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>444</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA11DS0</switch>
+<switchname>SALINAS HICKORY</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>449</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA11DS0</switch>
+<switchname>SALINAS HICKORY</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>453</nxx>
+<x>A</x>
+<exch>019170</exch>
+<rc>Castroville</rc>
+<region>CA</region>
+<switch>SLNSCA01X2Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8704</rc-v>
+<rc-h>8580</rc-h>
+<rc-lat>36.766687</rc-lat>
+<rc-lon>-121.748319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>455</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA12RS0</switch>
+<switchname>SALINAS</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>484</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA13RS0</switch>
+<switchname>SALINAS HUNTER</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>500</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-07 01:18:43</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>512</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>520</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA011KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6906</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>521</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>524</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>525</nxx>
+<x>A</x>
+<exch>021230</exch>
+<rc>King City</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8812</rc-v>
+<rc-h>8456</rc-h>
+<rc-lat>36.21553</rc-lat>
+<rc-lon>-121.122857</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>537</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>540</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>578</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>580</nxx>
+<x>A</x>
+<exch>020500</exch>
+<rc>Gonzales</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8755</rc-v>
+<rc-h>8520</rc-h>
+<rc-lat>36.506275</rc-lat>
+<rc-lon>-121.44347</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>582</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MARNCA11DS0</switch>
+<switchname>MARINA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>583</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SESDCA11DS0</switch>
+<switchname>SEASIDE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>585</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>586</nxx>
+<x>A</x>
+<exch>024090</exch>
+<rc>San Juan</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8682</rc-v>
+<rc-h>8545</rc-h>
+<rc-lat>36.848935</rc-lat>
+<rc-lon>-121.534969</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>593</nxx>
+<x>A</x>
+<exch>024090</exch>
+<rc>San Juan</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>776C</ocn>
+<company-name>CHARTER FIBERLINK CA-CCO, LLC - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8682</rc-v>
+<rc-h>8545</rc-h>
+<rc-lat>36.848935</rc-lat>
+<rc-lon>-121.534969</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>594</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>595</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>596</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>597</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>598</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>601</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>613</nxx>
+<x>A</x>
+<exch>020540</exch>
+<rc>Greenfield (Monterey)</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>981E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8791</rc-v>
+<rc-h>8480</rc-h>
+<rc-lat>36.323009</rc-lat>
+<rc-lon>-121.243012</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>620</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch>CRMLCA11DS0</switch>
+<switchname>CARMEL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>622</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch>CRMLCA11DS0</switch>
+<switchname>CARMEL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>623</nxx>
+<x>A</x>
+<exch>024090</exch>
+<rc>San Juan</rc>
+<region>CA</region>
+<switch>SNJNCA11RS1</switch>
+<switchname>SAN JUAN</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8682</rc-v>
+<rc-h>8545</rc-h>
+<rc-lat>36.848935</rc-lat>
+<rc-lon>-121.534969</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>624</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch>CRMLCA11DS0</switch>
+<switchname>CARMEL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>625</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch>CRMLCA11DS0</switch>
+<switchname>CARMEL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>626</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch>CRMLCA11DS0</switch>
+<switchname>CARMEL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>627</nxx>
+<x>A</x>
+<exch>023910</exch>
+<rc>San Ardo</rc>
+<region>CA</region>
+<switch>SNARCA11RS1</switch>
+<switchname>SAN ARDO</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8851</rc-v>
+<rc-h>8411</rc-h>
+<rc-lat>36.015235</rc-lat>
+<rc-lon>-120.898366</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>628</nxx>
+<x>A</x>
+<exch>024930</exch>
+<rc>Tres Pinos</rc>
+<region>CA</region>
+<switch>TRPSCA11RS0</switch>
+<switchname>TRES PINOS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8690</rc-v>
+<rc-h>8506</rc-h>
+<rc-lat>36.793113</rc-lat>
+<rc-lon>-121.319277</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>630</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>HLSTCA11DS0</switch>
+<switchname>HOLLISTER</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>019170</exch>
+<rc>Castroville</rc>
+<region>CA</region>
+<switch>CSVLCA11RS0</switch>
+<switchname>CASTROVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8704</rc-v>
+<rc-h>8580</rc-h>
+<rc-lat>36.766687</rc-lat>
+<rc-lon>-121.748319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>633</nxx>
+<x>A</x>
+<exch>019170</exch>
+<rc>Castroville</rc>
+<region>CA</region>
+<switch>CSVLCA11RS0</switch>
+<switchname>CASTROVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8704</rc-v>
+<rc-h>8580</rc-h>
+<rc-lat>36.766687</rc-lat>
+<rc-lon>-121.748319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>634</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>HLSTCA11DS0</switch>
+<switchname>HOLLISTER</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>635</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>HLSTCA11DS0</switch>
+<switchname>HOLLISTER</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>636</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>HLSTCA11DS0</switch>
+<switchname>HOLLISTER</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>637</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>HLSTCA11DS0</switch>
+<switchname>HOLLISTER</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>HLSTCA11DS0</switch>
+<switchname>HOLLISTER</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>641</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>642</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>643</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>644</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>645</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>646</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>648</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>649</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>652</nxx>
+<x>A</x>
+<exch>019130</exch>
+<rc>Carmel Valley</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8769</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.467871</rc-lat>
+<rc-lon>-121.735324</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>653</nxx>
+<x>A</x>
+<exch>024100</exch>
+<rc>San Lucas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8828</rc-v>
+<rc-h>8435</rc-h>
+<rc-lat>36.132084</rc-lat>
+<rc-lon>-121.016338</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>655</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>656</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>657</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MTRYCA01DS0</switch>
+<switchname>MONTEREY MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>659</nxx>
+<x>A</x>
+<exch>019130</exch>
+<rc>Carmel Valley</rc>
+<region>CA</region>
+<switch>CRVYCA11RS0</switch>
+<switchname>CARMEL VALLEY</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8769</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.467871</rc-lat>
+<rc-lon>-121.735324</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA14RS0</switch>
+<switchname>SALINAS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>665</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>667</nxx>
+<x>A</x>
+<exch>018740</exch>
+<rc>Big Sur</rc>
+<region>CA</region>
+<switch>BGSRCA11RS0</switch>
+<switchname>BIG SUR</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8819</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.241777</rc-lat>
+<rc-lon>-121.768981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>674</nxx>
+<x>A</x>
+<exch>020540</exch>
+<rc>Greenfield (Monterey)</rc>
+<region>CA</region>
+<switch>GNFDCA11RS0</switch>
+<switchname>GREENFIELD</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8791</rc-v>
+<rc-h>8480</rc-h>
+<rc-lat>36.323009</rc-lat>
+<rc-lon>-121.243012</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>675</nxx>
+<x>A</x>
+<exch>020500</exch>
+<rc>Gonzales</rc>
+<region>CA</region>
+<switch>GNZLCA11RS0</switch>
+<switchname>GONZALES</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8755</rc-v>
+<rc-h>8520</rc-h>
+<rc-lat>36.506275</rc-lat>
+<rc-lon>-121.44347</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01X1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>677</nxx>
+<x>A</x>
+<exch>024540</exch>
+<rc>Soledad</rc>
+<region>CA</region>
+<switch>SLNSCA011KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8770</rc-v>
+<rc-h>8497</rc-h>
+<rc-lat>36.426733</rc-lat>
+<rc-lon>-121.324087</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>024540</exch>
+<rc>Soledad</rc>
+<region>CA</region>
+<switch>SLDDCA11RS0</switch>
+<switchname>SOLEDAD</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8770</rc-v>
+<rc-h>8497</rc-h>
+<rc-lat>36.426733</rc-lat>
+<rc-lon>-121.324087</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>679</nxx>
+<x>A</x>
+<exch>019270</exch>
+<rc>Chualar</rc>
+<region>CA</region>
+<switch>CHLRCA11RS0</switch>
+<switchname>CHUALAR</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8741</rc-v>
+<rc-h>8535</rc-h>
+<rc-lat>36.577135</rc-lat>
+<rc-lon>-121.518595</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>682</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>693</nxx>
+<x>A</x>
+<exch>020970</exch>
+<rc>Idria</rc>
+<region>CA</region>
+<switch>PNCLCAXFDS0</switch>
+<switchname>PINNACLES</switchname>
+<switchtype>M38</switchtype>
+<ocn>2346</ocn>
+<company-name>PINNACLES TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2346</ilec-ocn>
+<ilec-name>PINNACLES TELEPHONE CO.                                   </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8751</rc-v>
+<rc-h>8390</rc-h>
+<rc-lat>36.456092</rc-lat>
+<rc-lon>-120.70712</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>705</nxx>
+<x>A</x>
+<exch>019270</exch>
+<rc>Chualar</rc>
+<region>CA</region>
+<switch>SLNSCA01X3Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8741</rc-v>
+<rc-h>8535</rc-h>
+<rc-lat>36.577135</rc-lat>
+<rc-lon>-121.518595</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>710</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>717</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>718</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01XTX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7240</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC., CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>731</nxx>
+<x>A</x>
+<exch>019170</exch>
+<rc>Castroville</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8704</rc-v>
+<rc-h>8580</rc-h>
+<rc-lat>36.766687</rc-lat>
+<rc-lon>-121.748319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>732</nxx>
+<x>A</x>
+<exch>023910</exch>
+<rc>San Ardo</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8851</rc-v>
+<rc-h>8411</rc-h>
+<rc-lat>36.015235</rc-lat>
+<rc-lon>-120.898366</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>737</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABI4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>741</nxx>
+<x>A</x>
+<exch>019170</exch>
+<rc>Castroville</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8704</rc-v>
+<rc-h>8580</rc-h>
+<rc-lat>36.766687</rc-lat>
+<rc-lon>-121.748319</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>744</nxx>
+<x>A</x>
+<exch>020500</exch>
+<rc>Gonzales</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8755</rc-v>
+<rc-h>8520</rc-h>
+<rc-lat>36.506275</rc-lat>
+<rc-lon>-121.44347</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>747</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01XEX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>751</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>753</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>754</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>755</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>756</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01XGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>9262</ocn>
+<company-name>UTILITY TELECOM GROUP, LLC - CA                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>757</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>758</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>759</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>760</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>766</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA0102T</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>DM2</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>769</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>770</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>771</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>020500</exch>
+<rc>Gonzales</rc>
+<region>CA</region>
+<switch>SLNSCA01X8X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8322</ocn>
+<company-name>MPOWER COMMUNICATIONS CORP - CA                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8755</rc-v>
+<rc-h>8520</rc-h>
+<rc-lat>36.506275</rc-lat>
+<rc-lon>-121.44347</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>775</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>776</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>778</nxx>
+<x>A</x>
+<exch>024100</exch>
+<rc>San Lucas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8828</rc-v>
+<rc-h>8435</rc-h>
+<rc-lat>36.132084</rc-lat>
+<rc-lon>-121.016338</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>784</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>785</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5562</ocn>
+<company-name>METRO PCS, INC.                                           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-01 00:48:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>789</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA011KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>794</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01X5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5562</ocn>
+<company-name>METRO PCS, INC.                                           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>796</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS0</switch>
+<switchname>SALINAS MAIN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01DS2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>432F</ocn>
+<company-name>VAYA TELECOM, INC. - CA                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>801</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>809</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>821</nxx>
+<x>A</x>
+<exch>024930</exch>
+<rc>Tres Pinos</rc>
+<region>CA</region>
+<switch>SLNSCAGM0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8690</rc-v>
+<rc-h>8506</rc-h>
+<rc-lat>36.793113</rc-lat>
+<rc-lon>-121.319277</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>844</nxx>
+<x>A</x>
+<exch>018740</exch>
+<rc>Big Sur</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8819</rc-v>
+<rc-h>8570</rc-h>
+<rc-lat>36.241777</rc-lat>
+<rc-lon>-121.768981</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>855</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>856</nxx>
+<x>A</x>
+<exch>020540</exch>
+<rc>Greenfield (Monterey)</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8791</rc-v>
+<rc-h>8480</rc-h>
+<rc-lat>36.323009</rc-lat>
+<rc-lon>-121.243012</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>867</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>939H</ocn>
+<company-name>COMMIO, LLC                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>869</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCABIOMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>877</nxx>
+<x>A</x>
+<exch>019120</exch>
+<rc>Carmel</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8753</rc-v>
+<rc-h>8605</rc-h>
+<rc-lat>36.557204</rc-lat>
+<rc-lon>-121.922405</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-22 01:45:34</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>883</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MARNCA11DS0</switch>
+<switchname>MARINA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>MARNCA11DS0</switch>
+<switchname>MARINA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>886</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>887</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>145J</ocn>
+<company-name>TERRA NOVA TELECOM INC.                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-04-05 01:25:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>899</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SESDCA11DS0</switch>
+<switchname>SEASIDE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9740</ocn>
+<company-name>PACIFIC BELL                                              </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>901</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>902</nxx>
+<x>A</x>
+<exch>020850</exch>
+<rc>Hollister</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8679</rc-v>
+<rc-h>8522</rc-h>
+<rc-lat>36.850973</rc-lat>
+<rc-lon>-121.402412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>905</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>912</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>915</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>917</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCABIXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>920</nxx>
+<x>A</x>
+<exch>022310</exch>
+<rc>Monterey</rc>
+<region>CA</region>
+<switch>SLNSCA01X9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8743</rc-v>
+<rc-h>8601</rc-h>
+<rc-lat>36.6005</rc-lat>
+<rc-lon>-121.893175</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>921</nxx>
+<x>A</x>
+<exch>024930</exch>
+<rc>Tres Pinos</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8690</rc-v>
+<rc-h>8506</rc-h>
+<rc-lat>36.793113</rc-lat>
+<rc-lon>-121.319277</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-06 00:11:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>970</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>975</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7610</ocn>
+<company-name>COMCAST PHONE OF CALIFORNIA, LLC - CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>996</nxx>
+<x>A</x>
+<exch>024930</exch>
+<rc>Tres Pinos</rc>
+<region>CA</region>
+<switch>SLNSCA01DS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8690</rc-v>
+<rc-h>8506</rc-h>
+<rc-lat>36.793113</rc-lat>
+<rc-lon>-121.319277</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>831</npa>
+<nxx>998</nxx>
+<x>A</x>
+<exch>023870</exch>
+<rc>Salinas</rc>
+<region>CA</region>
+<switch>SLNSCA01XTX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7240</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC., CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9740</ilec-ocn>
+<ilec-name>PACIFIC BELL                                              </ilec-name>
+<lata>736</lata>
+<lir></lir>
+<rc-v>8722</rc-v>
+<rc-h>8560</rc-h>
+<rc-lat>36.675484</rc-lat>
+<rc-lon>-121.647104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

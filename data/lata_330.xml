@@ -1,0 +1,6181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>330</lata>
+</inputdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>202</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>204</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919G</ocn>
+<company-name>METRO FIBERNET, LLC - IN                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-10-22 16:34:49</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>058710</exch>
+<rc>McCutchanville</rc>
+<region>IN</region>
+<switch>EVVLIN01LMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6706</rc-v>
+<rc-h>3018</rc-h>
+<rc-lat>38.066421</rc-lat>
+<rc-lon>-87.510613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>JSPRINXANMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>224</nxx>
+<x>A</x>
+<exch>056990</exch>
+<rc>Dale</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6643</rc-v>
+<rc-h>2950</rc-h>
+<rc-lat>38.175311</rc-lat>
+<rc-lon>-86.988452</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>060240</exch>
+<rc>Shoals</rc>
+<region>IN</region>
+<switch>SHLSINXARS0</switch>
+<switchname>SHOALS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6534</rc-v>
+<rc-h>2971</rc-h>
+<rc-lat>38.665206</rc-lat>
+<rc-lon>-86.792955</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN01JMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7314</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IN                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>253</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>266</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03WMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>105F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - IN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>270</nxx>
+<x>A</x>
+<exch>059220</exch>
+<rc>New Harmony</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6726</rc-v>
+<rc-h>3088</rc-h>
+<rc-lat>38.135274</rc-lat>
+<rc-lon>-87.925285</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>058510</exch>
+<rc>Loogootee</rc>
+<region>IN</region>
+<switch>LOGTINXADS1</switch>
+<switchname>LOOGOOTEE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6541</rc-v>
+<rc-h>2989</rc-h>
+<rc-lat>38.674371</rc-lat>
+<rc-lon>-86.906014</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>058510</exch>
+<rc>Loogootee</rc>
+<region>IN</region>
+<switch>EVVLINKKBMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6541</rc-v>
+<rc-h>2989</rc-h>
+<rc-lat>38.674371</rc-lat>
+<rc-lon>-86.906014</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>297</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN014MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>352E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>056990</exch>
+<rc>Dale</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6643</rc-v>
+<rc-h>2950</rc-h>
+<rc-lat>38.175311</rc-lat>
+<rc-lon>-86.988452</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>307</nxx>
+<x>A</x>
+<exch>059130</exch>
+<rc>Mount Vernon</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6762</rc-v>
+<rc-h>3063</rc-h>
+<rc-lat>37.934498</rc-lat>
+<rc-lon>-87.89397</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>057190</exch>
+<rc>Elberfeld</rc>
+<region>IN</region>
+<switch>EVVLINAPXNX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4803</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6683</rc-v>
+<rc-h>3017</rc-h>
+<rc-lat>38.158055</rc-lat>
+<rc-lon>-87.442608</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>319</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>060370</exch>
+<rc>St Anthony</rc>
+<region>IN</region>
+<switch>STATINXARS0</switch>
+<switchname>ST ANTHONY</switchname>
+<switchtype>1RC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6604</rc-v>
+<rc-h>2939</rc-h>
+<rc-lat>38.309692</rc-lat>
+<rc-lon>-86.823913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>338</nxx>
+<x>A</x>
+<exch>057270</exch>
+<rc>English</rc>
+<region>IN</region>
+<switch>ENGLINXBRS0</switch>
+<switchname>ENGLISH</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6570</rc-v>
+<rc-h>2886</rc-h>
+<rc-lat>38.33104</rc-lat>
+<rc-lon>-86.457203</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>351</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>365C</ocn>
+<company-name>POWERTEL KENTUCKY LICENSES, INC.                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>357</nxx>
+<x>A</x>
+<exch>060430</exch>
+<rc>St Meinrad</rc>
+<region>IN</region>
+<switch>SNTCINXADS0</switch>
+<switchname>SANTA CLAUS</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0807</ocn>
+<company-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0807</ilec-ocn>
+<ilec-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6628</rc-v>
+<rc-h>2923</rc-h>
+<rc-lat>38.177203</rc-lat>
+<rc-lon>-86.80848</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>359</nxx>
+<x>A</x>
+<exch>060120</exch>
+<rc>Sandridge</rc>
+<region>IN</region>
+<switch>SNRGIN01RSK</switch>
+<switchname>SANDRIDGE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6709</rc-v>
+<rc-h>2948</rc-h>
+<rc-lat>37.902498</rc-lat>
+<rc-lon>-87.159875</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>056680</exch>
+<rc>Chrisney</rc>
+<region>IN</region>
+<switch>CHRSIN01RSH</switch>
+<switchname>CHRISNEY</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6677</rc-v>
+<rc-h>2940</rc-h>
+<rc-lat>38.015262</rc-lat>
+<rc-lon>-87.030997</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>367</nxx>
+<x>A</x>
+<exch>057350</exch>
+<rc>Ferdinand</rc>
+<region>IN</region>
+<switch>FDNDINXARS0</switch>
+<switchname>FERDINAND</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>2935</rc-h>
+<rc-lat>38.223783</rc-lat>
+<rc-lon>-86.856136</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>368</nxx>
+<x>A</x>
+<exch>060280</exch>
+<rc>Solitude</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6744</rc-v>
+<rc-h>3074</rc-h>
+<rc-lat>38.031674</rc-lat>
+<rc-lon>-87.901892</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>370</nxx>
+<x>A</x>
+<exch>060400</exch>
+<rc>St Joseph</rc>
+<region>IN</region>
+<switch>EVVLIN030MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6710</rc-v>
+<rc-h>3038</rc-h>
+<rc-lat>38.093242</rc-lat>
+<rc-lon>-87.624341</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>385</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>PRTNINXADS0</switch>
+<switchname>PRINCETON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>386</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>PRTNINXADS0</switch>
+<switchname>PRINCETON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>PRTNINXADS0</switch>
+<switchname>PRINCETON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>389</nxx>
+<x>A</x>
+<exch>056240</exch>
+<rc>Birdseye</rc>
+<region>IN</region>
+<switch>BRDSINXARS0</switch>
+<switchname>BIRDSEYE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6593</rc-v>
+<rc-h>2921</rc-h>
+<rc-lat>38.314857</rc-lat>
+<rc-lon>-86.700919</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>056990</exch>
+<rc>Dale</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6643</rc-v>
+<rc-h>2950</rc-h>
+<rc-lat>38.175311</rc-lat>
+<rc-lon>-86.988452</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>401</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>403</nxx>
+<x>A</x>
+<exch>058550</exch>
+<rc>Lynnville</rc>
+<region>IN</region>
+<switch>JSPRINXANMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6661</rc-v>
+<rc-h>2999</rc-h>
+<rc-lat>38.20871</rc-lat>
+<rc-lon>-87.289711</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>419</nxx>
+<x>A</x>
+<exch>056980</exch>
+<rc>Cynthiana</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6698</rc-v>
+<rc-h>3061</rc-h>
+<rc-lat>38.191756</rc-lat>
+<rc-lon>-87.710066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>423</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>424</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>425</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>426</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>428</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>429</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>430</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>431</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>433</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>434</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>435</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>436</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>437</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>439</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN010MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>440</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN010MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>449</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>450</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>451</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>452</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>453</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>454</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>455</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>456</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS0</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>5E</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>457</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>461</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS0</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>5E</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>463</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>464</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS0</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>5E</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>465</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS0</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>5E</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>467</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS1</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>468</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS0</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>5E</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>469</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>470</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>471</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>473</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>474</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>475</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>477</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>479</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>480</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>481</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXADS0</switch>
+<switchname>JASPER</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>482</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXADS0</switch>
+<switchname>JASPER</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>483</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>484</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03DS0</switch>
+<switchname>EVANSVILLE HARRISON</switchname>
+<switchtype>5E</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>485</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>488</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN02DS0</switch>
+<switchname>EVANSVILLE GREENLEAF</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>056990</exch>
+<rc>Dale</rc>
+<region>IN</region>
+<switch>EVVLIN01LMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6643</rc-v>
+<rc-h>2950</rc-h>
+<rc-lat>38.175311</rc-lat>
+<rc-lon>-86.988452</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>490</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>491</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>492</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>499</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>504</nxx>
+<x>A</x>
+<exch>057860</exch>
+<rc>Haysville</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6576</rc-v>
+<rc-h>2970</rc-h>
+<rc-lat>38.491245</rc-lat>
+<rc-lon>-86.905427</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>505</nxx>
+<x>A</x>
+<exch>060240</exch>
+<rc>Shoals</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6534</rc-v>
+<rc-h>2971</rc-h>
+<rc-lat>38.665206</rc-lat>
+<rc-lon>-86.792955</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>506</nxx>
+<x>A</x>
+<exch>059540</exch>
+<rc>Patoka</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6646</rc-v>
+<rc-h>3064</rc-h>
+<rc-lat>38.410486</rc-lat>
+<rc-lon>-87.583466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>507</nxx>
+<x>A</x>
+<exch>057270</exch>
+<rc>English</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6570</rc-v>
+<rc-h>2886</rc-h>
+<rc-lat>38.33104</rc-lat>
+<rc-lon>-86.457203</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>518</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>105F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - IN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>520</nxx>
+<x>A</x>
+<exch>059130</exch>
+<rc>Mount Vernon</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6762</rc-v>
+<rc-h>3063</rc-h>
+<rc-lat>37.934498</rc-lat>
+<rc-lon>-87.89397</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>529</nxx>
+<x>A</x>
+<exch>058290</exch>
+<rc>Lamar</rc>
+<region>IN</region>
+<switch>SNTCINXADS0</switch>
+<switchname>SANTA CLAUS</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0807</ocn>
+<company-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0807</ilec-ocn>
+<ilec-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>2926</rc-h>
+<rc-lat>38.074113</rc-lat>
+<rc-lon>-86.89861</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>536</nxx>
+<x>A</x>
+<exch>057940</exch>
+<rc>Holland</rc>
+<region>IN</region>
+<switch>HLLDINXADS0</switch>
+<switchname>HOLLAND</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0807</ocn>
+<company-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0807</ilec-ocn>
+<ilec-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6634</rc-v>
+<rc-h>2964</rc-h>
+<rc-lat>38.242446</rc-lat>
+<rc-lon>-87.035439</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>544</nxx>
+<x>A</x>
+<exch>060130</exch>
+<rc>Santa Claus</rc>
+<region>IN</region>
+<switch>SNTCINXADS0</switch>
+<switchname>SANTA CLAUS</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0807</ocn>
+<company-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0807</ilec-ocn>
+<ilec-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6647</rc-v>
+<rc-h>2927</rc-h>
+<rc-lat>38.108799</rc-lat>
+<rc-lon>-86.881609</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>547</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>TLCYIN01RSM</switch>
+<switchname>TELL CITY</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>548</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>TLCYIN01RSM</switch>
+<switchname>TELL CITY</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>549</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X1X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXADS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>068F</ocn>
+<company-name>FULLNET ADVANCED COMMUNICATIONS, INC. IN                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>559</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>774D</ocn>
+<company-name>SMITHVILLE TELECOM LLC - IN                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>563</nxx>
+<x>A</x>
+<exch>059220</exch>
+<rc>New Harmony</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6726</rc-v>
+<rc-h>3088</rc-h>
+<rc-lat>38.135274</rc-lat>
+<rc-lon>-87.925285</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>566</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>EVVLIN03SMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>930B</ocn>
+<company-name>COMCAST PHONE OF CENTRAL INDIANA, LLC - IN                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>060550</exch>
+<rc>Tennyson</rc>
+<region>IN</region>
+<switch>TNSNIN01RSL</switch>
+<switchname>TENNYSON</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6669</rc-v>
+<rc-h>2961</rc-h>
+<rc-lat>38.093556</rc-lat>
+<rc-lon>-87.116587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>568</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>573</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>EVVLINAMGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>575</nxx>
+<x>A</x>
+<exch>060440</exch>
+<rc>St Philip</rc>
+<region>IN</region>
+<switch>EVVLINAMGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6739</rc-v>
+<rc-h>3046</rc-h>
+<rc-lat>37.99203</rc-lat>
+<rc-lon>-87.744311</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>588</nxx>
+<x>A</x>
+<exch>056630</exch>
+<rc>Chandler</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6699</rc-v>
+<rc-h>2994</rc-h>
+<rc-lat>38.043056</rc-lat>
+<rc-lon>-87.36823</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINAMGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>598</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>602</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03QMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>097D</ocn>
+<company-name>ONVOY, LLC  IN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>604</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03KMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>365C</ocn>
+<company-name>POWERTEL KENTUCKY LICENSES, INC.                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>608</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>612</nxx>
+<x>A</x>
+<exch>058710</exch>
+<rc>McCutchanville</rc>
+<region>IN</region>
+<switch>EVVLIN03X6X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6706</rc-v>
+<rc-h>3018</rc-h>
+<rc-lat>38.066421</rc-lat>
+<rc-lon>-87.510613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>613</nxx>
+<x>A</x>
+<exch>057270</exch>
+<rc>English</rc>
+<region>IN</region>
+<switch>JSPRINXANMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6570</rc-v>
+<rc-h>2886</rc-h>
+<rc-lat>38.33104</rc-lat>
+<rc-lon>-86.457203</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>615</nxx>
+<x>A</x>
+<exch>057400</exch>
+<rc>Fort Branch</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6676</rc-v>
+<rc-h>3046</rc-h>
+<rc-lat>38.249249</rc-lat>
+<rc-lon>-87.572739</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>616</nxx>
+<x>A</x>
+<exch>059490</exch>
+<rc>Owensville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7440</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - IN                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6681</rc-v>
+<rc-h>3067</rc-h>
+<rc-lat>38.274089</rc-lat>
+<rc-lon>-87.694657</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>618</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINAPXNX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4803</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>619</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>EVVLINAPXNX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4803</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>622</nxx>
+<x>A</x>
+<exch>056980</exch>
+<rc>Cynthiana</rc>
+<region>IN</region>
+<switch>JSPRINXANMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6698</rc-v>
+<rc-h>3061</rc-h>
+<rc-lat>38.191756</rc-lat>
+<rc-lon>-87.710066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>624</nxx>
+<x>A</x>
+<exch>060400</exch>
+<rc>St Joseph</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6710</rc-v>
+<rc-h>3038</rc-h>
+<rc-lat>38.093242</rc-lat>
+<rc-lon>-87.624341</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>625</nxx>
+<x>A</x>
+<exch>060440</exch>
+<rc>St Philip</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6739</rc-v>
+<rc-h>3046</rc-h>
+<rc-lat>37.99203</rc-lat>
+<rc-lon>-87.744311</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>626</nxx>
+<x>A</x>
+<exch>058710</exch>
+<rc>McCutchanville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6706</rc-v>
+<rc-h>3018</rc-h>
+<rc-lat>38.066421</rc-lat>
+<rc-lon>-87.510613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>627</nxx>
+<x>A</x>
+<exch>059970</exch>
+<rc>Rockport</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6702</rc-v>
+<rc-h>2930</rc-h>
+<rc-lat>37.891792</rc-lat>
+<rc-lon>-87.048593</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>629</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>EVVLINKKCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>630</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXANMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>631</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>057400</exch>
+<rc>Fort Branch</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6676</rc-v>
+<rc-h>3046</rc-h>
+<rc-lat>38.249249</rc-lat>
+<rc-lon>-87.572739</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>634</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXADS0</switch>
+<switchname>JASPER</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>635</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>JSPRINXALMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>641</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>643</nxx>
+<x>A</x>
+<exch>059130</exch>
+<rc>Mount Vernon</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6762</rc-v>
+<rc-h>3063</rc-h>
+<rc-lat>37.934498</rc-lat>
+<rc-lon>-87.89397</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>646</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch>EVVLIN030MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN01LMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>649</nxx>
+<x>A</x>
+<exch>059970</exch>
+<rc>Rockport</rc>
+<region>IN</region>
+<switch>RCPTIN01RSJ</switch>
+<switchname>ROCKPORT</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6702</rc-v>
+<rc-h>2930</rc-h>
+<rc-lat>37.891792</rc-lat>
+<rc-lon>-87.048593</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>660</nxx>
+<x>A</x>
+<exch>059970</exch>
+<rc>Rockport</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6702</rc-v>
+<rc-h>2930</rc-h>
+<rc-lat>37.891792</rc-lat>
+<rc-lon>-87.048593</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>661</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>EVVLINAMGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>JSPRINXANMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>060780</exch>
+<rc>Wadesville</rc>
+<region>IN</region>
+<switch>WSVLINXARS0</switch>
+<switchname>WADESVILLE</switchname>
+<switchtype>RS</switchtype>
+<ocn>0809</ocn>
+<company-name>COMMUNICATIONS CORP. OF SOUTHERN INDIANA                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0809</ilec-ocn>
+<ilec-name>COMMUNICATIONS CORP. OF SOUTHERN INDIANA                  </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6721</rc-v>
+<rc-h>3065</rc-h>
+<rc-lat>38.106393</rc-lat>
+<rc-lon>-87.793216</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>677</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>057100</exch>
+<rc>Dubois</rc>
+<region>IN</region>
+<switch>DUBSINXARS1</switch>
+<switchname>DUBOIS</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6577</rc-v>
+<rc-h>2949</rc-h>
+<rc-lat>38.441206</rc-lat>
+<rc-lon>-86.800155</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>682</nxx>
+<x>A</x>
+<exch>059220</exch>
+<rc>New Harmony</rc>
+<region>IN</region>
+<switch>NWHRIN01RS3</switch>
+<switchname>NEW HARMONY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6726</rc-v>
+<rc-h>3088</rc-h>
+<rc-lat>38.135274</rc-lat>
+<rc-lon>-87.925285</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>683</nxx>
+<x>A</x>
+<exch>057980</exch>
+<rc>Huntingburg</rc>
+<region>IN</region>
+<switch>HGBGINXADS0</switch>
+<switchname>HUNTINGBURG</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6618</rc-v>
+<rc-h>2957</rc-h>
+<rc-lat>38.292202</rc-lat>
+<rc-lon>-86.955203</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>684</nxx>
+<x>A</x>
+<exch>057980</exch>
+<rc>Huntingburg</rc>
+<region>IN</region>
+<switch>JSPRINXADS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>068F</ocn>
+<company-name>FULLNET ADVANCED COMMUNICATIONS, INC. IN                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6618</rc-v>
+<rc-h>2957</rc-h>
+<rc-lat>38.292202</rc-lat>
+<rc-lon>-86.955203</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>685</nxx>
+<x>A</x>
+<exch>061060</exch>
+<rc>Wickliffe</rc>
+<region>IN</region>
+<switch>WCKLINXBDS1</switch>
+<switchname>WICKLIFFE</switchname>
+<switchtype>DCO</switchtype>
+<ocn>0776</ocn>
+<company-name>COMMUNICATIONS CORP. OF INDIANA                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0776</ilec-ocn>
+<ilec-name>COMMUNICATIONS CORP. OF INDIANA                           </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6577</rc-v>
+<rc-h>2918</rc-h>
+<rc-lat>38.373155</rc-lat>
+<rc-lon>-86.640893</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>686</nxx>
+<x>A</x>
+<exch>056990</exch>
+<rc>Dale</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6643</rc-v>
+<rc-h>2950</rc-h>
+<rc-lat>38.175311</rc-lat>
+<rc-lon>-86.988452</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>695</nxx>
+<x>A</x>
+<exch>057860</exch>
+<rc>Haysville</rc>
+<region>IN</region>
+<switch>HYVLINXARS1</switch>
+<switchname>HAYSVILLE</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6576</rc-v>
+<rc-h>2970</rc-h>
+<rc-lat>38.491245</rc-lat>
+<rc-lon>-86.905427</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>706</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>EVVLIN01JMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7314</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IN                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>708</nxx>
+<x>A</x>
+<exch>057190</exch>
+<rc>Elberfeld</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6683</rc-v>
+<rc-h>3017</rc-h>
+<rc-lat>38.158055</rc-lat>
+<rc-lon>-87.442608</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>709</nxx>
+<x>A</x>
+<exch>058510</exch>
+<rc>Loogootee</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6541</rc-v>
+<rc-h>2989</rc-h>
+<rc-lat>38.674371</rc-lat>
+<rc-lon>-86.906014</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>715</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch>EVVLINLVDS0</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>NT5</switchtype>
+<ocn>4111</ocn>
+<company-name>SIGECOM, LLC DBA WOW INTERNET CABLE AND PHONE             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>719</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>721</nxx>
+<x>A</x>
+<exch>060360</exch>
+<rc>Spurgeon</rc>
+<region>IN</region>
+<switch>SPRGINXARS0</switch>
+<switchname>SPURGEON</switchname>
+<switchtype>1RC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6649</rc-v>
+<rc-h>2999</rc-h>
+<rc-lat>38.257578</rc-lat>
+<rc-lon>-87.256708</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>724</nxx>
+<x>A</x>
+<exch>059490</exch>
+<rc>Owensville</rc>
+<region>IN</region>
+<switch>OWVLINXARS0</switch>
+<switchname>OWENSVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6681</rc-v>
+<rc-h>3067</rc-h>
+<rc-lat>38.274089</rc-lat>
+<rc-lon>-87.694657</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>729</nxx>
+<x>A</x>
+<exch>059490</exch>
+<rc>Owensville</rc>
+<region>IN</region>
+<switch>OWVLINXARS0</switch>
+<switchname>OWENSVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6681</rc-v>
+<rc-h>3067</rc-h>
+<rc-lat>38.274089</rc-lat>
+<rc-lon>-87.694657</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>746</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>749</nxx>
+<x>A</x>
+<exch>059390</exch>
+<rc>Oakland City</rc>
+<region>IN</region>
+<switch>OKCYINXARS0</switch>
+<switchname>OAKLAND CITY</switchname>
+<switchtype>5ER</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6640</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>38.339794</rc-lat>
+<rc-lon>-87.340044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>751</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>753</nxx>
+<x>A</x>
+<exch>057400</exch>
+<rc>Fort Branch</rc>
+<region>IN</region>
+<switch>FTBRINXARS0</switch>
+<switchname>FORT BRANCH</switchname>
+<switchtype>5BR</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6676</rc-v>
+<rc-h>3046</rc-h>
+<rc-lat>38.249249</rc-lat>
+<rc-lon>-87.572739</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>758</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>EVVLIN01X0X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>759</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>760</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLINAMGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>761</nxx>
+<x>A</x>
+<exch>059800</exch>
+<rc>Princeton</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6655</rc-v>
+<rc-h>3056</rc-h>
+<rc-lat>38.356506</rc-lat>
+<rc-lon>-87.566832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>763</nxx>
+<x>A</x>
+<exch>056680</exch>
+<rc>Chrisney</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6677</rc-v>
+<rc-h>2940</rc-h>
+<rc-lat>38.015262</rc-lat>
+<rc-lon>-87.030997</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>768</nxx>
+<x>A</x>
+<exch>057401</exch>
+<rc>Haubstadt</rc>
+<region>IN</region>
+<switch>FTBRINXARS0</switch>
+<switchname>FORT BRANCH</switchname>
+<switchtype>5BR</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6676</rc-v>
+<rc-h>3046</rc-h>
+<rc-lat>38.249249</rc-lat>
+<rc-lon>-87.572739</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>771</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>060540</exch>
+<rc>Tell City</rc>
+<region>IN</region>
+<switch>SNTCINXA2MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5584</ocn>
+<company-name>PERRY-SPENCER COMMUNICATIONS, INC. - IN                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6667</rc-v>
+<rc-h>2895</rc-h>
+<rc-lat>37.957517</rc-lat>
+<rc-lon>-86.773229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>773</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03OMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7440</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - IN                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>779</nxx>
+<x>A</x>
+<exch>059540</exch>
+<rc>Patoka</rc>
+<region>IN</region>
+<switch>PATKINXARS0</switch>
+<switchname>PATOKA</switchname>
+<switchtype>5BR</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6646</rc-v>
+<rc-h>3064</rc-h>
+<rc-lat>38.410486</rc-lat>
+<rc-lon>-87.583466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>781</nxx>
+<x>A</x>
+<exch>059220</exch>
+<rc>New Harmony</rc>
+<region>IN</region>
+<switch>EVVLIN03X5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6726</rc-v>
+<rc-h>3088</rc-h>
+<rc-lat>38.135274</rc-lat>
+<rc-lon>-87.925285</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>782</nxx>
+<x>A</x>
+<exch>057460</exch>
+<rc>Francisco</rc>
+<region>IN</region>
+<switch>FRNCINXARS0</switch>
+<switchname>FRANCISCO</switchname>
+<switchtype>5BR</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6649</rc-v>
+<rc-h>3035</rc-h>
+<rc-lat>38.335602</rc-lat>
+<rc-lon>-87.442077</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>060280</exch>
+<rc>Solitude</rc>
+<region>IN</region>
+<switch>SLTDIN01RS1</switch>
+<switchname>SOLITUDE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6744</rc-v>
+<rc-h>3074</rc-h>
+<rc-lat>38.031674</rc-lat>
+<rc-lon>-87.901892</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>795</nxx>
+<x>A</x>
+<exch>058570</exch>
+<rc>Mackey</rc>
+<region>IN</region>
+<switch>MCKYINXARS0</switch>
+<switchname>MACKEY</switchname>
+<switchtype>5BR</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6660</rc-v>
+<rc-h>3019</rc-h>
+<rc-lat>38.256136</rc-lat>
+<rc-lon>-87.389855</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>802</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3292</ocn>
+<company-name>WINDSTREAM NUVOX INDIANA, LLC                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXADS0</switch>
+<switchname>JASPER</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXANMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>831</nxx>
+<x>A</x>
+<exch>059130</exch>
+<rc>Mount Vernon</rc>
+<region>IN</region>
+<switch>MTVRINABRS1</switch>
+<switchname>MT VERNON</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6762</rc-v>
+<rc-h>3063</rc-h>
+<rc-lat>37.934498</rc-lat>
+<rc-lon>-87.89397</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>833</nxx>
+<x>A</x>
+<exch>059130</exch>
+<rc>Mount Vernon</rc>
+<region>IN</region>
+<switch>MTVRIN01RS1</switch>
+<switchname>MT VERNON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6762</rc-v>
+<rc-h>3063</rc-h>
+<rc-lat>37.934498</rc-lat>
+<rc-lon>-87.89397</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>836</nxx>
+<x>A</x>
+<exch>060420</exch>
+<rc>St Marks</rc>
+<region>IN</region>
+<switch>STMKINXADS0</switch>
+<switchname>TELL CITY</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0807</ocn>
+<company-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0807</ilec-ocn>
+<ilec-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6645</rc-v>
+<rc-h>2893</rc-h>
+<rc-lat>38.042419</rc-lat>
+<rc-lon>-86.702075</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>838</nxx>
+<x>A</x>
+<exch>059130</exch>
+<rc>Mount Vernon</rc>
+<region>IN</region>
+<switch>MTVRIN01RS1</switch>
+<switchname>MT VERNON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6762</rc-v>
+<rc-h>3063</rc-h>
+<rc-lat>37.934498</rc-lat>
+<rc-lon>-87.89397</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>842</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>NWBRIN01DS0</switch>
+<switchname>NEWBURGH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>843</nxx>
+<x>A</x>
+<exch>056160</exch>
+<rc>Bandon</rc>
+<region>IN</region>
+<switch>BNDNINXADS0</switch>
+<switchname>LEOPOLD</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0807</ocn>
+<company-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0807</ilec-ocn>
+<ilec-name>PERRY - SPENCER RURAL TELEPHONE COOP., INC.               </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6622</rc-v>
+<rc-h>2884</rc-h>
+<rc-lat>38.115926</rc-lat>
+<rc-lon>-86.592151</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>845</nxx>
+<x>A</x>
+<exch>056980</exch>
+<rc>Cynthiana</rc>
+<region>IN</region>
+<switch>CYNTINXARS0</switch>
+<switchname>CYNTHIANA</switchname>
+<switchtype>5BR</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6698</rc-v>
+<rc-h>3061</rc-h>
+<rc-lat>38.191756</rc-lat>
+<rc-lon>-87.710066</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>848</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>SNTCINXADS2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5584</ocn>
+<company-name>PERRY-SPENCER COMMUNICATIONS, INC. - IN                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>851</nxx>
+<x>A</x>
+<exch>057760</exch>
+<rc>Griffin</rc>
+<region>IN</region>
+<switch>GRFNINXADS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0818</ocn>
+<company-name>SMITHVILLE COMM., INC DBA SMITHVILLE TELEPHONE CO.        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0818</ilec-ocn>
+<ilec-name>SMITHVILLE COMM., INC DBA SMITHVILLE TELEPHONE CO.        </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6711</rc-v>
+<rc-h>3093</rc-h>
+<rc-lat>38.207326</rc-lat>
+<rc-lon>-87.910409</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>NWBRIN01DS0</switch>
+<switchname>NEWBURGH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>858</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>NWBRIN01DS0</switch>
+<switchname>NEWBURGH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>860</nxx>
+<x>A</x>
+<exch>056630</exch>
+<rc>Chandler</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6699</rc-v>
+<rc-h>2994</rc-h>
+<rc-lat>38.043056</rc-lat>
+<rc-lon>-87.36823</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>867</nxx>
+<x>A</x>
+<exch>058710</exch>
+<rc>McCutchanville</rc>
+<region>IN</region>
+<switch>MCCTIN01RSA</switch>
+<switchname>MCCUTCHANVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6706</rc-v>
+<rc-h>3018</rc-h>
+<rc-lat>38.066421</rc-lat>
+<rc-lon>-87.510613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>868</nxx>
+<x>A</x>
+<exch>058710</exch>
+<rc>McCutchanville</rc>
+<region>IN</region>
+<switch>MCCTIN01RSA</switch>
+<switchname>MCCUTCHANVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6706</rc-v>
+<rc-h>3018</rc-h>
+<rc-lat>38.066421</rc-lat>
+<rc-lon>-87.510613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>874</nxx>
+<x>A</x>
+<exch>059770</exch>
+<rc>Poseyville</rc>
+<region>IN</region>
+<switch>POVLINXADS0</switch>
+<switchname>POSEYVILLE</switchname>
+<switchtype>DRM</switchtype>
+<ocn>0809</ocn>
+<company-name>COMMUNICATIONS CORP. OF SOUTHERN INDIANA                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0809</ilec-ocn>
+<ilec-name>COMMUNICATIONS CORP. OF SOUTHERN INDIANA                  </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6706</rc-v>
+<rc-h>3069</rc-h>
+<rc-lat>38.176275</rc-lat>
+<rc-lon>-87.773064</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>056680</exch>
+<rc>Chrisney</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>105F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - IN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6677</rc-v>
+<rc-h>2940</rc-h>
+<rc-lat>38.015262</rc-lat>
+<rc-lon>-87.030997</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>892</nxx>
+<x>A</x>
+<exch>060120</exch>
+<rc>Sandridge</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>105F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - IN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6709</rc-v>
+<rc-h>2948</rc-h>
+<rc-lat>37.902498</rc-lat>
+<rc-lon>-87.159875</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-10 16:04:39</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>893</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>CHNDINAACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6725</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>897</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch>BNVLIN01RSC</switch>
+<switchname>BOONVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>901</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>909</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (INDIANA) - IN         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>912</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXAHMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>501G</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IN                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>915</nxx>
+<x>A</x>
+<exch>060550</exch>
+<rc>Tennyson</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6669</rc-v>
+<rc-h>2961</rc-h>
+<rc-lat>38.093556</rc-lat>
+<rc-lon>-87.116587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>916</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919G</ocn>
+<company-name>METRO FIBERNET, LLC - IN                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>922</nxx>
+<x>A</x>
+<exch>058550</exch>
+<rc>Lynnville</rc>
+<region>IN</region>
+<switch>LYVLINXARS1</switch>
+<switchname>LYNNVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6661</rc-v>
+<rc-h>2999</rc-h>
+<rc-lat>38.20871</rc-lat>
+<rc-lon>-87.289711</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>925</nxx>
+<x>A</x>
+<exch>056630</exch>
+<rc>Chandler</rc>
+<region>IN</region>
+<switch>CHNDIN01RSE</switch>
+<switchname>CHANDLER</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6699</rc-v>
+<rc-h>2994</rc-h>
+<rc-lat>38.043056</rc-lat>
+<rc-lon>-87.36823</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>937</nxx>
+<x>A</x>
+<exch>056990</exch>
+<rc>Dale</rc>
+<region>IN</region>
+<switch>DALEIN01RSN</switch>
+<switchname>DALE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6643</rc-v>
+<rc-h>2950</rc-h>
+<rc-lat>38.175311</rc-lat>
+<rc-lon>-86.988452</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>942</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>956</nxx>
+<x>A</x>
+<exch>057860</exch>
+<rc>Haysville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>097D</ocn>
+<company-name>ONVOY, LLC  IN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6576</rc-v>
+<rc-h>2970</rc-h>
+<rc-lat>38.491245</rc-lat>
+<rc-lon>-86.905427</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-09-26 21:55:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>960</nxx>
+<x>A</x>
+<exch>059770</exch>
+<rc>Poseyville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0809</ocn>
+<company-name>COMMUNICATIONS CORP. OF SOUTHERN INDIANA                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0809</ilec-ocn>
+<ilec-name>COMMUNICATIONS CORP. OF SOUTHERN INDIANA                  </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6706</rc-v>
+<rc-h>3069</rc-h>
+<rc-lat>38.176275</rc-lat>
+<rc-lon>-87.773064</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-11 02:51:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>962</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch>EVVLIN03ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8366</ocn>
+<company-name>US XCHANGE OF INDIANA LLC DBA CHOICE ONE COMM IN          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>963</nxx>
+<x>A</x>
+<exch>060400</exch>
+<rc>St Joseph</rc>
+<region>IN</region>
+<switch>STJSIN01RSF</switch>
+<switchname>ST JOSEPH</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6710</rc-v>
+<rc-h>3038</rc-h>
+<rc-lat>38.093242</rc-lat>
+<rc-lon>-87.624341</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>965</nxx>
+<x>A</x>
+<exch>059310</exch>
+<rc>Newburgh</rc>
+<region>IN</region>
+<switch>EVVLINAPX3X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4803</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6718</rc-v>
+<rc-h>2991</rc-h>
+<rc-lat>37.959118</rc-lat>
+<rc-lon>-87.404771</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>971</nxx>
+<x>A</x>
+<exch>060120</exch>
+<rc>Sandridge</rc>
+<region>IN</region>
+<switch>EVVLINLWDS1</switch>
+<switchname>EVANSVILLE</switchname>
+<switchtype>CSX</switchtype>
+<ocn>8934</ocn>
+<company-name>WINDSTREAM NORLIGHT, INC. - IN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6709</rc-v>
+<rc-h>2948</rc-h>
+<rc-lat>37.902498</rc-lat>
+<rc-lon>-87.159875</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>978</nxx>
+<x>A</x>
+<exch>057860</exch>
+<rc>Haysville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6576</rc-v>
+<rc-h>2970</rc-h>
+<rc-lat>38.491245</rc-lat>
+<rc-lon>-86.905427</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>982</nxx>
+<x>A</x>
+<exch>060550</exch>
+<rc>Tennyson</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6669</rc-v>
+<rc-h>2961</rc-h>
+<rc-lat>38.093556</rc-lat>
+<rc-lon>-87.116587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>983</nxx>
+<x>A</x>
+<exch>057190</exch>
+<rc>Elberfeld</rc>
+<region>IN</region>
+<switch>ELBRINXARS0</switch>
+<switchname>ELBERFELD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0779</ocn>
+<company-name>FRONTIER NORTH, INC. - IN                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6683</rc-v>
+<rc-h>3017</rc-h>
+<rc-lat>38.158055</rc-lat>
+<rc-lon>-87.442608</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>985</nxx>
+<x>A</x>
+<exch>060440</exch>
+<rc>St Philip</rc>
+<region>IN</region>
+<switch>STPHIN01RSG</switch>
+<switchname>ST PHILLIP</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9325</ocn>
+<company-name>AMERITECH INDIANA                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6739</rc-v>
+<rc-h>3046</rc-h>
+<rc-lat>37.99203</rc-lat>
+<rc-lon>-87.744311</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>993</nxx>
+<x>A</x>
+<exch>056630</exch>
+<rc>Chandler</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>105F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - IN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6699</rc-v>
+<rc-h>2994</rc-h>
+<rc-lat>38.043056</rc-lat>
+<rc-lon>-87.36823</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>996</nxx>
+<x>A</x>
+<exch>058050</exch>
+<rc>Jasper</rc>
+<region>IN</region>
+<switch>JSPRINXADS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>068F</ocn>
+<company-name>FULLNET ADVANCED COMMUNICATIONS, INC. IN                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6597</rc-v>
+<rc-h>2963</rc-h>
+<rc-lat>38.390639</rc-lat>
+<rc-lon>-86.927787</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>998</nxx>
+<x>A</x>
+<exch>057350</exch>
+<rc>Ferdinand</rc>
+<region>IN</region>
+<switch>SNTCINXADS2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5584</ocn>
+<company-name>PERRY-SPENCER COMMUNICATIONS, INC. - IN                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>2935</rc-h>
+<rc-lat>38.223783</rc-lat>
+<rc-lon>-86.856136</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>812</npa>
+<nxx>999</nxx>
+<x>A</x>
+<exch>059390</exch>
+<rc>Oakland City</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6640</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>38.339794</rc-lat>
+<rc-lon>-87.340044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>204</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-07 01:28:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-23 03:01:15</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>356</nxx>
+<x>A</x>
+<exch>058550</exch>
+<rc>Lynnville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6661</rc-v>
+<rc-h>2999</rc-h>
+<rc-lat>38.20871</rc-lat>
+<rc-lon>-87.289711</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-20 12:47:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>444</nxx>
+<x>A</x>
+<exch>057290</exch>
+<rc>Evansville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6729</rc-v>
+<rc-h>3020</rc-h>
+<rc-lat>37.976894</rc-lat>
+<rc-lon>-87.583565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-04-13 02:24:47</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>465</nxx>
+<x>A</x>
+<exch>059220</exch>
+<rc>New Harmony</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6726</rc-v>
+<rc-h>3088</rc-h>
+<rc-lat>38.135274</rc-lat>
+<rc-lon>-87.925285</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-20 12:47:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>057980</exch>
+<rc>Huntingburg</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6618</rc-v>
+<rc-h>2957</rc-h>
+<rc-lat>38.292202</rc-lat>
+<rc-lon>-86.955203</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-07 01:52:51</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>056300</exch>
+<rc>Boonville</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9325</ilec-ocn>
+<ilec-name>AMERITECH INDIANA                                         </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>2981</rc-h>
+<rc-lat>38.051541</rc-lat>
+<rc-lon>-87.276868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-07 01:52:51</udate>
+</prefixdata>
+<prefixdata>
+<npa>930</npa>
+<nxx>900</nxx>
+<x>A</x>
+<exch>057100</exch>
+<rc>Dubois</rc>
+<region>IN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0779</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IN                                 </ilec-name>
+<lata>330</lata>
+<lir></lir>
+<rc-v>6577</rc-v>
+<rc-h>2949</rc-h>
+<rc-lat>38.441206</rc-lat>
+<rc-lon>-86.800155</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-07 01:52:51</udate>
+</prefixdata>
+</root>

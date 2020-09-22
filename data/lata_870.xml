@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>870</lata>
+</inputdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>233</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNXCRS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>236</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>237</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNXDRS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>284</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-24 02:26:49</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>287</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>288</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNXBRS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>321</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNXARS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>322</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNXARS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNXARS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>328</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>433</nxx>
+<x>A</x>
+<exch>128590</exch>
+<rc>Tinian</rc>
+<region>MP</region>
+<switch>TNINNNXADS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4129</rc-v>
+<rc-h>26260</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>483</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>CHLONN01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4974</ocn>
+<company-name>GUAM CELL &amp; PAGING DBA SAIPAN CELLULAR &amp; PAGING           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>484</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>CHLONN01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4974</ocn>
+<company-name>GUAM CELL &amp; PAGING DBA SAIPAN CELLULAR &amp; PAGING           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>488</nxx>
+<x>A</x>
+<exch>128590</exch>
+<rc>Tinian</rc>
+<region>MP</region>
+<switch>CHLONN01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4974</ocn>
+<company-name>GUAM CELL &amp; PAGING DBA SAIPAN CELLULAR &amp; PAGING           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4129</rc-v>
+<rc-h>26260</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>532</nxx>
+<x>A</x>
+<exch>128570</exch>
+<rc>Rota</rc>
+<region>MP</region>
+<switch>ROTANNXARS1</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4189</rc-v>
+<rc-h>26470</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>555</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>588</nxx>
+<x>A</x>
+<exch>128570</exch>
+<rc>Rota</rc>
+<region>MP</region>
+<switch>CHLONN01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4974</ocn>
+<company-name>GUAM CELL &amp; PAGING DBA SAIPAN CELLULAR &amp; PAGING           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4189</rc-v>
+<rc-h>26470</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>682</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>3700</ocn>
+<company-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </company-name>
+<company-type>I</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>785</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>788</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBDS1</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>789</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>SPSNNNZBCM2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>387C</ocn>
+<company-name>PTI PACIFICA INC.                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>838</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>CHLONN01CM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>651C</ocn>
+<company-name>WAVE RUNNER, LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>848</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>CHLONN01CM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>651C</ocn>
+<company-name>WAVE RUNNER, LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>858</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>CHLONN01CM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>651C</ocn>
+<company-name>WAVE RUNNER, LLC                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>868</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>878</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>TUMNGU01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>1085</ocn>
+<company-name>CHOICE PHONE LLC DBA ICONN                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>670</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>128580</exch>
+<rc>Saipan</rc>
+<region>MP</region>
+<switch>CHLONN01CM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4974</ocn>
+<company-name>GUAM CELL &amp; PAGING DBA SAIPAN CELLULAR &amp; PAGING           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>3700</ilec-ocn>
+<ilec-name>MICRONESIAN TELECOMMUNICATIONS CORP.                      </ilec-name>
+<lata>870</lata>
+<lir></lir>
+<rc-v>4106</rc-v>
+<rc-h>26215</rc-h>
+<rc-lat></rc-lat>
+<rc-lon></rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

@@ -1,0 +1,5081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>953</lata>
+</inputdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>201</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-09 01:49:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFL01DS0</switch>
+<switchname></switchname>
+<switchtype>5E</switchtype>
+<ocn>7131</ocn>
+<company-name>TELCOVE INVESTMENT, LLC - FL                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>210</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXGRL0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>216</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>222</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>223</nxx>
+<x>A</x>
+<exch>031480</exch>
+<rc>Perry</rc>
+<region>FL</region>
+<switch>PRRYFLXADS0</switch>
+<switchname>PERRY</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1565</rc-h>
+<rc-lat>30.115803</rc-lat>
+<rc-lon>-83.575138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>224</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>241</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS3</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8660</ocn>
+<company-name>NUVOX COMMUNICATIONS                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>030380</exch>
+<rc>Greenville</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7810</rc-v>
+<rc-h>1611</rc-h>
+<rc-lat>30.469196</rc-lat>
+<rc-lon>-83.625371</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>251</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>253</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>MDSNFLXADS0</switch>
+<switchname>MADISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAX4X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6100</ocn>
+<company-name>XO FLORIDA, INC.                                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>264</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>270</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>273</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>274</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>284</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>290</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>MDSNFLXADS0</switch>
+<switchname>MADISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>294</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>031480</exch>
+<rc>Perry</rc>
+<region>FL</region>
+<switch>TLHSFLXAXHY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1565</rc-h>
+<rc-lat>30.115803</rc-lat>
+<rc-lon>-83.575138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAX0Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>982E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - FL                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>297</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLNG0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>318</nxx>
+<x>A</x>
+<exch>029940</exch>
+<rc>Crawfordville</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7936</rc-v>
+<rc-h>1703</rc-h>
+<rc-lat>30.174649</rc-lat>
+<rc-lon>-84.374838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-26 10:47:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>321</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>322</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>328</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS2</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>329</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>339</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXHY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>342</nxx>
+<x>A</x>
+<exch>031100</exch>
+<rc>Monticello</rc>
+<region>FL</region>
+<switch>MNTIFLXADS0</switch>
+<switchname>MONTICELLO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7819</rc-v>
+<rc-h>1658</rc-h>
+<rc-lat>30.541053</rc-lat>
+<rc-lon>-83.865465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>345</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXJX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>347</nxx>
+<x>A</x>
+<exch>031100</exch>
+<rc>Monticello</rc>
+<region>FL</region>
+<switch>TLHSFLXAX6Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8660</ocn>
+<company-name>NUVOX COMMUNICATIONS                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7819</rc-v>
+<rc-h>1658</rc-h>
+<rc-lat>30.541053</rc-lat>
+<rc-lon>-83.865465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>350</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXCDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>354</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>363</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>371</nxx>
+<x>A</x>
+<exch>031480</exch>
+<rc>Perry</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1565</rc-h>
+<rc-lat>30.115803</rc-lat>
+<rc-lon>-83.575138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>385</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>386</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>391</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>404</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-10-15 14:34:35</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>405</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXJY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>408</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>410</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>412</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>413</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>414</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXGRL0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>425</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>427</nxx>
+<x>A</x>
+<exch>031100</exch>
+<rc>Monticello</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8664</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - FL                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7819</rc-v>
+<rc-h>1658</rc-h>
+<rc-lat>30.541053</rc-lat>
+<rc-lon>-83.865465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>431</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>445</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>464</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>487</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>488</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>6771</ocn>
+<company-name>PORTA-PHONE DIV OF JOHN H. PHIPPS DBA AM MESG SVC         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>491</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>493</nxx>
+<x>A</x>
+<exch>030380</exch>
+<rc>Greenville</rc>
+<region>FL</region>
+<switch>TLHSFLXADS2</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7810</rc-v>
+<rc-h>1611</rc-h>
+<rc-lat>30.469196</rc-lat>
+<rc-lon>-83.625371</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>504</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXCDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>508</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>509</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>510</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>513</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>514</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXHDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>518</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-06 02:22:10</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>519</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>521</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>523</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>524</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>528</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>531</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>536</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXHDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>538</nxx>
+<x>A</x>
+<exch>029940</exch>
+<rc>Crawfordville</rc>
+<region>FL</region>
+<switch>TLHSFLXADS2</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7936</rc-v>
+<rc-h>1703</rc-h>
+<rc-lat>30.174649</rc-lat>
+<rc-lon>-84.374838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>544</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>545</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>029830</exch>
+<rc>Cherry Lake</rc>
+<region>FL</region>
+<switch>TLHSFLXADS2</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7771</rc-v>
+<rc-h>1590</rc-h>
+<rc-lat>30.576483</rc-lat>
+<rc-lon>-83.426773</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>551</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>6771</ocn>
+<company-name>PORTA-PHONE DIV OF JOHN H. PHIPPS DBA AM MESG SVC         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>552</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>553</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>558</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-09 01:49:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>559</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>561</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXHDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>566</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>570</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXCDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>575</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXCDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>576</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXCDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>577</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>578</nxx>
+<x>A</x>
+<exch>030710</exch>
+<rc>Keaton Beach</rc>
+<region>FL</region>
+<switch>PRRYFLXADS0</switch>
+<switchname>PERRY</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1537</rc-h>
+<rc-lat>29.831743</rc-lat>
+<rc-lon>-83.589229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>580</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXCDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>583</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAX0Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>982E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - FL                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>584</nxx>
+<x>A</x>
+<exch>031480</exch>
+<rc>Perry</rc>
+<region>FL</region>
+<switch>PRRYFLXADS0</switch>
+<switchname>PERRY</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1565</rc-h>
+<rc-lat>30.115803</rc-lat>
+<rc-lon>-83.575138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>590</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>591</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>597</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLAT5MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>599</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>601</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>TLHSFLXAX8Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>606</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>617</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>629</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAX4Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>631</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>644</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXEDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>645</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXEDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>656</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>657</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>661</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>668</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXFDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>671</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>672</nxx>
+<x>A</x>
+<exch>031480</exch>
+<rc>Perry</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1565</rc-h>
+<rc-lat>30.115803</rc-lat>
+<rc-lon>-83.575138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>681</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>688</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAX7X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8664</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - FL                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>690</nxx>
+<x>A</x>
+<exch>030710</exch>
+<rc>Keaton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1537</rc-h>
+<rc-lat>29.831743</rc-lat>
+<rc-lon>-83.589229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>692</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLATBMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>694</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>695</nxx>
+<x>A</x>
+<exch>029940</exch>
+<rc>Crawfordville</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7936</rc-v>
+<rc-h>1703</rc-h>
+<rc-lat>30.174649</rc-lat>
+<rc-lon>-84.374838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>701</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS2</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>702</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLQQDS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>807D</ocn>
+<company-name>ELECTRONET INTERMEDIA CONSULTING, INC. - FL               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>709</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXBDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>6483</ocn>
+<company-name>NETWORK SERVICES LLC (TSR)                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>713</nxx>
+<x>A</x>
+<exch>031830</exch>
+<rc>St Marks</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7923</rc-v>
+<rc-h>1672</rc-h>
+<rc-lat>30.156415</rc-lat>
+<rc-lon>-84.198642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>717</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>721</nxx>
+<x>A</x>
+<exch>031830</exch>
+<rc>St Marks</rc>
+<region>FL</region>
+<switch>TLHSFLXADS2</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7923</rc-v>
+<rc-h>1672</rc-h>
+<rc-lat>30.156415</rc-lat>
+<rc-lon>-84.198642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXOX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>728</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>735</nxx>
+<x>A</x>
+<exch>031830</exch>
+<rc>St Marks</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7923</rc-v>
+<rc-h>1672</rc-h>
+<rc-lat>30.156415</rc-lat>
+<rc-lon>-84.198642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>738</nxx>
+<x>A</x>
+<exch>029830</exch>
+<rc>Cherry Lake</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7771</rc-v>
+<rc-h>1590</rc-h>
+<rc-lat>30.576483</rc-lat>
+<rc-lon>-83.426773</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-11-01 00:01:10</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>739</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>982E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - FL                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-03-05 16:51:01</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>745</nxx>
+<x>A</x>
+<exch>029940</exch>
+<rc>Crawfordville</rc>
+<region>FL</region>
+<switch>TLHSFLAT0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7936</rc-v>
+<rc-h>1703</rc-h>
+<rc-lat>30.174649</rc-lat>
+<rc-lon>-84.374838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>755</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>382G</ocn>
+<company-name>TERRA NOVA TELECOM, INC. - FL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-05-12 01:18:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>756</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-24 23:38:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>757</nxx>
+<x>A</x>
+<exch>029830</exch>
+<rc>Cherry Lake</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>982E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - FL                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7771</rc-v>
+<rc-h>1590</rc-h>
+<rc-lat>30.576483</rc-lat>
+<rc-lon>-83.426773</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-12 02:28:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>759</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-09 13:21:19</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>764</nxx>
+<x>A</x>
+<exch>029830</exch>
+<rc>Cherry Lake</rc>
+<region>FL</region>
+<switch>TLHSFLXAUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7771</rc-v>
+<rc-h>1590</rc-h>
+<rc-lat>30.576483</rc-lat>
+<rc-lon>-83.426773</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>765</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXZX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>766</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>778</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>779</nxx>
+<x>A</x>
+<exch>030380</exch>
+<rc>Greenville</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7810</rc-v>
+<rc-h>1611</rc-h>
+<rc-lat>30.469196</rc-lat>
+<rc-lon>-83.625371</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>782</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-07 03:23:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>792</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLUS3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>807</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAGT0</switch>
+<switchname></switchname>
+<switchtype>TG</switchtype>
+<ocn>6100</ocn>
+<company-name>XO FLORIDA, INC.                                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>808</nxx>
+<x>A</x>
+<exch>031830</exch>
+<rc>St Marks</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7923</rc-v>
+<rc-h>1672</rc-h>
+<rc-lat>30.156415</rc-lat>
+<rc-lon>-84.198642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>815</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>031830</exch>
+<rc>St Marks</rc>
+<region>FL</region>
+<switch>TLHSFLXAXZX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7923</rc-v>
+<rc-h>1672</rc-h>
+<rc-lat>30.156415</rc-lat>
+<rc-lon>-84.198642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>838</nxx>
+<x>A</x>
+<exch>031480</exch>
+<rc>Perry</rc>
+<region>FL</region>
+<switch>PRRYFLXADS0</switch>
+<switchname>PERRY</switchname>
+<switchtype>EWSD</switchtype>
+<ocn>0291</ocn>
+<company-name>GTC, INC. - FL                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1565</rc-h>
+<rc-lat>30.115803</rc-lat>
+<rc-lon>-83.575138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>841</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>843</nxx>
+<x>A</x>
+<exch>031480</exch>
+<rc>Perry</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0291</ilec-ocn>
+<ilec-name>GTC, INC. - FL                                            </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7872</rc-v>
+<rc-h>1565</rc-h>
+<rc-lat>30.115803</rc-lat>
+<rc-lon>-83.575138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>846</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>TLHSFLXAXKX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>847</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>848</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-05-12 01:18:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>852</nxx>
+<x>A</x>
+<exch>031100</exch>
+<rc>Monticello</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7819</rc-v>
+<rc-h>1658</rc-h>
+<rc-lat>30.541053</rc-lat>
+<rc-lon>-83.865465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-03-30 17:29:13</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXEDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>869</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>877</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>878</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>029940</exch>
+<rc>Crawfordville</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7936</rc-v>
+<rc-h>1703</rc-h>
+<rc-lat>30.174649</rc-lat>
+<rc-lon>-84.374838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>891</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>893</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXFDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>894</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXFDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>895</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>900</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>901</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>906</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXFDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>907</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXFDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>915</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>921</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>922</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXADS1</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>925</nxx>
+<x>A</x>
+<exch>031830</exch>
+<rc>St Marks</rc>
+<region>FL</region>
+<switch>STMKFLXARS0</switch>
+<switchname>ST MARKS</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7923</rc-v>
+<rc-h>1672</rc-h>
+<rc-lat>30.156415</rc-lat>
+<rc-lon>-84.198642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>926</nxx>
+<x>A</x>
+<exch>029940</exch>
+<rc>Crawfordville</rc>
+<region>FL</region>
+<switch>CFVLFLXADS0</switch>
+<switchname>CRAWFORDVILLE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7936</rc-v>
+<rc-h>1703</rc-h>
+<rc-lat>30.174649</rc-lat>
+<rc-lon>-84.374838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>929</nxx>
+<x>A</x>
+<exch>029830</exch>
+<rc>Cherry Lake</rc>
+<region>FL</region>
+<switch>CHLKFLXARS0</switch>
+<switchname>CHERRY LAKE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7771</rc-v>
+<rc-h>1590</rc-h>
+<rc-lat>30.576483</rc-lat>
+<rc-lon>-83.426773</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>933</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXACM3</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>942</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXDDS0</switch>
+<switchname>TALLAHASSEE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>948</nxx>
+<x>A</x>
+<exch>030380</exch>
+<rc>Greenville</rc>
+<region>FL</region>
+<switch>GNVLFLXARS0</switch>
+<switchname>GREENVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7810</rc-v>
+<rc-h>1611</rc-h>
+<rc-lat>30.469196</rc-lat>
+<rc-lon>-83.625371</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>962</nxx>
+<x>A</x>
+<exch>029940</exch>
+<rc>Crawfordville</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7936</rc-v>
+<rc-h>1703</rc-h>
+<rc-lat>30.174649</rc-lat>
+<rc-lon>-84.374838</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>971</nxx>
+<x>A</x>
+<exch>029830</exch>
+<rc>Cherry Lake</rc>
+<region>FL</region>
+<switch>LEE FLXARS0</switch>
+<switchname>LEE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7771</rc-v>
+<rc-h>1590</rc-h>
+<rc-lat>30.576483</rc-lat>
+<rc-lon>-83.426773</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 01:42:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>973</nxx>
+<x>A</x>
+<exch>030950</exch>
+<rc>Madison</rc>
+<region>FL</region>
+<switch>MDSNFLXADS0</switch>
+<switchname>MADISON</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7790</rc-v>
+<rc-h>1575</rc-h>
+<rc-lat>30.466094</rc-lat>
+<rc-lon>-83.407466</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>980</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXJX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>984</nxx>
+<x>A</x>
+<exch>031830</exch>
+<rc>St Marks</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7923</rc-v>
+<rc-h>1672</rc-h>
+<rc-lat>30.156415</rc-lat>
+<rc-lon>-84.198642</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>997</nxx>
+<x>A</x>
+<exch>031100</exch>
+<rc>Monticello</rc>
+<region>FL</region>
+<switch>MNTIFLXADS0</switch>
+<switchname>MONTICELLO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7819</rc-v>
+<rc-h>1658</rc-h>
+<rc-lat>30.541053</rc-lat>
+<rc-lon>-83.865465</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>999</nxx>
+<x>A</x>
+<exch>031890</exch>
+<rc>Tallahassee</rc>
+<region>FL</region>
+<switch>TLHSFLXAXKX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>953</lata>
+<lir></lir>
+<rc-v>7876</rc-v>
+<rc-h>1715</rc-h>
+<rc-lat>30.442716</rc-lat>
+<rc-lon>-84.27613</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

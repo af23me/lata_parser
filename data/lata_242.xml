@@ -1,0 +1,5481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>242</lata>
+</inputdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>200</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>ESTNMDES5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7228</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - MD                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>202</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>079270</exch>
+<rc>Berlin</rc>
+<region>MD</region>
+<switch>OCPNMDCRRS1</switch>
+<switchname>OCEAN PINES</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5546</rc-v>
+<rc-h>1258</rc-h>
+<rc-lat>38.325612</rc-lat>
+<rc-lon>-75.218044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>WOCYMDBARS0</switch>
+<switchname>WEST OCEAN CITY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>221</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>CMBRMDCMDS0</switch>
+<switchname>CAMBRIDGE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>080110</exch>
+<rc>Oxford</rc>
+<region>MD</region>
+<switch>OXFRMDOXRS0</switch>
+<switchname>OXFORD</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5576</rc-v>
+<rc-h>1435</rc-h>
+<rc-lat>38.684187</rc-lat>
+<rc-lon>-76.163723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>CMBRMDCMDS0</switch>
+<switchname>CAMBRIDGE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>OCCYMDMBRS1</switch>
+<switchname>OCEAN CITY MONTEGO BAY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>251</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>253</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>270</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMD90CM8</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>6810</ocn>
+<company-name>REDI-CALL COMMUNICATIONS CO                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>275</nxx>
+<x>A</x>
+<exch>079370</exch>
+<rc>Cecilton</rc>
+<region>MD</region>
+<switch>CCTNMDCLRS0</switch>
+<switchname>CECILTON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5420</rc-v>
+<rc-h>1486</rc-h>
+<rc-lat>39.399552</rc-lat>
+<rc-lon>-75.876162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>289</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>OCCYMDOCRS0</switch>
+<switchname>OCEAN CITY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>080220</exch>
+<rc>Queenstown</rc>
+<region>MD</region>
+<switch>QNTWMDARPS0</switch>
+<switchname></switchname>
+<switchtype>PEO</switchtype>
+<ocn>228C</ocn>
+<company-name>IDT AMERICA CORP - MD                                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5520</rc-v>
+<rc-h>1473</rc-h>
+<rc-lat>38.99315</rc-lat>
+<rc-lon>-76.156121</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>310</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>334</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>341</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>348</nxx>
+<x>A</x>
+<exch>080430</exch>
+<rc>Still Pond</rc>
+<region>MD</region>
+<switch>STPNMDSPRS0</switch>
+<switchname>STILL POND</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5450</rc-v>
+<rc-h>1499</rc-h>
+<rc-lat>39.322477</rc-lat>
+<rc-lon>-76.042098</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>352</nxx>
+<x>A</x>
+<exch>079280</exch>
+<rc>Bishopville</rc>
+<region>MD</region>
+<switch>BSHPMDBPRS0</switch>
+<switchname>BISHOP</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5527</rc-v>
+<rc-h>1272</rc-h>
+<rc-lat>38.433253</rc-lat>
+<rc-lon>-75.219538</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>364</nxx>
+<x>A</x>
+<exch>079810</exch>
+<rc>Hillsboro</rc>
+<region>MD</region>
+<switch>HLBOMDTKRS0</switch>
+<switchname>HILLSBORO</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5513</rc-v>
+<rc-h>1435</rc-h>
+<rc-lat>38.918763</rc-lat>
+<rc-lon>-75.949628</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>376</nxx>
+<x>A</x>
+<exch>080530</exch>
+<rc>Vienna</rc>
+<region>MD</region>
+<switch>VINNMDVNRS0</switch>
+<switchname>VIENNA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1362</rc-h>
+<rc-lat>38.483764</rc-lat>
+<rc-lon>-75.821373</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>380</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMD90CM8</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>6810</ocn>
+<company-name>REDI-CALL COMMUNICATIONS CO                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>390</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>SLBRMDSBXUX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7325</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - MD                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>080750</exch>
+<rc>Wingate</rc>
+<region>MD</region>
+<switch>HONGMDHGRS0</switch>
+<switchname>HONGA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5633</rc-v>
+<rc-h>1401</rc-h>
+<rc-lat>38.382012</rc-lat>
+<rc-lon>-76.193342</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>425</nxx>
+<x>A</x>
+<exch>080350</exch>
+<rc>Smith Island</rc>
+<region>MD</region>
+<switch>SMISMDSIRS0</switch>
+<switchname>SMITH ISLAND</switchname>
+<switchtype>RLC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5691</rc-v>
+<rc-h>1325</rc-h>
+<rc-lat>37.965385</rc-lat>
+<rc-lon>-76.025933</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>430</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>438</nxx>
+<x>A</x>
+<exch>080440</exch>
+<rc>Sudlersville</rc>
+<region>MD</region>
+<switch>SDVLMDSDRS0</switch>
+<switchname>SUDLERSVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5455</rc-v>
+<rc-h>1457</rc-h>
+<rc-lat>39.192629</rc-lat>
+<rc-lon>-75.856836</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSBXFX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6119</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MD                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>463</nxx>
+<x>A</x>
+<exch>080510</exch>
+<rc>Trappe</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5571</rc-v>
+<rc-h>1418</rc-h>
+<rc-lat>38.657951</rc-lat>
+<rc-lon>-76.065323</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>080510</exch>
+<rc>Trappe</rc>
+<region>MD</region>
+<switch>TRPPMDTRRS0</switch>
+<switchname>TRAPPE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5571</rc-v>
+<rc-h>1418</rc-h>
+<rc-lat>38.657951</rc-lat>
+<rc-lon>-76.065323</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>479</nxx>
+<x>A</x>
+<exch>079540</exch>
+<rc>Denton</rc>
+<region>MD</region>
+<switch>DNTNMDDTRS0</switch>
+<switchname>DENTON</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5507</rc-v>
+<rc-h>1413</rc-h>
+<rc-lat>38.882775</rc-lat>
+<rc-lon>-75.823619</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>482</nxx>
+<x>A</x>
+<exch>079750</exch>
+<rc>Greensboro</rc>
+<region>MD</region>
+<switch>GNBOMDGRRS0</switch>
+<switchname>GREENSBORO</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5489</rc-v>
+<rc-h>1423</rc-h>
+<rc-lat>38.976158</rc-lat>
+<rc-lon>-75.810027</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>490</nxx>
+<x>A</x>
+<exch>079380</exch>
+<rc>Centreville</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5503</rc-v>
+<rc-h>1467</rc-h>
+<rc-lat>39.040616</rc-lat>
+<rc-lon>-76.069293</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>520</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>OCCYMDONDS0</switch>
+<switchname>OCEAN CITY NORTH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>524</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>OCCYMDONDS0</switch>
+<switchname>OCEAN CITY NORTH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>543</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>546</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>548</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>079420</exch>
+<rc>Church Hill</rc>
+<region>MD</region>
+<switch>CHRTMDCHDS0</switch>
+<switchname>CHESTERTOWN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5477</rc-v>
+<rc-h>1468</rc-h>
+<rc-lat>39.140006</rc-lat>
+<rc-lon>-75.985224</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>572</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>600</nxx>
+<x>A</x>
+<exch>079270</exch>
+<rc>Berlin</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7228</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - MD                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5546</rc-v>
+<rc-h>1258</rc-h>
+<rc-lat>38.325612</rc-lat>
+<rc-lon>-75.218044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>603</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>604</nxx>
+<x>A</x>
+<exch>080420</exch>
+<rc>Stevensville</rc>
+<region>MD</region>
+<switch>STVLMDSTRS1</switch>
+<switchname>STEVENSVILLE</switchname>
+<switchtype>EXM</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5538</rc-v>
+<rc-h>1492</rc-h>
+<rc-lat>38.976123</rc-lat>
+<rc-lon>-76.308811</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>621</nxx>
+<x>A</x>
+<exch>080210</exch>
+<rc>Princess Anne</rc>
+<region>MD</region>
+<switch>PRANMDPARS1</switch>
+<switchname>PRINCESS ANNE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5614</rc-v>
+<rc-h>1309</rc-h>
+<rc-lat>38.20949</rc-lat>
+<rc-lon>-75.690945</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>623</nxx>
+<x>A</x>
+<exch>079930</exch>
+<rc>Marion</rc>
+<region>MD</region>
+<switch>MARNMDMARS1</switch>
+<switchname>MARION</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5652</rc-v>
+<rc-h>1298</rc-h>
+<rc-lat>38.039146</rc-lat>
+<rc-lon>-75.766888</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>629</nxx>
+<x>A</x>
+<exch>079270</exch>
+<rc>Berlin</rc>
+<region>MD</region>
+<switch>BRLNMDBLRS1</switch>
+<switchname>BERLIN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5546</rc-v>
+<rc-h>1258</rc-h>
+<rc-lat>38.325612</rc-lat>
+<rc-lon>-75.218044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>080370</exch>
+<rc>Snow Hill</rc>
+<region>MD</region>
+<switch>SNHLMDSHRS0</switch>
+<switchname>SNOW HILL</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5590</rc-v>
+<rc-h>1263</rc-h>
+<rc-lat>38.176172</rc-lat>
+<rc-lon>-75.391453</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>634</nxx>
+<x>A</x>
+<exch>080260</exch>
+<rc>Ridgely</rc>
+<region>MD</region>
+<switch>HLBOMDTKRS0</switch>
+<switchname>HILLSBORO</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5502</rc-v>
+<rc-h>1429</rc-h>
+<rc-lat>38.943768</rc-lat>
+<rc-lon>-75.883275</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>080280</exch>
+<rc>Rock Hall</rc>
+<region>MD</region>
+<switch>RKHLMDRHRS0</switch>
+<switchname>ROCK HALL</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5502</rc-v>
+<rc-h>1501</rc-h>
+<rc-lat>39.134107</rc-lat>
+<rc-lon>-76.229674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>641</nxx>
+<x>A</x>
+<exch>079270</exch>
+<rc>Berlin</rc>
+<region>MD</region>
+<switch>BRLNMDBLRS1</switch>
+<switchname>BERLIN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5546</rc-v>
+<rc-h>1258</rc-h>
+<rc-lat>38.325612</rc-lat>
+<rc-lon>-75.218044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>643</nxx>
+<x>A</x>
+<exch>080420</exch>
+<rc>Stevensville</rc>
+<region>MD</region>
+<switch>RMCKMDRRRS0</switch>
+<switchname>ROMANCOKE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5538</rc-v>
+<rc-h>1492</rc-h>
+<rc-lat>38.976123</rc-lat>
+<rc-lon>-76.308811</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>648</nxx>
+<x>A</x>
+<exch>079710</exch>
+<rc>Galena</rc>
+<region>MD</region>
+<switch>GALNMDGLRS0</switch>
+<switchname>GALENA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>1478</rc-h>
+<rc-lat>39.341189</rc-lat>
+<rc-lon>-75.872024</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>651</nxx>
+<x>A</x>
+<exch>080210</exch>
+<rc>Princess Anne</rc>
+<region>MD</region>
+<switch>PRANMDPARS1</switch>
+<switchname>PRINCESS ANNE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5614</rc-v>
+<rc-h>1309</rc-h>
+<rc-lat>38.20949</rc-lat>
+<rc-lon>-75.690945</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>080190</exch>
+<rc>Preston</rc>
+<region>MD</region>
+<switch>PSTNMDPSRS0</switch>
+<switchname>PRESTON</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5545</rc-v>
+<rc-h>1404</rc-h>
+<rc-lat>38.717691</rc-lat>
+<rc-lon>-75.910024</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>677</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>690</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>WYMLMDMWLMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>699</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch>SLBRMDSBRMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>708</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>713</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6119</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MD                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>714</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>723</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>OCCYMDONDS0</switch>
+<switchname>OCEAN CITY NORTH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>725</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSBRMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>726</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>739</nxx>
+<x>A</x>
+<exch>079380</exch>
+<rc>Centreville</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5503</rc-v>
+<rc-h>1467</rc-h>
+<rc-lat>39.040616</rc-lat>
+<rc-lon>-76.069293</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>742</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>745</nxx>
+<x>A</x>
+<exch>080410</exch>
+<rc>St Michaels</rc>
+<region>MD</region>
+<switch>STMCMDSMRS0</switch>
+<switchname>ST. MICHAELS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5564</rc-v>
+<rc-h>1456</rc-h>
+<rc-lat>38.784295</rc-lat>
+<rc-lon>-76.223855</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>749</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>754</nxx>
+<x>A</x>
+<exch>079640</exch>
+<rc>Federalsburg</rc>
+<region>MD</region>
+<switch>FDBGMDFERS0</switch>
+<switchname>FEDERALSBURG</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5535</rc-v>
+<rc-h>1383</rc-h>
+<rc-lat>38.699202</rc-lat>
+<rc-lon>-75.775523</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>755</nxx>
+<x>A</x>
+<exch>080560</exch>
+<rc>Warwick</rc>
+<region>MD</region>
+<switch>CCTNMDCLRS0</switch>
+<switchname>CECILTON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5407</rc-v>
+<rc-h>1474</rc-h>
+<rc-lat>39.415952</rc-lat>
+<rc-lon>-75.773424</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>758</nxx>
+<x>A</x>
+<exch>079380</exch>
+<rc>Centreville</rc>
+<region>MD</region>
+<switch>CNVLMDCTRS2</switch>
+<switchname>CENTREVILLE</switchname>
+<switchtype>RS</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5503</rc-v>
+<rc-h>1467</rc-h>
+<rc-lat>39.040616</rc-lat>
+<rc-lon>-76.069293</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>763</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>ESTNMDESDS0</switch>
+<switchname>EASTON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>770</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>ESTNMDESDS0</switch>
+<switchname>EASTON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>778</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch>CHRTMDCHDS0</switch>
+<switchname>CHESTERTOWN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>784</nxx>
+<x>A</x>
+<exch>079520</exch>
+<rc>Deal Island</rc>
+<region>MD</region>
+<switch>DLISMDDLRS0</switch>
+<switchname>DEAL ISLAND</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5649</rc-v>
+<rc-h>1339</rc-h>
+<rc-lat>38.158793</rc-lat>
+<rc-lon>-75.951559</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>810</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch>CHRTMDCHDS0</switch>
+<switchname>CHESTERTOWN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>819</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>ESTNMDESDS0</switch>
+<switchname>EASTON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>ESTNMDESDS0</switch>
+<switchname>EASTON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>822</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>ESTNMDESDS0</switch>
+<switchname>EASTON</switchname>
+<switchtype>5EH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>080220</exch>
+<rc>Queenstown</rc>
+<region>MD</region>
+<switch>QNTWMDQNRS0</switch>
+<switchname>QUEENSTOWN</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5520</rc-v>
+<rc-h>1473</rc-h>
+<rc-lat>38.99315</rc-lat>
+<rc-lon>-76.156121</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>829</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>831</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6855</ocn>
+<company-name>OMNIPOINT COMMUNICATIONS CAP OPERATIONS, LLC              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>835</nxx>
+<x>A</x>
+<exch>080730</exch>
+<rc>Willards</rc>
+<region>MD</region>
+<switch>WLRDMDWRRS1</switch>
+<switchname>WILLARDS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5553</rc-v>
+<rc-h>1293</rc-h>
+<rc-lat>38.393131</rc-lat>
+<rc-lon>-75.407961</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>845</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBRMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>860</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>873</nxx>
+<x>A</x>
+<exch>080030</exch>
+<rc>Nanticoke</rc>
+<region>MD</region>
+<switch>NNTCMDNTRS1</switch>
+<switchname>NANTICOKE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5618</rc-v>
+<rc-h>1348</rc-h>
+<rc-lat>38.297959</rc-lat>
+<rc-lon>-75.889954</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>883</nxx>
+<x>A</x>
+<exch>080320</exch>
+<rc>Sharptown</rc>
+<region>MD</region>
+<switch>SHTWMDSTRS1</switch>
+<switchname>SHARPTOWN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>1355</rc-h>
+<rc-lat>38.54321</rc-lat>
+<rc-lon>-75.716684</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>885</nxx>
+<x>A</x>
+<exch>079400</exch>
+<rc>Chesapeake City</rc>
+<region>MD</region>
+<switch>CHCYMDCHRS0</switch>
+<switchname>CHESAPEAKE CITY</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5390</rc-v>
+<rc-h>1494</rc-h>
+<rc-lat>39.532165</rc-lat>
+<rc-lon>-75.811196</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>886</nxx>
+<x>A</x>
+<exch>080480</exch>
+<rc>Tilghman</rc>
+<region>MD</region>
+<switch>TLGHMDTLRS0</switch>
+<switchname>TILGHMAN</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5587</rc-v>
+<rc-h>1463</rc-h>
+<rc-lat>38.716903</rc-lat>
+<rc-lon>-76.335289</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>896</nxx>
+<x>A</x>
+<exch>079530</exch>
+<rc>Delmar</rc>
+<region>MD</region>
+<switch>DLMRMDDMRS1</switch>
+<switchname>DELMAR</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5558</rc-v>
+<rc-h>1325</rc-h>
+<rc-lat>38.459798</rc-lat>
+<rc-lon>-75.577138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>901</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>CMBRMDCMDS0</switch>
+<switchname>CAMBRIDGE</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>912</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>924</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>928</nxx>
+<x>A</x>
+<exch>079980</exch>
+<rc>Millington</rc>
+<region>MD</region>
+<switch>MGTNMDMLRS0</switch>
+<switchname>MILLINGTON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5442</rc-v>
+<rc-h>1463</rc-h>
+<rc-lat>39.256828</rc-lat>
+<rc-lon>-75.841041</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>936</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>318J</ocn>
+<company-name>COMCAST IP PHONE, LLC                                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-06 10:09:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>943</nxx>
+<x>A</x>
+<exch>079830</exch>
+<rc>Hurlock</rc>
+<region>MD</region>
+<switch>HRLCMDHLRS0</switch>
+<switchname>HURLOCK</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5555</rc-v>
+<rc-h>1386</rc-h>
+<rc-lat>38.632841</rc-lat>
+<rc-lon>-75.857913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>957</nxx>
+<x>A</x>
+<exch>080160</exch>
+<rc>Pocomoke</rc>
+<region>MD</region>
+<switch>PCCYMDPKRS0</switch>
+<switchname>POCOMOKE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>1273</rc-h>
+<rc-lat>38.065646</rc-lat>
+<rc-lon>-75.564089</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>968</nxx>
+<x>A</x>
+<exch>079470</exch>
+<rc>Crisfield</rc>
+<region>MD</region>
+<switch>CRFDMDCRRS0</switch>
+<switchname>CRISFIELD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5670</rc-v>
+<rc-h>1303</rc-h>
+<rc-lat>37.985447</rc-lat>
+<rc-lon>-75.851111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>410</npa>
+<nxx>973</nxx>
+<x>A</x>
+<exch>079270</exch>
+<rc>Berlin</rc>
+<region>MD</region>
+<switch>SLBRMDSBXWX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>861F</ocn>
+<company-name>MCC TELEPHONY OF THE MID-ATLANTIC, LLC - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5546</rc-v>
+<rc-h>1258</rc-h>
+<rc-lat>38.325612</rc-lat>
+<rc-lon>-75.218044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>210</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBRMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch>ESTNMDBNGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>225</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>232</nxx>
+<x>A</x>
+<exch>080730</exch>
+<rc>Willards</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5553</rc-v>
+<rc-h>1293</rc-h>
+<rc-lat>38.393131</rc-lat>
+<rc-lon>-75.407961</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>233</nxx>
+<x>A</x>
+<exch>080530</exch>
+<rc>Vienna</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1362</rc-h>
+<rc-lat>38.483764</rc-lat>
+<rc-lon>-75.821373</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>080370</exch>
+<rc>Snow Hill</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5590</rc-v>
+<rc-h>1263</rc-h>
+<rc-lat>38.176172</rc-lat>
+<rc-lon>-75.391453</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>239</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>080420</exch>
+<rc>Stevensville</rc>
+<region>MD</region>
+<switch>RMCKMDRRRS0</switch>
+<switchname>ROMANCOKE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5538</rc-v>
+<rc-h>1492</rc-h>
+<rc-lat>38.976123</rc-lat>
+<rc-lon>-76.308811</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>258</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>262</nxx>
+<x>A</x>
+<exch>079380</exch>
+<rc>Centreville</rc>
+<region>MD</region>
+<switch>CNVLMDCTRS2</switch>
+<switchname>CENTREVILLE</switchname>
+<switchtype>RS</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5503</rc-v>
+<rc-h>1467</rc-h>
+<rc-lat>39.040616</rc-lat>
+<rc-lon>-76.069293</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>080320</exch>
+<rc>Sharptown</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>1355</rc-h>
+<rc-lat>38.54321</rc-lat>
+<rc-lon>-75.716684</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>358</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSC9MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>281E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>359</nxx>
+<x>A</x>
+<exch>079530</exch>
+<rc>Delmar</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5558</rc-v>
+<rc-h>1325</rc-h>
+<rc-lat>38.459798</rc-lat>
+<rc-lon>-75.577138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSCXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6855</ocn>
+<company-name>OMNIPOINT COMMUNICATIONS CAP OPERATIONS, LLC              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>365</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSCXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6855</ocn>
+<company-name>OMNIPOINT COMMUNICATIONS CAP OPERATIONS, LLC              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBRMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>SLBRMDSBRMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>ESTNMDBNGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>385</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>ESTNMDBNGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>080160</exch>
+<rc>Pocomoke</rc>
+<region>MD</region>
+<switch>ESTNMDBNGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>1273</rc-h>
+<rc-lat>38.065646</rc-lat>
+<rc-lon>-75.564089</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>389</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>ESTNMDBNGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>427</nxx>
+<x>A</x>
+<exch>080210</exch>
+<rc>Princess Anne</rc>
+<region>MD</region>
+<switch>ESTNMDBNGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5614</rc-v>
+<rc-h>1309</rc-h>
+<rc-lat>38.20949</rc-lat>
+<rc-lon>-75.690945</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>434</nxx>
+<x>A</x>
+<exch>079640</exch>
+<rc>Federalsburg</rc>
+<region>MD</region>
+<switch>SLBRMDSBXHX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>107D</ocn>
+<company-name>COMCAST PHONE OF NORTHERN MARYLAND, INC. - MD             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5535</rc-v>
+<rc-h>1383</rc-h>
+<rc-lat>38.699202</rc-lat>
+<rc-lon>-75.775523</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>437</nxx>
+<x>A</x>
+<exch>080160</exch>
+<rc>Pocomoke</rc>
+<region>MD</region>
+<switch>SLBRMDSBXUX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7325</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - MD                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>1273</rc-h>
+<rc-lat>38.065646</rc-lat>
+<rc-lon>-75.564089</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>439</nxx>
+<x>A</x>
+<exch>080510</exch>
+<rc>Trappe</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5571</rc-v>
+<rc-h>1418</rc-h>
+<rc-lat>38.657951</rc-lat>
+<rc-lon>-76.065323</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>080220</exch>
+<rc>Queenstown</rc>
+<region>MD</region>
+<switch>ESTNMDES5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7228</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - MD                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5520</rc-v>
+<rc-h>1473</rc-h>
+<rc-lat>38.99315</rc-lat>
+<rc-lon>-76.156121</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>448</nxx>
+<x>A</x>
+<exch>079540</exch>
+<rc>Denton</rc>
+<region>MD</region>
+<switch>SLBRMDSBXHX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>107D</ocn>
+<company-name>COMCAST PHONE OF NORTHERN MARYLAND, INC. - MD             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5507</rc-v>
+<rc-h>1413</rc-h>
+<rc-lat>38.882775</rc-lat>
+<rc-lon>-75.823619</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>477</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>480</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>493</nxx>
+<x>A</x>
+<exch>079530</exch>
+<rc>Delmar</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5558</rc-v>
+<rc-h>1325</rc-h>
+<rc-lat>38.459798</rc-lat>
+<rc-lon>-75.577138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>496</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>497</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>513</nxx>
+<x>A</x>
+<exch>079270</exch>
+<rc>Berlin</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5546</rc-v>
+<rc-h>1258</rc-h>
+<rc-lat>38.325612</rc-lat>
+<rc-lon>-75.218044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>515</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>521</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>523</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBDS1</switch>
+<switchname>SALISBURY 2</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9212</ocn>
+<company-name>VERIZON MARYLAND, INC.                                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>566</nxx>
+<x>A</x>
+<exch>079400</exch>
+<rc>Chesapeake City</rc>
+<region>MD</region>
+<switch>CHCYMDAD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5390</rc-v>
+<rc-h>1494</rc-h>
+<rc-lat>39.532165</rc-lat>
+<rc-lon>-75.811196</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>614</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>665</nxx>
+<x>A</x>
+<exch>080030</exch>
+<rc>Nanticoke</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5618</rc-v>
+<rc-h>1348</rc-h>
+<rc-lat>38.297959</rc-lat>
+<rc-lon>-75.889954</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6119</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MD                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>669</nxx>
+<x>A</x>
+<exch>079530</exch>
+<rc>Delmar</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5558</rc-v>
+<rc-h>1325</rc-h>
+<rc-lat>38.459798</rc-lat>
+<rc-lon>-75.577138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>706</nxx>
+<x>A</x>
+<exch>079470</exch>
+<rc>Crisfield</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5670</rc-v>
+<rc-h>1303</rc-h>
+<rc-lat>37.985447</rc-lat>
+<rc-lon>-75.851111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>724</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>079280</exch>
+<rc>Bishopville</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5527</rc-v>
+<rc-h>1272</rc-h>
+<rc-lat>38.433253</rc-lat>
+<rc-lon>-75.219538</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>728</nxx>
+<x>A</x>
+<exch>079270</exch>
+<rc>Berlin</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5546</rc-v>
+<rc-h>1258</rc-h>
+<rc-lat>38.325612</rc-lat>
+<rc-lon>-75.218044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>735</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>736</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSCXLX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4036</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - DC                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>746</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDSBUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6119</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MD                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>754</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>786</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>856</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch>ESTNMDBNGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>859</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSCXMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6855</ocn>
+<company-name>OMNIPOINT COMMUNICATIONS CAP OPERATIONS, LLC              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>880</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>WYMLMDMWEMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>080210</exch>
+<rc>Princess Anne</rc>
+<region>MD</region>
+<switch>SLBRMDSBDC0</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>7944</ocn>
+<company-name>CAVALIER TELEPHONE, LLC (MID-ATLANTIC) - MD               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5614</rc-v>
+<rc-h>1309</rc-h>
+<rc-lat>38.20949</rc-lat>
+<rc-lon>-75.690945</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>944</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSBXHX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>107D</ocn>
+<company-name>COMCAST PHONE OF NORTHERN MARYLAND, INC. - MD             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>953</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>972</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch>SLBRMDSB8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2589</ocn>
+<company-name>US LEC OF MARYLAND, INC.                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>978</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDAZCM2</switch>
+<switchname></switchname>
+<switchtype>5ESS</switchtype>
+<ocn>6395</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MD              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>443</npa>
+<nxx>988</nxx>
+<x>A</x>
+<exch>079380</exch>
+<rc>Centreville</rc>
+<region>MD</region>
+<switch>SLBRMDSBUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6119</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MD                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5503</rc-v>
+<rc-h>1467</rc-h>
+<rc-lat>39.040616</rc-lat>
+<rc-lon>-76.069293</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>220</nxx>
+<x>A</x>
+<exch>079750</exch>
+<rc>Greensboro</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5489</rc-v>
+<rc-h>1423</rc-h>
+<rc-lat>38.976158</rc-lat>
+<rc-lon>-75.810027</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>221</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-17 10:47:14</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>080410</exch>
+<rc>St Michaels</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5564</rc-v>
+<rc-h>1456</rc-h>
+<rc-lat>38.784295</rc-lat>
+<rc-lon>-76.223855</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>361H</ocn>
+<company-name>ATLANTECH ONLINE, INC. - MD                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-09-20 01:24:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>230</nxx>
+<x>A</x>
+<exch>079380</exch>
+<rc>Centreville</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>568G</ocn>
+<company-name>PEERLESS NETWORK OF MARYLAND, LLC                         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5503</rc-v>
+<rc-h>1467</rc-h>
+<rc-lat>39.040616</rc-lat>
+<rc-lon>-76.069293</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-02-16 03:32:33</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-02 12:45:51</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>238</nxx>
+<x>A</x>
+<exch>080190</exch>
+<rc>Preston</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5545</rc-v>
+<rc-h>1404</rc-h>
+<rc-lat>38.717691</rc-lat>
+<rc-lon>-75.910024</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>241</nxx>
+<x>A</x>
+<exch>080260</exch>
+<rc>Ridgely</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5502</rc-v>
+<rc-h>1429</rc-h>
+<rc-lat>38.943768</rc-lat>
+<rc-lon>-75.883275</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>080280</exch>
+<rc>Rock Hall</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5502</rc-v>
+<rc-h>1501</rc-h>
+<rc-lat>39.134107</rc-lat>
+<rc-lon>-76.229674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>243</nxx>
+<x>A</x>
+<exch>080110</exch>
+<rc>Oxford</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5576</rc-v>
+<rc-h>1435</rc-h>
+<rc-lat>38.684187</rc-lat>
+<rc-lon>-76.163723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-06 02:05:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>080430</exch>
+<rc>Still Pond</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5450</rc-v>
+<rc-h>1499</rc-h>
+<rc-lat>39.322477</rc-lat>
+<rc-lon>-76.042098</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>079370</exch>
+<rc>Cecilton</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5420</rc-v>
+<rc-h>1486</rc-h>
+<rc-lat>39.399552</rc-lat>
+<rc-lon>-75.876162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>246</nxx>
+<x>A</x>
+<exch>079380</exch>
+<rc>Centreville</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5503</rc-v>
+<rc-h>1467</rc-h>
+<rc-lat>39.040616</rc-lat>
+<rc-lon>-76.069293</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>079400</exch>
+<rc>Chesapeake City</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5390</rc-v>
+<rc-h>1494</rc-h>
+<rc-lat>39.532165</rc-lat>
+<rc-lon>-75.811196</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>248</nxx>
+<x>A</x>
+<exch>079540</exch>
+<rc>Denton</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5507</rc-v>
+<rc-h>1413</rc-h>
+<rc-lat>38.882775</rc-lat>
+<rc-lon>-75.823619</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>079710</exch>
+<rc>Galena</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5430</rc-v>
+<rc-h>1478</rc-h>
+<rc-lat>39.341189</rc-lat>
+<rc-lon>-75.872024</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 01:19:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>252</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-22 00:34:45</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>253</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>079410</exch>
+<rc>Chestertown</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>327J</ocn>
+<company-name>TALKIE COMMUNICATIONS, INC. - MD                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5473</rc-v>
+<rc-h>1488</rc-h>
+<rc-lat>39.207798</rc-lat>
+<rc-lon>-76.067884</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-08-15 01:51:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>255</nxx>
+<x>A</x>
+<exch>079810</exch>
+<rc>Hillsboro</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5513</rc-v>
+<rc-h>1435</rc-h>
+<rc-lat>38.918763</rc-lat>
+<rc-lon>-75.949628</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-08-23 10:27:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>264</nxx>
+<x>A</x>
+<exch>079530</exch>
+<rc>Delmar</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7228</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - MD                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5558</rc-v>
+<rc-h>1325</rc-h>
+<rc-lat>38.459798</rc-lat>
+<rc-lon>-75.577138</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-22 02:21:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>080530</exch>
+<rc>Vienna</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7228</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - MD                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1362</rc-h>
+<rc-lat>38.483764</rc-lat>
+<rc-lon>-75.821373</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-26 02:01:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>266</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>939H</ocn>
+<company-name>COMMIO, LLC                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-21 22:31:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>271</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>114J</ocn>
+<company-name>EXIANT COMMUNICATIONS LLC                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-06 10:06:45</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>281</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>568G</ocn>
+<company-name>PEERLESS NETWORK OF MARYLAND, LLC                         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>079830</exch>
+<rc>Hurlock</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5555</rc-v>
+<rc-h>1386</rc-h>
+<rc-lat>38.632841</rc-lat>
+<rc-lon>-75.857913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>291</nxx>
+<x>A</x>
+<exch>079980</exch>
+<rc>Millington</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5442</rc-v>
+<rc-h>1463</rc-h>
+<rc-lat>39.256828</rc-lat>
+<rc-lon>-75.841041</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>079420</exch>
+<rc>Church Hill</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5477</rc-v>
+<rc-h>1468</rc-h>
+<rc-lat>39.140006</rc-lat>
+<rc-lon>-75.985224</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-12-12 02:15:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch>SLBRMDSB8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2589</ocn>
+<company-name>US LEC OF MARYLAND, INC.                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>346</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>425J</ocn>
+<company-name>CSC WIRELESS, LLC                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-17 02:07:49</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>364</nxx>
+<x>A</x>
+<exch>080420</exch>
+<rc>Stevensville</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5538</rc-v>
+<rc-h>1492</rc-h>
+<rc-lat>38.976123</rc-lat>
+<rc-lon>-76.308811</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-06 02:05:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>372</nxx>
+<x>A</x>
+<exch>079340</exch>
+<rc>Cambridge</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5588</rc-v>
+<rc-h>1408</rc-h>
+<rc-lat>38.568223</rc-lat>
+<rc-lon>-76.075007</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>080750</exch>
+<rc>Wingate</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5633</rc-v>
+<rc-h>1401</rc-h>
+<rc-lat>38.382012</rc-lat>
+<rc-lon>-76.193342</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>545</nxx>
+<x>A</x>
+<exch>080560</exch>
+<rc>Warwick</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5407</rc-v>
+<rc-h>1474</rc-h>
+<rc-lat>39.415952</rc-lat>
+<rc-lon>-75.773424</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>660</nxx>
+<x>A</x>
+<exch>079930</exch>
+<rc>Marion</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5652</rc-v>
+<rc-h>1298</rc-h>
+<rc-lat>38.039146</rc-lat>
+<rc-lon>-75.766888</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-12 01:24:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>661</nxx>
+<x>A</x>
+<exch>080370</exch>
+<rc>Snow Hill</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5590</rc-v>
+<rc-h>1263</rc-h>
+<rc-lat>38.176172</rc-lat>
+<rc-lon>-75.391453</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-12 01:24:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>662</nxx>
+<x>A</x>
+<exch>080350</exch>
+<rc>Smith Island</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5691</rc-v>
+<rc-h>1325</rc-h>
+<rc-lat>37.965385</rc-lat>
+<rc-lon>-76.025933</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-12 01:24:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>080090</exch>
+<rc>Ocean City</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5532</rc-v>
+<rc-h>1241</rc-h>
+<rc-lat>38.33185</rc-lat>
+<rc-lon>-75.089703</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-12 01:24:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>080510</exch>
+<rc>Trappe</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5571</rc-v>
+<rc-h>1418</rc-h>
+<rc-lat>38.657951</rc-lat>
+<rc-lon>-76.065323</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-12 01:24:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>080440</exch>
+<rc>Sudlersville</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5455</rc-v>
+<rc-h>1457</rc-h>
+<rc-lat>39.192629</rc-lat>
+<rc-lon>-75.856836</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>876D</ocn>
+<company-name>ONVOY, LLC - MD                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>808</nxx>
+<x>A</x>
+<exch>079560</exch>
+<rc>Easton</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>568G</ocn>
+<company-name>PEERLESS NETWORK OF MARYLAND, LLC                         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>1434</rc-h>
+<rc-lat>38.774697</rc-lat>
+<rc-lon>-76.074167</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>843</nxx>
+<x>A</x>
+<exch>079520</exch>
+<rc>Deal Island</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2593</ocn>
+<company-name>CORE COMMUNICATIONS, INC. - MD                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5649</rc-v>
+<rc-h>1339</rc-h>
+<rc-lat>38.158793</rc-lat>
+<rc-lon>-75.951559</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-12-12 02:15:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>080160</exch>
+<rc>Pocomoke</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>469J</ocn>
+<company-name>CORETEL MARYLAND, INC. - MD                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>1273</rc-h>
+<rc-lat>38.065646</rc-lat>
+<rc-lon>-75.564089</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-13 11:15:58</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>855</nxx>
+<x>A</x>
+<exch>080290</exch>
+<rc>Salisbury</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>145J</ocn>
+<company-name>TERRA NOVA TELECOM INC.                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5578</rc-v>
+<rc-h>1315</rc-h>
+<rc-lat>38.359037</rc-lat>
+<rc-lon>-75.597524</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-26 02:21:35</udate>
+</prefixdata>
+<prefixdata>
+<npa>667</npa>
+<nxx>868</nxx>
+<x>A</x>
+<exch>079470</exch>
+<rc>Crisfield</rc>
+<region>MD</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>089J</ocn>
+<company-name>CHARTER FIBERLINK - MARYLAND II, LLC - MD                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9212</ilec-ocn>
+<ilec-name>VERIZON MARYLAND, INC.                                    </ilec-name>
+<lata>242</lata>
+<lir></lir>
+<rc-v>5670</rc-v>
+<rc-h>1303</rc-h>
+<rc-lat>37.985447</rc-lat>
+<rc-lon>-75.851111</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-03-11 01:47:42</udate>
+</prefixdata>
+</root>

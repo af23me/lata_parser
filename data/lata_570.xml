@@ -1,0 +1,4081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>570</lata>
+</inputdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>200</nxx>
+<x>A</x>
+<exch>189110</exch>
+<rc>Caldwell</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8880</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>30.526421</rc-lat>
+<rc-lon>-96.697889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>204</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>206</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>HSTYTXXADS2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>721G</ocn>
+<company-name>COLORADO VALLEY COMMUNICATIONS, INC. - TX                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>207</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>199410</exch>
+<rc>Warrenton</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8984</rc-v>
+<rc-h>3797</rc-h>
+<rc-lat>30.015229</rc-lat>
+<rc-lon>-96.724189</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>210</nxx>
+<x>A</x>
+<exch>192360</exch>
+<rc>Hearne</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8802</rc-v>
+<rc-h>3846</rc-h>
+<rc-lat>30.882305</rc-lat>
+<rc-lon>-96.600402</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch>GNGSTXXADS0</switch>
+<switchname>GIDDINGS</switchname>
+<switchtype>DCO</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>218</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXADCM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXADCM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>220</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXADCM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>222</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>223</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX011MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>224</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>225</nxx>
+<x>A</x>
+<exch>188600</exch>
+<rc>Borden</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>139F</ocn>
+<company-name>WORLDCALL INTERCONNECT INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9046</rc-v>
+<rc-h>3767</rc-h>
+<rc-lat>29.696628</rc-lat>
+<rc-lon>-96.701113</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX011MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX011MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>196370</exch>
+<rc>Plum</rc>
+<region>TX</region>
+<switch>PLUMTXXADS0</switch>
+<switchname>PLUM</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2059</ocn>
+<company-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9018</rc-v>
+<rc-h>3833</rc-h>
+<rc-lat>29.931563</rc-lat>
+<rc-lon>-96.967108</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>192620</exch>
+<rc>Hostyn</rc>
+<region>TX</region>
+<switch>HSTYTXXADS1</switch>
+<switchname>HOSTYN</switchname>
+<switchtype>EWS</switchtype>
+<ocn>2059</ocn>
+<company-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9032</rc-v>
+<rc-h>3817</rc-h>
+<rc-lat>29.843659</rc-lat>
+<rc-lon>-96.916739</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>199410</exch>
+<rc>Warrenton</rc>
+<region>TX</region>
+<switch>WRTNTXXADS0</switch>
+<switchname>WARRENTON</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2059</ocn>
+<company-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8984</rc-v>
+<rc-h>3797</rc-h>
+<rc-lat>30.015229</rc-lat>
+<rc-lon>-96.724189</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>BRYNTX01TMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>252</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>191410</exch>
+<rc>Franklin</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8766</rc-v>
+<rc-h>3839</rc-h>
+<rc-lat>31.024583</rc-lat>
+<rc-lon>-96.493332</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>255</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>261</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-20 01:46:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>262</nxx>
+<x>A</x>
+<exch>199490</exch>
+<rc>Weimar</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9051</rc-v>
+<rc-h>3780</rc-h>
+<rc-lat>29.69777</rc-lat>
+<rc-lon>-96.7742</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>188600</exch>
+<rc>Borden</rc>
+<region>TX</region>
+<switch>BRDNTXXADS0</switch>
+<switchname>BORDEN</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2059</ocn>
+<company-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9046</rc-v>
+<rc-h>3767</rc-h>
+<rc-lat>29.696628</rc-lat>
+<rc-lon>-96.701113</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>268</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>271</nxx>
+<x>A</x>
+<exch>190340</exch>
+<rc>Deanville</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8903</rc-v>
+<rc-h>3837</rc-h>
+<rc-lat>30.432837</rc-lat>
+<rc-lon>-96.758526</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>272</nxx>
+<x>A</x>
+<exch>198080</exch>
+<rc>Snook-Tunis</rc>
+<region>TX</region>
+<switch>TUNSTXXGRS0</switch>
+<switchname>SNOOK TUNIS</switchname>
+<switchtype>GTR</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8864</rc-v>
+<rc-h>3805</rc-h>
+<rc-lat>30.544489</rc-lat>
+<rc-lon>-96.523623</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>273</nxx>
+<x>A</x>
+<exch>191180</exch>
+<rc>Fayetteville</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9002</rc-v>
+<rc-h>3780</rc-h>
+<rc-lat>29.908292</rc-lat>
+<rc-lon>-96.677085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>279</nxx>
+<x>A</x>
+<exch>192360</exch>
+<rc>Hearne</rc>
+<region>TX</region>
+<switch>HERNTXHEDS0</switch>
+<switchname>HEARNE</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8802</rc-v>
+<rc-h>3846</rc-h>
+<rc-lat>30.882305</rc-lat>
+<rc-lon>-96.600402</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>280</nxx>
+<x>A</x>
+<exch>192360</exch>
+<rc>Hearne</rc>
+<region>TX</region>
+<switch>HERNTXHEDS0</switch>
+<switchname>HEARNE</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8802</rc-v>
+<rc-h>3846</rc-h>
+<rc-lat>30.882305</rc-lat>
+<rc-lon>-96.600402</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>284</nxx>
+<x>A</x>
+<exch>192500</exch>
+<rc>High Hill</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9058</rc-v>
+<rc-h>3808</rc-h>
+<rc-lat>29.716272</rc-lat>
+<rc-lon>-96.924199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>425J</ocn>
+<company-name>CSC WIRELESS, LLC                                         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-28 01:29:35</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>287</nxx>
+<x>A</x>
+<exch>189120</exch>
+<rc>Calvert</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8788</rc-v>
+<rc-h>3865</rc-h>
+<rc-lat>30.97557</rc-lat>
+<rc-lon>-96.665828</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>293</nxx>
+<x>A</x>
+<exch>189110</exch>
+<rc>Caldwell</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8880</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>30.526421</rc-lat>
+<rc-lon>-96.697889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>294</nxx>
+<x>A</x>
+<exch>188600</exch>
+<rc>Borden</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9046</rc-v>
+<rc-h>3767</rc-h>
+<rc-lat>29.696628</rc-lat>
+<rc-lon>-96.701113</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>196370</exch>
+<rc>Plum</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9018</rc-v>
+<rc-h>3833</rc-h>
+<rc-lat>29.931563</rc-lat>
+<rc-lon>-96.967108</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>199410</exch>
+<rc>Warrenton</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8984</rc-v>
+<rc-h>3797</rc-h>
+<rc-lat>30.015229</rc-lat>
+<rc-lon>-96.724189</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>195660</exch>
+<rc>Northrup</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8987</rc-v>
+<rc-h>3847</rc-h>
+<rc-lat>30.089102</rc-lat>
+<rc-lon>-96.974235</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>193460</exch>
+<rc>Kurten</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8796</rc-v>
+<rc-h>3779</rc-h>
+<rc-lat>30.79053</rc-lat>
+<rc-lon>-96.258871</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>302</nxx>
+<x>A</x>
+<exch>195170</exch>
+<rc>Moravia</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9085</rc-v>
+<rc-h>3799</rc-h>
+<rc-lat>29.584581</rc-lat>
+<rc-lon>-96.933605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>197680</exch>
+<rc>Schulenburg</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9065</rc-v>
+<rc-h>3802</rc-h>
+<rc-lat>29.675778</rc-lat>
+<rc-lon>-96.908808</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>190540</exch>
+<rc>Dime Box</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8939</rc-v>
+<rc-h>3836</rc-h>
+<rc-lat>30.276402</rc-lat>
+<rc-lon>-96.825306</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>192620</exch>
+<rc>Hostyn</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9032</rc-v>
+<rc-h>3817</rc-h>
+<rc-lat>29.843659</rc-lat>
+<rc-lon>-96.916739</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>307</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01VMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>327E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - TX                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>192500</exch>
+<rc>High Hill</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9058</rc-v>
+<rc-h>3808</rc-h>
+<rc-lat>29.716272</rc-lat>
+<rc-lon>-96.924199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>312</nxx>
+<x>A</x>
+<exch>191410</exch>
+<rc>Franklin</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8766</rc-v>
+<rc-h>3839</rc-h>
+<rc-lat>31.024583</rc-lat>
+<rc-lon>-96.493332</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>314</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05XTX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>189110</exch>
+<rc>Caldwell</rc>
+<region>TX</region>
+<switch>BRYNTX05XTX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8880</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>30.526421</rc-lat>
+<rc-lon>-96.697889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>317</nxx>
+<x>A</x>
+<exch>193460</exch>
+<rc>Kurten</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8796</rc-v>
+<rc-h>3779</rc-h>
+<rc-lat>30.79053</rc-lat>
+<rc-lon>-96.258871</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>321</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>114J</ocn>
+<company-name>EXIANT COMMUNICATIONS LLC                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-29 02:21:28</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>322</nxx>
+<x>A</x>
+<exch>198110</exch>
+<rc>Somerville</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8905</rc-v>
+<rc-h>3790</rc-h>
+<rc-lat>30.342263</rc-lat>
+<rc-lon>-96.5324</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>324</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch>CLSTTXADCM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-19 02:26:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>329</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXAPMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7138</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - TX                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>139F</ocn>
+<company-name>WORLDCALL INTERCONNECT INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>338</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>CLSTTXADCM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>356</nxx>
+<x>A</x>
+<exch>197680</exch>
+<rc>Schulenburg</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9065</rc-v>
+<rc-h>3802</rc-h>
+<rc-lat>29.675778</rc-lat>
+<rc-lon>-96.908808</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-22 18:12:03</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>361</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>364</nxx>
+<x>A</x>
+<exch>189120</exch>
+<rc>Calvert</rc>
+<region>TX</region>
+<switch>CLVTTXCLRS0</switch>
+<switchname>CALVERT</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8788</rc-v>
+<rc-h>3865</rc-h>
+<rc-lat>30.97557</rc-lat>
+<rc-lon>-96.665828</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>195660</exch>
+<rc>Northrup</rc>
+<region>TX</region>
+<switch>NRUPTXXADS0</switch>
+<switchname>NORTHRUP</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8987</rc-v>
+<rc-h>3847</rc-h>
+<rc-lat>30.089102</rc-lat>
+<rc-lon>-96.974235</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>378</nxx>
+<x>A</x>
+<exch>191180</exch>
+<rc>Fayetteville</rc>
+<region>TX</region>
+<switch>FYVLTXXARS0</switch>
+<switchname>FAYETTEVILLE</switchname>
+<switchtype>1RE</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9002</rc-v>
+<rc-h>3780</rc-h>
+<rc-lat>29.908292</rc-lat>
+<rc-lon>-96.677085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-07-13 01:31:45</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01GMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>404</nxx>
+<x>A</x>
+<exch>191180</exch>
+<rc>Fayetteville</rc>
+<region>TX</region>
+<switch>BRYNTX05X0X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9002</rc-v>
+<rc-h>3780</rc-h>
+<rc-lat>29.908292</rc-lat>
+<rc-lon>-96.677085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>406</nxx>
+<x>A</x>
+<exch>189110</exch>
+<rc>Caldwell</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8880</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>30.526421</rc-lat>
+<rc-lon>-96.697889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>410</nxx>
+<x>A</x>
+<exch>190340</exch>
+<rc>Deanville</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8903</rc-v>
+<rc-h>3837</rc-h>
+<rc-lat>30.432837</rc-lat>
+<rc-lon>-96.758526</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>412</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05XOX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>431</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05X0X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>436</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05XTX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>450</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>458</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>485</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXBDS0</switch>
+<switchname>COLLEGE STATION POST OAK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>492</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX720MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>505</nxx>
+<x>A</x>
+<exch>197680</exch>
+<rc>Schulenburg</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9065</rc-v>
+<rc-h>3802</rc-h>
+<rc-lat>29.675778</rc-lat>
+<rc-lon>-96.908808</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>515</nxx>
+<x>A</x>
+<exch>198080</exch>
+<rc>Snook-Tunis</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8864</rc-v>
+<rc-h>3805</rc-h>
+<rc-lat>30.544489</rc-lat>
+<rc-lon>-96.523623</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>535</nxx>
+<x>A</x>
+<exch>190340</exch>
+<rc>Deanville</rc>
+<region>TX</region>
+<switch>DEVLTXXARS0</switch>
+<switchname>DEANVILLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8903</rc-v>
+<rc-h>3837</rc-h>
+<rc-lat>30.432837</rc-lat>
+<rc-lon>-96.758526</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>540</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch>GNGSTXXADS0</switch>
+<switchname>GIDDINGS</switchname>
+<switchtype>DCO</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>542</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch>GNGSTXXADS0</switch>
+<switchname>GIDDINGS</switchname>
+<switchtype>DCO</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>556</nxx>
+<x>A</x>
+<exch>193900</exch>
+<rc>Lexington</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8924</rc-v>
+<rc-h>3881</rc-h>
+<rc-lat>30.418839</rc-lat>
+<rc-lon>-97.016008</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>561</nxx>
+<x>A</x>
+<exch>192500</exch>
+<rc>High Hill</rc>
+<region>TX</region>
+<switch>HGHLTXXADS0</switch>
+<switchname>HIGH HILL</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2059</ocn>
+<company-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9058</rc-v>
+<rc-h>3808</rc-h>
+<rc-lat>29.716272</rc-lat>
+<rc-lon>-96.924199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>195170</exch>
+<rc>Moravia</rc>
+<region>TX</region>
+<switch>MORVTXXADS0</switch>
+<switchname>MORAVIA</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2059</ocn>
+<company-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9085</rc-v>
+<rc-h>3799</rc-h>
+<rc-lat>29.584581</rc-lat>
+<rc-lon>-96.933605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>189110</exch>
+<rc>Caldwell</rc>
+<region>TX</region>
+<switch>CLWLTXXADS0</switch>
+<switchname>CALDWELL</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8880</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>30.526421</rc-lat>
+<rc-lon>-96.697889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>571</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX720MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>575</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX720MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>577</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>587</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>193460</exch>
+<rc>Kurten</rc>
+<region>TX</region>
+<switch>KRTNTXXARS0</switch>
+<switchname>KURTEN</switchname>
+<switchtype>GTR</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8796</rc-v>
+<rc-h>3779</rc-h>
+<rc-lat>30.79053</rc-lat>
+<rc-lon>-96.258871</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>595</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>596</nxx>
+<x>A</x>
+<exch>198110</exch>
+<rc>Somerville</rc>
+<region>TX</region>
+<switch>SOVLTXXARS0</switch>
+<switchname>SOMERVILLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8905</rc-v>
+<rc-h>3790</rc-h>
+<rc-lat>30.342263</rc-lat>
+<rc-lon>-96.5324</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>599</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXAZMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7249</ocn>
+<company-name>BROOKS FIBER PROPERTIES OF TEXAS - TX                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>LGRNTXXADS0</switch>
+<switchname>LA GRANGE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>195170</exch>
+<rc>Moravia</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>139F</ocn>
+<company-name>WORLDCALL INTERCONNECT INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9085</rc-v>
+<rc-h>3799</rc-h>
+<rc-lat>29.584581</rc-lat>
+<rc-lon>-96.933605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>680</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXBDS0</switch>
+<switchname>COLLEGE STATION POST OAK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>690</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXDDS0</switch>
+<switchname>COLLEGE STATION SPG CRK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>691</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>693</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXBDS0</switch>
+<switchname>COLLEGE STATION POST OAK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>694</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXBDS0</switch>
+<switchname>COLLEGE STATION POST OAK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>695</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXBDS0</switch>
+<switchname>COLLEGE STATION POST OAK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>696</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXBDS0</switch>
+<switchname>COLLEGE STATION POST OAK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>701</nxx>
+<x>A</x>
+<exch>191410</exch>
+<rc>Franklin</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1181</ocn>
+<company-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8766</rc-v>
+<rc-h>3839</rc-h>
+<rc-lat>31.024583</rc-lat>
+<rc-lon>-96.493332</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>702</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>703</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>318C</ocn>
+<company-name>CEBRIDGE TELECOM TX, L.P. - TX                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>704</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>318C</ocn>
+<company-name>CEBRIDGE TELECOM TX, L.P. - TX                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>716</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>717</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXAYCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6820</ocn>
+<company-name>TEXAS COMMUNICATIONS, INC.                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>721</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-08-23 10:27:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>725</nxx>
+<x>A</x>
+<exch>199490</exch>
+<rc>Weimar</rc>
+<region>TX</region>
+<switch>WEMRTXXADS0</switch>
+<switchname>WEIMAR</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9051</rc-v>
+<rc-h>3780</rc-h>
+<rc-lat>29.69777</rc-lat>
+<rc-lon>-96.7742</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>731</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXCDS0</switch>
+<switchname>BRYAN STEEPHOLLOW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>739</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05XOX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>743</nxx>
+<x>A</x>
+<exch>197680</exch>
+<rc>Schulenburg</rc>
+<region>TX</region>
+<switch>SCBGTXXADS0</switch>
+<switchname>SCHULENBURG</switchname>
+<switchtype>DSF</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9065</rc-v>
+<rc-h>3802</rc-h>
+<rc-lat>29.675778</rc-lat>
+<rc-lon>-96.908808</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>759</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>764</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXBDS0</switch>
+<switchname>COLLEGE STATION POST OAK</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>773</nxx>
+<x>A</x>
+<exch>193900</exch>
+<rc>Lexington</rc>
+<region>TX</region>
+<switch>LXTNTXXARS0</switch>
+<switchname>LEXINGTON</switchname>
+<switchtype>GTR</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8924</rc-v>
+<rc-h>3881</rc-h>
+<rc-lat>30.418839</rc-lat>
+<rc-lon>-97.016008</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXCDS0</switch>
+<switchname>BRYAN STEEPHOLLOW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>775</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>776</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXCDS0</switch>
+<switchname>BRYAN STEEPHOLLOW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX01EMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>778</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXBDS0</switch>
+<switchname>BRYAN LAKEVIEW</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>779</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>807</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>814</nxx>
+<x>A</x>
+<exch>192360</exch>
+<rc>Hearne</rc>
+<region>TX</region>
+<switch>BRYNTXXAOMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6922</ocn>
+<company-name>MTPCS, LLC                                                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8802</rc-v>
+<rc-h>3846</rc-h>
+<rc-lat>30.882305</rc-lat>
+<rc-lon>-96.600402</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05XQX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>821</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>822</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>823</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXXADS0</switch>
+<switchname>BRYAN MAIN</switchname>
+<switchtype>GT5</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>828</nxx>
+<x>A</x>
+<exch>191410</exch>
+<rc>Franklin</rc>
+<region>TX</region>
+<switch>FKLNTXXADS0</switch>
+<switchname>FRANKLIN</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1181</ocn>
+<company-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8766</rc-v>
+<rc-h>3839</rc-h>
+<rc-lat>31.024583</rc-lat>
+<rc-lon>-96.493332</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>845</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>846</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>847</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>862</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>CLSTTXXADS2</switch>
+<switchname>COLLEGE STATION MAIN</switchname>
+<switchtype>5EH</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>190540</exch>
+<rc>Dime Box</rc>
+<region>TX</region>
+<switch>DMBXTXXADS0</switch>
+<switchname>DIME BOX</switchname>
+<switchtype>DCN</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8939</rc-v>
+<rc-h>3836</rc-h>
+<rc-lat>30.276402</rc-lat>
+<rc-lon>-96.825306</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>906</nxx>
+<x>A</x>
+<exch>192360</exch>
+<rc>Hearne</rc>
+<region>TX</region>
+<switch>CLSTTXADCM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8802</rc-v>
+<rc-h>3846</rc-h>
+<rc-lat>30.882305</rc-lat>
+<rc-lon>-96.600402</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>910</nxx>
+<x>A</x>
+<exch>191410</exch>
+<rc>Franklin</rc>
+<region>TX</region>
+<switch>BRYNTXEHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6844</ocn>
+<company-name>METROTEL                                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8766</rc-v>
+<rc-h>3839</rc-h>
+<rc-lat>31.024583</rc-lat>
+<rc-lon>-96.493332</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>920</nxx>
+<x>A</x>
+<exch>197680</exch>
+<rc>Schulenburg</rc>
+<region>TX</region>
+<switch>BRYNTXEHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6844</ocn>
+<company-name>METROTEL                                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9065</rc-v>
+<rc-h>3802</rc-h>
+<rc-lat>29.675778</rc-lat>
+<rc-lon>-96.908808</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>930</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>BRYNTXEHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6844</ocn>
+<company-name>METROTEL                                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>960</nxx>
+<x>A</x>
+<exch>195170</exch>
+<rc>Moravia</rc>
+<region>TX</region>
+<switch>BRYNTXEHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6844</ocn>
+<company-name>METROTEL                                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2059</ilec-ocn>
+<ilec-name>COLORADO VALLEY TELEPHONE COOPERATIVE, INC.               </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9085</rc-v>
+<rc-h>3799</rc-h>
+<rc-lat>29.584581</rc-lat>
+<rc-lon>-96.933605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>966</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>LGRNTXXADS0</switch>
+<switchname>LA GRANGE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>968</nxx>
+<x>A</x>
+<exch>193500</exch>
+<rc>La Grange</rc>
+<region>TX</region>
+<switch>LGRNTXXADS0</switch>
+<switchname>LA GRANGE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>4344</ocn>
+<company-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>9016</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>29.905514</rc-lat>
+<rc-lon>-96.865634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>969</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-04-06 13:46:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>970</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTXEHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6844</ocn>
+<company-name>METROTEL                                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>977</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>978</nxx>
+<x>A</x>
+<exch>198080</exch>
+<rc>Snook-Tunis</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8864</rc-v>
+<rc-h>3805</rc-h>
+<rc-lat>30.544489</rc-lat>
+<rc-lon>-96.523623</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-07-13 01:31:45</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>980</nxx>
+<x>A</x>
+<exch>193900</exch>
+<rc>Lexington</rc>
+<region>TX</region>
+<switch>BRYNTXEHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6844</ocn>
+<company-name>METROTEL                                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8924</rc-v>
+<rc-h>3881</rc-h>
+<rc-lat>30.418839</rc-lat>
+<rc-lon>-97.016008</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>985</nxx>
+<x>A</x>
+<exch>188880</exch>
+<rc>Bryan-College Station</rc>
+<region>TX</region>
+<switch>BRYNTX05XTX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8827</rc-v>
+<rc-h>3788</rc-h>
+<rc-lat>30.673434</rc-lat>
+<rc-lon>-96.365751</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>979</npa>
+<nxx>990</nxx>
+<x>A</x>
+<exch>191680</exch>
+<rc>Giddings</rc>
+<region>TX</region>
+<switch>BRYNTXEHCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6844</ocn>
+<company-name>METROTEL                                                  </company-name>
+<company-type>W</company-type>
+<ilec-ocn>4344</ilec-ocn>
+<ilec-name>FRONTIER SOUTHWEST INC DBA FRONTIER COMM OF TEXAS         </ilec-name>
+<lata>570</lata>
+<lir></lir>
+<rc-v>8968</rc-v>
+<rc-h>3848</rc-h>
+<rc-lat>30.172539</rc-lat>
+<rc-lon>-96.941539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

@@ -1,0 +1,5706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>548</lata>
+</inputdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>200</nxx>
+<x>A</x>
+<exch>187760</exch>
+<rc>Aspermont</rc>
+<region>TX</region>
+<switch>SYMRTXAC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8589</rc-v>
+<rc-h>4650</rc-h>
+<rc-lat>33.141393</rc-lat>
+<rc-lon>-100.224308</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>203</nxx>
+<x>A</x>
+<exch>195310</exch>
+<rc>Munday</rc>
+<region>TX</region>
+<switch>SYMRTXAC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8489</rc-v>
+<rc-h>4570</rc-h>
+<rc-lat>33.448926</rc-lat>
+<rc-lon>-99.624199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>207</nxx>
+<x>A</x>
+<exch>197130</exch>
+<rc>Rochester</rc>
+<region>TX</region>
+<switch>SYMRTXAC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8531</rc-v>
+<rc-h>4600</rc-h>
+<rc-lat>33.314407</rc-lat>
+<rc-lon>-99.858313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>188170</exch>
+<rc>Bellevue</rc>
+<region>TX</region>
+<switch>WCFLTXCFAMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8348</rc-v>
+<rc-h>4310</rc-h>
+<rc-lat>33.632203</rc-lat>
+<rc-lon>-98.015604</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>195810</exch>
+<rc>Olney</rc>
+<region>TX</region>
+<switch>WCFLTXLW3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8450</rc-v>
+<rc-h>4414</rc-h>
+<rc-lat>33.364271</rc-lat>
+<rc-lon>-98.749492</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>192860</exch>
+<rc>Iowa Park</rc>
+<region>TX</region>
+<switch>WCFLTXFG2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8327</rc-v>
+<rc-h>4445</rc-h>
+<rc-lat>33.947867</rc-lat>
+<rc-lon>-98.666294</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>192440</exch>
+<rc>Henrietta</rc>
+<region>TX</region>
+<switch>WCFLTXESX3X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4354</rc-h>
+<rc-lat>33.813947</rc-lat>
+<rc-lon>-98.19085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>216</nxx>
+<x>A</x>
+<exch>192930</exch>
+<rc>Jacksboro</rc>
+<region>TX</region>
+<switch>WCFLTXHB0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>2985</ocn>
+<company-name>WEB FIRE COMMUNICATIONS, INC. - TX                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8442</rc-v>
+<rc-h>4303</rc-h>
+<rc-lat>33.214523</rc-lat>
+<rc-lon>-98.16752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>198770</exch>
+<rc>Thalia</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8375</rc-v>
+<rc-h>4595</rc-h>
+<rc-lat>33.984329</rc-lat>
+<rc-lon>-99.533581</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>221</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>WCFLTXHB0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>2985</ocn>
+<company-name>WEB FIRE COMMUNICATIONS, INC. - TX                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>224</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIEMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>189500</exch>
+<rc>Childress</rc>
+<region>TX</region>
+<switch>WCFLTXFG2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8328</rc-v>
+<rc-h>4743</rc-h>
+<rc-lat>34.424643</rc-lat>
+<rc-lon>-100.211068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>199250</exch>
+<rc>Vernon</rc>
+<region>TX</region>
+<switch>WCFLTXFG4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>34.151791</rc-lat>
+<rc-lon>-99.293754</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXFG2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>192930</exch>
+<rc>Jacksboro</rc>
+<region>TX</region>
+<switch>WCFLTXNIX7X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8442</rc-v>
+<rc-h>4303</rc-h>
+<rc-lat>33.214523</rc-lat>
+<rc-lon>-98.16752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>232</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7229</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>233</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch>WCFLTXNIVMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS5</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4913</ocn>
+<company-name>NTS COMMUNICATIONS, INC.                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>237</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>238</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXHB0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>2985</ocn>
+<company-name>WEB FIRE COMMUNICATIONS, INC. - TX                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIWMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>004F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - TX                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIUMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7229</ocn>
+<company-name>MCIMETRO ACCESS TRANSMISSION SERVICES LLC                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>195810</exch>
+<rc>Olney</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8450</rc-v>
+<rc-h>4414</rc-h>
+<rc-lat>33.364271</rc-lat>
+<rc-lon>-98.749492</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>253</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>162J</ocn>
+<company-name>COMCELL, INC. - TX                                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-03-23 23:46:21</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>197790</exch>
+<rc>Seymour</rc>
+<region>TX</region>
+<switch>SYMRTXAC1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8437</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>33.590702</rc-lat>
+<rc-lon>-99.256977</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>257</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>259</nxx>
+<x>A</x>
+<exch>188890</exch>
+<rc>Bryson</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8468</rc-v>
+<rc-h>4335</rc-h>
+<rc-lat>33.155574</rc-lat>
+<rc-lon>-98.381924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-28 00:50:45</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>261</nxx>
+<x>A</x>
+<exch>194700</exch>
+<rc>Medicine Mound</rc>
+<region>TX</region>
+<switch>QANHTXAT0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8339</rc-v>
+<rc-h>4621</rc-h>
+<rc-lat>34.182517</rc-lat>
+<rc-lon>-99.598499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIWMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>004F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - TX                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>264</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXHB0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>2985</ocn>
+<company-name>WEB FIRE COMMUNICATIONS, INC. - TX                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>267</nxx>
+<x>A</x>
+<exch>192580</exch>
+<rc>Holliday</rc>
+<region>TX</region>
+<switch>WCFLTXNIX3X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>583C</ocn>
+<company-name>TIME WARNER CBLE INFO SVC (TX) DBA TIME WARNER CBL        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8357</rc-v>
+<rc-h>4439</rc-h>
+<rc-lat>33.808112</rc-lat>
+<rc-lon>-98.694706</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>275</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIGT0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>429F</ocn>
+<company-name>HALO WIRELESS, INC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>276</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-09 00:30:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>280</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>004F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - TX                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>283</nxx>
+<x>A</x>
+<exch>189000</exch>
+<rc>Burkburnett</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8290</rc-v>
+<rc-h>4440</rc-h>
+<rc-lat>34.099714</rc-lat>
+<rc-lon>-98.567201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-09 01:59:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXESX5Y</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7148</ocn>
+<company-name>TELEPORT COMMUNICATIONS GROUP - DALLAS                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>292</nxx>
+<x>A</x>
+<exch>199250</exch>
+<rc>Vernon</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>004F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - TX                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>34.151791</rc-lat>
+<rc-lon>-99.293754</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-07-03 02:33:19</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-04 03:14:26</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>190880</exch>
+<rc>Elbert</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8484</rc-v>
+<rc-h>4450</rc-h>
+<rc-lat>33.276074</rc-lat>
+<rc-lon>-98.999879</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>308</nxx>
+<x>A</x>
+<exch>193120</exch>
+<rc>Kamay</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1181</ocn>
+<company-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8354</rc-v>
+<rc-h>4462</rc-h>
+<rc-lat>33.858978</rc-lat>
+<rc-lon>-98.807031</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>313</nxx>
+<x>A</x>
+<exch>195310</exch>
+<rc>Munday</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8489</rc-v>
+<rc-h>4570</rc-h>
+<rc-lat>33.448926</rc-lat>
+<rc-lon>-99.624199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>314</nxx>
+<x>A</x>
+<exch>195570</exch>
+<rc>Nocona</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2153</ocn>
+<company-name>TEXAS WINDSTREAM, LLC                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8297</rc-v>
+<rc-h>4273</rc-h>
+<rc-lat>33.789792</rc-lat>
+<rc-lon>-97.72361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>316</nxx>
+<x>A</x>
+<exch>193380</exch>
+<rc>Knox City</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8508</rc-v>
+<rc-h>4601</rc-h>
+<rc-lat>33.416013</rc-lat>
+<rc-lon>-99.819674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>317</nxx>
+<x>A</x>
+<exch>197790</exch>
+<rc>Seymour</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8437</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>33.590702</rc-lat>
+<rc-lon>-99.256977</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>322</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS0</switch>
+<switchname>WICHITA FALLS</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>189500</exch>
+<rc>Childress</rc>
+<region>TX</region>
+<switch>WCFLTX07WMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8328</rc-v>
+<rc-h>4743</rc-h>
+<rc-lat>34.424643</rc-lat>
+<rc-lon>-100.211068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXGA0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>340</nxx>
+<x>A</x>
+<exch>188570</exch>
+<rc>Bonita</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8295</rc-v>
+<rc-h>4248</rc-h>
+<rc-lat>33.755978</rc-lat>
+<rc-lon>-97.591692</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-19 02:40:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>341</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>342</nxx>
+<x>A</x>
+<exch>193000</exch>
+<rc>Jermyn</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8448</rc-v>
+<rc-h>4345</rc-h>
+<rc-lat>33.258691</rc-lat>
+<rc-lon>-98.393354</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>345</nxx>
+<x>A</x>
+<exch>199980</exch>
+<rc>Woodson</rc>
+<region>TX</region>
+<switch>WDSNTXXARS0</switch>
+<switchname>WOODSON</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8538</rc-v>
+<rc-h>4439</rc-h>
+<rc-lat>33.024015</rc-lat>
+<rc-lon>-99.048566</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>347</nxx>
+<x>A</x>
+<exch>197790</exch>
+<rc>Seymour</rc>
+<region>TX</region>
+<switch>WCFLTXRK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6271</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - TEXAS                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8437</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>33.590702</rc-lat>
+<rc-lon>-99.256977</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>350</nxx>
+<x>A</x>
+<exch>195120</exch>
+<rc>Montague</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4261</rc-h>
+<rc-lat>33.657354</rc-lat>
+<rc-lon>-97.714847</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-19 02:40:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>351</nxx>
+<x>A</x>
+<exch>192930</exch>
+<rc>Jacksboro</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8442</rc-v>
+<rc-h>4303</rc-h>
+<rc-lat>33.214523</rc-lat>
+<rc-lon>-98.16752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>355</nxx>
+<x>A</x>
+<exch>195310</exch>
+<rc>Munday</rc>
+<region>TX</region>
+<switch>WCFLTXFG2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8489</rc-v>
+<rc-h>4570</rc-h>
+<rc-lat>33.448926</rc-lat>
+<rc-lon>-99.624199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>357</nxx>
+<x>A</x>
+<exch>193620</exch>
+<rc>Lake Kemp</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8399</rc-v>
+<rc-h>4513</rc-h>
+<rc-lat>33.747402</rc-lat>
+<rc-lon>-99.15745</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>360</nxx>
+<x>A</x>
+<exch>197000</exch>
+<rc>Ringgold</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8306</rc-v>
+<rc-h>4312</rc-h>
+<rc-lat>33.816852</rc-lat>
+<rc-lon>-97.941461</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-19 02:40:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>190920</exch>
+<rc>Eliasville</rc>
+<region>TX</region>
+<switch>ELVLTXXARS0</switch>
+<switchname>ELIASVILLE</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8533</rc-v>
+<rc-h>4386</rc-h>
+<rc-lat>32.958746</rc-lat>
+<rc-lon>-98.76901</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>370</nxx>
+<x>A</x>
+<exch>198200</exch>
+<rc>Spanish Fort</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8258</rc-v>
+<rc-h>4269</rc-h>
+<rc-lat>33.951124</rc-lat>
+<rc-lon>-97.624008</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-19 02:40:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>378</nxx>
+<x>A</x>
+<exch>194200</exch>
+<rc>Loving</rc>
+<region>TX</region>
+<switch>LVNGTXXARS0</switch>
+<switchname>LOVING</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8454</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.265966</rc-lat>
+<rc-lon>-98.507174</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>386</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>188890</exch>
+<rc>Bryson</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8468</rc-v>
+<rc-h>4335</rc-h>
+<rc-lat>33.155574</rc-lat>
+<rc-lon>-98.381924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>400</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-09 01:59:41</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>401</nxx>
+<x>A</x>
+<exch>192580</exch>
+<rc>Holliday</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8357</rc-v>
+<rc-h>4439</rc-h>
+<rc-lat>33.808112</rc-lat>
+<rc-lon>-98.694706</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>192320</exch>
+<rc>Haskell</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8555</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>33.157303</rc-lat>
+<rc-lon>-99.734894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>403</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXFGDS0</switch>
+<switchname></switchname>
+<switchtype>5E</switchtype>
+<ocn>4913</ocn>
+<company-name>NTS COMMUNICATIONS, INC.                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>412</nxx>
+<x>A</x>
+<exch>189510</exch>
+<rc>Chillicothe</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8319</rc-v>
+<rc-h>4613</rc-h>
+<rc-lat>34.256511</rc-lat>
+<rc-lon>-99.518321</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-07 01:18:43</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>414</nxx>
+<x>A</x>
+<exch>195790</exch>
+<rc>Oklaunion</rc>
+<region>TX</region>
+<switch>QANHTXAT0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8320</rc-v>
+<rc-h>4540</rc-h>
+<rc-lat>34.133947</rc-lat>
+<rc-lon>-99.142448</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>195310</exch>
+<rc>Munday</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8489</rc-v>
+<rc-h>4570</rc-h>
+<rc-lat>33.448926</rc-lat>
+<rc-lon>-99.624199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>195310</exch>
+<rc>Munday</rc>
+<region>TX</region>
+<switch>MNDYTXXADS0</switch>
+<switchname>MUNDAY</switchname>
+<switchtype>DSF</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8489</rc-v>
+<rc-h>4570</rc-h>
+<rc-lat>33.448926</rc-lat>
+<rc-lon>-99.624199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>423</nxx>
+<x>A</x>
+<exch>199870</exch>
+<rc>Windthorst</rc>
+<region>TX</region>
+<switch>SCLDTXXADS0</switch>
+<switchname>SCOTLAND</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2061</ocn>
+<company-name>COMMUNITY TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2061</ilec-ocn>
+<ilec-name>COMMUNITY TELEPHONE CO.                                   </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8387</rc-v>
+<rc-h>4378</rc-h>
+<rc-lat>33.577332</rc-lat>
+<rc-lon>-98.441205</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>428</nxx>
+<x>A</x>
+<exch>193120</exch>
+<rc>Kamay</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8354</rc-v>
+<rc-h>4462</rc-h>
+<rc-lat>33.858978</rc-lat>
+<rc-lon>-98.807031</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>432</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXFG4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>434</nxx>
+<x>A</x>
+<exch>189000</exch>
+<rc>Burkburnett</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS5</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4913</ocn>
+<company-name>NTS COMMUNICATIONS, INC.                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8290</rc-v>
+<rc-h>4440</rc-h>
+<rc-lat>34.099714</rc-lat>
+<rc-lon>-98.567201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>438</nxx>
+<x>A</x>
+<exch>193120</exch>
+<rc>Kamay</rc>
+<region>TX</region>
+<switch>KAMYTXXADS1</switch>
+<switchname>KAMAY</switchname>
+<switchtype>DSF</switchtype>
+<ocn>1181</ocn>
+<company-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1181</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LD-TX #2 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8354</rc-v>
+<rc-h>4462</rc-h>
+<rc-lat>33.858978</rc-lat>
+<rc-lon>-98.807031</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>444</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-07-24 02:24:28</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>447</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXES0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>454</nxx>
+<x>A</x>
+<exch>188260</exch>
+<rc>Benjamin</rc>
+<region>TX</region>
+<switch>BNJMTXXAW01</switch>
+<switchname>BENJAMIN</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8472</rc-v>
+<rc-h>4609</rc-h>
+<rc-lat>33.585312</rc-lat>
+<rc-lon>-99.792123</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>456</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>WCFLTXLW3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>188260</exch>
+<rc>Benjamin</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8472</rc-v>
+<rc-h>4609</rc-h>
+<rc-lat>33.585312</rc-lat>
+<rc-lon>-99.792123</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>461</nxx>
+<x>A</x>
+<exch>189500</exch>
+<rc>Childress</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8328</rc-v>
+<rc-h>4743</rc-h>
+<rc-lat>34.424643</rc-lat>
+<rc-lon>-100.211068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-07 01:18:43</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>473</nxx>
+<x>A</x>
+<exch>199250</exch>
+<rc>Vernon</rc>
+<region>TX</region>
+<switch>WCFLTXNIEMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>34.151791</rc-lat>
+<rc-lon>-99.293754</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>474</nxx>
+<x>A</x>
+<exch>198990</exch>
+<rc>Truscott</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8441</rc-v>
+<rc-h>4624</rc-h>
+<rc-lat>33.744056</rc-lat>
+<rc-lon>-99.810134</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>475</nxx>
+<x>A</x>
+<exch>189340</exch>
+<rc>Cee Vee</rc>
+<region>TX</region>
+<switch>QANHTXAT0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8383</rc-v>
+<rc-h>4769</rc-h>
+<rc-lat>34.225957</rc-lat>
+<rc-lon>-100.450694</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>193090</exch>
+<rc>Joy</rc>
+<region>TX</region>
+<switch>SCLDTXXADS0</switch>
+<switchname>SCOTLAND</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2061</ocn>
+<company-name>COMMUNITY TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2061</ilec-ocn>
+<ilec-name>COMMUNITY TELEPHONE CO.                                   </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8373</rc-v>
+<rc-h>4340</rc-h>
+<rc-lat>33.574521</rc-lat>
+<rc-lon>-98.218978</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>477</nxx>
+<x>A</x>
+<exch>192440</exch>
+<rc>Henrietta</rc>
+<region>TX</region>
+<switch>WCFLTXFG2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4354</rc-h>
+<rc-lat>33.813947</rc-lat>
+<rc-lon>-98.19085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>481</nxx>
+<x>A</x>
+<exch>192320</exch>
+<rc>Haskell</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8555</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>33.157303</rc-lat>
+<rc-lon>-99.734894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>495</nxx>
+<x>A</x>
+<exch>190900</exch>
+<rc>Electra</rc>
+<region>TX</region>
+<switch>ELCTTXXADS0</switch>
+<switchname>ELECTRA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2069</ocn>
+<company-name>ELECTRA TELEPHONE CO., INC.                               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2069</ilec-ocn>
+<ilec-name>ELECTRA TELEPHONE CO., INC.                               </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>4494</rc-h>
+<rc-lat>34.032793</rc-lat>
+<rc-lon>-98.916749</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>500</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIX3X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>583C</ocn>
+<company-name>TIME WARNER CBLE INFO SVC (TX) DBA TIME WARNER CBL        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>503</nxx>
+<x>A</x>
+<exch>189000</exch>
+<rc>Burkburnett</rc>
+<region>TX</region>
+<switch>WCFLTXFG4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8290</rc-v>
+<rc-h>4440</rc-h>
+<rc-lat>34.099714</rc-lat>
+<rc-lon>-98.567201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>507</nxx>
+<x>A</x>
+<exch>192930</exch>
+<rc>Jacksboro</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8442</rc-v>
+<rc-h>4303</rc-h>
+<rc-lat>33.214523</rc-lat>
+<rc-lon>-98.16752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>521</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>GRHMTXLIDS0</switch>
+<switchname>GRAHAM</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>524</nxx>
+<x>A</x>
+<exch>196180</exch>
+<rc>Petrolia</rc>
+<region>TX</region>
+<switch>PTRLTXXADS0</switch>
+<switchname>PETROLIA</switchname>
+<switchtype>DMS</switchtype>
+<ocn>2043</ocn>
+<company-name>NORTH TEXAS TELEPHONE CO.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2043</ilec-ocn>
+<ilec-name>NORTH TEXAS TELEPHONE CO.                                 </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8287</rc-v>
+<rc-h>4376</rc-h>
+<rc-lat>34.006257</rc-lat>
+<rc-lon>-98.231772</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>525</nxx>
+<x>A</x>
+<exch>193630</exch>
+<rc>Lake Kickapoo</rc>
+<region>TX</region>
+<switch>SCLDTXXADS0</switch>
+<switchname>SCOTLAND</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2061</ocn>
+<company-name>COMMUNITY TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2061</ilec-ocn>
+<ilec-name>COMMUNITY TELEPHONE CO.                                   </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8389</rc-v>
+<rc-h>4442</rc-h>
+<rc-lat>33.674511</rc-lat>
+<rc-lon>-98.773135</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>528</nxx>
+<x>A</x>
+<exch>193580</exch>
+<rc>Lake Arrowhead</rc>
+<region>TX</region>
+<switch>SCLDTXXADS0</switch>
+<switchname>SCOTLAND</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2061</ocn>
+<company-name>COMMUNITY TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2061</ilec-ocn>
+<ilec-name>COMMUNITY TELEPHONE CO.                                   </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8349</rc-v>
+<rc-h>4379</rc-h>
+<rc-lat>33.743302</rc-lat>
+<rc-lon>-98.370897</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>529</nxx>
+<x>A</x>
+<exch>196180</exch>
+<rc>Petrolia</rc>
+<region>TX</region>
+<switch>BYRSTXXARS0</switch>
+<switchname>BYERS</switchname>
+<switchtype>DMS</switchtype>
+<ocn>2043</ocn>
+<company-name>NORTH TEXAS TELEPHONE CO.                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2043</ilec-ocn>
+<ilec-name>NORTH TEXAS TELEPHONE CO.                                 </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8287</rc-v>
+<rc-h>4376</rc-h>
+<rc-lat>34.006257</rc-lat>
+<rc-lon>-98.231772</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>531</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch>WCFLTXNIVMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>532</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>WCFLTXFG4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>537</nxx>
+<x>A</x>
+<exch>193360</exch>
+<rc>Kirkland</rc>
+<region>TX</region>
+<switch>KRLDTXXARS0</switch>
+<switchname>KIRKLAND</switchname>
+<switchtype>RSC</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8329</rc-v>
+<rc-h>4713</rc-h>
+<rc-lat>34.372841</rc-lat>
+<rc-lon>-100.056831</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>538</nxx>
+<x>A</x>
+<exch>192440</exch>
+<rc>Henrietta</rc>
+<region>TX</region>
+<switch>HNRTTXBRRS0</switch>
+<switchname>HENRIETTA</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4354</rc-h>
+<rc-lat>33.813947</rc-lat>
+<rc-lon>-98.19085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>541</nxx>
+<x>A</x>
+<exch>197690</exch>
+<rc>Scotland</rc>
+<region>TX</region>
+<switch>SCLDTXXADS0</switch>
+<switchname>SCOTLAND</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2061</ocn>
+<company-name>COMMUNITY TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2061</ilec-ocn>
+<ilec-name>COMMUNITY TELEPHONE CO.                                   </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8373</rc-v>
+<rc-h>4390</rc-h>
+<rc-lat>33.657806</rc-lat>
+<rc-lon>-98.474921</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>544</nxx>
+<x>A</x>
+<exch>189450</exch>
+<rc>Charlie</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8274</rc-v>
+<rc-h>4398</rc-h>
+<rc-lat>34.099145</rc-lat>
+<rc-lon>-98.318948</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>545</nxx>
+<x>A</x>
+<exch>197790</exch>
+<rc>Seymour</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0132</ocn>
+<company-name>AMA COMM., LLC DBA AMA*TECHTEL COMMUNICATIONS-TX          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8437</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>33.590702</rc-lat>
+<rc-lon>-99.256977</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-04 01:06:49</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>548</nxx>
+<x>A</x>
+<exch>196740</exch>
+<rc>Quanah</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8324</rc-v>
+<rc-h>4654</rc-h>
+<rc-lat>34.300612</rc-lat>
+<rc-lon>-99.740656</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-11 12:14:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>549</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>GRHMTXLIDS0</switch>
+<switchname>GRAHAM</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>GRHMTXLIDS0</switch>
+<switchname>GRAHAM</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>552</nxx>
+<x>A</x>
+<exch>199250</exch>
+<rc>Vernon</rc>
+<region>TX</region>
+<switch>VERNTXLIDS0</switch>
+<switchname>VERNON</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>34.151791</rc-lat>
+<rc-lon>-99.293754</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>553</nxx>
+<x>A</x>
+<exch>199250</exch>
+<rc>Vernon</rc>
+<region>TX</region>
+<switch>VERNTXLIDS0</switch>
+<switchname>VERNON</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>34.151791</rc-lat>
+<rc-lon>-99.293754</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>557</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>560</nxx>
+<x>A</x>
+<exch>191910</exch>
+<rc>Graham</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8492</rc-v>
+<rc-h>4365</rc-h>
+<rc-lat>33.101558</rc-lat>
+<rc-lon>-98.581916</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>194730</exch>
+<rc>Megargel</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8445</rc-v>
+<rc-h>4452</rc-h>
+<rc-lat>33.448362</rc-lat>
+<rc-lon>-98.934106</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>563</nxx>
+<x>A</x>
+<exch>194730</exch>
+<rc>Megargel</rc>
+<region>TX</region>
+<switch>MGRGTXXAW01</switch>
+<switchname>MEGARGEL</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8445</rc-v>
+<rc-h>4452</rc-h>
+<rc-lat>33.448362</rc-lat>
+<rc-lon>-98.934106</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>564</nxx>
+<x>A</x>
+<exch>195810</exch>
+<rc>Olney</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8450</rc-v>
+<rc-h>4414</rc-h>
+<rc-lat>33.364271</rc-lat>
+<rc-lon>-98.749492</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>192930</exch>
+<rc>Jacksboro</rc>
+<region>TX</region>
+<switch>JCBOTXLORS0</switch>
+<switchname>JACKSBORO</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8442</rc-v>
+<rc-h>4303</rc-h>
+<rc-lat>33.214523</rc-lat>
+<rc-lon>-98.16752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>569</nxx>
+<x>A</x>
+<exch>189000</exch>
+<rc>Burkburnett</rc>
+<region>TX</region>
+<switch>BRKBTXEFRS0</switch>
+<switchname>BURKBURNETT</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8290</rc-v>
+<rc-h>4440</rc-h>
+<rc-lat>34.099714</rc-lat>
+<rc-lon>-98.567201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>570</nxx>
+<x>A</x>
+<exch>194730</exch>
+<rc>Megargel</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0132</ocn>
+<company-name>AMA COMM., LLC DBA AMA*TECHTEL COMMUNICATIONS-TX          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8445</rc-v>
+<rc-h>4452</rc-h>
+<rc-lat>33.448362</rc-lat>
+<rc-lon>-98.934106</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-04 01:06:49</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>571</nxx>
+<x>A</x>
+<exch>188260</exch>
+<rc>Benjamin</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0132</ocn>
+<company-name>AMA COMM., LLC DBA AMA*TECHTEL COMMUNICATIONS-TX          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8472</rc-v>
+<rc-h>4609</rc-h>
+<rc-lat>33.585312</rc-lat>
+<rc-lon>-99.792123</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-06 10:09:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>572</nxx>
+<x>A</x>
+<exch>197350</exch>
+<rc>Rule</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0132</ocn>
+<company-name>AMA COMM., LLC DBA AMA*TECHTEL COMMUNICATIONS-TX          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8560</rc-v>
+<rc-h>4596</rc-h>
+<rc-lat>33.18191</rc-lat>
+<rc-lon>-99.892873</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-06 10:09:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>573</nxx>
+<x>A</x>
+<exch>192930</exch>
+<rc>Jacksboro</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>903C</ocn>
+<company-name>ONVOY, LLC - TX                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8442</rc-v>
+<rc-h>4303</rc-h>
+<rc-lat>33.214523</rc-lat>
+<rc-lon>-98.16752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-07 01:18:43</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>187670</exch>
+<rc>Archer City</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8396</rc-v>
+<rc-h>4410</rc-h>
+<rc-lat>33.591426</rc-lat>
+<rc-lon>-98.622854</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>576</nxx>
+<x>A</x>
+<exch>199500</exch>
+<rc>Weinert</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0132</ocn>
+<company-name>AMA COMM., LLC DBA AMA*TECHTEL COMMUNICATIONS-TX          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8517</rc-v>
+<rc-h>4569</rc-h>
+<rc-lat>33.325658</rc-lat>
+<rc-lon>-99.672649</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-06 10:09:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>578</nxx>
+<x>A</x>
+<exch>198820</exch>
+<rc>Throckmorton</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0132</ocn>
+<company-name>AMA COMM., LLC DBA AMA*TECHTEL COMMUNICATIONS-TX          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8514</rc-v>
+<rc-h>4473</rc-h>
+<rc-lat>33.183531</rc-lat>
+<rc-lon>-99.175586</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-06 10:09:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>583</nxx>
+<x>A</x>
+<exch>192580</exch>
+<rc>Holliday</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8357</rc-v>
+<rc-h>4439</rc-h>
+<rc-lat>33.808112</rc-lat>
+<rc-lon>-98.694706</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>585</nxx>
+<x>A</x>
+<exch>189340</exch>
+<rc>Cee Vee</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8383</rc-v>
+<rc-h>4769</rc-h>
+<rc-lat>34.225957</rc-lat>
+<rc-lon>-100.450694</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>586</nxx>
+<x>A</x>
+<exch>192580</exch>
+<rc>Holliday</rc>
+<region>TX</region>
+<switch>HLDYTXXADS0</switch>
+<switchname>HOLLIDAY</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8357</rc-v>
+<rc-h>4439</rc-h>
+<rc-lat>33.808112</rc-lat>
+<rc-lon>-98.694706</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>592</nxx>
+<x>A</x>
+<exch>192860</exch>
+<rc>Iowa Park</rc>
+<region>TX</region>
+<switch>IWPKTXBARS0</switch>
+<switchname>IOWA PARK</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8327</rc-v>
+<rc-h>4445</rc-h>
+<rc-lat>33.947867</rc-lat>
+<rc-lon>-98.666294</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>601</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>602</nxx>
+<x>A</x>
+<exch>189000</exch>
+<rc>Burkburnett</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8290</rc-v>
+<rc-h>4440</rc-h>
+<rc-lat>34.099714</rc-lat>
+<rc-lon>-98.567201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>603</nxx>
+<x>A</x>
+<exch>192440</exch>
+<rc>Henrietta</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4354</rc-h>
+<rc-lat>33.813947</rc-lat>
+<rc-lon>-98.19085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>604</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>605</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTX04XWX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>613</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>616</nxx>
+<x>A</x>
+<exch>188170</exch>
+<rc>Bellevue</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8348</rc-v>
+<rc-h>4310</rc-h>
+<rc-lat>33.632203</rc-lat>
+<rc-lon>-98.015604</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>617</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>618</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>619</nxx>
+<x>A</x>
+<exch>192860</exch>
+<rc>Iowa Park</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8327</rc-v>
+<rc-h>4445</rc-h>
+<rc-lat>33.947867</rc-lat>
+<rc-lon>-98.666294</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>620</nxx>
+<x>A</x>
+<exch>189000</exch>
+<rc>Burkburnett</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8290</rc-v>
+<rc-h>4440</rc-h>
+<rc-lat>34.099714</rc-lat>
+<rc-lon>-98.567201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>621</nxx>
+<x>A</x>
+<exch>189000</exch>
+<rc>Burkburnett</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8290</rc-v>
+<rc-h>4440</rc-h>
+<rc-lat>34.099714</rc-lat>
+<rc-lon>-98.567201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>622</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>623</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>624</nxx>
+<x>A</x>
+<exch>192440</exch>
+<rc>Henrietta</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4354</rc-h>
+<rc-lat>33.813947</rc-lat>
+<rc-lon>-98.19085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>625</nxx>
+<x>A</x>
+<exch>192440</exch>
+<rc>Henrietta</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>3533</ocn>
+<company-name>CHOICE WIRELESS LC                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4354</rc-h>
+<rc-lat>33.813947</rc-lat>
+<rc-lon>-98.19085</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>631</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXRK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6271</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - TEXAS                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>632</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXRK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6271</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - TEXAS                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>636</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXRK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6271</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - TEXAS                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>642</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIEMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>199250</exch>
+<rc>Vernon</rc>
+<region>TX</region>
+<switch>WCFLTXFG4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8326</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>34.151791</rc-lat>
+<rc-lon>-99.293754</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>655</nxx>
+<x>A</x>
+<exch>198770</exch>
+<rc>Thalia</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8375</rc-v>
+<rc-h>4595</rc-h>
+<rc-lat>33.984329</rc-lat>
+<rc-lon>-99.533581</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>657</nxx>
+<x>A</x>
+<exch>193380</exch>
+<rc>Knox City</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8508</rc-v>
+<rc-h>4601</rc-h>
+<rc-lat>33.416013</rc-lat>
+<rc-lon>-99.819674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>193380</exch>
+<rc>Knox City</rc>
+<region>TX</region>
+<switch>KNCYTXXADS0</switch>
+<switchname>KNOX CITY</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8508</rc-v>
+<rc-h>4601</rc-h>
+<rc-lat>33.416013</rc-lat>
+<rc-lon>-99.819674</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>196740</exch>
+<rc>Quanah</rc>
+<region>TX</region>
+<switch>QANHTXMORS0</switch>
+<switchname>QUANAH</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8324</rc-v>
+<rc-h>4654</rc-h>
+<rc-lat>34.300612</rc-lat>
+<rc-lon>-99.740656</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>672</nxx>
+<x>A</x>
+<exch>199500</exch>
+<rc>Weinert</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8517</rc-v>
+<rc-h>4569</rc-h>
+<rc-lat>33.325658</rc-lat>
+<rc-lon>-99.672649</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>199500</exch>
+<rc>Weinert</rc>
+<region>TX</region>
+<switch>WNRTTXXAL01</switch>
+<switchname>WEINERT</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8517</rc-v>
+<rc-h>4569</rc-h>
+<rc-lat>33.325658</rc-lat>
+<rc-lon>-99.672649</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>674</nxx>
+<x>A</x>
+<exch>191840</exch>
+<rc>Goodlett</rc>
+<region>TX</region>
+<switch>GDLTTXXARS0</switch>
+<switchname>GOODLETT</switchname>
+<switchtype>RSC</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8327</rc-v>
+<rc-h>4682</rc-h>
+<rc-lat>34.332276</rc-lat>
+<rc-lon>-99.891839</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>684</nxx>
+<x>A</x>
+<exch>190120</exch>
+<rc>Crowell</rc>
+<region>TX</region>
+<switch>CRWLTXXARS0</switch>
+<switchname>CROWELL</switchname>
+<switchtype>RSC</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8387</rc-v>
+<rc-h>4627</rc-h>
+<rc-lat>33.983583</rc-lat>
+<rc-lon>-99.722082</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>687</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXFGDS0</switch>
+<switchname></switchname>
+<switchtype>5E</switchtype>
+<ocn>4913</ocn>
+<company-name>NTS COMMUNICATIONS, INC.                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXCFDS0</switch>
+<switchname>WICHITA FALLS</switchname>
+<switchtype>5E</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>691</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXCFDS0</switch>
+<switchname>WICHITA FALLS</switchname>
+<switchtype>5E</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>692</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXCFDS0</switch>
+<switchname>WICHITA FALLS</switchname>
+<switchtype>5E</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>696</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXCFDS0</switch>
+<switchname>WICHITA FALLS</switchname>
+<switchtype>5E</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>704</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>716</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>720</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>723</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>730</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>732</nxx>
+<x>A</x>
+<exch>189500</exch>
+<rc>Childress</rc>
+<region>TX</region>
+<switch>WCFLTXRK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6271</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - TEXAS                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8328</rc-v>
+<rc-h>4743</rc-h>
+<rc-lat>34.424643</rc-lat>
+<rc-lon>-100.211068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>733</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXRK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6271</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - TEXAS                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>742</nxx>
+<x>A</x>
+<exch>197130</exch>
+<rc>Rochester</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8531</rc-v>
+<rc-h>4600</rc-h>
+<rc-lat>33.314407</rc-lat>
+<rc-lon>-99.858313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>743</nxx>
+<x>A</x>
+<exch>197130</exch>
+<rc>Rochester</rc>
+<region>TX</region>
+<switch>ROCHTXXARS0</switch>
+<switchname>ROCHESTER</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8531</rc-v>
+<rc-h>4600</rc-h>
+<rc-lat>33.314407</rc-lat>
+<rc-lon>-99.858313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>757</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXFG2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>761</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>762</nxx>
+<x>A</x>
+<exch>199980</exch>
+<rc>Woodson</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8538</rc-v>
+<rc-h>4439</rc-h>
+<rc-lat>33.024015</rc-lat>
+<rc-lon>-99.048566</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>763</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>764</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>766</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>767</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>781</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>782</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXESX9X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>825</nxx>
+<x>A</x>
+<exch>195570</exch>
+<rc>Nocona</rc>
+<region>TX</region>
+<switch>NCNATXXADS0</switch>
+<switchname>NOCONA</switchname>
+<switchtype>DMS</switchtype>
+<ocn>2153</ocn>
+<company-name>TEXAS WINDSTREAM, LLC                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8297</rc-v>
+<rc-h>4273</rc-h>
+<rc-lat>33.789792</rc-lat>
+<rc-lon>-97.72361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>838</nxx>
+<x>A</x>
+<exch>194700</exch>
+<rc>Medicine Mound</rc>
+<region>TX</region>
+<switch>WCFLTXRK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6271</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - TEXAS                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8339</rc-v>
+<rc-h>4621</rc-h>
+<rc-lat>34.182517</rc-lat>
+<rc-lon>-99.598499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>839</nxx>
+<x>A</x>
+<exch>194700</exch>
+<rc>Medicine Mound</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8339</rc-v>
+<rc-h>4621</rc-h>
+<rc-lat>34.182517</rc-lat>
+<rc-lon>-99.598499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>841</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch>BOWITXTRRS0</switch>
+<switchname>BOWIE</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>846</nxx>
+<x>A</x>
+<exch>195540</exch>
+<rc>Newcastle</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8484</rc-v>
+<rc-h>4398</rc-h>
+<rc-lat>33.190692</rc-lat>
+<rc-lon>-98.734398</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>849</nxx>
+<x>A</x>
+<exch>198820</exch>
+<rc>Throckmorton</rc>
+<region>TX</region>
+<switch>THRKTXXARS0</switch>
+<switchname>THROCKMORTON</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8514</rc-v>
+<rc-h>4473</rc-h>
+<rc-lat>33.183531</rc-lat>
+<rc-lon>-99.175586</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>851</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXTFDS0</switch>
+<switchname>WICHITA FALLS</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>852</nxx>
+<x>A</x>
+<exch>189510</exch>
+<rc>Chillicothe</rc>
+<region>TX</region>
+<switch>CHLCTXULRS0</switch>
+<switchname>CHILLICOTHE</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8319</rc-v>
+<rc-h>4613</rc-h>
+<rc-lat>34.256511</rc-lat>
+<rc-lon>-99.518321</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>855</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXTFDS0</switch>
+<switchname>WICHITA FALLS</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>862</nxx>
+<x>A</x>
+<exch>190880</exch>
+<rc>Elbert</rc>
+<region>TX</region>
+<switch>ELBRTXXARS0</switch>
+<switchname>ELBERT</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8484</rc-v>
+<rc-h>4450</rc-h>
+<rc-lat>33.276074</rc-lat>
+<rc-lon>-98.999879</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>863</nxx>
+<x>A</x>
+<exch>192320</exch>
+<rc>Haskell</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8555</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>33.157303</rc-lat>
+<rc-lon>-99.734894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>192320</exch>
+<rc>Haskell</rc>
+<region>TX</region>
+<switch>HSKLTXXADS0</switch>
+<switchname>HASKELL</switchname>
+<switchtype>DSF</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8555</rc-v>
+<rc-h>4567</rc-h>
+<rc-lat>33.157303</rc-lat>
+<rc-lon>-99.734894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>867</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIVMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6506</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - TX              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>872</nxx>
+<x>A</x>
+<exch>188630</exch>
+<rc>Bowie</rc>
+<region>TX</region>
+<switch>BOWITXTRRS0</switch>
+<switchname>BOWIE</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4275</rc-h>
+<rc-lat>33.560282</rc-lat>
+<rc-lon>-97.842812</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>873</nxx>
+<x>A</x>
+<exch>195890</exch>
+<rc>Orth</rc>
+<region>TX</region>
+<switch>ORTHTXXARS0</switch>
+<switchname>ORTH</switchname>
+<switchtype>RSC</switchtype>
+<ocn>2041</ocn>
+<company-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2041</ilec-ocn>
+<ilec-name>BRAZOS TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8465</rc-v>
+<rc-h>4408</rc-h>
+<rc-lat>33.289437</rc-lat>
+<rc-lon>-98.748231</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>880</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIDS2</switch>
+<switchname>W. FALLS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>882</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>886</nxx>
+<x>A</x>
+<exch>195790</exch>
+<rc>Oklaunion</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8320</rc-v>
+<rc-h>4540</rc-h>
+<rc-lat>34.133947</rc-lat>
+<rc-lon>-99.142448</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>887</nxx>
+<x>A</x>
+<exch>199680</exch>
+<rc>White City-Odell</rc>
+<region>TX</region>
+<switch>OKLATXXADS0</switch>
+<switchname>OKLAUNION</switchname>
+<switchtype>DMT</switchtype>
+<ocn>2141</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2141</ilec-ocn>
+<ilec-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8294</rc-v>
+<rc-h>4603</rc-h>
+<rc-lat>34.348923</rc-lat>
+<rc-lon>-99.417894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>197790</exch>
+<rc>Seymour</rc>
+<region>TX</region>
+<switch>SYMRTXXADS0</switch>
+<switchname>SEYMOUR</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8437</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>33.590702</rc-lat>
+<rc-lon>-99.256977</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>889</nxx>
+<x>A</x>
+<exch>197790</exch>
+<rc>Seymour</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8437</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>33.590702</rc-lat>
+<rc-lon>-99.256977</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>894</nxx>
+<x>A</x>
+<exch>195120</exch>
+<rc>Montague</rc>
+<region>TX</region>
+<switch>MTAGTXXARS0</switch>
+<switchname>MONTAGUE</switchname>
+<switchtype>DMS</switchtype>
+<ocn>2153</ocn>
+<company-name>TEXAS WINDSTREAM, LLC                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4261</rc-h>
+<rc-lat>33.657354</rc-lat>
+<rc-lon>-97.714847</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>895</nxx>
+<x>A</x>
+<exch>188480</exch>
+<rc>Bluegrove</rc>
+<region>TX</region>
+<switch>SCLDTXXADS0</switch>
+<switchname>SCOTLAND</switchname>
+<switchtype>DCO</switchtype>
+<ocn>2061</ocn>
+<company-name>COMMUNITY TELEPHONE CO.                                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2061</ilec-ocn>
+<ilec-name>COMMUNITY TELEPHONE CO.                                   </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8351</rc-v>
+<rc-h>4348</rc-h>
+<rc-lat>33.682947</rc-lat>
+<rc-lon>-98.216042</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>905</nxx>
+<x>A</x>
+<exch>192860</exch>
+<rc>Iowa Park</rc>
+<region>TX</region>
+<switch>WCFLTXFG2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6114</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - TX                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8327</rc-v>
+<rc-h>4445</rc-h>
+<rc-lat>33.947867</rc-lat>
+<rc-lon>-98.666294</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>923</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNIEMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>928</nxx>
+<x>A</x>
+<exch>188170</exch>
+<rc>Bellevue</rc>
+<region>TX</region>
+<switch>BLLVTXFRRS0</switch>
+<switchname>BELLEVUE</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8348</rc-v>
+<rc-h>4310</rc-h>
+<rc-lat>33.632203</rc-lat>
+<rc-lon>-98.015604</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>934</nxx>
+<x>A</x>
+<exch>197000</exch>
+<rc>Ringgold</rc>
+<region>TX</region>
+<switch>RNGLTXXARS0</switch>
+<switchname>RINGGOLD</switchname>
+<switchtype>DMS</switchtype>
+<ocn>2153</ocn>
+<company-name>TEXAS WINDSTREAM, LLC                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8306</rc-v>
+<rc-h>4312</rc-h>
+<rc-lat>33.816852</rc-lat>
+<rc-lon>-97.941461</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>937</nxx>
+<x>A</x>
+<exch>189500</exch>
+<rc>Childress</rc>
+<region>TX</region>
+<switch>CHLDTXWERS0</switch>
+<switchname>CHILDRESS</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8328</rc-v>
+<rc-h>4743</rc-h>
+<rc-lat>34.424643</rc-lat>
+<rc-lon>-100.211068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>938</nxx>
+<x>A</x>
+<exch>189500</exch>
+<rc>Childress</rc>
+<region>TX</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8328</rc-v>
+<rc-h>4743</rc-h>
+<rc-lat>34.424643</rc-lat>
+<rc-lon>-100.211068</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>955</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXNI04T</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9533</ocn>
+<company-name>SOUTHWESTERN BELL                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>966</nxx>
+<x>A</x>
+<exch>198200</exch>
+<rc>Spanish Fort</rc>
+<region>TX</region>
+<switch>SPFTTXXARS0</switch>
+<switchname>SPANISH FORT</switchname>
+<switchtype>DMS</switchtype>
+<ocn>2153</ocn>
+<company-name>TEXAS WINDSTREAM, LLC                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8258</rc-v>
+<rc-h>4269</rc-h>
+<rc-lat>33.951124</rc-lat>
+<rc-lon>-97.624008</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>987</nxx>
+<x>A</x>
+<exch>188570</exch>
+<rc>Bonita</rc>
+<region>TX</region>
+<switch>BONTTXXARS0</switch>
+<switchname>BONITA</switchname>
+<switchtype>DMS</switchtype>
+<ocn>2153</ocn>
+<company-name>TEXAS WINDSTREAM, LLC                                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2153</ilec-ocn>
+<ilec-name>TEXAS WINDSTREAM, LLC                                     </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8295</rc-v>
+<rc-h>4248</rc-h>
+<rc-lat>33.755978</rc-lat>
+<rc-lon>-97.591692</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>988</nxx>
+<x>A</x>
+<exch>187760</exch>
+<rc>Aspermont</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8589</rc-v>
+<rc-h>4650</rc-h>
+<rc-lat>33.141393</rc-lat>
+<rc-lon>-100.224308</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>187760</exch>
+<rc>Aspermont</rc>
+<region>TX</region>
+<switch>ASPRTXXARS0</switch>
+<switchname>ASPERMONT</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8589</rc-v>
+<rc-h>4650</rc-h>
+<rc-lat>33.141393</rc-lat>
+<rc-lon>-100.224308</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>991</nxx>
+<x>A</x>
+<exch>199770</exch>
+<rc>Wichita Falls</rc>
+<region>TX</region>
+<switch>WCFLTXFGDS0</switch>
+<switchname></switchname>
+<switchtype>5E</switchtype>
+<ocn>4913</ocn>
+<company-name>NTS COMMUNICATIONS, INC.                                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9533</ilec-ocn>
+<ilec-name>SOUTHWESTERN BELL                                         </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8323</rc-v>
+<rc-h>4412</rc-h>
+<rc-lat>33.910566</rc-lat>
+<rc-lon>-98.488636</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>996</nxx>
+<x>A</x>
+<exch>197350</exch>
+<rc>Rule</rc>
+<region>TX</region>
+<switch>SYMRTX01DS0</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4046</ocn>
+<company-name>SANTA ROSA TELEPHONE COOPERATIVE, INC.                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8560</rc-v>
+<rc-h>4596</rc-h>
+<rc-lat>33.18191</rc-lat>
+<rc-lon>-99.892873</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>940</npa>
+<nxx>997</nxx>
+<x>A</x>
+<exch>197350</exch>
+<rc>Rule</rc>
+<region>TX</region>
+<switch>RULETXXARS0</switch>
+<switchname>RULE</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1163</ocn>
+<company-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1163</ilec-ocn>
+<ilec-name>VALOR TELECOMM TX, LP-TX #1 DBA WINDSTREAM COMM SW        </ilec-name>
+<lata>548</lata>
+<lir></lir>
+<rc-v>8560</rc-v>
+<rc-h>4596</rc-h>
+<rc-lat>33.18191</rc-lat>
+<rc-lon>-99.892873</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

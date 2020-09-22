@@ -1,0 +1,3031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>45009</lata>
+</inputdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLDARS1</switch>
+<switchname></switchname>
+<switchtype>D10</switchtype>
+<ocn>8952</ocn>
+<company-name>KNOLOGY OF FLORIDA DBA WOW INTERNET CABLE PHONE           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>230</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PCBHFLNTDS0</switch>
+<switchname>PANAMA CITY BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>233</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PCBHFLNTDS0</switch>
+<switchname>PANAMA CITY BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PCBHFLNTDS0</switch>
+<switchname>PANAMA CITY BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PCBHFLNTDS0</switch>
+<switchname>PANAMA CITY BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>236</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PCBHFLNTDS0</switch>
+<switchname>PANAMA CITY BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>238</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PNCYFLMAXNZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>239</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLDADS1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>248</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLDARS1</switch>
+<switchname></switchname>
+<switchtype>D10</switchtype>
+<ocn>8952</ocn>
+<company-name>KNOLOGY OF FLORIDA DBA WOW INTERNET CABLE PHONE           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLDARS1</switch>
+<switchname></switchname>
+<switchtype>D10</switchtype>
+<ocn>8952</ocn>
+<company-name>KNOLOGY OF FLORIDA DBA WOW INTERNET CABLE PHONE           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>252</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>257</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8660</ocn>
+<company-name>NUVOX COMMUNICATIONS                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>258</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>030340</exch>
+<rc>Graceville</rc>
+<region>FL</region>
+<switch>GCVLFLMARS0</switch>
+<switchname>GRACEVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7892</rc-v>
+<rc-h>1973</rc-h>
+<rc-lat>30.958302</rc-lat>
+<rc-lon>-85.516448</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch>LYHNFLOHDS0</switch>
+<switchname>LYNN HAVEN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>268</nxx>
+<x>A</x>
+<exch>030450</exch>
+<rc>Havana</rc>
+<region>FL</region>
+<switch>PNCYFLDAFMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7856</rc-v>
+<rc-h>1756</rc-h>
+<rc-lat>30.616062</rc-lat>
+<rc-lon>-84.414307</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>271</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch>LYHNFLOHDS0</switch>
+<switchname>LYNN HAVEN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>276</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLJL4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>277</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch>LYHNFLOHDS0</switch>
+<switchname>LYNN HAVEN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>299</nxx>
+<x>A</x>
+<exch>030340</exch>
+<rc>Graceville</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7892</rc-v>
+<rc-h>1973</rc-h>
+<rc-lat>30.958302</rc-lat>
+<rc-lon>-85.516448</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch>PNCYFLJL4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>319</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLDA0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>CHPLFLJADS0</switch>
+<switchname>CHIPLEY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>334</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PNCYFLMAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8660</ocn>
+<company-name>NUVOX COMMUNICATIONS                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>335</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>6771</ocn>
+<company-name>PORTA-PHONE DIV OF JOHN H. PHIPPS DBA AM MESG SVC         </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>338</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLDACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6744</ocn>
+<company-name>SOUTHERN COMMUNICATIONS SERVICES                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>348</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>358</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLJL4MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>360</nxx>
+<x>A</x>
+<exch>030340</exch>
+<rc>Graceville</rc>
+<region>FL</region>
+<switch>PNCYFLMAX3Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7892</rc-v>
+<rc-h>1973</rc-h>
+<rc-lat>30.958302</rc-lat>
+<rc-lon>-85.516448</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>364</nxx>
+<x>A</x>
+<exch>030450</exch>
+<rc>Havana</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7856</rc-v>
+<rc-h>1756</rc-h>
+<rc-lat>30.616062</rc-lat>
+<rc-lon>-84.414307</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>381</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>388</nxx>
+<x>A</x>
+<exch>032060</exch>
+<rc>Vernon</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7975</rc-v>
+<rc-h>1971</rc-h>
+<rc-lat>30.617961</rc-lat>
+<rc-lon>-85.716906</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLDADS1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>031880</exch>
+<rc>Sunny Hills</rc>
+<region>FL</region>
+<switch>PNCYFLMARMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7976</rc-v>
+<rc-h>1942</rc-h>
+<rc-lat>30.549624</rc-lat>
+<rc-lon>-85.584221</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>403</nxx>
+<x>A</x>
+<exch>032270</exch>
+<rc>Youngstown-Fountain</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7998</rc-v>
+<rc-h>1900</rc-h>
+<rc-lat>30.367305</rc-lat>
+<rc-lon>-85.444248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>415</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>CHPLFLJADS0</switch>
+<switchname>CHIPLEY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>441</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>481</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAXYY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>522</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>527</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>532</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAXNZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>535</nxx>
+<x>A</x>
+<exch>032060</exch>
+<rc>Vernon</rc>
+<region>FL</region>
+<switch>VERNFLMARS0</switch>
+<switchname>VERNON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7975</rc-v>
+<rc-h>1971</rc-h>
+<rc-lat>30.617961</rc-lat>
+<rc-lon>-85.716906</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>539</nxx>
+<x>A</x>
+<exch>030450</exch>
+<rc>Havana</rc>
+<region>FL</region>
+<switch>HAVNFLMADS0</switch>
+<switchname>HAVANA</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7856</rc-v>
+<rc-h>1756</rc-h>
+<rc-lat>30.616062</rc-lat>
+<rc-lon>-84.414307</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>541</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>560</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>563</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PNCYFLDADS1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>571</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch>LYHNFLAWAMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8664</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - FL                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>588</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch>PNCYFLDADS1</switch>
+<switchname></switchname>
+<switchtype>DS</switchtype>
+<ocn>4616</ocn>
+<company-name>DELTACOM, INC. - FL                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>596</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>600</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLMAXSZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>615</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX2Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>594D</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - FL                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>616</nxx>
+<x>A</x>
+<exch>030450</exch>
+<rc>Havana</rc>
+<region>FL</region>
+<switch>PNCYFLMAXAZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7856</rc-v>
+<rc-h>1756</rc-h>
+<rc-lat>30.616062</rc-lat>
+<rc-lon>-84.414307</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>624</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAXNZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>625</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAXNZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>628</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>630</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>636</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PCBHFLNTDS0</switch>
+<switchname>PANAMA CITY BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>CHPLFLJADS0</switch>
+<switchname>CHIPLEY</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>640</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAXYY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLDACM2</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6744</ocn>
+<company-name>SOUTHERN COMMUNICATIONS SERVICES                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLMAXUY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>927D</ocn>
+<company-name>BRIGHT HOUSE NTWS INFORMATION SVCS (FLORIDA) - FL         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>691</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX1Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>703</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>704</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>708</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PNCYFLMAXWY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>715</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>6906</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>719</nxx>
+<x>A</x>
+<exch>030450</exch>
+<rc>Havana</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7856</rc-v>
+<rc-h>1756</rc-h>
+<rc-lat>30.616062</rc-lat>
+<rc-lon>-84.414307</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>722</nxx>
+<x>A</x>
+<exch>032270</exch>
+<rc>Youngstown-Fountain</rc>
+<region>FL</region>
+<switch>YNFNFLMARS0</switch>
+<switchname>YOUNGSTOWN FOUNTAIN</switchname>
+<switchtype>RSS</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7998</rc-v>
+<rc-h>1900</rc-h>
+<rc-lat>30.367305</rc-lat>
+<rc-lon>-85.444248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>726</nxx>
+<x>A</x>
+<exch>031880</exch>
+<rc>Sunny Hills</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7976</rc-v>
+<rc-h>1942</rc-h>
+<rc-lat>30.549624</rc-lat>
+<rc-lon>-85.584221</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2015-08-01 00:43:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>730</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-31 00:55:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>732</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch>PCBHFLNTDS0</switch>
+<switchname>PANAMA CITY BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>740</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAXAZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>747</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>753</nxx>
+<x>A</x>
+<exch>032270</exch>
+<rc>Youngstown-Fountain</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7998</rc-v>
+<rc-h>1900</rc-h>
+<rc-lat>30.367305</rc-lat>
+<rc-lon>-85.444248</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>763</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>767</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>769</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>770</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>771</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-03-05 16:51:01</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-07 03:23:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>773</nxx>
+<x>A</x>
+<exch>031880</exch>
+<rc>Sunny Hills</rc>
+<region>FL</region>
+<switch>SYHSFLCCRS0</switch>
+<switchname>SUNNY HILLS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7976</rc-v>
+<rc-h>1942</rc-h>
+<rc-lat>30.549624</rc-lat>
+<rc-lon>-85.584221</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAXNZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>775</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5562</ocn>
+<company-name>METRO PCS, INC.                                           </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>784</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>785</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>788</nxx>
+<x>A</x>
+<exch>030930</exch>
+<rc>Lynn Haven</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8039</rc-v>
+<rc-h>1922</rc-h>
+<rc-lat>30.250245</rc-lat>
+<rc-lon>-85.649516</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-09-01 01:10:15</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>809</nxx>
+<x>A</x>
+<exch>032060</exch>
+<rc>Vernon</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7975</rc-v>
+<rc-h>1971</rc-h>
+<rc-lat>30.617961</rc-lat>
+<rc-lon>-85.716906</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-05-11 00:19:40</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>814</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>818</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8952</ocn>
+<company-name>KNOLOGY OF FLORIDA DBA WOW INTERNET CABLE PHONE           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>819</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>832</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>845</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLMAX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>849</nxx>
+<x>A</x>
+<exch>029850</exch>
+<rc>Chipley</rc>
+<region>FL</region>
+<switch>PNCYFLMAXNZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7927</rc-v>
+<rc-h>1958</rc-h>
+<rc-lat>30.783404</rc-lat>
+<rc-lon>-85.535078</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>851</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>854</nxx>
+<x>A</x>
+<exch>030450</exch>
+<rc>Havana</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>213H</ocn>
+<company-name>VOICE STREAM NETWORK, INC. - FL                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7856</rc-v>
+<rc-h>1756</rc-h>
+<rc-lat>30.616062</rc-lat>
+<rc-lon>-84.414307</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>866</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>867</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>868</nxx>
+<x>A</x>
+<exch>030450</exch>
+<rc>Havana</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7856</rc-v>
+<rc-h>1756</rc-h>
+<rc-lat>30.616062</rc-lat>
+<rc-lon>-84.414307</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>870</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLCARS0</switch>
+<switchname>PANAMA CITY CALLAWAY</switchname>
+<switchtype>RSS</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>871</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLCARS0</switch>
+<switchname>PANAMA CITY CALLAWAY</switchname>
+<switchtype>RSS</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>872</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>873</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>874</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLCARS0</switch>
+<switchname>PANAMA CITY CALLAWAY</switchname>
+<switchtype>RSS</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>890</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>896</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMAX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>913</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>914</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLMADS0</switch>
+<switchname>PANAMA CITY MAIN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9417</ocn>
+<company-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>919</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-20 01:46:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>955</nxx>
+<x>A</x>
+<exch>031440</exch>
+<rc>Panama City Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>1939</rc-h>
+<rc-lat>30.174421</rc-lat>
+<rc-lon>-85.798554</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-31 00:55:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>960</nxx>
+<x>A</x>
+<exch>031430</exch>
+<rc>Panama City</rc>
+<region>FL</region>
+<switch>PNCYFLDAUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>8057</rc-v>
+<rc-h>1914</rc-h>
+<rc-lat>30.15963</rc-lat>
+<rc-lon>-85.657446</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>998</nxx>
+<x>A</x>
+<exch>030340</exch>
+<rc>Graceville</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9417</ilec-ocn>
+<ilec-name>BELLSOUTH TELECOMM INC DBA SOUTHERN BELL TEL &amp; TEL        </ilec-name>
+<lata>45009</lata>
+<lir></lir>
+<rc-v>7892</rc-v>
+<rc-h>1973</rc-h>
+<rc-lat>30.958302</rc-lat>
+<rc-lon>-85.516448</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-07-17 02:26:48</udate>
+</prefixdata>
+</root>

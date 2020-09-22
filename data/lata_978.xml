@@ -1,0 +1,2881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>978</lata>
+</inputdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>052210</exch>
+<rc>Mount Carmel</rc>
+<region>IL</region>
+<switch>OLNYILXE7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6660</rc-v>
+<rc-h>3092</rc-h>
+<rc-lat>38.413623</rc-lat>
+<rc-lon>-87.766435</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>262</nxx>
+<x>A</x>
+<exch>052210</exch>
+<rc>Mount Carmel</rc>
+<region>IL</region>
+<switch>MTCRILXEDS2</switch>
+<switchname>MOUNT CARMEL</switchname>
+<switchtype>5EH</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6660</rc-v>
+<rc-h>3092</rc-h>
+<rc-lat>38.413623</rc-lat>
+<rc-lon>-87.766435</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>052210</exch>
+<rc>Mount Carmel</rc>
+<region>IL</region>
+<switch>MTCRILXEDS2</switch>
+<switchname>MOUNT CARMEL</switchname>
+<switchtype>5EH</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6660</rc-v>
+<rc-h>3092</rc-h>
+<rc-lat>38.413623</rc-lat>
+<rc-lon>-87.766435</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>052470</exch>
+<rc>New Haven</rc>
+<region>IL</region>
+<switch>NWHNILXEDS0</switch>
+<switchname>NEW HAVEN</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6786</rc-v>
+<rc-h>3095</rc-h>
+<rc-lat>37.904673</rc-lat>
+<rc-lon>-88.123229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>270</nxx>
+<x>A</x>
+<exch>055470</exch>
+<rc>Wayne City</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6738</rc-v>
+<rc-h>3209</rc-h>
+<rc-lat>38.343491</rc-lat>
+<rc-lon>-88.583471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-03-29 01:44:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>046830</exch>
+<rc>Bellmont (Wabash)</rc>
+<region>IL</region>
+<switch>BEMTILXERS2</switch>
+<switchname>BELLMONT</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6677</rc-v>
+<rc-h>3111</rc-h>
+<rc-lat>38.38492</rc-lat>
+<rc-lon>-87.911019</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>299</nxx>
+<x>A</x>
+<exch>046250</exch>
+<rc>Allendale</rc>
+<region>IL</region>
+<switch>ALDLILXERS0</switch>
+<switchname>ALLENDALE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6634</rc-v>
+<rc-h>3095</rc-h>
+<rc-lat>38.52626</rc-lat>
+<rc-lon>-87.710852</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>302</nxx>
+<x>A</x>
+<exch>046190</exch>
+<rc>Albion</rc>
+<region>IL</region>
+<switch>OLNYILXE7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>3132</rc-h>
+<rc-lat>38.376672</rc-lat>
+<rc-lon>-88.054987</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>308</nxx>
+<x>A</x>
+<exch>051830</exch>
+<rc>McLeansboro</rc>
+<region>IL</region>
+<switch>CARMILXE6MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6782</rc-v>
+<rc-h>3177</rc-h>
+<rc-lat>38.095188</rc-lat>
+<rc-lon>-88.535485</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>354</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>375</nxx>
+<x>A</x>
+<exch>049960</exch>
+<rc>Grayville</rc>
+<region>IL</region>
+<switch>GYVLILXERS0</switch>
+<switchname>GRAYVILLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6707</rc-v>
+<rc-h>3112</rc-h>
+<rc-lat>38.264357</rc-lat>
+<rc-lon>-87.997661</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>378</nxx>
+<x>A</x>
+<exch>052590</exch>
+<rc>Norris City</rc>
+<region>IL</region>
+<switch>NRCYILXEDS0</switch>
+<switchname>NORRIS CITY</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6787</rc-v>
+<rc-h>3134</rc-h>
+<rc-lat>37.983559</rc-lat>
+<rc-lon>-88.326818</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>379</nxx>
+<x>A</x>
+<exch>052590</exch>
+<rc>Norris City</rc>
+<region>IL</region>
+<switch>CARMILXE8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9915</ocn>
+<company-name>DELTA COMMS, LLC DBA CLEARWAVE COMMUNICATIONS - IL        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6787</rc-v>
+<rc-h>3134</rc-h>
+<rc-lat>37.983559</rc-lat>
+<rc-lon>-88.326818</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>380</nxx>
+<x>A</x>
+<exch>047490</exch>
+<rc>Carmi</rc>
+<region>IL</region>
+<switch>CARMILXE8MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9915</ocn>
+<company-name>DELTA COMMS, LLC DBA CLEARWAVE COMMUNICATIONS - IL        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6753</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>38.095254</rc-lat>
+<rc-lon>-88.16842</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>047490</exch>
+<rc>Carmi</rc>
+<region>IL</region>
+<switch>CARMILXEDS0</switch>
+<switchname>CARMI</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6753</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>38.095254</rc-lat>
+<rc-lon>-88.16842</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>047490</exch>
+<rc>Carmi</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6753</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>38.095254</rc-lat>
+<rc-lon>-88.16842</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>384</nxx>
+<x>A</x>
+<exch>047490</exch>
+<rc>Carmi</rc>
+<region>IL</region>
+<switch>CARMILXEDS0</switch>
+<switchname>CARMI</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6753</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>38.095254</rc-lat>
+<rc-lon>-88.16842</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>047490</exch>
+<rc>Carmi</rc>
+<region>IL</region>
+<switch>OLNYILABHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6753</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>38.095254</rc-lat>
+<rc-lon>-88.16842</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>388</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch>OLNYILXEDS0</switch>
+<switchname>OLNEY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch>OLNYILXEDS0</switch>
+<switchname>OLNEY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch>OLNYILXEDS0</switch>
+<switchname>OLNEY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>403</nxx>
+<x>A</x>
+<exch>049380</exch>
+<rc>Flora</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>772H</ocn>
+<company-name>WABASH INDEPENDENT NETWORKS, INC DBA WABASH COMM          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6668</rc-v>
+<rc-h>3226</rc-h>
+<rc-lat>38.666785</rc-lat>
+<rc-lon>-88.483499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>053730</exch>
+<rc>Robinson</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6544</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.005697</rc-lat>
+<rc-lon>-87.733412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>429</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch>OLNYILXEEMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9915</ocn>
+<company-name>DELTA COMMS, LLC DBA CLEARWAVE COMMUNICATIONS - IL        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>442</nxx>
+<x>A</x>
+<exch>053020</exch>
+<rc>Parkersburg</rc>
+<region>IL</region>
+<switch>PRBGILXERL0</switch>
+<switchname>PARKERSBURG</switchname>
+<switchtype>GTX</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6649</rc-v>
+<rc-h>3153</rc-h>
+<rc-lat>38.589327</rc-lat>
+<rc-lon>-88.052423</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>445</nxx>
+<x>A</x>
+<exch>046190</exch>
+<rc>Albion</rc>
+<region>IL</region>
+<switch>ALBNILXERS2</switch>
+<switchname>ALBION</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6690</rc-v>
+<rc-h>3132</rc-h>
+<rc-lat>38.376672</rc-lat>
+<rc-lon>-88.054987</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>047210</exch>
+<rc>Browns</rc>
+<region>IL</region>
+<switch>BRNSILXERS0</switch>
+<switchname>BROWNS</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6684</rc-v>
+<rc-h>3120</rc-h>
+<rc-lat>38.375564</rc-lat>
+<rc-lon>-87.976605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>450</nxx>
+<x>A</x>
+<exch>052210</exch>
+<rc>Mount Carmel</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6660</rc-v>
+<rc-h>3092</rc-h>
+<rc-lat>38.413623</rc-lat>
+<rc-lon>-87.766435</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>454</nxx>
+<x>A</x>
+<exch>052710</exch>
+<rc>Oblong</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1065</ilec-ocn>
+<ilec-name>ODIN TELEPHONE EXCHANGE, INC.                             </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6558</rc-v>
+<rc-h>3173</rc-h>
+<rc-lat>39.004372</rc-lat>
+<rc-lon>-87.907491</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>455</nxx>
+<x>A</x>
+<exch>055690</exch>
+<rc>Willow Hill</rc>
+<region>IL</region>
+<switch>WWHLILXERS0</switch>
+<switchname>WILLOW HILL</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6569</rc-v>
+<rc-h>3189</rc-h>
+<rc-lat>38.993681</rc-lat>
+<rc-lon>-88.021151</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>456</nxx>
+<x>A</x>
+<exch>055560</exch>
+<rc>West Salem</rc>
+<region>IL</region>
+<switch>WSLMILXEDS0</switch>
+<switchname>WEST SALEM</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6658</rc-v>
+<rc-h>3139</rc-h>
+<rc-lat>38.522572</rc-lat>
+<rc-lon>-88.004299</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>460</nxx>
+<x>A</x>
+<exch>051410</exch>
+<rc>Louisville</rc>
+<region>IL</region>
+<switch>LSVLILXE2MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6649</rc-v>
+<rc-h>3240</rc-h>
+<rc-lat>38.77439</rc-lat>
+<rc-lon>-88.505127</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>469</nxx>
+<x>A</x>
+<exch>053730</exch>
+<rc>Robinson</rc>
+<region>IL</region>
+<switch>OLNYILXEHMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6544</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.005697</rc-lat>
+<rc-lon>-87.733412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>480</nxx>
+<x>A</x>
+<exch>052710</exch>
+<rc>Oblong</rc>
+<region>IL</region>
+<switch>OLNYILXEHMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1065</ilec-ocn>
+<ilec-name>ODIN TELEPHONE EXCHANGE, INC.                             </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6558</rc-v>
+<rc-h>3173</rc-h>
+<rc-lat>39.004372</rc-lat>
+<rc-lon>-87.907491</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>486</nxx>
+<x>A</x>
+<exch>051110</exch>
+<rc>Lawrenceville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6593</rc-v>
+<rc-h>3111</rc-h>
+<rc-lat>38.72807</rc-lat>
+<rc-lon>-87.681257</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-11 01:46:57</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>508</nxx>
+<x>A</x>
+<exch>049380</exch>
+<rc>Flora</rc>
+<region>IL</region>
+<switch>OLNYILABHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6668</rc-v>
+<rc-h>3226</rc-h>
+<rc-lat>38.666785</rc-lat>
+<rc-lon>-88.483499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>516</nxx>
+<x>A</x>
+<exch>049190</exch>
+<rc>Fairfield</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6714</rc-v>
+<rc-h>3179</rc-h>
+<rc-lat>38.378442</rc-lat>
+<rc-lon>-88.363352</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>517</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>544</nxx>
+<x>A</x>
+<exch>053730</exch>
+<rc>Robinson</rc>
+<region>IL</region>
+<switch>RBSNILXEDS0</switch>
+<switchname>ROBINSON</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6544</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.005697</rc-lat>
+<rc-lon>-87.733412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>546</nxx>
+<x>A</x>
+<exch>053730</exch>
+<rc>Robinson</rc>
+<region>IL</region>
+<switch>RBSNILXEDS0</switch>
+<switchname>ROBINSON</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6544</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.005697</rc-lat>
+<rc-lon>-87.733412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>553</nxx>
+<x>A</x>
+<exch>053730</exch>
+<rc>Robinson</rc>
+<region>IL</region>
+<switch>OBLNILAACM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6544</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.005697</rc-lat>
+<rc-lon>-87.733412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>554</nxx>
+<x>A</x>
+<exch>053730</exch>
+<rc>Robinson</rc>
+<region>IL</region>
+<switch>OBLNILAACM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6544</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.005697</rc-lat>
+<rc-lon>-87.733412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>557</nxx>
+<x>A</x>
+<exch>050180</exch>
+<rc>Hardinville</rc>
+<region>IL</region>
+<switch>HAVLILXERS0</switch>
+<switchname>HARDINVILLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6570</rc-v>
+<rc-h>3154</rc-h>
+<rc-lat>38.914644</rc-lat>
+<rc-lon>-87.841455</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>053730</exch>
+<rc>Robinson</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6544</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.005697</rc-lat>
+<rc-lon>-87.733412</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>563</nxx>
+<x>A</x>
+<exch>050580</exch>
+<rc>Hutsonville</rc>
+<region>IL</region>
+<switch>HTSVILXEDS0</switch>
+<switchname>HUTSONVILLE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6518</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.111809</rc-lat>
+<rc-lon>-87.661543</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>569</nxx>
+<x>A</x>
+<exch>046340</exch>
+<rc>Annapolis</rc>
+<region>IL</region>
+<switch>ANNPILXERS0</switch>
+<switchname>ANNAPOLIS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6523</rc-v>
+<rc-h>3173</rc-h>
+<rc-lat>39.147358</rc-lat>
+<rc-lon>-87.811048</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>572</nxx>
+<x>A</x>
+<exch>049380</exch>
+<rc>Flora</rc>
+<region>IL</region>
+<switch>OLNYILABKMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6668</rc-v>
+<rc-h>3226</rc-h>
+<rc-lat>38.666785</rc-lat>
+<rc-lon>-88.483499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>584</nxx>
+<x>A</x>
+<exch>049360</exch>
+<rc>Flat Rock</rc>
+<region>IL</region>
+<switch>FLRKILXEDS0</switch>
+<switchname>FLAT ROCK</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1012</ocn>
+<company-name>FLAT ROCK TELEPHONE COOPERATIVE, INC.                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1012</ilec-ocn>
+<ilec-name>FLAT ROCK TELEPHONE COOPERATIVE, INC.                     </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6559</rc-v>
+<rc-h>3127</rc-h>
+<rc-lat>38.901446</rc-lat>
+<rc-lon>-87.670683</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>586</nxx>
+<x>A</x>
+<exch>052960</exch>
+<rc>Palestine</rc>
+<region>IL</region>
+<switch>PLSTILXEDS0</switch>
+<switchname>PALESTINE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6535</rc-v>
+<rc-h>3129</rc-h>
+<rc-lat>39.003638</rc-lat>
+<rc-lon>-87.614806</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>592</nxx>
+<x>A</x>
+<exch>052710</exch>
+<rc>Oblong</rc>
+<region>IL</region>
+<switch>OBLNILXEDS0</switch>
+<switchname>OBLONG</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1065</ocn>
+<company-name>ODIN TELEPHONE EXCHANGE, INC.                             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1065</ilec-ocn>
+<ilec-name>ODIN TELEPHONE EXCHANGE, INC.                             </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6558</rc-v>
+<rc-h>3173</rc-h>
+<rc-lat>39.004372</rc-lat>
+<rc-lon>-87.907491</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>599</nxx>
+<x>A</x>
+<exch>049190</exch>
+<rc>Fairfield</rc>
+<region>IL</region>
+<switch>OLNYILXE7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6714</rc-v>
+<rc-h>3179</rc-h>
+<rc-lat>38.378442</rc-lat>
+<rc-lon>-88.363352</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>609</nxx>
+<x>A</x>
+<exch>049960</exch>
+<rc>Grayville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6707</rc-v>
+<rc-h>3112</rc-h>
+<rc-lat>38.264357</rc-lat>
+<rc-lon>-87.997661</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>617</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>224C</ocn>
+<company-name>ONVOY, LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-21 02:41:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>643</nxx>
+<x>A</x>
+<exch>051830</exch>
+<rc>McLeansboro</rc>
+<region>IL</region>
+<switch>MCBOILXEDS0</switch>
+<switchname>MCLEANSBORO</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6782</rc-v>
+<rc-h>3177</rc-h>
+<rc-lat>38.095188</rc-lat>
+<rc-lon>-88.535485</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>047200</exch>
+<rc>Broughton</rc>
+<region>IL</region>
+<switch>BHTNILXERS0</switch>
+<switchname>BROUGHTON</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1024</ocn>
+<company-name>HAMILTON COUNTY TELEPHONE CO-OP                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1024</ilec-ocn>
+<ilec-name>HAMILTON COUNTY TELEPHONE CO-OP                           </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6807</rc-v>
+<rc-h>3150</rc-h>
+<rc-lat>37.935437</rc-lat>
+<rc-lon>-88.462828</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>648</nxx>
+<x>A</x>
+<exch>046790</exch>
+<rc>Belle Prairie</rc>
+<region>IL</region>
+<switch>BLPRILXERS0</switch>
+<switchname>BELLE PRAIRIE</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1024</ocn>
+<company-name>HAMILTON COUNTY TELEPHONE CO-OP                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1024</ilec-ocn>
+<ilec-name>HAMILTON COUNTY TELEPHONE CO-OP                           </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6759</rc-v>
+<rc-h>3192</rc-h>
+<rc-lat>38.221334</rc-lat>
+<rc-lon>-88.551593</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>662</nxx>
+<x>A</x>
+<exch>049380</exch>
+<rc>Flora</rc>
+<region>IL</region>
+<switch>FLORILXEDS0</switch>
+<switchname>FLORA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6668</rc-v>
+<rc-h>3226</rc-h>
+<rc-lat>38.666785</rc-lat>
+<rc-lon>-88.483499</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>665</nxx>
+<x>A</x>
+<exch>051410</exch>
+<rc>Louisville</rc>
+<region>IL</region>
+<switch>LSVLILXEDS0</switch>
+<switchname>LOUISVILLE</switchname>
+<switchtype>D21</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6649</rc-v>
+<rc-h>3240</rc-h>
+<rc-lat>38.77439</rc-lat>
+<rc-lon>-88.505127</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>047960</exch>
+<rc>Cisne</rc>
+<region>IL</region>
+<switch>CISNILXEDS0</switch>
+<switchname>CISNE</switchname>
+<switchtype>DCN</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6693</rc-v>
+<rc-h>3203</rc-h>
+<rc-lat>38.515483</rc-lat>
+<rc-lon>-88.431315</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>048000</exch>
+<rc>Clay City</rc>
+<region>IL</region>
+<switch>CYCYILXERS0</switch>
+<switchname>CLAY CITY</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6654</rc-v>
+<rc-h>3209</rc-h>
+<rc-lat>38.688148</rc-lat>
+<rc-lon>-88.357104</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>055900</exch>
+<rc>Xenia</rc>
+<region>IL</region>
+<switch>XENIILXERS0</switch>
+<switchname>XENIA</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6685</rc-v>
+<rc-h>3246</rc-h>
+<rc-lat>38.639293</rc-lat>
+<rc-lon>-88.633525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>686</nxx>
+<x>A</x>
+<exch>046940</exch>
+<rc>Bible Grove</rc>
+<region>IL</region>
+<switch>BBGVILXERS0</switch>
+<switchname>BIBLE GROVE</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6626</rc-v>
+<rc-h>3240</rc-h>
+<rc-lat>38.868734</rc-lat>
+<rc-lon>-88.442839</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>053940</exch>
+<rc>Sailor Springs</rc>
+<region>IL</region>
+<switch>SLSPILXERL0</switch>
+<switchname>SAILOR SPRINGS</switchname>
+<switchtype>GTX</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6639</rc-v>
+<rc-h>3217</rc-h>
+<rc-lat>38.76663</rc-lat>
+<rc-lon>-88.358115</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>707</nxx>
+<x>A</x>
+<exch>051110</exch>
+<rc>Lawrenceville</rc>
+<region>IL</region>
+<switch>OLNYILAB0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6593</rc-v>
+<rc-h>3111</rc-h>
+<rc-lat>38.72807</rc-lat>
+<rc-lon>-87.681257</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>723</nxx>
+<x>A</x>
+<exch>052570</exch>
+<rc>Noble</rc>
+<region>IL</region>
+<switch>NOBLILXERS0</switch>
+<switchname>NOBLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6641</rc-v>
+<rc-h>3190</rc-h>
+<rc-lat>38.701013</rc-lat>
+<rc-lon>-88.222943</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>728</nxx>
+<x>A</x>
+<exch>051460</exch>
+<rc>Macedonia</rc>
+<region>IL</region>
+<switch>MCDNILXERS0</switch>
+<switchname>MACEDONIA</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1024</ocn>
+<company-name>HAMILTON COUNTY TELEPHONE CO-OP                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1024</ilec-ocn>
+<ilec-name>HAMILTON COUNTY TELEPHONE CO-OP                           </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6803</rc-v>
+<rc-h>3198</rc-h>
+<rc-lat>38.053248</rc-lat>
+<rc-lon>-88.700097</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>736</nxx>
+<x>A</x>
+<exch>048350</exch>
+<rc>Dahlgren</rc>
+<region>IL</region>
+<switch>DHLGILXEDS0</switch>
+<switchname>DAHLGREN</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1024</ocn>
+<company-name>HAMILTON COUNTY TELEPHONE CO-OP                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1024</ilec-ocn>
+<ilec-name>HAMILTON COUNTY TELEPHONE CO-OP                           </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6774</rc-v>
+<rc-h>3209</rc-h>
+<rc-lat>38.195611</rc-lat>
+<rc-lon>-88.679761</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>752</nxx>
+<x>A</x>
+<exch>055510</exch>
+<rc>Wendelin</rc>
+<region>IL</region>
+<switch>WNDNILXEDS0</switch>
+<switchname>WENDELIN</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6620</rc-v>
+<rc-h>3211</rc-h>
+<rc-lat>38.831734</rc-lat>
+<rc-lon>-88.275229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>754</nxx>
+<x>A</x>
+<exch>048670</exch>
+<rc>Dundas</rc>
+<region>IL</region>
+<switch>DNDSILXERS0</switch>
+<switchname>DUNDAS</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6605</rc-v>
+<rc-h>3182</rc-h>
+<rc-lat>38.831314</rc-lat>
+<rc-lon>-88.083229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>756</nxx>
+<x>A</x>
+<exch>046800</exch>
+<rc>Belle Rive</rc>
+<region>IL</region>
+<switch>BLRVILXERS0</switch>
+<switchname>BELLE RIVER</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1024</ocn>
+<company-name>HAMILTON COUNTY TELEPHONE CO-OP                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1024</ilec-ocn>
+<ilec-name>HAMILTON COUNTY TELEPHONE CO-OP                           </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6772</rc-v>
+<rc-h>3222</rc-h>
+<rc-lat>38.23122</rc-lat>
+<rc-lon>-88.741816</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>757</nxx>
+<x>A</x>
+<exch>047010</exch>
+<rc>Blairsville (Hamilton)</rc>
+<region>IL</region>
+<switch>BLVHILXERS0</switch>
+<switchname>BLAIRSVILLE</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1024</ocn>
+<company-name>HAMILTON COUNTY TELEPHONE CO-OP                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1024</ilec-ocn>
+<ilec-name>HAMILTON COUNTY TELEPHONE CO-OP                           </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6762</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.166699</rc-lat>
+<rc-lon>-88.456098</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>770</nxx>
+<x>A</x>
+<exch>050580</exch>
+<rc>Hutsonville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6518</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>39.111809</rc-lat>
+<rc-lon>-87.661543</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>773</nxx>
+<x>A</x>
+<exch>048370</exch>
+<rc>Dale</rc>
+<region>IL</region>
+<switch>DALEILXERS0</switch>
+<switchname>DALE</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1024</ocn>
+<company-name>HAMILTON COUNTY TELEPHONE CO-OP                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1024</ilec-ocn>
+<ilec-name>HAMILTON COUNTY TELEPHONE CO-OP                           </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6798</rc-v>
+<rc-h>3161</rc-h>
+<rc-lat>37.99566</rc-lat>
+<rc-lon>-88.495561</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>052540</exch>
+<rc>Newton</rc>
+<region>IL</region>
+<switch>NWTNILXEDS0</switch>
+<switchname>NEWTON</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6580</rc-v>
+<rc-h>3210</rc-h>
+<rc-lat>38.993557</rc-lat>
+<rc-lon>-88.160877</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>793</nxx>
+<x>A</x>
+<exch>053830</exch>
+<rc>Rose Hill</rc>
+<region>IL</region>
+<switch>RSHLILXERS0</switch>
+<switchname>ROSE HILL</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6558</rc-v>
+<rc-h>3220</rc-h>
+<rc-lat>39.1049</rc-lat>
+<rc-lon>-88.152932</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>804</nxx>
+<x>A</x>
+<exch>051110</exch>
+<rc>Lawrenceville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6593</rc-v>
+<rc-h>3111</rc-h>
+<rc-lat>38.72807</rc-lat>
+<rc-lon>-87.681257</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>821</nxx>
+<x>A</x>
+<exch>051410</exch>
+<rc>Louisville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6649</rc-v>
+<rc-h>3240</rc-h>
+<rc-lat>38.77439</rc-lat>
+<rc-lon>-88.505127</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>835</nxx>
+<x>A</x>
+<exch>052860</exch>
+<rc>Orchardville</rc>
+<region>IL</region>
+<switch>OCVLILXERS0</switch>
+<switchname>ORCHARDVILLE</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6710</rc-v>
+<rc-h>3236</rc-h>
+<rc-lat>38.515502</rc-lat>
+<rc-lon>-88.648649</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>837</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>838</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>839</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>842</nxx>
+<x>A</x>
+<exch>049190</exch>
+<rc>Fairfield</rc>
+<region>IL</region>
+<switch>FRFDILXEDS0</switch>
+<switchname>FAIRFIELD</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6714</rc-v>
+<rc-h>3179</rc-h>
+<rc-lat>38.378442</rc-lat>
+<rc-lon>-88.363352</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>843</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-24 10:35:13</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>847</nxx>
+<x>A</x>
+<exch>049190</exch>
+<rc>Fairfield</rc>
+<region>IL</region>
+<switch>FRFDILXEDS0</switch>
+<switchname>FAIRFIELD</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6714</rc-v>
+<rc-h>3179</rc-h>
+<rc-lat>38.378442</rc-lat>
+<rc-lon>-88.363352</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>852</nxx>
+<x>A</x>
+<exch>052540</exch>
+<rc>Newton</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6580</rc-v>
+<rc-h>3210</rc-h>
+<rc-lat>38.993557</rc-lat>
+<rc-lon>-88.160877</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>854</nxx>
+<x>A</x>
+<exch>052230</exch>
+<rc>Mount Erie</rc>
+<region>IL</region>
+<switch>MTERILXERS0</switch>
+<switchname>MOUNT ERIE</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6677</rc-v>
+<rc-h>3174</rc-h>
+<rc-lat>38.51947</rc-lat>
+<rc-lon>-88.237453</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>863</nxx>
+<x>A</x>
+<exch>047350</exch>
+<rc>Calhoun</rc>
+<region>IL</region>
+<switch>CLHNILXERS0</switch>
+<switchname>CALHOUN</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6636</rc-v>
+<rc-h>3159</rc-h>
+<rc-lat>38.655343</rc-lat>
+<rc-lon>-88.048169</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>869</nxx>
+<x>A</x>
+<exch>047980</exch>
+<rc>Claremont</rc>
+<region>IL</region>
+<switch>CLMTILXERS0</switch>
+<switchname>CLAREMONT</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6617</rc-v>
+<rc-h>3154</rc-h>
+<rc-lat>38.722364</rc-lat>
+<rc-lon>-87.970338</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>871</nxx>
+<x>A</x>
+<exch>046250</exch>
+<rc>Allendale</rc>
+<region>IL</region>
+<switch>OLNYILXEFMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7136</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6634</rc-v>
+<rc-h>3095</rc-h>
+<rc-lat>38.52626</rc-lat>
+<rc-lon>-87.710852</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>878</nxx>
+<x>A</x>
+<exch>052210</exch>
+<rc>Mount Carmel</rc>
+<region>IL</region>
+<switch>OLNYILXEMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6660</rc-v>
+<rc-h>3092</rc-h>
+<rc-lat>38.413623</rc-lat>
+<rc-lon>-87.766435</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>052800</exch>
+<rc>Olney</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6623</rc-v>
+<rc-h>3172</rc-h>
+<rc-lat>38.736313</rc-lat>
+<rc-lon>-88.080303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>055610</exch>
+<rc>Westport</rc>
+<region>IL</region>
+<switch>WSPTILXERL0</switch>
+<switchname>WESTPORT</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6588</rc-v>
+<rc-h>3086</rc-h>
+<rc-lat>38.694547</rc-lat>
+<rc-lon>-87.537857</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>895</nxx>
+<x>A</x>
+<exch>055470</exch>
+<rc>Wayne City</rc>
+<region>IL</region>
+<switch>WYCYILXERS0</switch>
+<switchname>WAYNE CITY</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6738</rc-v>
+<rc-h>3209</rc-h>
+<rc-lat>38.343491</rc-lat>
+<rc-lon>-88.583471</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>896</nxx>
+<x>A</x>
+<exch>047290</exch>
+<rc>Burnt Prairie</rc>
+<region>IL</region>
+<switch>BRPRILXERS0</switch>
+<switchname>BURNT PRAIRIE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6731</rc-v>
+<rc-h>3151</rc-h>
+<rc-lat>38.249257</rc-lat>
+<rc-lon>-88.264148</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>897</nxx>
+<x>A</x>
+<exch>049600</exch>
+<rc>Geff</rc>
+<region>IL</region>
+<switch>GEFFILXERS0</switch>
+<switchname>GEFF</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6705</rc-v>
+<rc-h>3192</rc-h>
+<rc-lat>38.442936</rc-lat>
+<rc-lon>-88.406539</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>048280</exch>
+<rc>Crisp</rc>
+<region>IL</region>
+<switch>CRSPILXERS0</switch>
+<switchname>CRISP</switchname>
+<switchtype>DCN</switchtype>
+<ocn>1088</ocn>
+<company-name>WABASH TELEPHONE COOPERATIVE, INC.                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1088</ilec-ocn>
+<ilec-name>WABASH TELEPHONE COOPERATIVE, INC.                        </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6721</rc-v>
+<rc-h>3220</rc-h>
+<rc-lat>38.43654</rc-lat>
+<rc-lon>-88.594987</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>912</nxx>
+<x>A</x>
+<exch>047130</exch>
+<rc>Bridgeport</rc>
+<region>IL</region>
+<switch>OLNYILABHMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6602</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>38.712852</rc-lat>
+<rc-lon>-87.757872</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>919</nxx>
+<x>A</x>
+<exch>049190</exch>
+<rc>Fairfield</rc>
+<region>IL</region>
+<switch>OLNYILXE7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6714</rc-v>
+<rc-h>3179</rc-h>
+<rc-lat>38.378442</rc-lat>
+<rc-lon>-88.363352</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>928</nxx>
+<x>A</x>
+<exch>046970</exch>
+<rc>Birds</rc>
+<region>IL</region>
+<switch>BRDSILXERS1</switch>
+<switchname></switchname>
+<switchtype>RS</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6571</rc-v>
+<rc-h>3120</rc-h>
+<rc-lat>38.835915</rc-lat>
+<rc-lon>-87.667868</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>936</nxx>
+<x>A</x>
+<exch>054750</exch>
+<rc>Sumner</rc>
+<region>IL</region>
+<switch>SMNRILXERS0</switch>
+<switchname>SUMNER</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6609</rc-v>
+<rc-h>3137</rc-h>
+<rc-lat>38.718628</rc-lat>
+<rc-lon>-87.860132</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>943</nxx>
+<x>A</x>
+<exch>051110</exch>
+<rc>Lawrenceville</rc>
+<region>IL</region>
+<switch>LRVLILXEDS0</switch>
+<switchname>LAWRENCEVILLE</switchname>
+<switchtype>GT5</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6593</rc-v>
+<rc-h>3111</rc-h>
+<rc-lat>38.72807</rc-lat>
+<rc-lon>-87.681257</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>945</nxx>
+<x>A</x>
+<exch>047130</exch>
+<rc>Bridgeport</rc>
+<region>IL</region>
+<switch>BRPTILXERS0</switch>
+<switchname>BRIDGEPORT</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6602</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>38.712852</rc-lat>
+<rc-lon>-87.757872</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>947</nxx>
+<x>A</x>
+<exch>047710</exch>
+<rc>Chauncey</rc>
+<region>IL</region>
+<switch>CHNCILXERS0</switch>
+<switchname>CHAUNCEY</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6587</rc-v>
+<rc-h>3150</rc-h>
+<rc-lat>38.836353</rc-lat>
+<rc-lon>-87.867411</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>948</nxx>
+<x>A</x>
+<exch>054480</exch>
+<rc>St Francisville</rc>
+<region>IL</region>
+<switch>SFVLILXERS0</switch>
+<switchname>ST FRANCISVILLE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6616</rc-v>
+<rc-h>3093</rc-h>
+<rc-lat>38.595432</rc-lat>
+<rc-lon>-87.65114</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>962</nxx>
+<x>A</x>
+<exch>052810</exch>
+<rc>Omaha</rc>
+<region>IL</region>
+<switch>OMAHILXERS0</switch>
+<switchname>OMAHA</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6803</rc-v>
+<rc-h>3121</rc-h>
+<rc-lat>37.890344</rc-lat>
+<rc-lon>-88.302671</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>963</nxx>
+<x>A</x>
+<exch>049110</exch>
+<rc>Enfield</rc>
+<region>IL</region>
+<switch>ENFDILXERS0</switch>
+<switchname>ENFIELD</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6765</rc-v>
+<rc-h>3147</rc-h>
+<rc-lat>38.101375</rc-lat>
+<rc-lon>-88.334913</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>966</nxx>
+<x>A</x>
+<exch>048300</exch>
+<rc>Crossville</rc>
+<region>IL</region>
+<switch>CSVLILXEDS0</switch>
+<switchname>CROSSVILLE</switchname>
+<switchtype>DMO</switchtype>
+<ocn>0993</ocn>
+<company-name>CROSSVILLE TELEPHONE CO.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0993</ilec-ocn>
+<ilec-name>CROSSVILLE TELEPHONE CO.                                  </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6732</rc-v>
+<rc-h>3113</rc-h>
+<rc-lat>38.164183</rc-lat>
+<rc-lon>-88.070482</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>618</npa>
+<nxx>968</nxx>
+<x>A</x>
+<exch>051760</exch>
+<rc>Maunie</rc>
+<region>IL</region>
+<switch>MAUNILXERS0</switch>
+<switchname>MAUNIE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>978</lata>
+<lir></lir>
+<rc-v>6755</rc-v>
+<rc-h>3097</rc-h>
+<rc-lat>38.035867</rc-lat>
+<rc-lon>-88.050062</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

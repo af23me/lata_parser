@@ -1,0 +1,5631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>624</lata>
+</inputdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>206</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>DLTHMNAT5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEIMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7783</ocn>
+<company-name>BROOKS FIBER COMMUNICATIONS - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>093710</exch>
+<rc>Nashwauk</rc>
+<region>MN</region>
+<switch>DLTHMNMELMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5301</rc-v>
+<rc-h>4729</rc-h>
+<rc-lat>47.382863</rc-lat>
+<rc-lon>-93.16591</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>216</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>090340</exch>
+<rc>Brimson</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>149D</ocn>
+<company-name>NEXTERA COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5244</rc-v>
+<rc-h>4537</rc-h>
+<rc-lat>47.24795</rc-lat>
+<rc-lon>-91.83243</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>092470</exch>
+<rc>Hoyt Lakes</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>719F</ocn>
+<company-name>MCC TELEPHONY OF MINNESOTA, LLC - MN                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5212</rc-v>
+<rc-h>4606</rc-h>
+<rc-lat>47.517555</rc-lat>
+<rc-lon>-92.158994</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>220</nxx>
+<x>A</x>
+<exch>094910</exch>
+<rc>Silver Bay</rc>
+<region>MN</region>
+<switch>SLBAMNQBCM1</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5197</rc-v>
+<rc-h>4464</rc-h>
+<rc-lat>47.298261</rc-lat>
+<rc-lon>-91.252304</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>221</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>225</nxx>
+<x>A</x>
+<exch>092470</exch>
+<rc>Hoyt Lakes</rc>
+<region>MN</region>
+<switch>HYLKMNXHRS0</switch>
+<switchname>HOYT LAKES</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5212</rc-v>
+<rc-h>4606</rc-h>
+<rc-lat>47.517555</rc-lat>
+<rc-lon>-92.158994</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>094910</exch>
+<rc>Silver Bay</rc>
+<region>MN</region>
+<switch>SLBAMNSARS2</switch>
+<switchname>SILVER BAY</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5197</rc-v>
+<rc-h>4464</rc-h>
+<rc-lat>47.298261</rc-lat>
+<rc-lon>-91.252304</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>089850</exch>
+<rc>Aurora</rc>
+<region>MN</region>
+<switch>AURRMNXADS1</switch>
+<switchname>AURORA</switchname>
+<switchtype>DSF</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5214</rc-v>
+<rc-h>4619</rc-h>
+<rc-lat>47.534684</rc-lat>
+<rc-lon>-92.244176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>231</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>091420</exch>
+<rc>Ely</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5118</rc-v>
+<rc-h>4602</rc-h>
+<rc-lat>47.902207</rc-lat>
+<rc-lon>-91.859194</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>092530</exch>
+<rc>International Falls</rc>
+<region>MN</region>
+<switch>DLTHMNEQCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5076</rc-v>
+<rc-h>4870</rc-h>
+<rc-lat>48.598346</rc-lat>
+<rc-lon>-93.398992</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>241</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-09-09 14:11:48</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>090820</exch>
+<rc>Coleraine</rc>
+<region>MN</region>
+<switch>CLRNMNCO0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5335</rc-v>
+<rc-h>4757</rc-h>
+<rc-lat>47.293209</rc-lat>
+<rc-lon>-93.432894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>090820</exch>
+<rc>Coleraine</rc>
+<region>MN</region>
+<switch>CLRNMNCORS2</switch>
+<switchname>COLERAINE</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5335</rc-v>
+<rc-h>4757</rc-h>
+<rc-lat>47.293209</rc-lat>
+<rc-lon>-93.432894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>246</nxx>
+<x>A</x>
+<exch>091060</exch>
+<rc>Deer River</rc>
+<region>MN</region>
+<switch>DRRVMNXDRS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1451</ocn>
+<company-name>PAUL BUNYAN RURAL TELEPHONE COOPERATIVE                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1451</ilec-ocn>
+<ilec-name>PAUL BUNYAN RURAL TELEPHONE COOPERATIVE                   </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5349</rc-v>
+<rc-h>4810</rc-h>
+<rc-lat>47.334457</rc-lat>
+<rc-lon>-93.796866</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>093320</exch>
+<rc>Marble</rc>
+<region>MN</region>
+<switch>MRBLMNMARS2</switch>
+<switchname>MARBLE</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5321</rc-v>
+<rc-h>4742</rc-h>
+<rc-lat>47.32358</rc-lat>
+<rc-lon>-93.301815</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>248</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNAT5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNAS1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>093090</exch>
+<rc>Little Fork</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>429A</ocn>
+<company-name>MIDCONTINENT COMMUNICATIONS - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5124</rc-v>
+<rc-h>4872</rc-h>
+<rc-lat>48.400063</rc-lat>
+<rc-lon>-93.548824</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-21 22:31:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>090650</exch>
+<rc>Chisholm</rc>
+<region>MN</region>
+<switch>CHSHMNCSRS2</switch>
+<switchname>CHISHOLM</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5262</rc-v>
+<rc-h>4700</rc-h>
+<rc-lat>47.49099</rc-lat>
+<rc-lon>-92.877683</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>090820</exch>
+<rc>Coleraine</rc>
+<region>MN</region>
+<switch>GDRPMNGR0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5335</rc-v>
+<rc-h>4757</rc-h>
+<rc-lat>47.293209</rc-lat>
+<rc-lon>-93.432894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>258</nxx>
+<x>A</x>
+<exch>090440</exch>
+<rc>Buhl</rc>
+<region>MN</region>
+<switch>BUHLMNBURS2</switch>
+<switchname>BUHL</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5254</rc-v>
+<rc-h>4687</rc-h>
+<rc-lat>47.499463</rc-lat>
+<rc-lon>-92.775231</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>259</nxx>
+<x>A</x>
+<exch>090820</exch>
+<rc>Coleraine</rc>
+<region>MN</region>
+<switch>GDRPMNGR0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5335</rc-v>
+<rc-h>4757</rc-h>
+<rc-lat>47.293209</rc-lat>
+<rc-lon>-93.432894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>262</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>HBNGMNHIDS0</switch>
+<switchname>HIBBING</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>263</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>HBNGMNHIDS0</switch>
+<switchname>HIBBING</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>264</nxx>
+<x>A</x>
+<exch>091970</exch>
+<rc>Grand Marais</rc>
+<region>MN</region>
+<switch>DLTHMNME3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5050</rc-v>
+<rc-h>4387</rc-h>
+<rc-lat>47.751494</rc-lat>
+<rc-lon>-90.343605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>269</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>274</nxx>
+<x>A</x>
+<exch>090650</exch>
+<rc>Chisholm</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5262</rc-v>
+<rc-h>4700</rc-h>
+<rc-lat>47.49099</rc-lat>
+<rc-lon>-92.877683</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>276</nxx>
+<x>A</x>
+<exch>090140</exch>
+<rc>Big Falls</rc>
+<region>MN</region>
+<switch>BGFSMNXBRS0</switch>
+<switchname>BIG FALLS</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5181</rc-v>
+<rc-h>4889</rc-h>
+<rc-lat>48.191912</rc-lat>
+<rc-lon>-93.816444</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>278</nxx>
+<x>A</x>
+<exch>093090</exch>
+<rc>Little Fork</rc>
+<region>MN</region>
+<switch>LTFKMNXLRS2</switch>
+<switchname>LITTLEFORK</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5124</rc-v>
+<rc-h>4872</rc-h>
+<rc-lat>48.400063</rc-lat>
+<rc-lon>-93.548824</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>279</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>283</nxx>
+<x>A</x>
+<exch>092530</exch>
+<rc>International Falls</rc>
+<region>MN</region>
+<switch>INFLMNXIDS0</switch>
+<switchname>INTERNATIONAL FALLS</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5076</rc-v>
+<rc-h>4870</rc-h>
+<rc-lat>48.598346</rc-lat>
+<rc-lon>-93.398992</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>092530</exch>
+<rc>International Falls</rc>
+<region>MN</region>
+<switch>INFLMNXIDS0</switch>
+<switchname>INTERNATIONAL FALLS</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5076</rc-v>
+<rc-h>4870</rc-h>
+<rc-lat>48.598346</rc-lat>
+<rc-lon>-93.398992</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>094540</exch>
+<rc>Ranier</rc>
+<region>MN</region>
+<switch>RANRMNXRDS0</switch>
+<switchname>RANIER</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5071</rc-v>
+<rc-h>4863</rc-h>
+<rc-lat>48.60605</rc-lat>
+<rc-lon>-93.340735</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>288</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>980E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - MN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>290</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>VRGNMNAN1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>292</nxx>
+<x>A</x>
+<exch>089990</exch>
+<rc>Bear River</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5220</rc-v>
+<rc-h>4752</rc-h>
+<rc-lat>47.767366</rc-lat>
+<rc-lon>-93.0775</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>293</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>DLTHMNME3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>DLTHMNMELMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>095330</exch>
+<rc>Tower</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5163</rc-v>
+<rc-h>4650</rc-h>
+<rc-lat>47.808671</rc-lat>
+<rc-lon>-92.285756</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>DLTHMNEH7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>302</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNME3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>089850</exch>
+<rc>Aurora</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>719F</ocn>
+<company-name>MCC TELEPHONY OF MINNESOTA, LLC - MN                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5214</rc-v>
+<rc-h>4619</rc-h>
+<rc-lat>47.534684</rc-lat>
+<rc-lon>-92.244176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>307</nxx>
+<x>A</x>
+<exch>091440</exch>
+<rc>Embarrass</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>149D</ocn>
+<company-name>NEXTERA COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5187</rc-v>
+<rc-h>4625</rc-h>
+<rc-lat>47.659338</rc-lat>
+<rc-lon>-92.2024</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>310</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNEH7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>312</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>313</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>094910</exch>
+<rc>Silver Bay</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5197</rc-v>
+<rc-h>4464</rc-h>
+<rc-lat>47.298261</rc-lat>
+<rc-lon>-91.252304</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>318</nxx>
+<x>A</x>
+<exch>094230</exch>
+<rc>Palo</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>149D</ocn>
+<company-name>NEXTERA COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5242</rc-v>
+<rc-h>4610</rc-h>
+<rc-lat>47.399957</rc-lat>
+<rc-lon>-92.270352</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>322</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>GDRPMNGRDS0</switch>
+<switchname>GRAND RAPIDS</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>092560</exch>
+<rc>Isabella</rc>
+<region>MN</region>
+<switch>ISBLMNXIRS1</switch>
+<switchname>ISABELLA</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5145</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>47.622694</rc-lat>
+<rc-lon>-91.425755</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>324</nxx>
+<x>A</x>
+<exch>092530</exch>
+<rc>International Falls</rc>
+<region>MN</region>
+<switch>CLRNMNAA1MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5076</rc-v>
+<rc-h>4870</rc-h>
+<rc-lat>48.598346</rc-lat>
+<rc-lon>-93.398992</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>GDRPMNGRDS0</switch>
+<switchname>GRAND RAPIDS</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>327</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>GDRPMNGRDS0</switch>
+<switchname>GRAND RAPIDS</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>328</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>CHSTMNCHRS3</switch>
+<switchname>BASS BROOK</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>336</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-17 11:33:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>340</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNNVCM3</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>341</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNNVCM3</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>343</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNNVCM3</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>345</nxx>
+<x>A</x>
+<exch>089660</exch>
+<rc>Alborn</rc>
+<region>MN</region>
+<switch>ALBOMNXBRS0</switch>
+<switchname>ALBORN</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5345</rc-v>
+<rc-h>4610</rc-h>
+<rc-lat>46.968735</rc-lat>
+<rc-lon>-92.565731</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>348</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>349</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNNVCM3</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>351</nxx>
+<x>A</x>
+<exch>093610</exch>
+<rc>Moose Lake</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5459</rc-v>
+<rc-h>4589</rc-h>
+<rc-lat>46.450026</rc-lat>
+<rc-lon>-92.760846</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>353</nxx>
+<x>A</x>
+<exch>094910</exch>
+<rc>Silver Bay</rc>
+<region>MN</region>
+<switch>FNLDMNFORS3</switch>
+<switchname>FINLAND</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5197</rc-v>
+<rc-h>4464</rc-h>
+<rc-lat>47.298261</rc-lat>
+<rc-lon>-91.252304</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>355</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNAS2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>360</nxx>
+<x>A</x>
+<exch>090820</exch>
+<rc>Coleraine</rc>
+<region>MN</region>
+<switch>CLRNMNCO0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5335</rc-v>
+<rc-h>4757</rc-h>
+<rc-lat>47.293209</rc-lat>
+<rc-lon>-93.432894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>361</nxx>
+<x>A</x>
+<exch>090860</exch>
+<rc>Cook</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5180</rc-v>
+<rc-h>4708</rc-h>
+<rc-lat>47.850421</rc-lat>
+<rc-lon>-92.69171</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>HBNGMNHIDS0</switch>
+<switchname>HIBBING</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>365</nxx>
+<x>A</x>
+<exch>091420</exch>
+<rc>Ely</rc>
+<region>MN</region>
+<switch>ELY MNXEDS0</switch>
+<switchname>ELY</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5118</rc-v>
+<rc-h>4602</rc-h>
+<rc-lat>47.902207</rc-lat>
+<rc-lon>-91.859194</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>370</nxx>
+<x>A</x>
+<exch>091970</exch>
+<rc>Grand Marais</rc>
+<region>MN</region>
+<switch>GDMRMNABCM1</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5050</rc-v>
+<rc-h>4387</rc-h>
+<rc-lat>47.751494</rc-lat>
+<rc-lon>-90.343605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>372</nxx>
+<x>A</x>
+<exch>095230</exch>
+<rc>Sturgeon Lake</rc>
+<region>MN</region>
+<switch>SGLKMNXSDS0</switch>
+<switchname>STURGEON LAKE</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5477</rc-v>
+<rc-h>4590</rc-h>
+<rc-lat>46.376419</rc-lat>
+<rc-lon>-92.817215</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>092530</exch>
+<rc>International Falls</rc>
+<region>MN</region>
+<switch>INFLMNBH0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>429A</ocn>
+<company-name>MIDCONTINENT COMMUNICATIONS - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5076</rc-v>
+<rc-h>4870</rc-h>
+<rc-lat>48.598346</rc-lat>
+<rc-lon>-93.398992</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>374</nxx>
+<x>A</x>
+<exch>089800</exch>
+<rc>Ash River</rc>
+<region>MN</region>
+<switch>ASRVMNXARS0</switch>
+<switchname>ASH RIVER</switchname>
+<switchtype>RS</switchtype>
+<ocn>1451</ocn>
+<company-name>PAUL BUNYAN RURAL TELEPHONE COOPERATIVE                   </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1451</ilec-ocn>
+<ilec-name>PAUL BUNYAN RURAL TELEPHONE COOPERATIVE                   </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5075</rc-v>
+<rc-h>4773</rc-h>
+<rc-lat>48.416481</rc-lat>
+<rc-lon>-92.790032</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>376</nxx>
+<x>A</x>
+<exch>089990</exch>
+<rc>Bear River</rc>
+<region>MN</region>
+<switch>BRRVMNXBRS0</switch>
+<switchname>BEAR RIVER</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5220</rc-v>
+<rc-h>4752</rc-h>
+<rc-lat>47.767366</rc-lat>
+<rc-lon>-93.0775</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>377</nxx>
+<x>A</x>
+<exch>091490</exch>
+<rc>Ericsburg</rc>
+<region>MN</region>
+<switch>ERBGMNXERS3</switch>
+<switchname>ERICSBURG</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5095</rc-v>
+<rc-h>4851</rc-h>
+<rc-lat>48.482213</rc-lat>
+<rc-lon>-93.334577</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>380</nxx>
+<x>A</x>
+<exch>089950</exch>
+<rc>Barnum</rc>
+<region>MN</region>
+<switch>DLTHMNMEXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5445</rc-v>
+<rc-h>4584</rc-h>
+<rc-lat>46.499086</rc-lat>
+<rc-lon>-92.691505</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>089950</exch>
+<rc>Barnum</rc>
+<region>MN</region>
+<switch>DLTHMNMEXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5445</rc-v>
+<rc-h>4584</rc-h>
+<rc-lat>46.499086</rc-lat>
+<rc-lon>-92.691505</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>384</nxx>
+<x>A</x>
+<exch>090570</exch>
+<rc>Carlton</rc>
+<region>MN</region>
+<switch>CRTOMNCBRS3</switch>
+<switchname>DULUTH CARLTON</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5395</rc-v>
+<rc-h>4563</rc-h>
+<rc-lat>46.667836</rc-lat>
+<rc-lon>-92.42393</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>091970</exch>
+<rc>Grand Marais</rc>
+<region>MN</region>
+<switch>GDMRMNGMDS0</switch>
+<switchname>GRAND MARAIS</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5050</rc-v>
+<rc-h>4387</rc-h>
+<rc-lat>47.751494</rc-lat>
+<rc-lon>-90.343605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>388</nxx>
+<x>A</x>
+<exch>091970</exch>
+<rc>Grand Marais</rc>
+<region>MN</region>
+<switch>GNTRMNXARS0</switch>
+<switchname>GUNFLINT TRAIL</switchname>
+<switchtype>RS</switchtype>
+<ocn>1445</ocn>
+<company-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5050</rc-v>
+<rc-h>4387</rc-h>
+<rc-lat>47.751494</rc-lat>
+<rc-lon>-90.343605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>389</nxx>
+<x>A</x>
+<exch>089950</exch>
+<rc>Barnum</rc>
+<region>MN</region>
+<switch>BRNMMNBARS3</switch>
+<switchname>BARNUM</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5445</rc-v>
+<rc-h>4584</rc-h>
+<rc-lat>46.499086</rc-lat>
+<rc-lon>-92.691505</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>390</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>391</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>092320</exch>
+<rc>Hill City</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1445</ilec-ocn>
+<ilec-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5406</rc-v>
+<rc-h>4751</rc-h>
+<rc-lat>46.982733</rc-lat>
+<rc-lon>-93.593781</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>398</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>CLRNMNAA0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>403</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>DLTHMNNVCM3</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>404</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>406</nxx>
+<x>A</x>
+<exch>095320</exch>
+<rc>Tofte</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5116</rc-v>
+<rc-h>4435</rc-h>
+<rc-lat>47.576106</rc-lat>
+<rc-lon>-90.834845</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>409</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX8X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>410</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>412</nxx>
+<x>A</x>
+<exch>091970</exch>
+<rc>Grand Marais</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5050</rc-v>
+<rc-h>4387</rc-h>
+<rc-lat>47.751494</rc-lat>
+<rc-lon>-90.343605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>413</nxx>
+<x>A</x>
+<exch>089890</exch>
+<rc>Babbitt</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>149D</ocn>
+<company-name>NEXTERA COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5164</rc-v>
+<rc-h>4589</rc-h>
+<rc-lat>47.684567</rc-lat>
+<rc-lon>-91.914974</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>417</nxx>
+<x>A</x>
+<exch>092530</exch>
+<rc>International Falls</rc>
+<region>MN</region>
+<switch>CLRNMNAA1MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5076</rc-v>
+<rc-h>4870</rc-h>
+<rc-lat>48.598346</rc-lat>
+<rc-lon>-93.398992</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>423</nxx>
+<x>A</x>
+<exch>095230</exch>
+<rc>Sturgeon Lake</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5477</rc-v>
+<rc-h>4590</rc-h>
+<rc-lat>46.376419</rc-lat>
+<rc-lon>-92.817215</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>427</nxx>
+<x>A</x>
+<exch>093410</exch>
+<rc>Meadowlands</rc>
+<region>MN</region>
+<switch>MDLDMNXARS0</switch>
+<switchname>MEADOWLANDS</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5336</rc-v>
+<rc-h>4642</rc-h>
+<rc-lat>47.068496</rc-lat>
+<rc-lon>-92.734297</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>428</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>432</nxx>
+<x>A</x>
+<exch>092560</exch>
+<rc>Isabella</rc>
+<region>MN</region>
+<switch>DLTHMNNVCM3</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5145</rc-v>
+<rc-h>4518</rc-h>
+<rc-lat>47.622694</rc-lat>
+<rc-lon>-91.425755</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>440</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>DLTHMNMEXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>719F</ocn>
+<company-name>MCC TELEPHONY OF MINNESOTA, LLC - MN                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>447</nxx>
+<x>A</x>
+<exch>090650</exch>
+<rc>Chisholm</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5262</rc-v>
+<rc-h>4700</rc-h>
+<rc-lat>47.49099</rc-lat>
+<rc-lon>-92.877683</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>451</nxx>
+<x>A</x>
+<exch>090780</exch>
+<rc>Cloquet</rc>
+<region>MN</region>
+<switch>BRNMMNAA0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>4572</rc-h>
+<rc-lat>46.714685</rc-lat>
+<rc-lon>-92.458283</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>453</nxx>
+<x>A</x>
+<exch>090360</exch>
+<rc>Brookston</rc>
+<region>MN</region>
+<switch>BKTNMNXBRS0</switch>
+<switchname>BROOKSTON</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5366</rc-v>
+<rc-h>4603</rc-h>
+<rc-lat>46.867135</rc-lat>
+<rc-lon>-92.583022</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>460</nxx>
+<x>A</x>
+<exch>093610</exch>
+<rc>Moose Lake</rc>
+<region>MN</region>
+<switch>DLTHMNMEVMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>980E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - MN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5459</rc-v>
+<rc-h>4589</rc-h>
+<rc-lat>46.450026</rc-lat>
+<rc-lon>-92.760846</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>461</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEVMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>980E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - MN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>464</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMN360MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>447D</ocn>
+<company-name>CHARTER FIBERLINK CCO, LLC - MN                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>471</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>475</nxx>
+<x>A</x>
+<exch>092450</exch>
+<rc>Hovland</rc>
+<region>MN</region>
+<switch>HVLDMNXADS1</switch>
+<switchname>HOVLAND</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1445</ocn>
+<company-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1445</ilec-ocn>
+<ilec-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5006</rc-v>
+<rc-h>4346</rc-h>
+<rc-lat>47.848689</rc-lat>
+<rc-lon>-89.959791</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>476</nxx>
+<x>A</x>
+<exch>091630</exch>
+<rc>Floodwood</rc>
+<region>MN</region>
+<switch>FLWDMNXFDS0</switch>
+<switchname>FLOODWOOD</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5376</rc-v>
+<rc-h>4654</rc-h>
+<rc-lat>46.923786</rc-lat>
+<rc-lon>-92.920201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>481</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX6X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8405</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - MN                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>482</nxx>
+<x>A</x>
+<exch>090900</exch>
+<rc>Cotton</rc>
+<region>MN</region>
+<switch>CTTNMNXCDS0</switch>
+<switchname>COTTON</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1374</ocn>
+<company-name>ARROWHEAD COMMUNICATIONS CORP.                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1374</ilec-ocn>
+<ilec-name>ARROWHEAD COMMUNICATIONS CORP.                            </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5301</rc-v>
+<rc-h>4617</rc-h>
+<rc-lat>47.166678</rc-lat>
+<rc-lon>-92.482662</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>485</nxx>
+<x>A</x>
+<exch>093610</exch>
+<rc>Moose Lake</rc>
+<region>MN</region>
+<switch>MOLKMNMLRS4</switch>
+<switchname>MOOSE LAKE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5459</rc-v>
+<rc-h>4589</rc-h>
+<rc-lat>46.450026</rc-lat>
+<rc-lon>-92.760846</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>488</nxx>
+<x>A</x>
+<exch>095720</exch>
+<rc>Wawina</rc>
+<region>MN</region>
+<switch>WAWNMNXADS0</switch>
+<switchname>WAWINA</switchname>
+<switchtype>M38</switchtype>
+<ocn>1500</ocn>
+<company-name>NORTHERN TELEPHONE CO. OF MINNESOTA                       </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1500</ilec-ocn>
+<ilec-name>NORTHERN TELEPHONE CO. OF MINNESOTA                       </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5363</rc-v>
+<rc-h>4692</rc-h>
+<rc-lat>47.051381</rc-lat>
+<rc-lon>-93.114542</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>090440</exch>
+<rc>Buhl</rc>
+<region>MN</region>
+<switch>DLTHMNMEXAX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>719F</ocn>
+<company-name>MCC TELEPHONY OF MINNESOTA, LLC - MN                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5254</rc-v>
+<rc-h>4687</rc-h>
+<rc-lat>47.499463</rc-lat>
+<rc-lon>-92.775231</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>491</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEQMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8581</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>492</nxx>
+<x>A</x>
+<exch>095640</exch>
+<rc>Warba</rc>
+<region>MN</region>
+<switch>WARBMNXARS0</switch>
+<switchname>WARBA</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5356</rc-v>
+<rc-h>4720</rc-h>
+<rc-lat>47.134359</rc-lat>
+<rc-lon>-93.265527</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>496</nxx>
+<x>A</x>
+<exch>093820</exch>
+<rc>Nickerson</rc>
+<region>MN</region>
+<switch>NCSNMNXNRS0</switch>
+<switchname>NICKERSON</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5450</rc-v>
+<rc-h>4553</rc-h>
+<rc-lat>46.417986</rc-lat>
+<rc-lon>-92.519385</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>499</nxx>
+<x>A</x>
+<exch>090780</exch>
+<rc>Cloquet</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>4572</rc-h>
+<rc-lat>46.714685</rc-lat>
+<rc-lon>-92.458283</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>501</nxx>
+<x>A</x>
+<exch>089660</exch>
+<rc>Alborn</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5345</rc-v>
+<rc-h>4610</rc-h>
+<rc-lat>46.968735</rc-lat>
+<rc-lon>-92.565731</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>502</nxx>
+<x>A</x>
+<exch>094540</exch>
+<rc>Ranier</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5071</rc-v>
+<rc-h>4863</rc-h>
+<rc-lat>48.60605</rc-lat>
+<rc-lon>-93.340735</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>503</nxx>
+<x>A</x>
+<exch>089950</exch>
+<rc>Barnum</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>980E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - MN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5445</rc-v>
+<rc-h>4584</rc-h>
+<rc-lat>46.499086</rc-lat>
+<rc-lon>-92.691505</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>504</nxx>
+<x>A</x>
+<exch>091420</exch>
+<rc>Ely</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5118</rc-v>
+<rc-h>4602</rc-h>
+<rc-lat>47.902207</rc-lat>
+<rc-lon>-91.859194</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>506</nxx>
+<x>A</x>
+<exch>090860</exch>
+<rc>Cook</rc>
+<region>MN</region>
+<switch>DLTHMNMEVMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>980E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - MN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5180</rc-v>
+<rc-h>4708</rc-h>
+<rc-lat>47.850421</rc-lat>
+<rc-lon>-92.69171</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>509</nxx>
+<x>A</x>
+<exch>093610</exch>
+<rc>Moose Lake</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5459</rc-v>
+<rc-h>4589</rc-h>
+<rc-lat>46.450026</rc-lat>
+<rc-lon>-92.760846</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-13 02:20:11</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>510</nxx>
+<x>A</x>
+<exch>095410</exch>
+<rc>Two Harbors</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5277</rc-v>
+<rc-h>4494</rc-h>
+<rc-lat>47.025095</rc-lat>
+<rc-lon>-91.668587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>514</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-18 02:57:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>516</nxx>
+<x>A</x>
+<exch>090190</exch>
+<rc>Biwabik</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5219</rc-v>
+<rc-h>4634</rc-h>
+<rc-lat>47.54311</rc-lat>
+<rc-lon>-92.35032</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>520</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>522</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>525</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNLARS5</switch>
+<switchname>DULUTH LAKESIDE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>529</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>540</nxx>
+<x>A</x>
+<exch>094540</exch>
+<rc>Ranier</rc>
+<region>MN</region>
+<switch>INFLMNBH0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>429A</ocn>
+<company-name>MIDCONTINENT COMMUNICATIONS - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5071</rc-v>
+<rc-h>4863</rc-h>
+<rc-lat>48.60605</rc-lat>
+<rc-lon>-93.340735</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNMELMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>565</nxx>
+<x>A</x>
+<exch>093610</exch>
+<rc>Moose Lake</rc>
+<region>MN</region>
+<switch>MOLKMNMLRS4</switch>
+<switchname>MOOSE LAKE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5459</rc-v>
+<rc-h>4589</rc-h>
+<rc-lat>46.450026</rc-lat>
+<rc-lon>-92.760846</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>576</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>580</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4156</ocn>
+<company-name>TEKSTAR COMMUNICATIONS, INC.                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>590</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>591</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>595</nxx>
+<x>A</x>
+<exch>095410</exch>
+<rc>Two Harbors</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>184D</ocn>
+<company-name>ONVOY, LLC  MN                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5277</rc-v>
+<rc-h>4494</rc-h>
+<rc-lat>47.025095</rc-lat>
+<rc-lon>-91.668587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-25 23:22:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>598</nxx>
+<x>A</x>
+<exch>092530</exch>
+<rc>International Falls</rc>
+<region>MN</region>
+<switch>INFLMNXIPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5076</rc-v>
+<rc-h>4870</rc-h>
+<rc-lat>48.598346</rc-lat>
+<rc-lon>-93.398992</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>600</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNAS9MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>322E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - MN                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>606</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>623</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEDS2</switch>
+<switchname></switchname>
+<switchtype>351</switchtype>
+<ocn>149D</ocn>
+<company-name>NEXTERA COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>624</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNCBRS6</switch>
+<switchname>DULUTH CALUMET</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>625</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMERS3</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>7036</ocn>
+<company-name>TDS METROCOM, LLC                                         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>626</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNDBRS6</switch>
+<switchname>DULUTH DOUGLAS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>628</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNCBRS6</switch>
+<switchname>DULUTH CALUMET</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>094230</exch>
+<rc>Palo</rc>
+<region>MN</region>
+<switch>PALOMNXPRS0</switch>
+<switchname>PALO</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5242</rc-v>
+<rc-h>4610</rc-h>
+<rc-lat>47.399957</rc-lat>
+<rc-lon>-92.270352</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>644</nxx>
+<x>A</x>
+<exch>090930</exch>
+<rc>Cromwell</rc>
+<region>MN</region>
+<switch>CRWLMNXCRS0</switch>
+<switchname>CROMWELL</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5421</rc-v>
+<rc-h>4627</rc-h>
+<rc-lat>46.682843</rc-lat>
+<rc-lon>-92.883251</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>646</nxx>
+<x>A</x>
+<exch>093410</exch>
+<rc>Meadowlands</rc>
+<region>MN</region>
+<switch>DLTHMNME3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5256</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - MN                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5336</rc-v>
+<rc-h>4642</rc-h>
+<rc-lat>47.068496</rc-lat>
+<rc-lon>-92.734297</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>655</nxx>
+<x>A</x>
+<exch>090780</exch>
+<rc>Cloquet</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>4572</rc-h>
+<rc-lat>46.714685</rc-lat>
+<rc-lon>-92.458283</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>091100</exch>
+<rc>Denham</rc>
+<region>MN</region>
+<switch>DNHMMNXDRS6</switch>
+<switchname>DENHAM</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5489</rc-v>
+<rc-h>4607</rc-h>
+<rc-lat>46.35878</rc-lat>
+<rc-lon>-92.95278</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>663</nxx>
+<x>A</x>
+<exch>095320</exch>
+<rc>Tofte</rc>
+<region>MN</region>
+<switch>TOFTMNTBRS6</switch>
+<switchname>TOFTE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5116</rc-v>
+<rc-h>4435</rc-h>
+<rc-lat>47.576106</rc-lat>
+<rc-lon>-90.834845</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>090860</exch>
+<rc>Cook</rc>
+<region>MN</region>
+<switch>COOKMNCORS6</switch>
+<switchname>COOK</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5180</rc-v>
+<rc-h>4708</rc-h>
+<rc-lat>47.850421</rc-lat>
+<rc-lon>-92.69171</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>667</nxx>
+<x>A</x>
+<exch>090820</exch>
+<rc>Coleraine</rc>
+<region>MN</region>
+<switch>DLTHMNFFDS0</switch>
+<switchname>DULUTH</switchname>
+<switchtype>PL9</switchtype>
+<ocn>4587</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SVCS-MN            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5335</rc-v>
+<rc-h>4757</rc-h>
+<rc-lat>47.293209</rc-lat>
+<rc-lon>-93.432894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>090570</exch>
+<rc>Carlton</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>980E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - MN                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5395</rc-v>
+<rc-h>4563</rc-h>
+<rc-lat>46.667836</rc-lat>
+<rc-lon>-92.42393</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>697</nxx>
+<x>A</x>
+<exch>092320</exch>
+<rc>Hill City</rc>
+<region>MN</region>
+<switch>HLCYMNXADS0</switch>
+<switchname>HILL CITY</switchname>
+<switchtype>DSF</switchtype>
+<ocn>1445</ocn>
+<company-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1445</ilec-ocn>
+<ilec-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5406</rc-v>
+<rc-h>4751</rc-h>
+<rc-lat>46.982733</rc-lat>
+<rc-lon>-93.593781</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>720</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>721</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>ISLKMNILRS1</switch>
+<switchname>DULUTH ISLAND LAKE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>722</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>723</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>724</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNAFRS7</switch>
+<switchname>DULUTH HEMLOCK</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>725</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>726</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>728</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNAFRS7</switch>
+<switchname>DULUTH HEMLOCK</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>729</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNPLRS7</switch>
+<switchname>DULUTH PIKE LAKE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>730</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNAFRS7</switch>
+<switchname>DULUTH HEMLOCK</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>733</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>735</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>MTIRMNMIRS7</switch>
+<switchname>MOUNTAIN IRON</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>740</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMERS3</switch>
+<switchname></switchname>
+<switchtype>RSC</switchtype>
+<ocn>7036</ocn>
+<company-name>TDS METROCOM, LLC                                         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>741</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>VRGNMNVIDS0</switch>
+<switchname>VIRGINIA</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>742</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>VRGNMNVIDS0</switch>
+<switchname>VIRGINIA</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>743</nxx>
+<x>A</x>
+<exch>090170</exch>
+<rc>Bigfork</rc>
+<region>MN</region>
+<switch>BGFKMNXBDS0</switch>
+<switchname>BIGFORK</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1453</ocn>
+<company-name>PEOPLES TELEPHONE CO. MN                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1453</ilec-ocn>
+<ilec-name>PEOPLES TELEPHONE CO. MN                                  </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5259</rc-v>
+<rc-h>4828</rc-h>
+<rc-lat>47.747948</rc-lat>
+<rc-lon>-93.656875</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>744</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>EVLTMNEVRS0</switch>
+<switchname>EVELETH</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>748</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>VRGNMNVIDS0</switch>
+<switchname>VIRGINIA</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>749</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>VRGNMNVIDS0</switch>
+<switchname>VIRGINIA</switchname>
+<switchtype>AXT</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>750</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNMEX5X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>752</nxx>
+<x>A</x>
+<exch>092600</exch>
+<rc>Jacobson</rc>
+<region>MN</region>
+<switch>JCBSMNXJRS0</switch>
+<switchname>JACOBSON</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5382</rc-v>
+<rc-h>4708</rc-h>
+<rc-lat>47.002076</rc-lat>
+<rc-lon>-93.265137</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>753</nxx>
+<x>A</x>
+<exch>095330</exch>
+<rc>Tower</rc>
+<region>MN</region>
+<switch>TOWRMNXADS0</switch>
+<switchname>TOWER</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5163</rc-v>
+<rc-h>4650</rc-h>
+<rc-lat>47.808671</rc-lat>
+<rc-lon>-92.285756</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>757</nxx>
+<x>A</x>
+<exch>094120</exch>
+<rc>Orr</rc>
+<region>MN</region>
+<switch>ORR MNXADS0</switch>
+<switchname>ORR</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1445</ocn>
+<company-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1445</ilec-ocn>
+<ilec-name>CENTURYTEL OF MINNESOTA INC DBA CENTURYLINK               </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5149</rc-v>
+<rc-h>4744</rc-h>
+<rc-lat>48.050056</rc-lat>
+<rc-lon>-92.824481</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>095680</exch>
+<rc>Washington Forest</rc>
+<region>MN</region>
+<switch>WAFTMNXWDS0</switch>
+<switchname>WASHINGTON FOREST</switchname>
+<switchtype>M38</switchtype>
+<ocn>1348</ocn>
+<company-name>WILDERNESS VALLEY TELEPHONE COMPANY, INC.                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1348</ilec-ocn>
+<ilec-name>WILDERNESS VALLEY TELEPHONE COMPANY, INC.                 </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5245</rc-v>
+<rc-h>4772</rc-h>
+<rc-lat>47.700538</rc-lat>
+<rc-lon>-93.271782</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>778</nxx>
+<x>A</x>
+<exch>092680</exch>
+<rc>Keewatin</rc>
+<region>MN</region>
+<switch>KEWTMNKERS7</switch>
+<switchname>KEEWATIN</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5292</rc-v>
+<rc-h>4718</rc-h>
+<rc-lat>47.399615</rc-lat>
+<rc-lon>-93.073119</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>780</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNEQCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>786</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>787</nxx>
+<x>A</x>
+<exch>092020</exch>
+<rc>Greaney</rc>
+<region>MN</region>
+<switch>GRNYMNXGRS0</switch>
+<switchname>GREANEY</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5182</rc-v>
+<rc-h>4765</rc-h>
+<rc-lat>47.951958</rc-lat>
+<rc-lon>-93.049209</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>788</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNME72G</switch>
+<switchname>DULUTH MELROSE</switchname>
+<switchtype>5E</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-13 11:15:58</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>827</nxx>
+<x>A</x>
+<exch>089890</exch>
+<rc>Babbitt</rc>
+<region>MN</region>
+<switch>BBTTMNXBDS0</switch>
+<switchname>BABBITT</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5164</rc-v>
+<rc-h>4589</rc-h>
+<rc-lat>47.684567</rc-lat>
+<rc-lon>-91.914974</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>830</nxx>
+<x>A</x>
+<exch>095410</exch>
+<rc>Two Harbors</rc>
+<region>MN</region>
+<switch>TWHRMNNVCM8</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5277</rc-v>
+<rc-h>4494</rc-h>
+<rc-lat>47.025095</rc-lat>
+<rc-lon>-91.668587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>832</nxx>
+<x>A</x>
+<exch>093330</exch>
+<rc>Marcell</rc>
+<region>MN</region>
+<switch>MRCLMNXMRS8</switch>
+<switchname>MARCELL</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1453</ocn>
+<company-name>PEOPLES TELEPHONE CO. MN                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1453</ilec-ocn>
+<ilec-name>PEOPLES TELEPHONE CO. MN                                  </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5290</rc-v>
+<rc-h>4819</rc-h>
+<rc-lat>47.600261</rc-lat>
+<rc-lon>-93.688081</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>834</nxx>
+<x>A</x>
+<exch>095410</exch>
+<rc>Two Harbors</rc>
+<region>MN</region>
+<switch>TWHRMNXADS0</switch>
+<switchname>TWO HARBORS</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5277</rc-v>
+<rc-h>4494</rc-h>
+<rc-lat>47.025095</rc-lat>
+<rc-lon>-91.668587</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>848</nxx>
+<x>A</x>
+<exch>090340</exch>
+<rc>Brimson</rc>
+<region>MN</region>
+<switch>BRSNMNXBRS8</switch>
+<switchname>BRIMSON</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5244</rc-v>
+<rc-h>4537</rc-h>
+<rc-lat>47.24795</rc-lat>
+<rc-lon>-91.83243</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>865</nxx>
+<x>A</x>
+<exch>090190</exch>
+<rc>Biwabik</rc>
+<region>MN</region>
+<switch>BWBKMNBIRS8</switch>
+<switchname>BIWABIK</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5219</rc-v>
+<rc-h>4634</rc-h>
+<rc-lat>47.54311</rc-lat>
+<rc-lon>-92.35032</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>875</nxx>
+<x>A</x>
+<exch>092640</exch>
+<rc>Kabetogama</rc>
+<region>MN</region>
+<switch>KBTGMNXNRS0</switch>
+<switchname>KABETOGAMA</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5082</rc-v>
+<rc-h>4814</rc-h>
+<rc-lat>48.46608</rc-lat>
+<rc-lon>-93.065948</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>877</nxx>
+<x>A</x>
+<exch>091970</exch>
+<rc>Grand Marais</rc>
+<region>MN</region>
+<switch>GDMRMN11RS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>925C</ocn>
+<company-name>CONSOLIDATED TELEPHONE COMPANY - MN                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5050</rc-v>
+<rc-h>4387</rc-h>
+<rc-lat>47.751494</rc-lat>
+<rc-lon>-90.343605</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>878</nxx>
+<x>A</x>
+<exch>090780</exch>
+<rc>Cloquet</rc>
+<region>MN</region>
+<switch>CLQTMNCARS8</switch>
+<switchname>CLOQUET</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>4572</rc-h>
+<rc-lat>46.714685</rc-lat>
+<rc-lon>-92.458283</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>090780</exch>
+<rc>Cloquet</rc>
+<region>MN</region>
+<switch>CLQTMNCARS8</switch>
+<switchname>CLOQUET</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>4572</rc-h>
+<rc-lat>46.714685</rc-lat>
+<rc-lon>-92.458283</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>885</nxx>
+<x>A</x>
+<exch>093710</exch>
+<rc>Nashwauk</rc>
+<region>MN</region>
+<switch>NSHWMNNARS8</switch>
+<switchname>NASHWAUK</switchname>
+<switchtype>AXR</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5301</rc-v>
+<rc-h>4729</rc-h>
+<rc-lat>47.382863</rc-lat>
+<rc-lon>-93.16591</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>900</nxx>
+<x>A</x>
+<exch>090780</exch>
+<rc>Cloquet</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5388</rc-v>
+<rc-h>4572</rc-h>
+<rc-lat>46.714685</rc-lat>
+<rc-lon>-92.458283</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-13 11:15:58</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>910</nxx>
+<x>A</x>
+<exch>090820</exch>
+<rc>Coleraine</rc>
+<region>MN</region>
+<switch>CLRNMNCO0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5335</rc-v>
+<rc-h>4757</rc-h>
+<rc-lat>47.293209</rc-lat>
+<rc-lon>-93.432894</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>929</nxx>
+<x>A</x>
+<exch>090440</exch>
+<rc>Buhl</rc>
+<region>MN</region>
+<switch>BUHLMNQACM1</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5816</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - MN              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5254</rc-v>
+<rc-h>4687</rc-h>
+<rc-lat>47.499463</rc-lat>
+<rc-lon>-92.775231</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>934</nxx>
+<x>A</x>
+<exch>095230</exch>
+<rc>Sturgeon Lake</rc>
+<region>MN</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>719F</ocn>
+<company-name>MCC TELEPHONY OF MINNESOTA, LLC - MN                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5477</rc-v>
+<rc-h>4590</rc-h>
+<rc-lat>46.376419</rc-lat>
+<rc-lon>-92.817215</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>940</nxx>
+<x>A</x>
+<exch>091170</exch>
+<rc>Duluth</rc>
+<region>MN</region>
+<switch>DLTHMNMEX8X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4530</rc-h>
+<rc-lat>46.783152</rc-lat>
+<rc-lon>-92.102484</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>966</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>HBNGMNHI2MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>969</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>HBNGMNHI2MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>984</nxx>
+<x>A</x>
+<exch>091440</exch>
+<rc>Embarrass</rc>
+<region>MN</region>
+<switch>EMBRMNXERS0</switch>
+<switchname>EMBARRASS</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5187</rc-v>
+<rc-h>4625</rc-h>
+<rc-lat>47.659338</rc-lat>
+<rc-lon>-92.2024</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>993</nxx>
+<x>A</x>
+<exch>090920</exch>
+<rc>Crane Lake</rc>
+<region>MN</region>
+<switch>CNLKMNXBRS0</switch>
+<switchname>CRANE LAKE</switchname>
+<switchtype>DC1</switchtype>
+<ocn>1123</ocn>
+<company-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1123</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO MN-FRONTIER CITIZENS COM-MN           </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5116</rc-v>
+<rc-h>4711</rc-h>
+<rc-lat>48.124411</rc-lat>
+<rc-lon>-92.52469</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>994</nxx>
+<x>A</x>
+<exch>095540</exch>
+<rc>Virginia</rc>
+<region>MN</region>
+<switch>DLTHMNMEX8X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5234</rc-v>
+<rc-h>4657</rc-h>
+<rc-lat>47.525139</rc-lat>
+<rc-lon>-92.534256</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>996</nxx>
+<x>A</x>
+<exch>092310</exch>
+<rc>Hibbing</rc>
+<region>MN</region>
+<switch>DLTHMNMEX8X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6701</ocn>
+<company-name>AERIAL COMMUNICATIONS                                     </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5278</rc-v>
+<rc-h>4701</rc-h>
+<rc-lat>47.42575</rc-lat>
+<rc-lon>-92.929345</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>218</npa>
+<nxx>999</nxx>
+<x>A</x>
+<exch>091990</exch>
+<rc>Grand Rapids</rc>
+<region>MN</region>
+<switch>CHSTMN01RS0</switch>
+<switchname></switchname>
+<switchtype>5RS</switchtype>
+<ocn>4814</ocn>
+<company-name>PAUL BUNYAN RURAL TELEPHONE COOP                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5352</rc-v>
+<rc-h>4764</rc-h>
+<rc-lat>47.234899</rc-lat>
+<rc-lon>-93.523207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>715</npa>
+<nxx>636</nxx>
+<x>A</x>
+<exch>212810</exch>
+<rc>Mont du Lac</rc>
+<region>WI</region>
+<switch>DLTHMNDBRS6</switch>
+<switchname>DULUTH DOUGLAS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9631</ocn>
+<company-name>QWEST CORPORATION                                         </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9631</ilec-ocn>
+<ilec-name>QWEST CORPORATION                                         </ilec-name>
+<lata>624</lata>
+<lir></lir>
+<rc-v>5358</rc-v>
+<rc-h>4527</rc-h>
+<rc-lat>46.752181</rc-lat>
+<rc-lon>-92.101629</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

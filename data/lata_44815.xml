@@ -1,0 +1,2631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>44815</lata>
+</inputdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>200</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>031720</exch>
+<rc>Seagrove Beach</rc>
+<region>FL</region>
+<switch>PNSCFLWATMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8069</rc-v>
+<rc-h>2007</rc-h>
+<rc-lat>30.316113</rc-lat>
+<rc-lon>-86.11999</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>218</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>225</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAX2X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6916</ocn>
+<company-name>ELISKA WIRELESS VENTURES SUBSIDIARY I, LLC                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>231</nxx>
+<x>A</x>
+<exch>031720</exch>
+<rc>Seagrove Beach</rc>
+<region>FL</region>
+<switch>SGBHFLXARS0</switch>
+<switchname>SEAGROVE BEACH</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8069</rc-v>
+<rc-h>2007</rc-h>
+<rc-lat>30.316113</rc-lat>
+<rc-lon>-86.11999</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>243</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>246</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>FTWBFLXA0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6581</ocn>
+<company-name>CELLULAR SOUTH, INC.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>259</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>267</nxx>
+<x>A</x>
+<exch>031700</exch>
+<rc>Santa Rosa Beach</rc>
+<region>FL</region>
+<switch>SNRSFLXARS0</switch>
+<switchname>SANTA ROSA BEACH</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>2034</rc-h>
+<rc-lat>30.383483</rc-lat>
+<rc-lon>-86.240949</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>269</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>DESTFLXADS0</switch>
+<switchname>DESTIN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>275</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>DESTFLSTDS1</switch>
+<switchname></switchname>
+<switchtype>EWSD</switchtype>
+<ocn>7598</ocn>
+<company-name>NEWSOUTH COMMUNICATIONS, INC. DBA UNIVERSALCOM FL         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>278</nxx>
+<x>A</x>
+<exch>031700</exch>
+<rc>Santa Rosa Beach</rc>
+<region>FL</region>
+<switch>DESTFLSTDS1</switch>
+<switchname></switchname>
+<switchtype>EWSD</switchtype>
+<ocn>7598</ocn>
+<company-name>NEWSOUTH COMMUNICATIONS, INC. DBA UNIVERSALCOM FL         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>2034</rc-h>
+<rc-lat>30.383483</rc-lat>
+<rc-lon>-86.240949</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>279</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7598</ocn>
+<company-name>NEWSOUTH COMMUNICATIONS, INC. DBA UNIVERSALCOM FL         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-04-26 01:40:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>280</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-12-24 15:53:15</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>302</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>314</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXBDS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXBDS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>DESTFLSTDS1</switch>
+<switchname></switchname>
+<switchtype>EWSD</switchtype>
+<ocn>7598</ocn>
+<company-name>NEWSOUTH COMMUNICATIONS, INC. DBA UNIVERSALCOM FL         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>344</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLDM1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>351</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>DESTFLSTDS1</switch>
+<switchname></switchname>
+<switchtype>EWSD</switchtype>
+<ocn>7598</ocn>
+<company-name>NEWSOUTH COMMUNICATIONS, INC. DBA UNIVERSALCOM FL         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>353</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>PNSCFLWAVMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 01:55:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>357</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>CRVWFLAR0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>368</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAX2X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6916</ocn>
+<company-name>ELISKA WIRELESS VENTURES SUBSIDIARY I, LLC                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>374</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8300</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - FL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>376</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAX2X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6916</ocn>
+<company-name>ELISKA WIRELESS VENTURES SUBSIDIARY I, LLC                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>389</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>PNSCFLWAVMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 01:55:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>399</nxx>
+<x>A</x>
+<exch>031720</exch>
+<rc>Seagrove Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8069</rc-v>
+<rc-h>2007</rc-h>
+<rc-lat>30.316113</rc-lat>
+<rc-lon>-86.11999</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2015-08-01 00:43:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>420</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>424</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>428</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>460</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>461</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>467</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8664</ocn>
+<company-name>INTERMEDIA COMMUNICATIONS INC. - FL                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>468</nxx>
+<x>A</x>
+<exch>031720</exch>
+<rc>Seagrove Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8069</rc-v>
+<rc-h>2007</rc-h>
+<rc-lat>30.316113</rc-lat>
+<rc-lon>-86.11999</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>496</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>499</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>502</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>PNSCFLWAVMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>517</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>PNSCFLWATMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 01:56:18</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>533</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>534</nxx>
+<x>A</x>
+<exch>031720</exch>
+<rc>Seagrove Beach</rc>
+<region>FL</region>
+<switch>SGBHFLXARS0</switch>
+<switchname>SEAGROVE BEACH</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8069</rc-v>
+<rc-h>2007</rc-h>
+<rc-lat>30.316113</rc-lat>
+<rc-lon>-86.11999</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>543</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>CRVWFLAR0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>581</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXCRS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>582</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>585</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>586</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAX2X</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6916</ocn>
+<company-name>ELISKA WIRELESS VENTURES SUBSIDIARY I, LLC                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>598</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>608</nxx>
+<x>A</x>
+<exch>031700</exch>
+<rc>Santa Rosa Beach</rc>
+<region>FL</region>
+<switch>PNSCFLJAGT0</switch>
+<switchname></switchname>
+<switchtype>G21</switchtype>
+<ocn>7193</ocn>
+<company-name>COX FLORIDA TELCOM, L.P. - FL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>2034</rc-h>
+<rc-lat>30.383483</rc-lat>
+<rc-lon>-86.240949</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>609</nxx>
+<x>A</x>
+<exch>031750</exch>
+<rc>Shalimar</rc>
+<region>FL</region>
+<switch>SHLMFLXADS0</switch>
+<switchname>SHALIMAR</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8087</rc-v>
+<rc-h>2098</rc-h>
+<rc-lat>30.441931</rc-lat>
+<rc-lon>-86.589565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>613</nxx>
+<x>A</x>
+<exch>031750</exch>
+<rc>Shalimar</rc>
+<region>FL</region>
+<switch>PNSCFLJAGT0</switch>
+<switchname></switchname>
+<switchtype>G21</switchtype>
+<ocn>7193</ocn>
+<company-name>COX FLORIDA TELCOM, L.P. - FL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8087</rc-v>
+<rc-h>2098</rc-h>
+<rc-lat>30.441931</rc-lat>
+<rc-lon>-86.589565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>621</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>622</nxx>
+<x>A</x>
+<exch>031700</exch>
+<rc>Santa Rosa Beach</rc>
+<region>FL</region>
+<switch>SNRSFLXARS0</switch>
+<switchname>SANTA ROSA BEACH</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>2034</rc-h>
+<rc-lat>30.383483</rc-lat>
+<rc-lon>-86.240949</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>641</nxx>
+<x>A</x>
+<exch>031720</exch>
+<rc>Seagrove Beach</rc>
+<region>FL</region>
+<switch>CRVWFLAR5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8952</ocn>
+<company-name>KNOLOGY OF FLORIDA DBA WOW INTERNET CABLE PHONE           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8069</rc-v>
+<rc-h>2007</rc-h>
+<rc-lat>30.316113</rc-lat>
+<rc-lon>-86.11999</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>642</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXA0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6581</ocn>
+<company-name>CELLULAR SOUTH, INC.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>650</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>DESTFLXADS0</switch>
+<switchname>DESTIN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>651</nxx>
+<x>A</x>
+<exch>031750</exch>
+<rc>Shalimar</rc>
+<region>FL</region>
+<switch>SHLMFLXADS0</switch>
+<switchname>SHALIMAR</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8087</rc-v>
+<rc-h>2098</rc-h>
+<rc-lat>30.441931</rc-lat>
+<rc-lon>-86.589565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>654</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>DESTFLXADS0</switch>
+<switchname>DESTIN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>659</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAQMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8692</ocn>
+<company-name>US LEC OF FLORIDA, INC.                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>660</nxx>
+<x>A</x>
+<exch>031700</exch>
+<rc>Santa Rosa Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAJMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>919F</ocn>
+<company-name>MCC TELEPHONY OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8067</rc-v>
+<rc-h>2034</rc-h>
+<rc-lat>30.383483</rc-lat>
+<rc-lon>-86.240949</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>664</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>VLPRFLXADS0</switch>
+<switchname>VALPARAISO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 01:56:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>685</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>687</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>699</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>714</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>DESTFLST2MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7598</ocn>
+<company-name>NEWSOUTH COMMUNICATIONS, INC. DBA UNIVERSALCOM FL         </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>716</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6916</ocn>
+<company-name>ELISKA WIRELESS VENTURES SUBSIDIARY I, LLC                </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>729</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>VLPRFLXADS0</switch>
+<switchname>VALPARAISO</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 01:56:50</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>737</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>796</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>803</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAMMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6214</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - GA                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>812</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>031750</exch>
+<rc>Shalimar</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8087</rc-v>
+<rc-h>2098</rc-h>
+<rc-lat>30.441931</rc-lat>
+<rc-lon>-86.589565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-02-28 03:14:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>822</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-31 00:55:32</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>830</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>833</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>837</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>DESTFLXADS0</switch>
+<switchname>DESTIN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>842</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7193</ocn>
+<company-name>COX FLORIDA TELCOM, L.P. - FL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>855</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>PNSCFLWAVMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>862</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXBDS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>863</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXBDS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXBDS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>865</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>881</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>DESTFLSTDS1</switch>
+<switchname></switchname>
+<switchtype>EWSD</switchtype>
+<ocn>8660</ocn>
+<company-name>NUVOX COMMUNICATIONS                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>882</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-12 02:28:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>883</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-12 02:28:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>DESTFLSTDS1</switch>
+<switchname></switchname>
+<switchtype>EWSD</switchtype>
+<ocn>8660</ocn>
+<company-name>NUVOX COMMUNICATIONS                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>885</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-12 02:28:29</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>897</nxx>
+<x>A</x>
+<exch>030080</exch>
+<rc>Destin</rc>
+<region>FL</region>
+<switch>VLPRFLXBRS0</switch>
+<switchname>VALPARAISO</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8085</rc-v>
+<rc-h>2080</rc-h>
+<rc-lat>30.410846</rc-lat>
+<rc-lon>-86.50044</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-07-13 01:58:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>904</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-09-27 23:59:22</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>909</nxx>
+<x>A</x>
+<exch>031720</exch>
+<rc>Seagrove Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>8952</ocn>
+<company-name>KNOLOGY OF FLORIDA DBA WOW INTERNET CABLE PHONE           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8069</rc-v>
+<rc-h>2007</rc-h>
+<rc-lat>30.316113</rc-lat>
+<rc-lon>-86.11999</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>974</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXAGMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>978</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXACM7</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6744</ocn>
+<company-name>SOUTHERN COMMUNICATIONS SERVICES                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>986</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch>FTWBFLXADS0</switch>
+<switchname>FORT WALTON BEACH</switchname>
+<switchtype>D12</switchtype>
+<ocn>0340</ocn>
+<company-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>850</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>030270</exch>
+<rc>Fort Walton Beach</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0340</ilec-ocn>
+<ilec-name>EMBARQ FLORIDA INC. (CENTRAL) DBA CENTURYLINK             </ilec-name>
+<lata>44815</lata>
+<lir></lir>
+<rc-v>8094</rc-v>
+<rc-h>2097</rc-h>
+<rc-lat>30.41124</rc-lat>
+<rc-lon>-86.602176</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-06-21 02:37:40</udate>
+</prefixdata>
+</root>

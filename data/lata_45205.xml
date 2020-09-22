@@ -1,0 +1,1531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>45205</lata>
+</inputdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>201</nxx>
+<x>A</x>
+<exch>030470</exch>
+<rc>High Springs</rc>
+<region>FL</region>
+<switch>HGSPFLXAPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7831</rc-v>
+<rc-h>1373</rc-h>
+<rc-lat>29.833769</rc-lat>
+<rc-lon>-82.590865</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>208</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>LVOKFLXADS0</switch>
+<switchname>LIVE OAK</switchname>
+<switchtype>D12</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>JCVLFLOGCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>217</nxx>
+<x>A</x>
+<exch>030810</exch>
+<rc>Lake Butler</rc>
+<region>FL</region>
+<switch>LKBTFLXAPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7773</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>30.01443</rc-lat>
+<rc-lon>-82.342414</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>JCVLFLGHPS0</switch>
+<switchname></switchname>
+<switchtype>PEO</switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>223</nxx>
+<x>A</x>
+<exch>030650</exch>
+<rc>Jasper</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7736</rc-v>
+<rc-h>1504</rc-h>
+<rc-lat>30.516559</rc-lat>
+<rc-lon>-82.939383</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-22 01:50:57</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>230</nxx>
+<x>A</x>
+<exch>030090</exch>
+<rc>Dowling Park</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7814</rc-v>
+<rc-h>1524</rc-h>
+<rc-lat>30.252578</rc-lat>
+<rc-lon>-83.236016</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-19 02:28:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>032190</exch>
+<rc>White Springs</rc>
+<region>FL</region>
+<switch>JCVLFLOGCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7753</rc-v>
+<rc-h>1455</rc-h>
+<rc-lat>30.334852</rc-lat>
+<rc-lon>-82.759669</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>030670</exch>
+<rc>Jennings</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7736</rc-v>
+<rc-h>1539</rc-h>
+<rc-lat>30.597892</rc-lat>
+<rc-lon>-83.100162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-07-25 01:32:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>245</nxx>
+<x>A</x>
+<exch>032140</exch>
+<rc>Wellborn</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7778</rc-v>
+<rc-h>1453</rc-h>
+<rc-lat>30.230907</rc-lat>
+<rc-lon>-82.816418</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-07-25 01:32:56</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>JCVLFLOGCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>251</nxx>
+<x>A</x>
+<exch>031620</exch>
+<rc>Raiford</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7753</rc-v>
+<rc-h>1340</rc-h>
+<rc-lat>30.065375</rc-lat>
+<rc-lon>-82.234832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-19 02:28:07</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>030920</exch>
+<rc>Luraville</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7815</rc-v>
+<rc-h>1499</rc-h>
+<rc-lat>30.190695</rc-lat>
+<rc-lon>-83.124069</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-20 02:31:14</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>261</nxx>
+<x>A</x>
+<exch>030280</exch>
+<rc>Fort White</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>382G</ocn>
+<company-name>TERRA NOVA TELECOM, INC. - FL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7826</rc-v>
+<rc-h>1400</rc-h>
+<rc-lat>29.916684</rc-lat>
+<rc-lon>-82.70067</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>266</nxx>
+<x>A</x>
+<exch>029420</exch>
+<rc>Alachua</rc>
+<region>FL</region>
+<switch>LVOKFLXA2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7829</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>29.792562</rc-lat>
+<rc-lon>-82.490107</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>272</nxx>
+<x>A</x>
+<exch>030810</exch>
+<rc>Lake Butler</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7773</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>30.01443</rc-lat>
+<rc-lon>-82.342414</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-23 02:16:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>280</nxx>
+<x>A</x>
+<exch>032190</exch>
+<rc>White Springs</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7753</rc-v>
+<rc-h>1455</rc-h>
+<rc-lat>30.334852</rc-lat>
+<rc-lon>-82.759669</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>294</nxx>
+<x>A</x>
+<exch>031010</exch>
+<rc>Mayo</rc>
+<region>FL</region>
+<switch>MAYOFLXARS1</switch>
+<switchname>MAYO</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7846</rc-v>
+<rc-h>1492</rc-h>
+<rc-lat>30.051039</rc-lat>
+<rc-lon>-83.17305</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>030280</exch>
+<rc>Fort White</rc>
+<region>FL</region>
+<switch>FTWHFLXAPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7826</rc-v>
+<rc-h>1400</rc-h>
+<rc-lat>29.916684</rc-lat>
+<rc-lon>-82.70067</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>032190</exch>
+<rc>White Springs</rc>
+<region>FL</region>
+<switch>WHSPFLXARS1</switch>
+<switchname>WHITE SPRINGS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7753</rc-v>
+<rc-h>1455</rc-h>
+<rc-lat>30.334852</rc-lat>
+<rc-lon>-82.759669</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>030200</exch>
+<rc>Florida Sheriffs Boys Ranch</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>937C</ocn>
+<company-name>ONVOY, LLC - FL                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7760</rc-v>
+<rc-h>1506</rc-h>
+<rc-lat>30.425788</rc-lat>
+<rc-lon>-83.011804</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-09-11 01:34:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>029420</exch>
+<rc>Alachua</rc>
+<region>FL</region>
+<switch>ALCHFLXA1MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7472</ocn>
+<company-name>POWERTEL JACKSONVILLE LICENSES, INC.                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7829</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>29.792562</rc-lat>
+<rc-lon>-82.490107</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>LVOKFLXADS0</switch>
+<switchname>LIVE OAK</switchname>
+<switchtype>D12</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>339</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>LVOKFLXAPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>LVOKFLXADS0</switch>
+<switchname>LIVE OAK</switchname>
+<switchtype>D12</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>364</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>LVOKFLXADS0</switch>
+<switchname>LIVE OAK</switchname>
+<switchtype>D12</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>032190</exch>
+<rc>White Springs</rc>
+<region>FL</region>
+<switch>WHSPFLXARS1</switch>
+<switchname>WHITE SPRINGS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7753</rc-v>
+<rc-h>1455</rc-h>
+<rc-lat>30.334852</rc-lat>
+<rc-lon>-82.759669</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>418</nxx>
+<x>A</x>
+<exch>029420</exch>
+<rc>Alachua</rc>
+<region>FL</region>
+<switch>ALCHFLXARS1</switch>
+<switchname>ALACHUA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7829</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>29.792562</rc-lat>
+<rc-lon>-82.490107</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>431</nxx>
+<x>A</x>
+<exch>031620</exch>
+<rc>Raiford</rc>
+<region>FL</region>
+<switch>RAFRFLXARS1</switch>
+<switchname>RAIFORD</switchname>
+<switchtype>1RE</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7753</rc-v>
+<rc-h>1340</rc-h>
+<rc-lat>30.065375</rc-lat>
+<rc-lon>-82.234832</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>433</nxx>
+<x>A</x>
+<exch>030470</exch>
+<rc>High Springs</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7831</rc-v>
+<rc-h>1373</rc-h>
+<rc-lat>29.833769</rc-lat>
+<rc-lon>-82.590865</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>435</nxx>
+<x>A</x>
+<exch>030090</exch>
+<rc>Dowling Park</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>481F</ocn>
+<company-name>CORETEL FLORIDA, INC. - FL                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7814</rc-v>
+<rc-h>1524</rc-h>
+<rc-lat>30.252578</rc-lat>
+<rc-lon>-83.236016</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-21 02:17:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>454</nxx>
+<x>A</x>
+<exch>030470</exch>
+<rc>High Springs</rc>
+<region>FL</region>
+<switch>HGSPFLXADS0</switch>
+<switchname>HIGH SPRINGS</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7831</rc-v>
+<rc-h>1373</rc-h>
+<rc-lat>29.833769</rc-lat>
+<rc-lon>-82.590865</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>462</nxx>
+<x>A</x>
+<exch>029420</exch>
+<rc>Alachua</rc>
+<region>FL</region>
+<switch>ALCHFLXARS1</switch>
+<switchname>ALACHUA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7829</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>29.792562</rc-lat>
+<rc-lon>-82.490107</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>496</nxx>
+<x>A</x>
+<exch>030810</exch>
+<rc>Lake Butler</rc>
+<region>FL</region>
+<switch>LKBTFLXADS0</switch>
+<switchname>LAKE BUTLER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7773</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>30.01443</rc-lat>
+<rc-lon>-82.342414</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>497</nxx>
+<x>A</x>
+<exch>030280</exch>
+<rc>Fort White</rc>
+<region>FL</region>
+<switch>FTWHFLXADS0</switch>
+<switchname>FORT WHITE</switchname>
+<switchtype>DMT</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7826</rc-v>
+<rc-h>1400</rc-h>
+<rc-lat>29.916684</rc-lat>
+<rc-lon>-82.70067</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>518</nxx>
+<x>A</x>
+<exch>029420</exch>
+<rc>Alachua</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7562</ocn>
+<company-name>COMCAST PHONE OF FLORIDA, LLC - FL                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7829</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>29.792562</rc-lat>
+<rc-lon>-82.490107</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-22 22:51:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>588</nxx>
+<x>A</x>
+<exch>029420</exch>
+<rc>Alachua</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7829</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>29.792562</rc-lat>
+<rc-lon>-82.490107</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>590</nxx>
+<x>A</x>
+<exch>029670</exch>
+<rc>Branford</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7838</rc-v>
+<rc-h>1442</rc-h>
+<rc-lat>29.966852</rc-lat>
+<rc-lon>-82.923665</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>030650</exch>
+<rc>Jasper</rc>
+<region>FL</region>
+<switch>JSPRFLXARS1</switch>
+<switchname>JASPER</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7736</rc-v>
+<rc-h>1504</rc-h>
+<rc-lat>30.516559</rc-lat>
+<rc-lon>-82.939383</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>029670</exch>
+<rc>Branford</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>965H</ocn>
+<company-name>FRACTEL, LLC                                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7838</rc-v>
+<rc-h>1442</rc-h>
+<rc-lat>29.966852</rc-lat>
+<rc-lon>-82.923665</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-08-24 14:52:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>LVOKFLXADS0</switch>
+<switchname>LIVE OAK</switchname>
+<switchtype>D12</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>030090</exch>
+<rc>Dowling Park</rc>
+<region>FL</region>
+<switch>DWPKFLXARS0</switch>
+<switchname>DOWLING PARK</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7814</rc-v>
+<rc-h>1524</rc-h>
+<rc-lat>30.252578</rc-lat>
+<rc-lon>-83.236016</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>688</nxx>
+<x>A</x>
+<exch>030910</exch>
+<rc>Live Oak</rc>
+<region>FL</region>
+<switch>JCVLFLOGCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7782</rc-v>
+<rc-h>1489</rc-h>
+<rc-lat>30.29879</rc-lat>
+<rc-lon>-82.991723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>703</nxx>
+<x>A</x>
+<exch>031010</exch>
+<rc>Mayo</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4802</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - FL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7846</rc-v>
+<rc-h>1492</rc-h>
+<rc-lat>30.051039</rc-lat>
+<rc-lon>-83.17305</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>776</nxx>
+<x>A</x>
+<exch>030920</exch>
+<rc>Luraville</rc>
+<region>FL</region>
+<switch>LRVLFLXARS1</switch>
+<switchname>LURAVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7815</rc-v>
+<rc-h>1499</rc-h>
+<rc-lat>30.190695</rc-lat>
+<rc-lon>-83.124069</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>792</nxx>
+<x>A</x>
+<exch>030650</exch>
+<rc>Jasper</rc>
+<region>FL</region>
+<switch>JSPRFLXARS1</switch>
+<switchname>JASPER</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7736</rc-v>
+<rc-h>1504</rc-h>
+<rc-lat>30.516559</rc-lat>
+<rc-lon>-82.939383</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>832</nxx>
+<x>A</x>
+<exch>030470</exch>
+<rc>High Springs</rc>
+<region>FL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7831</rc-v>
+<rc-h>1373</rc-h>
+<rc-lat>29.833769</rc-lat>
+<rc-lon>-82.590865</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>842</nxx>
+<x>A</x>
+<exch>030200</exch>
+<rc>Florida Sheriffs Boys Ranch</rc>
+<region>FL</region>
+<switch>BORAFLXARS1</switch>
+<switchname>BOYS RANCH</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7760</rc-v>
+<rc-h>1506</rc-h>
+<rc-lat>30.425788</rc-lat>
+<rc-lon>-83.011804</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>029420</exch>
+<rc>Alachua</rc>
+<region>FL</region>
+<switch>JCVOFLXZCM0</switch>
+<switchname></switchname>
+<switchtype>5E</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7829</rc-v>
+<rc-h>1352</rc-h>
+<rc-lat>29.792562</rc-lat>
+<rc-lon>-82.490107</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>854</nxx>
+<x>A</x>
+<exch>029670</exch>
+<rc>Branford</rc>
+<region>FL</region>
+<switch>JCVLFLOGCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7838</rc-v>
+<rc-h>1442</rc-h>
+<rc-lat>29.966852</rc-lat>
+<rc-lon>-82.923665</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>855</nxx>
+<x>A</x>
+<exch>030650</exch>
+<rc>Jasper</rc>
+<region>FL</region>
+<switch>JCVLFLOGCM2</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6502</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - FL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7736</rc-v>
+<rc-h>1504</rc-h>
+<rc-lat>30.516559</rc-lat>
+<rc-lon>-82.939383</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>032190</exch>
+<rc>White Springs</rc>
+<region>FL</region>
+<switch>WHSPFLXARS1</switch>
+<switchname>WHITE SPRINGS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7753</rc-v>
+<rc-h>1455</rc-h>
+<rc-lat>30.334852</rc-lat>
+<rc-lon>-82.759669</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>935</nxx>
+<x>A</x>
+<exch>029670</exch>
+<rc>Branford</rc>
+<region>FL</region>
+<switch>BRFRFLXARS1</switch>
+<switchname>BRANFORD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7838</rc-v>
+<rc-h>1442</rc-h>
+<rc-lat>29.966852</rc-lat>
+<rc-lon>-82.923665</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>938</nxx>
+<x>A</x>
+<exch>030670</exch>
+<rc>Jennings</rc>
+<region>FL</region>
+<switch>JNGSFLXARS1</switch>
+<switchname>JENNINGS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7736</rc-v>
+<rc-h>1539</rc-h>
+<rc-lat>30.597892</rc-lat>
+<rc-lon>-83.100162</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>386</npa>
+<nxx>963</nxx>
+<x>A</x>
+<exch>032140</exch>
+<rc>Wellborn</rc>
+<region>FL</region>
+<switch>WLBRFLXARS1</switch>
+<switchname>WELLBORN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0336</ocn>
+<company-name>WINDSTREAM FLORIDA, INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0336</ilec-ocn>
+<ilec-name>WINDSTREAM FLORIDA, INC.                                  </ilec-name>
+<lata>45205</lata>
+<lir></lir>
+<rc-v>7778</rc-v>
+<rc-h>1453</rc-h>
+<rc-lat>30.230907</rc-lat>
+<rc-lon>-82.816418</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

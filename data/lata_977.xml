@@ -1,0 +1,3106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>977</lata>
+</inputdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>047530</exch>
+<rc>Carthage</rc>
+<region>IL</region>
+<switch>CRTHILXC0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6529</rc-v>
+<rc-h>3795</rc-h>
+<rc-lat>40.414045</rc-lat>
+<rc-lon>-91.135394</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>055360</exch>
+<rc>Warsaw</rc>
+<region>IL</region>
+<switch>WRSWILXCRS0</switch>
+<switchname>WARSAW</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>40.358406</rc-lat>
+<rc-lon>-91.430214</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>357</nxx>
+<x>A</x>
+<exch>047530</exch>
+<rc>Carthage</rc>
+<region>IL</region>
+<switch>CRTHILXCDS0</switch>
+<switchname>CARTHAGE</switchname>
+<switchtype>DCO</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6529</rc-v>
+<rc-h>3795</rc-h>
+<rc-lat>40.414045</rc-lat>
+<rc-lon>-91.135394</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>448</nxx>
+<x>A</x>
+<exch>052560</exch>
+<rc>Niota</rc>
+<region>IL</region>
+<switch>NIOTILXCRS0</switch>
+<switchname>NIOTA</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6501</rc-v>
+<rc-h>3836</rc-h>
+<rc-lat>40.612663</rc-lat>
+<rc-lon>-91.284483</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>449</nxx>
+<x>A</x>
+<exch>051350</exch>
+<rc>Lomax</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6473</rc-v>
+<rc-h>3811</rc-h>
+<rc-lat>40.679338</rc-lat>
+<rc-lon>-91.075028</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>453</nxx>
+<x>A</x>
+<exch>052370</exch>
+<rc>Nauvoo</rc>
+<region>IL</region>
+<switch>NAUVILXCRS0</switch>
+<switchname>NAUVOO</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6520</rc-v>
+<rc-h>3845</rc-h>
+<rc-lat>40.551356</rc-lat>
+<rc-lon>-91.383088</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>505</nxx>
+<x>A</x>
+<exch>055360</exch>
+<rc>Warsaw</rc>
+<region>IL</region>
+<switch>MCMBILXDJMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>40.358406</rc-lat>
+<rc-lon>-91.430214</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>551</nxx>
+<x>A</x>
+<exch>050100</exch>
+<rc>Hamilton</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6548</rc-v>
+<rc-h>3824</rc-h>
+<rc-lat>40.392745</rc-lat>
+<rc-lon>-91.342171</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>575</nxx>
+<x>A</x>
+<exch>055360</exch>
+<rc>Warsaw</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6561</rc-v>
+<rc-h>3834</rc-h>
+<rc-lat>40.358406</rc-lat>
+<rc-lon>-91.430214</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>604</nxx>
+<x>A</x>
+<exch>047530</exch>
+<rc>Carthage</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6529</rc-v>
+<rc-h>3795</rc-h>
+<rc-lat>40.414045</rc-lat>
+<rc-lon>-91.135394</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>654</nxx>
+<x>A</x>
+<exch>049440</exch>
+<rc>Fountain Green</rc>
+<region>IL</region>
+<switch>FNTGILXCRS1</switch>
+<switchname>FOUNTAIN GREEN</switchname>
+<switchtype>1RL</switchtype>
+<ocn>1043</ocn>
+<company-name>LAHARPE TELEPHONE COMPANY                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1043</ilec-ocn>
+<ilec-name>LAHARPE TELEPHONE COMPANY                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6505</rc-v>
+<rc-h>3776</rc-h>
+<rc-lat>40.475881</rc-lat>
+<rc-lon>-90.969454</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>658</nxx>
+<x>A</x>
+<exch>054770</exch>
+<rc>Sutter</rc>
+<region>IL</region>
+<switch>STTRILXCRS0</switch>
+<switchname>SUTTER</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6570</rc-v>
+<rc-h>3813</rc-h>
+<rc-lat>40.279071</rc-lat>
+<rc-lon>-91.339893</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>659</nxx>
+<x>A</x>
+<exch>050980</exch>
+<rc>La Harpe</rc>
+<region>IL</region>
+<switch>LHRPILXCDS1</switch>
+<switchname>LA HARPE</switchname>
+<switchtype>DMO</switchtype>
+<ocn>1043</ocn>
+<company-name>LAHARPE TELEPHONE COMPANY                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1043</ilec-ocn>
+<ilec-name>LAHARPE TELEPHONE COMPANY                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6484</rc-v>
+<rc-h>3786</rc-h>
+<rc-lat>40.583372</rc-lat>
+<rc-lon>-90.968303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>743</nxx>
+<x>A</x>
+<exch>046680</exch>
+<rc>Basco</rc>
+<region>IL</region>
+<switch>BASCILXCRS0</switch>
+<switchname>BASCO</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6550</rc-v>
+<rc-h>3796</rc-h>
+<rc-lat>40.328542</rc-lat>
+<rc-lon>-91.195757</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>746</nxx>
+<x>A</x>
+<exch>049270</exch>
+<rc>Ferris</rc>
+<region>IL</region>
+<switch>FRRSILXCRS0</switch>
+<switchname>FERRIS</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6521</rc-v>
+<rc-h>3806</rc-h>
+<rc-lat>40.469383</rc-lat>
+<rc-lon>-91.174034</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>755</nxx>
+<x>A</x>
+<exch>048150</exch>
+<rc>Colusa</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3815</rc-h>
+<rc-lat>40.56655</rc-lat>
+<rc-lon>-91.17303</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>842</nxx>
+<x>A</x>
+<exch>047090</exch>
+<rc>Bowen</rc>
+<region>IL</region>
+<switch>BOWNILXCRS0</switch>
+<switchname>BOWEN</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6559</rc-v>
+<rc-h>3767</rc-h>
+<rc-lat>40.233004</rc-lat>
+<rc-lon>-91.06254</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>845</nxx>
+<x>A</x>
+<exch>049060</exch>
+<rc>Elvaston</rc>
+<region>IL</region>
+<switch>ELTNILXCRS0</switch>
+<switchname>ELVASTON</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6541</rc-v>
+<rc-h>3810</rc-h>
+<rc-lat>40.394018</rc-lat>
+<rc-lon>-91.24804</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>847</nxx>
+<x>A</x>
+<exch>050100</exch>
+<rc>Hamilton</rc>
+<region>IL</region>
+<switch>HMTNILXCDS0</switch>
+<switchname>HAMILTON</switchname>
+<switchtype>DCN</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6548</rc-v>
+<rc-h>3824</rc-h>
+<rc-lat>40.392745</rc-lat>
+<rc-lon>-91.342171</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>852</nxx>
+<x>A</x>
+<exch>048380</exch>
+<rc>Dallas City</rc>
+<region>IL</region>
+<switch>DLCYILXCRS0</switch>
+<switchname>DALLAS CITY</switchname>
+<switchtype>DCL</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6488</rc-v>
+<rc-h>3821</rc-h>
+<rc-lat>40.636883</rc-lat>
+<rc-lon>-91.168849</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>908</nxx>
+<x>A</x>
+<exch>047530</exch>
+<rc>Carthage</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7091</ocn>
+<company-name>ADAMS TELSYSTEMS, INC.                                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6529</rc-v>
+<rc-h>3795</rc-h>
+<rc-lat>40.414045</rc-lat>
+<rc-lon>-91.135394</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>966</nxx>
+<x>A</x>
+<exch>051350</exch>
+<rc>Lomax</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6473</rc-v>
+<rc-h>3811</rc-h>
+<rc-lat>40.679338</rc-lat>
+<rc-lon>-91.075028</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>980</nxx>
+<x>A</x>
+<exch>052370</exch>
+<rc>Nauvoo</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6520</rc-v>
+<rc-h>3845</rc-h>
+<rc-lat>40.551356</rc-lat>
+<rc-lon>-91.383088</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>048380</exch>
+<rc>Dallas City</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6488</rc-v>
+<rc-h>3821</rc-h>
+<rc-lat>40.636883</rc-lat>
+<rc-lon>-91.168849</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>209</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>221</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6265</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - ILLINOIS                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>237</nxx>
+<x>A</x>
+<exch>047310</exch>
+<rc>Bushnell</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6456</rc-v>
+<rc-h>3715</rc-h>
+<rc-lat>40.556333</rc-lat>
+<rc-lon>-90.509521</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-18 01:01:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>252</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILCJ2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>050630</exch>
+<rc>Industry</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6507</rc-v>
+<rc-h>3708</rc-h>
+<rc-lat>40.330387</rc-lat>
+<rc-lon>-90.607226</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>255</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILCJ2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>257</nxx>
+<x>A</x>
+<exch>051300</exch>
+<rc>Littleton</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6527</rc-v>
+<rc-h>3700</rc-h>
+<rc-lat>40.231114</rc-lat>
+<rc-lon>-90.617038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>259</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILCJ2MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>289</nxx>
+<x>A</x>
+<exch>050950</exch>
+<rc>Knoxville</rc>
+<region>IL</region>
+<switch>KNVLILXDRS0</switch>
+<switchname>KNOXVILLE</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3715</rc-h>
+<rc-lat>40.908867</rc-lat>
+<rc-lon>-90.281708</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>295</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDDS0</switch>
+<switchname>MACOMB</switchname>
+<switchtype>D12</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>297</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDDS0</switch>
+<switchname>MACOMB</switchname>
+<switchtype>D12</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>299</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXD3MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>313</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXD7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7196</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>318</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>047380</exch>
+<rc>Cameron</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>224C</ocn>
+<company-name>ONVOY, LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6392</rc-v>
+<rc-h>3748</rc-h>
+<rc-lat>40.888963</rc-lat>
+<rc-lon>-90.517384</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-16 02:15:24</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>054320</exch>
+<rc>Smithshire</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6430</rc-v>
+<rc-h>3778</rc-h>
+<rc-lat>40.791863</rc-lat>
+<rc-lon>-90.781851</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>329</nxx>
+<x>A</x>
+<exch>046510</exch>
+<rc>Astoria</rc>
+<region>IL</region>
+<switch>ASTRILXDRS1</switch>
+<switchname>ASTORIA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6508</rc-v>
+<rc-h>3661</rc-h>
+<rc-lat>40.230772</rc-lat>
+<rc-lon>-90.356738</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>331</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>BSHNILAA1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6265</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - ILLINOIS                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>BSHNILAA1MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6265</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - ILLINOIS                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>335</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGIL08CM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6265</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - ILLINOIS                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>341</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDDS0</switch>
+<switchname>GALESBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>342</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDDS0</switch>
+<switchname>GALESBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>343</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDDS0</switch>
+<switchname>GALESBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>344</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXNRS0</switch>
+<switchname>GALESBURG</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>345</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDDS0</switch>
+<switchname>GALESBURG</switchname>
+<switchtype>D12</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>351</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGIL08CM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>368</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGIL08CM0</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>371</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6265</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - ILLINOIS                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>375</nxx>
+<x>A</x>
+<exch>055390</exch>
+<rc>Wataga</rc>
+<region>IL</region>
+<switch>WATGILXDRS0</switch>
+<switchname>WATAGA</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6348</rc-v>
+<rc-h>3725</rc-h>
+<rc-lat>41.024599</rc-lat>
+<rc-lon>-90.27398</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>381</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-09 01:49:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>388</nxx>
+<x>A</x>
+<exch>050950</exch>
+<rc>Knoxville</rc>
+<region>IL</region>
+<switch>MCMBILXDEMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7607</ocn>
+<company-name>COMCAST PHONE OF ILLINOIS, LLC DBA COMCO - IL             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3715</rc-h>
+<rc-lat>40.908867</rc-lat>
+<rc-lon>-90.281708</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDEMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7607</ocn>
+<company-name>COMCAST PHONE OF ILLINOIS, LLC DBA COMCO - IL             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>426</nxx>
+<x>A</x>
+<exch>053850</exch>
+<rc>Roseville</rc>
+<region>IL</region>
+<switch>RSVLILXDRS1</switch>
+<switchname>ROSEVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6433</rc-v>
+<rc-h>3755</rc-h>
+<rc-lat>40.732915</rc-lat>
+<rc-lon>-90.664932</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>456</nxx>
+<x>A</x>
+<exch>049830</exch>
+<rc>Good Hope</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6468</rc-v>
+<rc-h>3740</rc-h>
+<rc-lat>40.557165</rc-lat>
+<rc-lon>-90.676706</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>457</nxx>
+<x>A</x>
+<exch>052090</exch>
+<rc>Monmouth</rc>
+<region>IL</region>
+<switch>MNMOILXDDS0</switch>
+<switchname>MONMOUTH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>3769</rc-h>
+<rc-lat>40.910786</rc-lat>
+<rc-lon>-90.644943</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>458</nxx>
+<x>A</x>
+<exch>053330</exch>
+<rc>Plymouth</rc>
+<region>IL</region>
+<switch>PLMOILXDRS0</switch>
+<switchname>PLYMOUTH</switchname>
+<switchtype>DCL</switchtype>
+<ocn>0976</ocn>
+<company-name>ADAMS TELEPHONE COOPERATIVE                               </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0976</ilec-ocn>
+<ilec-name>ADAMS TELEPHONE COOPERATIVE                               </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6538</rc-v>
+<rc-h>3751</rc-h>
+<rc-lat>40.288299</rc-lat>
+<rc-lon>-90.921075</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>462</nxx>
+<x>A</x>
+<exch>046140</exch>
+<rc>Abingdon</rc>
+<region>IL</region>
+<switch>ABNGILXDRS0</switch>
+<switchname>ABINGDON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>3722</rc-h>
+<rc-lat>40.807055</rc-lat>
+<rc-lon>-90.394996</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>465</nxx>
+<x>A</x>
+<exch>046610</exch>
+<rc>Avon</rc>
+<region>IL</region>
+<switch>AVONILXDRS0</switch>
+<switchname>AVON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6429</rc-v>
+<rc-h>3714</rc-h>
+<rc-lat>40.666338</rc-lat>
+<rc-lon>-90.43202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>483</nxx>
+<x>A</x>
+<exch>052830</exch>
+<rc>Oneida</rc>
+<region>IL</region>
+<switch>ONEDILXDDS0</switch>
+<switchname>ONEIDA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1066</ocn>
+<company-name>ONEIDA TELEPHONE EXCHANGE                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1066</ilec-ocn>
+<ilec-name>ONEIDA TELEPHONE EXCHANGE                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6335</rc-v>
+<rc-h>3723</rc-h>
+<rc-lat>41.074376</rc-lat>
+<rc-lon>-90.227955</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>484</nxx>
+<x>A</x>
+<exch>046290</exch>
+<rc>Altona</rc>
+<region>IL</region>
+<switch>VCTAILXDDS0</switch>
+<switchname>VICTORIA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1054</ocn>
+<company-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6323</rc-v>
+<rc-h>3717</rc-h>
+<rc-lat>41.111804</rc-lat>
+<rc-lon>-90.162802</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>486</nxx>
+<x>A</x>
+<exch>051370</exch>
+<rc>London Mills</rc>
+<region>IL</region>
+<switch>LNMLILXDRS0</switch>
+<switchname>LONDON MILLS</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6408</rc-v>
+<rc-h>3694</rc-h>
+<rc-lat>40.712653</rc-lat>
+<rc-lon>-90.267447</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>509</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>536</nxx>
+<x>A</x>
+<exch>052090</exch>
+<rc>Monmouth</rc>
+<region>IL</region>
+<switch>MNMOILXD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>3769</rc-h>
+<rc-lat>40.910786</rc-lat>
+<rc-lon>-90.644943</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>541</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>224C</ocn>
+<company-name>ONVOY, LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-13 02:46:19</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>544</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>548</nxx>
+<x>A</x>
+<exch>053850</exch>
+<rc>Roseville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6433</rc-v>
+<rc-h>3755</rc-h>
+<rc-lat>40.732915</rc-lat>
+<rc-lon>-90.664932</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>549</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-19 02:26:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>563</nxx>
+<x>A</x>
+<exch>047380</exch>
+<rc>Cameron</rc>
+<region>IL</region>
+<switch>CMRNILXDRS0</switch>
+<switchname>CAMERON</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1057</ocn>
+<company-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6392</rc-v>
+<rc-h>3748</rc-h>
+<rc-lat>40.888963</rc-lat>
+<rc-lon>-90.517384</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>569</nxx>
+<x>A</x>
+<exch>047310</exch>
+<rc>Bushnell</rc>
+<region>IL</region>
+<switch>MCMBILAABMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6456</rc-v>
+<rc-h>3715</rc-h>
+<rc-lat>40.556333</rc-lat>
+<rc-lon>-90.509521</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>575</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>CLCHILXDDS2</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>342F</ocn>
+<company-name>MTC COMMUNICATIONS, INC. - IL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>588</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDZMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>598</nxx>
+<x>A</x>
+<exch>050940</exch>
+<rc>Kirkwood</rc>
+<region>IL</region>
+<switch>MCMBILXD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6413</rc-v>
+<rc-h>3781</rc-h>
+<rc-lat>40.868579</rc-lat>
+<rc-lon>-90.752917</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>599</nxx>
+<x>A</x>
+<exch>051370</exch>
+<rc>London Mills</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6408</rc-v>
+<rc-h>3694</rc-h>
+<rc-lat>40.712653</rc-lat>
+<rc-lon>-90.267447</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>609</nxx>
+<x>A</x>
+<exch>046290</exch>
+<rc>Altona</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6323</rc-v>
+<rc-h>3717</rc-h>
+<rc-lat>41.111804</rc-lat>
+<rc-lon>-90.162802</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>616</nxx>
+<x>A</x>
+<exch>055670</exch>
+<rc>Williamsfield</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6349</rc-v>
+<rc-h>3676</rc-h>
+<rc-lat>40.920109</rc-lat>
+<rc-lon>-90.010649</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>627</nxx>
+<x>A</x>
+<exch>046960</exch>
+<rc>Biggsville</rc>
+<region>IL</region>
+<switch>BGVLILXDRS1</switch>
+<switchname>BIGGSVILLE</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6424</rc-v>
+<rc-h>3796</rc-h>
+<rc-lat>40.853105</rc-lat>
+<rc-lon>-90.863794</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>639</nxx>
+<x>A</x>
+<exch>055670</exch>
+<rc>Williamsfield</rc>
+<region>IL</region>
+<switch>VCTAILXDDS0</switch>
+<switchname>VICTORIA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1054</ocn>
+<company-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6349</rc-v>
+<rc-h>3676</rc-h>
+<rc-lat>40.920109</rc-lat>
+<rc-lon>-90.010649</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>652</nxx>
+<x>A</x>
+<exch>047020</exch>
+<rc>Blandinsville</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6482</rc-v>
+<rc-h>3768</rc-h>
+<rc-lat>40.555482</rc-lat>
+<rc-lon>-90.865438</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>653</nxx>
+<x>A</x>
+<exch>046150</exch>
+<rc>Adair</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6480</rc-v>
+<rc-h>3699</rc-h>
+<rc-lat>40.42423</rc-lat>
+<rc-lon>-90.486988</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>703</nxx>
+<x>A</x>
+<exch>046140</exch>
+<rc>Abingdon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>3722</rc-h>
+<rc-lat>40.807055</rc-lat>
+<rc-lon>-90.394996</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>705</nxx>
+<x>A</x>
+<exch>053850</exch>
+<rc>Roseville</rc>
+<region>IL</region>
+<switch>MCMBILXD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6433</rc-v>
+<rc-h>3755</rc-h>
+<rc-lat>40.732915</rc-lat>
+<rc-lon>-90.664932</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>715</nxx>
+<x>A</x>
+<exch>052090</exch>
+<rc>Monmouth</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>342F</ocn>
+<company-name>MTC COMMUNICATIONS, INC. - IL                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>3769</rc-h>
+<rc-lat>40.910786</rc-lat>
+<rc-lon>-90.644943</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>731</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>734</nxx>
+<x>A</x>
+<exch>052090</exch>
+<rc>Monmouth</rc>
+<region>IL</region>
+<switch>MNMOILXDDS0</switch>
+<switchname>MONMOUTH</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>3769</rc-h>
+<rc-lat>40.910786</rc-lat>
+<rc-lon>-90.644943</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>746</nxx>
+<x>A</x>
+<exch>053540</exch>
+<rc>Raritan</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6451</rc-v>
+<rc-h>3776</rc-h>
+<rc-lat>40.700522</rc-lat>
+<rc-lon>-90.826753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>760</nxx>
+<x>A</x>
+<exch>052090</exch>
+<rc>Monmouth</rc>
+<region>IL</region>
+<switch>MCMBILXD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>3769</rc-h>
+<rc-lat>40.910786</rc-lat>
+<rc-lon>-90.644943</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>768</nxx>
+<x>A</x>
+<exch>050940</exch>
+<rc>Kirkwood</rc>
+<region>IL</region>
+<switch>KRWDILXDRS0</switch>
+<switchname>KIRKWOOD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6413</rc-v>
+<rc-h>3781</rc-h>
+<rc-lat>40.868579</rc-lat>
+<rc-lon>-90.752917</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>769</nxx>
+<x>A</x>
+<exch>046630</exch>
+<rc>Bardolph</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6472</rc-v>
+<rc-h>3718</rc-h>
+<rc-lat>40.495998</rc-lat>
+<rc-lon>-90.568333</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>047310</exch>
+<rc>Bushnell</rc>
+<region>IL</region>
+<switch>BSHNILXDRS0</switch>
+<switchname>BUSHNELL</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6456</rc-v>
+<rc-h>3715</rc-h>
+<rc-lat>40.556333</rc-lat>
+<rc-lon>-90.509521</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>054780</exch>
+<rc>Swan Creek</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6445</rc-v>
+<rc-h>3748</rc-h>
+<rc-lat>40.668901</rc-lat>
+<rc-lon>-90.658912</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>775</nxx>
+<x>A</x>
+<exch>053400</exch>
+<rc>Prairie City</rc>
+<region>IL</region>
+<switch>PRCYILXDRS1</switch>
+<switchname>PRAIRIE CITY</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6439</rc-v>
+<rc-h>3715</rc-h>
+<rc-lat>40.626882</rc-lat>
+<rc-lon>-90.464163</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>776</nxx>
+<x>A</x>
+<exch>048080</exch>
+<rc>Colchester</rc>
+<region>IL</region>
+<switch>CLCHILXDDS0</switch>
+<switchname>COLCHESTER</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1047</ocn>
+<company-name>MCDONOUGH TELEPHONE COOPERATIVE                           </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6502</rc-v>
+<rc-h>3745</rc-h>
+<rc-lat>40.425953</rc-lat>
+<rc-lon>-90.7938</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>784</nxx>
+<x>A</x>
+<exch>055200</exch>
+<rc>Vermont</rc>
+<region>IL</region>
+<switch>VRMTILXDRS0</switch>
+<switchname>VERMONT</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6500</rc-v>
+<rc-h>3678</rc-h>
+<rc-lat>40.298557</rc-lat>
+<rc-lon>-90.42696</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>801</nxx>
+<x>A</x>
+<exch>054680</exch>
+<rc>Stronghurst</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6446</rc-v>
+<rc-h>3792</rc-h>
+<rc-lat>40.753547</rc-lat>
+<rc-lon>-90.90041</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>051600</exch>
+<rc>Maquon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6383</rc-v>
+<rc-h>3686</rc-h>
+<rc-lat>40.79987</rc-lat>
+<rc-lon>-90.156816</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>832</nxx>
+<x>A</x>
+<exch>046140</exch>
+<rc>Abingdon</rc>
+<region>IL</region>
+<switch>MCMBILXD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6399</rc-v>
+<rc-h>3722</rc-h>
+<rc-lat>40.807055</rc-lat>
+<rc-lon>-90.394996</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>833</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDDS0</switch>
+<switchname>MACOMB</switchname>
+<switchtype>D12</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>836</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDDS0</switch>
+<switchname>MACOMB</switchname>
+<switchtype>D12</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>837</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDDS0</switch>
+<switchname>MACOMB</switchname>
+<switchtype>D12</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch>MCMBILXDHMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7136</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>873</nxx>
+<x>A</x>
+<exch>050060</exch>
+<rc>Gulfport</rc>
+<region>IL</region>
+<switch>GLPTILXDRS0</switch>
+<switchname>GULFPORT</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6448</rc-v>
+<rc-h>3825</rc-h>
+<rc-lat>40.811505</rc-lat>
+<rc-lon>-91.085229</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>875</nxx>
+<x>A</x>
+<exch>051600</exch>
+<rc>Maquon</rc>
+<region>IL</region>
+<switch>VCTAILXDDS0</switch>
+<switchname>VICTORIA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1054</ocn>
+<company-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6383</rc-v>
+<rc-h>3686</rc-h>
+<rc-lat>40.79987</rc-lat>
+<rc-lon>-90.156816</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>876</nxx>
+<x>A</x>
+<exch>049730</exch>
+<rc>Gilson</rc>
+<region>IL</region>
+<switch>VCTAILXDDS0</switch>
+<switchname>VICTORIA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1054</ocn>
+<company-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6374</rc-v>
+<rc-h>3698</rc-h>
+<rc-lat>40.8617</rc-lat>
+<rc-lon>-90.197565</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>879</nxx>
+<x>A</x>
+<exch>055230</exch>
+<rc>Victoria</rc>
+<region>IL</region>
+<switch>VCTAILXDDS0</switch>
+<switchname>VICTORIA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1054</ocn>
+<company-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6333</rc-v>
+<rc-h>3699</rc-h>
+<rc-lat>41.033523</rc-lat>
+<rc-lon>-90.092064</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>924</nxx>
+<x>A</x>
+<exch>054680</exch>
+<rc>Stronghurst</rc>
+<region>IL</region>
+<switch>STRNILXDRS0</switch>
+<switchname>STRONGHURST</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1183</ocn>
+<company-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1183</ilec-ocn>
+<ilec-name>CITIZENS TELECOM CO ILLINOIS-FRONTIER CITIZENS -IL        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6446</rc-v>
+<rc-h>3792</rc-h>
+<rc-lat>40.753547</rc-lat>
+<rc-lon>-90.90041</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>927</nxx>
+<x>A</x>
+<exch>046980</exch>
+<rc>Bishop Hill</rc>
+<region>IL</region>
+<switch>VCTAILXDDS0</switch>
+<switchname>VICTORIA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1054</ocn>
+<company-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6302</rc-v>
+<rc-h>3719</rc-h>
+<rc-lat>41.202848</rc-lat>
+<rc-lon>-90.116661</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>954</nxx>
+<x>A</x>
+<exch>051480</exch>
+<rc>Macomb</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6487</rc-v>
+<rc-h>3729</rc-h>
+<rc-lat>40.455975</rc-lat>
+<rc-lon>-90.667612</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>955</nxx>
+<x>A</x>
+<exch>055390</exch>
+<rc>Wataga</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6348</rc-v>
+<rc-h>3725</rc-h>
+<rc-lat>41.024599</rc-lat>
+<rc-lon>-90.27398</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>973</nxx>
+<x>A</x>
+<exch>049550</exch>
+<rc>Galesburg</rc>
+<region>IL</region>
+<switch>GLBGILXDCM1</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6265</ocn>
+<company-name>UNITED STATES CELLULAR CORP. - ILLINOIS                   </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3732</rc-h>
+<rc-lat>40.951829</rc-lat>
+<rc-lon>-90.368659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>975</nxx>
+<x>A</x>
+<exch>046610</exch>
+<rc>Avon</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1057</ilec-ocn>
+<ilec-name>GALLATIN RIVER COMMUNICATIONS DBA CENTURYLINK             </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6429</rc-v>
+<rc-h>3714</rc-h>
+<rc-lat>40.666338</rc-lat>
+<rc-lon>-90.43202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>995</nxx>
+<x>A</x>
+<exch>050960</exch>
+<rc>La Fayette</rc>
+<region>IL</region>
+<switch>VCTAILXDDS0</switch>
+<switchname>VICTORIA</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1054</ocn>
+<company-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1054</ilec-ocn>
+<ilec-name>MID CENTURY TELEPHONE CO-OPERATIVE                        </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6310</rc-v>
+<rc-h>3689</rc-h>
+<rc-lat>41.108163</rc-lat>
+<rc-lon>-89.975207</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>309</npa>
+<nxx>997</nxx>
+<x>A</x>
+<exch>049830</exch>
+<rc>Good Hope</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1047</ilec-ocn>
+<ilec-name>MCDONOUGH TELEPHONE COOPERATIVE                           </ilec-name>
+<lata>977</lata>
+<lir></lir>
+<rc-v>6468</rc-v>
+<rc-h>3740</rc-h>
+<rc-lat>40.557165</rc-lat>
+<rc-lon>-90.676706</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

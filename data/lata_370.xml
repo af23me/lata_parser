@@ -1,0 +1,4931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>370</lata>
+</inputdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>200</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>202</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>207</nxx>
+<x>A</x>
+<exch>054500</exch>
+<rc>St Joseph</rc>
+<region>IL</region>
+<switch>CHMPILRATMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6355</rc-v>
+<rc-h>3305</rc-h>
+<rc-lat>40.117059</rc-lat>
+<rc-lon>-88.038643</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>049340</exch>
+<rc>Fithian</rc>
+<region>IL</region>
+<switch>CHMPILRAXMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6343</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>40.114614</rc-lat>
+<rc-lon>-87.87794</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>213</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>053530</exch>
+<rc>Rantoul</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>3342</rc-h>
+<rc-lat>40.310716</rc-lat>
+<rc-lon>-88.156753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>239</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCOW06</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7393</ocn>
+<company-name>MCLEODUSA TELECOMMUNICATIONS SERVICES, INC.- IL           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>053640</exch>
+<rc>Ridge Farm</rc>
+<region>IL</region>
+<switch>RGFMILRFRS1</switch>
+<switchname>RIDGE FARM</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6367</rc-v>
+<rc-h>3226</rc-h>
+<rc-lat>39.898226</rc-lat>
+<rc-lon>-87.654753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>249</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>POTFILAACM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>4234</ocn>
+<company-name>ILLINOIS VALLEY CELLULAR RSA 2-I PARTNERSHIP              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>253</nxx>
+<x>A</x>
+<exch>055100</exch>
+<rc>Tuscola</rc>
+<region>IL</region>
+<switch>TSCLILXCDS0</switch>
+<switchname>TUSCOLA</switchname>
+<switchtype>5EH</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6435</rc-v>
+<rc-h>3308</rc-h>
+<rc-lat>39.796113</rc-lat>
+<rc-lon>-88.276901</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>255</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILCPX1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>261</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCU3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>267</nxx>
+<x>A</x>
+<exch>055630</exch>
+<rc>Westville</rc>
+<region>IL</region>
+<switch>WSTVILWERS1</switch>
+<switchname>WESTVILLE</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6338</rc-v>
+<rc-h>3239</rc-h>
+<rc-lat>40.04456</rc-lat>
+<rc-lon>-87.641824</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>274</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILCPX1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>278</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>281</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS1</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>063E</ocn>
+<company-name>PEERLESS NETWORK OF ILLINOIS, LLC - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>053530</exch>
+<rc>Rantoul</rc>
+<region>IL</region>
+<switch>CHMPILCPXHX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>3342</rc-h>
+<rc-lat>40.310716</rc-lat>
+<rc-lon>-88.156753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>283</nxx>
+<x>A</x>
+<exch>050490</exch>
+<rc>Hoopeston</rc>
+<region>IL</region>
+<switch>HPTNILXCRS0</switch>
+<switchname>HOOPESTON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6259</rc-v>
+<rc-h>3287</rc-h>
+<rc-lat>40.470344</rc-lat>
+<rc-lon>-87.672964</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>284</nxx>
+<x>A</x>
+<exch>050620</exch>
+<rc>Indianola</rc>
+<region>IL</region>
+<switch>INDNILINRS1</switch>
+<switchname>INDIANOLA</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6368</rc-v>
+<rc-h>3242</rc-h>
+<rc-lat>39.928644</rc-lat>
+<rc-lon>-87.74193</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>050300</exch>
+<rc>Henning</rc>
+<region>IL</region>
+<switch>HNNGILXCRS1</switch>
+<switchname>HENNING</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6292</rc-v>
+<rc-h>3274</rc-h>
+<rc-lat>40.307703</rc-lat>
+<rc-lon>-87.697326</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>288</nxx>
+<x>A</x>
+<exch>054260</exch>
+<rc>Sidell</rc>
+<region>IL</region>
+<switch>SDLLILXCRS0</switch>
+<switchname>SIDELL</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6378</rc-v>
+<rc-h>3253</rc-h>
+<rc-lat>39.911498</rc-lat>
+<rc-lon>-87.827974</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>298</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILRAWMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>259E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - IL                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-12 02:56:35</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-29 14:13:38</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>318</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXJX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>328</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>332</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>339</nxx>
+<x>A</x>
+<exch>047730</exch>
+<rc>Cheneyville</rc>
+<region>IL</region>
+<switch>CYVLILXCRS1</switch>
+<switchname>CHENEYVILLE</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6253</rc-v>
+<rc-h>3274</rc-h>
+<rc-lat>40.466716</rc-lat>
+<rc-lon>-87.586889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>344</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>351</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>352</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>353</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>354</nxx>
+<x>A</x>
+<exch>052700</exch>
+<rc>Oakwood</rc>
+<region>IL</region>
+<switch>OKWDILOWRS0</switch>
+<switchname>OAKWOOD</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6335</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>40.117166</rc-lat>
+<rc-lon>-87.781392</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>355</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>356</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>359</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>363</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>365</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>367</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>369</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>372</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>375</nxx>
+<x>A</x>
+<exch>048750</exch>
+<rc>East Lynn</rc>
+<region>IL</region>
+<switch>ELYNILXCRS0</switch>
+<switchname>EAST LYNN</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6270</rc-v>
+<rc-h>3306</rc-h>
+<rc-lat>40.466426</rc-lat>
+<rc-lon>-87.805086</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>377</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>378</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>379</nxx>
+<x>A</x>
+<exch>053080</exch>
+<rc>Paxton</rc>
+<region>IL</region>
+<switch>PXTNILXCRS0</switch>
+<switchname>PAXTON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6294</rc-v>
+<rc-h>3349</rc-h>
+<rc-lat>40.46066</rc-lat>
+<rc-lon>-88.10153</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>384</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCUDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>386</nxx>
+<x>A</x>
+<exch>051340</exch>
+<rc>Loda</rc>
+<region>IL</region>
+<switch>LODAILXCRS1</switch>
+<switchname>LODA</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6281</rc-v>
+<rc-h>3351</rc-h>
+<rc-lat>40.518096</rc-lat>
+<rc-lon>-88.075659</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>054880</exch>
+<rc>Thawville</rc>
+<region>IL</region>
+<switch>TWVLILXCRS1</switch>
+<switchname>THAWVILLE</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6253</rc-v>
+<rc-h>3373</rc-h>
+<rc-lat>40.679666</rc-lat>
+<rc-lon>-88.11425</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>388</nxx>
+<x>A</x>
+<exch>051860</exch>
+<rc>Melvin</rc>
+<region>IL</region>
+<switch>MLVNILXCRS1</switch>
+<switchname>MELVIN</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6285</rc-v>
+<rc-h>3382</rc-h>
+<rc-lat>40.567975</rc-lat>
+<rc-lon>-88.252262</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>390</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILWK0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>047570</exch>
+<rc>Catlin</rc>
+<region>IL</region>
+<switch>CHMPILRATMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6339</rc-v>
+<rc-h>3251</rc-h>
+<rc-lat>40.066371</rc-lat>
+<rc-lon>-87.708032</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>394</nxx>
+<x>A</x>
+<exch>047240</exch>
+<rc>Buckley</rc>
+<region>IL</region>
+<switch>BCKLILXCRS1</switch>
+<switchname>BUCKLEY</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6263</rc-v>
+<rc-h>3354</rc-h>
+<rc-lat>40.598105</rc-lat>
+<rc-lon>-88.040986</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>053720</exch>
+<rc>Roberts</rc>
+<region>IL</region>
+<switch>RBRTILXCRS1</switch>
+<switchname>ROBERTS</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6271</rc-v>
+<rc-h>3377</rc-h>
+<rc-lat>40.614593</rc-lat>
+<rc-lon>-88.186266</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>396</nxx>
+<x>A</x>
+<exch>051440</exch>
+<rc>Ludlow</rc>
+<region>IL</region>
+<switch>LDLWILXCRS0</switch>
+<switchname>LUDLOW</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6311</rc-v>
+<rc-h>3346</rc-h>
+<rc-lat>40.384717</rc-lat>
+<rc-lon>-88.133239</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>053510</exch>
+<rc>Rankin</rc>
+<region>IL</region>
+<switch>RNKNILXCRS0</switch>
+<switchname>RANKIN</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6277</rc-v>
+<rc-h>3320</rc-h>
+<rc-lat>40.467957</rc-lat>
+<rc-lon>-87.899313</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>398</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPX6X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7196</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>403</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>417</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>418</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>419</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>427</nxx>
+<x>A</x>
+<exch>047570</exch>
+<rc>Catlin</rc>
+<region>IL</region>
+<switch>CTLNILCBRS0</switch>
+<switchname>CATLIN</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6339</rc-v>
+<rc-h>3251</rc-h>
+<rc-lat>40.066371</rc-lat>
+<rc-lon>-87.708032</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>431</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>442</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>444</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>469</nxx>
+<x>A</x>
+<exch>054500</exch>
+<rc>St Joseph</rc>
+<region>IL</region>
+<switch>STJSILSHRS0</switch>
+<switchname>ST JOSEPH</switchname>
+<switchtype>RSC</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6355</rc-v>
+<rc-h>3305</rc-h>
+<rc-lat>40.117059</rc-lat>
+<rc-lon>-88.038643</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>474</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILCPX1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>477</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>480</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>485</nxx>
+<x>A</x>
+<exch>054990</exch>
+<rc>Tolono</rc>
+<region>IL</region>
+<switch>TLONILXCDS0</switch>
+<switchname>TOLONO</switchname>
+<switchtype>DMT</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6397</rc-v>
+<rc-h>3324</rc-h>
+<rc-lat>39.98581</rc-lat>
+<rc-lon>-88.256264</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>489</nxx>
+<x>A</x>
+<exch>051570</exch>
+<rc>Mansfield</rc>
+<region>IL</region>
+<switch>MNFDILXCRS0</switch>
+<switchname>MANSFIELD</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6373</rc-v>
+<rc-h>3384</rc-h>
+<rc-lat>40.211708</rc-lat>
+<rc-lon>-88.508204</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>493</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>495</nxx>
+<x>A</x>
+<exch>053870</exch>
+<rc>Rossville</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6276</rc-v>
+<rc-h>3277</rc-h>
+<rc-lat>40.379432</rc-lat>
+<rc-lon>-87.668005</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>497</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-24 10:35:13</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>499</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-24 10:35:13</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>504</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-06-23 01:34:34</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>510</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>516</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILRAQMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>530</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5800</ocn>
+<company-name>ITV 3, LLC DBA I3 BROADBAND                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>531</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCOW06</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7393</ocn>
+<company-name>MCLEODUSA TELECOMMUNICATIONS SERVICES, INC.- IL           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>548</nxx>
+<x>A</x>
+<exch>049340</exch>
+<rc>Fithian</rc>
+<region>IL</region>
+<switch>FTHNILFTRS0</switch>
+<switchname>FITHIAN</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6343</rc-v>
+<rc-h>3281</rc-h>
+<rc-lat>40.114614</rc-lat>
+<rc-lon>-87.87794</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>552</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILRATMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>554</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDADS1</switch>
+<switchname>DANVILLE</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>559</nxx>
+<x>A</x>
+<exch>055630</exch>
+<rc>Westville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>063E</ocn>
+<company-name>PEERLESS NETWORK OF ILLINOIS, LLC - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6338</rc-v>
+<rc-h>3239</rc-h>
+<rc-lat>40.04456</rc-lat>
+<rc-lon>-87.641824</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>560</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILRAFMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>564</nxx>
+<x>A</x>
+<exch>050690</exch>
+<rc>Ivesdale</rc>
+<region>IL</region>
+<switch>IVDLILXCRS0</switch>
+<switchname>IVESDALE</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6421</rc-v>
+<rc-h>3350</rc-h>
+<rc-lat>39.942773</rc-lat>
+<rc-lon>-88.460438</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>568</nxx>
+<x>A</x>
+<exch>049690</exch>
+<rc>Gifford</rc>
+<region>IL</region>
+<switch>GFFRILXCRS1</switch>
+<switchname>GIFFORD</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6318</rc-v>
+<rc-h>3321</rc-h>
+<rc-lat>40.302587</rc-lat>
+<rc-lon>-88.019941</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>569</nxx>
+<x>A</x>
+<exch>046420</exch>
+<rc>Armstrong</rc>
+<region>IL</region>
+<switch>ARMSILXCRS0</switch>
+<switchname>ARMSTRONG</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6306</rc-v>
+<rc-h>3301</rc-h>
+<rc-lat>40.308698</rc-lat>
+<rc-lon>-87.88003</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>049200</exch>
+<rc>Fairmount</rc>
+<region>IL</region>
+<switch>CHMPILRARMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6353</rc-v>
+<rc-h>3268</rc-h>
+<rc-lat>40.045834</rc-lat>
+<rc-lon>-87.837201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>579</nxx>
+<x>A</x>
+<exch>053080</exch>
+<rc>Paxton</rc>
+<region>IL</region>
+<switch>CHMPILCPXHX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6294</rc-v>
+<rc-h>3349</rc-h>
+<rc-lat>40.46066</rc-lat>
+<rc-lon>-88.10153</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>582</nxx>
+<x>A</x>
+<exch>052750</exch>
+<rc>Ogden</rc>
+<region>IL</region>
+<switch>OGDNILXCRS0</switch>
+<switchname>OGDEN</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6350</rc-v>
+<rc-h>3294</rc-h>
+<rc-lat>40.113923</rc-lat>
+<rc-lon>-87.966386</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>583</nxx>
+<x>A</x>
+<exch>053890</exch>
+<rc>Royal</rc>
+<region>IL</region>
+<switch>ROYLILXCRS0</switch>
+<switchname>ROYAL</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6334</rc-v>
+<rc-h>3303</rc-h>
+<rc-lat>40.198608</rc-lat>
+<rc-lon>-87.969269</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>586</nxx>
+<x>A</x>
+<exch>051510</exch>
+<rc>Mahomet</rc>
+<region>IL</region>
+<switch>MHMTILXCDS0</switch>
+<switchname>MAHOMET</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3368</rc-h>
+<rc-lat>40.194142</rc-lat>
+<rc-lon>-88.412015</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>590</nxx>
+<x>A</x>
+<exch>051510</exch>
+<rc>Mahomet</rc>
+<region>IL</region>
+<switch>MHMTILXCDS0</switch>
+<switchname>MAHOMET</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6369</rc-v>
+<rc-h>3368</rc-h>
+<rc-lat>40.194142</rc-lat>
+<rc-lon>-88.412015</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>591</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>595</nxx>
+<x>A</x>
+<exch>053140</exch>
+<rc>Penfield</rc>
+<region>IL</region>
+<switch>PNFDILXCRS0</switch>
+<switchname>PENFIELD</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6313</rc-v>
+<rc-h>3311</rc-h>
+<rc-lat>40.301578</rc-lat>
+<rc-lon>-87.952798</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>597</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILWK0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>598</nxx>
+<x>A</x>
+<exch>053930</exch>
+<rc>Sadorus</rc>
+<region>IL</region>
+<switch>SDRSILXCRS0</switch>
+<switchname>SADORUS</switchname>
+<switchtype>1RL</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6408</rc-v>
+<rc-h>3334</rc-h>
+<rc-lat>39.962054</rc-lat>
+<rc-lon>-88.339723</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>599</nxx>
+<x>A</x>
+<exch>055100</exch>
+<rc>Tuscola</rc>
+<region>IL</region>
+<switch>CHMPILCPXHX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6435</rc-v>
+<rc-h>3308</rc-h>
+<rc-lat>39.796113</rc-lat>
+<rc-lon>-88.276901</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>600</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>224C</ocn>
+<company-name>ONVOY, LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-23 01:57:14</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>601</nxx>
+<x>A</x>
+<exch>049640</exch>
+<rc>Georgetown</rc>
+<region>IL</region>
+<switch>CHMPILCPXJX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>272C</ocn>
+<company-name>BIG RIVER TELEPHONE COMPANY, LLC - IL                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6350</rc-v>
+<rc-h>3232</rc-h>
+<rc-lat>39.98051</rc-lat>
+<rc-lon>-87.638634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>607</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXDX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7607</ocn>
+<company-name>COMCAST PHONE OF ILLINOIS, LLC DBA COMCO - IL             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>612</nxx>
+<x>A</x>
+<exch>053530</exch>
+<rc>Rantoul</rc>
+<region>IL</region>
+<switch>RNTLILXCDS0</switch>
+<switchname>RANTOUL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>3342</rc-h>
+<rc-lat>40.310716</rc-lat>
+<rc-lon>-88.156753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>621</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>631</nxx>
+<x>A</x>
+<exch>052110</exch>
+<rc>Monticello</rc>
+<region>IL</region>
+<switch>CHMPILLWUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6414</rc-v>
+<rc-h>3375</rc-h>
+<rc-lat>40.024473</rc-lat>
+<rc-lon>-88.573719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>637</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>643</nxx>
+<x>A</x>
+<exch>054910</exch>
+<rc>Thomasboro</rc>
+<region>IL</region>
+<switch>THBOILXCRS0</switch>
+<switchname>THOMASBORO</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6342</rc-v>
+<rc-h>3340</rc-h>
+<rc-lat>40.245071</rc-lat>
+<rc-lon>-88.188039</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>649</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>655</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>662</nxx>
+<x>A</x>
+<exch>049640</exch>
+<rc>Georgetown</rc>
+<region>IL</region>
+<switch>GRTWILGTRS1</switch>
+<switchname>GEORGETOWN</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6350</rc-v>
+<rc-h>3232</rc-h>
+<rc-lat>39.98051</rc-lat>
+<rc-lon>-87.638634</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>678</nxx>
+<x>A</x>
+<exch>046860</exch>
+<rc>Bement</rc>
+<region>IL</region>
+<switch>BMNTILXCRS0</switch>
+<switchname>BEMENT</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6432</rc-v>
+<rc-h>3365</rc-h>
+<rc-lat>39.929453</rc-lat>
+<rc-lon>-88.570276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>680</nxx>
+<x>A</x>
+<exch>049680</exch>
+<rc>Gibson City</rc>
+<region>IL</region>
+<switch>CHMPILRAUMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7136</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6314</rc-v>
+<rc-h>3389</rc-h>
+<rc-lat>40.464139</rc-lat>
+<rc-lon>-88.370752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>681</nxx>
+<x>A</x>
+<exch>055250</exch>
+<rc>Villa Grove</rc>
+<region>IL</region>
+<switch>CHMPILCPXHX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>846F</ocn>
+<company-name>MEDIACOM TELEPHONY OF ILLINOIS, LLC - IL                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6416</rc-v>
+<rc-h>3297</rc-h>
+<rc-lat>39.850439</rc-lat>
+<rc-lon>-88.166164</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>684</nxx>
+<x>A</x>
+<exch>053210</exch>
+<rc>Philo</rc>
+<region>IL</region>
+<switch>PHILILXCRS0</switch>
+<switchname>PHILO</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6385</rc-v>
+<rc-h>3312</rc-h>
+<rc-lat>40.009325</rc-lat>
+<rc-lon>-88.159374</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>687</nxx>
+<x>A</x>
+<exch>054100</exch>
+<rc>Seymour</rc>
+<region>IL</region>
+<switch>SYMRILXCRS1</switch>
+<switchname>SEYMOUR</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6386</rc-v>
+<rc-h>3362</rc-h>
+<rc-lat>40.111723</rc-lat>
+<rc-lon>-88.427284</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>688</nxx>
+<x>A</x>
+<exch>054270</exch>
+<rc>Sidney</rc>
+<region>IL</region>
+<switch>SDNYILXCRS0</switch>
+<switchname>SIDNEY</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6375</rc-v>
+<rc-h>3301</rc-h>
+<rc-lat>40.026717</rc-lat>
+<rc-lon>-88.073288</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>145J</ocn>
+<company-name>TERRA NOVA TELECOM INC.                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-02-21 02:17:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>693</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPDS0</switch>
+<switchname>CHAMPAIGN</switchname>
+<switchtype>D12</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>694</nxx>
+<x>A</x>
+<exch>049370</exch>
+<rc>Flatville</rc>
+<region>IL</region>
+<switch>FLVLILXCRS0</switch>
+<switchname>FLATVILLE</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6333</rc-v>
+<rc-h>3321</rc-h>
+<rc-lat>40.241265</rc-lat>
+<rc-lon>-88.061971</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>699</nxx>
+<x>A</x>
+<exch>046860</exch>
+<rc>Bement</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>224C</ocn>
+<company-name>ONVOY, LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6432</rc-v>
+<rc-h>3365</rc-h>
+<rc-lat>39.929453</rc-lat>
+<rc-lon>-88.570276</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-09-12 01:28:35</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>703</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILLWUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>709</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>DAVLILDA9MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7393</ocn>
+<company-name>MCLEODUSA TELECOMMUNICATIONS SERVICES, INC.- IL           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>714</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>721</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILRAJMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>722</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>049680</exch>
+<rc>Gibson City</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6314</rc-v>
+<rc-h>3389</rc-h>
+<rc-lat>40.464139</rc-lat>
+<rc-lon>-88.370752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>729</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>911E</ocn>
+<company-name>CONSOLIDATED COMMUNICATIONS ENTERPRISE SERVICES-IL        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-08-24 00:23:55</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>733</nxx>
+<x>A</x>
+<exch>049200</exch>
+<rc>Fairmount</rc>
+<region>IL</region>
+<switch>FAMTILFARS0</switch>
+<switchname>FAIRMOUNT</switchname>
+<switchtype>5RS</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6353</rc-v>
+<rc-h>3268</rc-h>
+<rc-lat>40.045834</rc-lat>
+<rc-lon>-87.837201</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>745</nxx>
+<x>A</x>
+<exch>054250</exch>
+<rc>Sibley</rc>
+<region>IL</region>
+<switch>SBLYILXCRS1</switch>
+<switchname>SIBLEY</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6291</rc-v>
+<rc-h>3403</rc-h>
+<rc-lat>40.588138</rc-lat>
+<rc-lon>-88.381247</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>748</nxx>
+<x>A</x>
+<exch>053870</exch>
+<rc>Rossville</rc>
+<region>IL</region>
+<switch>ROVLILXCRS0</switch>
+<switchname>ROSSVILLE</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6276</rc-v>
+<rc-h>3277</rc-h>
+<rc-lat>40.379432</rc-lat>
+<rc-lon>-87.668005</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>749</nxx>
+<x>A</x>
+<exch>048980</exch>
+<rc>Elliott</rc>
+<region>IL</region>
+<switch>ELLTILXCRS1</switch>
+<switchname>ELLIOTT</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6306</rc-v>
+<rc-h>3375</rc-h>
+<rc-lat>40.467086</rc-lat>
+<rc-lon>-88.273724</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>751</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>224C</ocn>
+<company-name>ONVOY, LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-07-27 10:57:58</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>759</nxx>
+<x>A</x>
+<exch>046990</exch>
+<rc>Bismarck</rc>
+<region>IL</region>
+<switch>BSMRILXCRS1</switch>
+<switchname>BISMARCK</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6294</rc-v>
+<rc-h>3257</rc-h>
+<rc-lat>40.262844</rc-lat>
+<rc-lon>-87.612891</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>762</nxx>
+<x>A</x>
+<exch>052110</exch>
+<rc>Monticello</rc>
+<region>IL</region>
+<switch>MNTIILXCDS0</switch>
+<switchname>MONTICELLO</switchname>
+<switchtype>5E</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6414</rc-v>
+<rc-h>3375</rc-h>
+<rc-lat>40.024473</rc-lat>
+<rc-lon>-88.573719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>765</nxx>
+<x>A</x>
+<exch>046300</exch>
+<rc>Alvin</rc>
+<region>IL</region>
+<switch>ALVNILXCRS1</switch>
+<switchname>ALVIN</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1036</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1036</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6285</rc-v>
+<rc-h>3261</rc-h>
+<rc-lat>40.308178</rc-lat>
+<rc-lon>-87.608626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>766</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILWK0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>769</nxx>
+<x>A</x>
+<exch>050490</exch>
+<rc>Hoopeston</rc>
+<region>IL</region>
+<switch>CHMPILLWUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6259</rc-v>
+<rc-h>3287</rc-h>
+<rc-lat>40.470344</rc-lat>
+<rc-lon>-87.672964</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>771</nxx>
+<x>A</x>
+<exch>049680</exch>
+<rc>Gibson City</rc>
+<region>IL</region>
+<switch>CHMPILLWUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6314</rc-v>
+<rc-h>3389</rc-h>
+<rc-lat>40.464139</rc-lat>
+<rc-lon>-88.370752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>050490</exch>
+<rc>Hoopeston</rc>
+<region>IL</region>
+<switch>CHMPILLWUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6259</rc-v>
+<rc-h>3287</rc-h>
+<rc-lat>40.470344</rc-lat>
+<rc-lon>-87.672964</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>776</nxx>
+<x>A</x>
+<exch>048120</exch>
+<rc>Collison</rc>
+<region>IL</region>
+<switch>CLSNILXCRS0</switch>
+<switchname>COLLISON</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6316</rc-v>
+<rc-h>3282</rc-h>
+<rc-lat>40.227008</rc-lat>
+<rc-lon>-87.807393</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>778</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>781</nxx>
+<x>A</x>
+<exch>049680</exch>
+<rc>Gibson City</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6314</rc-v>
+<rc-h>3389</rc-h>
+<rc-lat>40.464139</rc-lat>
+<rc-lon>-88.370752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>784</nxx>
+<x>A</x>
+<exch>049680</exch>
+<rc>Gibson City</rc>
+<region>IL</region>
+<switch>GBCYILGBDS0</switch>
+<switchname>GIBSON</switchname>
+<switchtype>DMT</switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6314</rc-v>
+<rc-h>3389</rc-h>
+<rc-lat>40.464139</rc-lat>
+<rc-lon>-88.370752</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>799</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>939H</ocn>
+<company-name>COMMIO, LLC                                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>806</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILLWUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>052110</exch>
+<rc>Monticello</rc>
+<region>IL</region>
+<switch>CHMPILLW0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6414</rc-v>
+<rc-h>3375</rc-h>
+<rc-lat>40.024473</rc-lat>
+<rc-lon>-88.573719</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>819</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILRAJMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>832</nxx>
+<x>A</x>
+<exch>055250</exch>
+<rc>Villa Grove</rc>
+<region>IL</region>
+<switch>VLGVILXCRS0</switch>
+<switchname>VILLA GROVE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6416</rc-v>
+<rc-h>3297</rc-h>
+<rc-lat>39.850439</rc-lat>
+<rc-lon>-88.166164</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>834</nxx>
+<x>A</x>
+<exch>047160</exch>
+<rc>Broadlands</rc>
+<region>IL</region>
+<switch>BRLDILXCRS0</switch>
+<switchname>BROADLANDS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6391</rc-v>
+<rc-h>3278</rc-h>
+<rc-lat>39.912051</rc-lat>
+<rc-lon>-87.99627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>837</nxx>
+<x>A</x>
+<exch>052530</exch>
+<rc>Newman</rc>
+<region>IL</region>
+<switch>NWMNILXCRS0</switch>
+<switchname>NEWMAN</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6411</rc-v>
+<rc-h>3266</rc-h>
+<rc-lat>39.804581</rc-lat>
+<rc-lon>-87.988627</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>840</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWCM0</switch>
+<switchname></switchname>
+<switchtype>CMC</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>841</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>846</nxx>
+<x>A</x>
+<exch>049390</exch>
+<rc>Foosland</rc>
+<region>IL</region>
+<switch>FSLDILXCRS1</switch>
+<switchname>FOOSLAND</switchname>
+<switchtype>RLC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6339</rc-v>
+<rc-h>3387</rc-h>
+<rc-lat>40.357454</rc-lat>
+<rc-lon>-88.429765</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>850</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>114J</ocn>
+<company-name>EXIANT COMMUNICATIONS LLC                                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-02-28 03:14:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>863</nxx>
+<x>A</x>
+<exch>047080</exch>
+<rc>Bondville</rc>
+<region>IL</region>
+<switch>BDVLILXCRS0</switch>
+<switchname>BONDVILLE</switchname>
+<switchtype>1RC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6382</rc-v>
+<rc-h>3353</rc-h>
+<rc-lat>40.108987</rc-lat>
+<rc-lon>-88.368407</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>866</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILLWUMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6115</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - IL                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>867</nxx>
+<x>A</x>
+<exch>053190</exch>
+<rc>Pesotum</rc>
+<region>IL</region>
+<switch>PSTMILXCRS0</switch>
+<switchname>PESOTUM</switchname>
+<switchtype>1RE</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6412</rc-v>
+<rc-h>3319</rc-h>
+<rc-lat>39.913735</rc-lat>
+<rc-lon>-88.271393</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>888</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>224C</ocn>
+<company-name>ONVOY, LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-11-23 01:57:14</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>890</nxx>
+<x>A</x>
+<exch>053530</exch>
+<rc>Rantoul</rc>
+<region>IL</region>
+<switch>CHMPILCPX5X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>5800</ocn>
+<company-name>ITV 3, LLC DBA I3 BROADBAND                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>3342</rc-h>
+<rc-lat>40.310716</rc-lat>
+<rc-lon>-88.156753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>892</nxx>
+<x>A</x>
+<exch>053530</exch>
+<rc>Rantoul</rc>
+<region>IL</region>
+<switch>RNTLILXCDS0</switch>
+<switchname>RANTOUL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>3342</rc-h>
+<rc-lat>40.310716</rc-lat>
+<rc-lon>-88.156753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>893</nxx>
+<x>A</x>
+<exch>053530</exch>
+<rc>Rantoul</rc>
+<region>IL</region>
+<switch>RNTLILXCDS0</switch>
+<switchname>RANTOUL</switchname>
+<switchtype>DMH</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6327</rc-v>
+<rc-h>3342</rc-h>
+<rc-lat>40.310716</rc-lat>
+<rc-lon>-88.156753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>896</nxx>
+<x>A</x>
+<exch>050470</exch>
+<rc>Homer</rc>
+<region>IL</region>
+<switch>HOMRILXCRS0</switch>
+<switchname>HOMER</switchname>
+<switchtype>5ER</switchtype>
+<ocn>1015</ocn>
+<company-name>FRONTIER NORTH, INC. - IL                                 </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1015</ilec-ocn>
+<ilec-name>FRONTIER NORTH, INC. - IL                                 </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6364</rc-v>
+<rc-h>3286</rc-h>
+<rc-lat>40.039554</rc-lat>
+<rc-lon>-87.963197</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>897</nxx>
+<x>A</x>
+<exch>049320</exch>
+<rc>Fisher</rc>
+<region>IL</region>
+<switch>FSHRILXCRS0</switch>
+<switchname>FISHER</switchname>
+<switchtype>RSS</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6342</rc-v>
+<rc-h>3371</rc-h>
+<rc-lat>40.311145</rc-lat>
+<rc-lon>-88.3529</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>902</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9329</ocn>
+<company-name>AMERITECH ILLINOIS                                        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>903</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 22:03:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>904</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>907</nxx>
+<x>A</x>
+<exch>054500</exch>
+<rc>St Joseph</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>063E</ocn>
+<company-name>PEERLESS NETWORK OF ILLINOIS, LLC - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6355</rc-v>
+<rc-h>3305</rc-h>
+<rc-lat>40.117059</rc-lat>
+<rc-lon>-88.038643</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-11 01:46:57</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>912</nxx>
+<x>A</x>
+<exch>053640</exch>
+<rc>Ridge Farm</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>063E</ocn>
+<company-name>PEERLESS NETWORK OF ILLINOIS, LLC - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6367</rc-v>
+<rc-h>3226</rc-h>
+<rc-lat>39.898226</rc-lat>
+<rc-lon>-87.654753</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-11 01:46:57</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>918</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch>CHMPILCPX1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6333</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - IL              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>920</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-12-19 02:03:47</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>954</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXBX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7607</ocn>
+<company-name>COMCAST PHONE OF ILLINOIS, LLC DBA COMCO - IL             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>974</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILRAUMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7136</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - IL                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>977</nxx>
+<x>A</x>
+<exch>048420</exch>
+<rc>Danville</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6322</rc-v>
+<rc-h>3245</rc-h>
+<rc-lat>40.12276</rc-lat>
+<rc-lon>-87.628451</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-21 02:41:31</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>979</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch>CHMPILCPXIX</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>987</nxx>
+<x>A</x>
+<exch>053390</exch>
+<rc>Potomac</rc>
+<region>IL</region>
+<switch>PTMCILXCRS0</switch>
+<switchname>POTOMAC</switchname>
+<switchtype>RSC</switchtype>
+<ocn>1000</ocn>
+<company-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </company-name>
+<company-type>I</company-type>
+<ilec-ocn>1000</ilec-ocn>
+<ilec-name>FRONTIER COMMUNICATIONS OF THE CAROLINAS, INC - IL        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6301</rc-v>
+<rc-h>3289</rc-h>
+<rc-lat>40.303302</rc-lat>
+<rc-lon>-87.802272</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>991</nxx>
+<x>A</x>
+<exch>047650</exch>
+<rc>Champaign-Urbana</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>057H</ocn>
+<company-name>LOCAL ACCESS LLC - IL                                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6371</rc-v>
+<rc-h>3336</rc-h>
+<rc-lat>40.117839</rc-lat>
+<rc-lon>-88.247626</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>217</npa>
+<nxx>996</nxx>
+<x>A</x>
+<exch>052700</exch>
+<rc>Oakwood</rc>
+<region>IL</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>063E</ocn>
+<company-name>PEERLESS NETWORK OF ILLINOIS, LLC - IL                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9329</ilec-ocn>
+<ilec-name>AMERITECH ILLINOIS                                        </ilec-name>
+<lata>370</lata>
+<lir></lir>
+<rc-v>6335</rc-v>
+<rc-h>3267</rc-h>
+<rc-lat>40.117166</rc-lat>
+<rc-lon>-87.781392</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+</root>

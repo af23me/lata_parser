@@ -1,0 +1,6656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>322</lata>
+</inputdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>201</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>220</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>WRRNOHXALMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>223</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>224</nxx>
+<x>A</x>
+<exch>145940</exch>
+<rc>Wellsville</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>464C</ocn>
+<company-name>ONVOY, LLC - OH                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5648</rc-v>
+<rc-h>2295</rc-h>
+<rc-lat>40.605934</rc-lat>
+<rc-lon>-80.648758</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-11-23 03:37:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>230</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>464C</ocn>
+<company-name>ONVOY, LLC - OH                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-11-23 03:37:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>232</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>235</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-08-10 00:57:09</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>241</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7520</ocn>
+<company-name>XO OHIO, INC.                                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>242</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>243</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-03-28 01:13:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>244</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>WRRNOHXA8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>247</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>001F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - OH                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-07-19 00:56:06</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>001F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - OH                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>142020</exch>
+<rc>Hubbard</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7520</ocn>
+<company-name>XO OHIO, INC.                                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5539</rc-v>
+<rc-h>2349</rc-h>
+<rc-lat>41.160754</rc-lat>
+<rc-lon>-80.566944</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>264</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-11-10 01:42:21</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>265</nxx>
+<x>A</x>
+<exch>144880</exch>
+<rc>Salineville</rc>
+<region>OH</region>
+<switch>YNTWOHKECMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5660</rc-v>
+<rc-h>2322</rc-h>
+<rc-lat>40.625888</rc-lat>
+<rc-lon>-80.825095</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>WRRNOHXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>308</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>309</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>315</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>318</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>001F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - OH                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>339</nxx>
+<x>A</x>
+<exch>141470</exch>
+<rc>Girard</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7520</ocn>
+<company-name>XO OHIO, INC.                                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.158753</rc-lat>
+<rc-lon>-80.698594</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>414</nxx>
+<x>A</x>
+<exch>140080</exch>
+<rc>Canfield</rc>
+<region>OH</region>
+<switch>YNTWOHKE1MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5581</rc-v>
+<rc-h>2360</rc-h>
+<rc-lat>41.025382</rc-lat>
+<rc-lon>-80.761246</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>421</nxx>
+<x>A</x>
+<exch>141470</exch>
+<rc>Girard</rc>
+<region>OH</region>
+<switch>YNTWOH02ZMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.158753</rc-lat>
+<rc-lon>-80.698594</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>428</nxx>
+<x>A</x>
+<exch>143780</exch>
+<rc>Newton Falls</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5569</rc-v>
+<rc-h>2408</rc-h>
+<rc-lat>41.189833</rc-lat>
+<rc-lon>-80.967886</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>430</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>001F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - OH                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>500</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>WRRNOHXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>517</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>562</nxx>
+<x>A</x>
+<exch>143830</exch>
+<rc>North Benton</rc>
+<region>OH</region>
+<switch>WRRNOHXA3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>024E</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - OH                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5611</rc-v>
+<rc-h>2389</rc-h>
+<rc-lat>40.980314</rc-lat>
+<rc-lon>-81.007687</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>564</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (OHIO) - OH            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>575</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch>YNTWOHKE1MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>600</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>719</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7520</ocn>
+<company-name>XO OHIO, INC.                                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>736</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>YNTWOH02JMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>759</nxx>
+<x>A</x>
+<exch>143920</exch>
+<rc>North Lima</rc>
+<region>OH</region>
+<switch>YNTWOH78X1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5586</rc-v>
+<rc-h>2337</rc-h>
+<rc-lat>40.949375</rc-lat>
+<rc-lon>-80.660105</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>805</nxx>
+<x>A</x>
+<exch>142660</exch>
+<rc>Lowellville</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (OHIO) - OH            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5559</rc-v>
+<rc-h>2329</rc-h>
+<rc-lat>41.034041</rc-lat>
+<rc-lon>-80.530586</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>806</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (OHIO) - OH            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>830</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>234</npa>
+<nxx>855</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>207</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>226</nxx>
+<x>A</x>
+<exch>145010</exch>
+<rc>Sharon (Trumbull)</rc>
+<region>OH</region>
+<switch>YNTWOHIK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5522</rc-v>
+<rc-h>2352</rc-h>
+<rc-lat>41.233867</rc-lat>
+<rc-lon>-80.526199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>144760</exch>
+<rc>Rogers</rc>
+<region>OH</region>
+<switch>RGRSOH22RS1</switch>
+<switchname>ROGERS</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2314</rc-h>
+<rc-lat>40.792072</rc-lat>
+<rc-lon>-80.627937</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOHIK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHIK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>233</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>240</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAKMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>246</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>HLTPOH021MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>251</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>WRRNOHXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>254</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>259</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHID5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3765</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - OH                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>261</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>269</nxx>
+<x>A</x>
+<exch>142020</exch>
+<rc>Hubbard</rc>
+<region>OH</region>
+<switch>YNTWOHID5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3765</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - OH                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5539</rc-v>
+<rc-h>2349</rc-h>
+<rc-lat>41.160754</rc-lat>
+<rc-lon>-80.566944</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>270</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH79DS1</switch>
+<switchname>YOUNGSTOWN 79</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>271</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>272</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHHD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4863</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - OH                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>277</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch>YNTWOHIGBMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>CRLDOHXARS1</switch>
+<switchname>CORTLAND</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>286</nxx>
+<x>A</x>
+<exch>140080</exch>
+<rc>Canfield</rc>
+<region>OH</region>
+<switch>YNTWOHID5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3765</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - OH                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5581</rc-v>
+<rc-h>2360</rc-h>
+<rc-lat>41.025382</rc-lat>
+<rc-lon>-80.761246</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>288</nxx>
+<x>A</x>
+<exch>141470</exch>
+<rc>Girard</rc>
+<region>OH</region>
+<switch>YNTWOHID5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3765</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - OH                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.158753</rc-lat>
+<rc-lon>-80.698594</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>290</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>WRRNOHXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>299</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>YNTWOHID5MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>3765</ocn>
+<company-name>CHOICE ONE COMMUNICATIONS, INC. - OH                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>301</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>303</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>YNTWOHHD7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4863</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - OH                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>307</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>314</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH02JMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>318</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>WRRNOHXAZMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7443</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - OH                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>326</nxx>
+<x>A</x>
+<exch>146240</exch>
+<rc>Windham</rc>
+<region>OH</region>
+<switch>WNHMOHXARS1</switch>
+<switchname>WINDHAM</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5568</rc-v>
+<rc-h>2424</rc-h>
+<rc-lat>41.232939</rc-lat>
+<rc-lon>-81.046796</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>330</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>332</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch>SALMOH3333A</switch>
+<switchname>SALEM</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH79FMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>001F</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - OH                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>337</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch>SALMOH3333A</switch>
+<switchname>SALEM</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>349</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>YNTWOHKE1MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>516C</ocn>
+<company-name>AT&amp;T CORP.                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>355</nxx>
+<x>A</x>
+<exch>142310</exch>
+<rc>Kinsman</rc>
+<region>OH</region>
+<switch>KNMNOHXARS2</switch>
+<switchname>KINSMAN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5487</rc-v>
+<rc-h>2385</rc-h>
+<rc-lat>41.450677</rc-lat>
+<rc-lon>-80.579635</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>358</nxx>
+<x>A</x>
+<exch>145880</exch>
+<rc>Wayland</rc>
+<region>OH</region>
+<switch>WYLDOHXARS1</switch>
+<switchname>WAYLAND</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5582</rc-v>
+<rc-h>2419</rc-h>
+<rc-lat>41.166356</rc-lat>
+<rc-lon>-81.066889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>360</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>145940</exch>
+<rc>Wellsville</rc>
+<region>OH</region>
+<switch>YNTWOH78KMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8070</ocn>
+<company-name>COMCAST PHONE OF OHIO, LLC - OH                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5648</rc-v>
+<rc-h>2295</rc-h>
+<rc-lat>40.605934</rc-lat>
+<rc-lon>-80.648758</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>143920</exch>
+<rc>North Lima</rc>
+<region>OH</region>
+<switch>YNTWOH78KMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8070</ocn>
+<company-name>COMCAST PHONE OF OHIO, LLC - OH                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5586</rc-v>
+<rc-h>2337</rc-h>
+<rc-lat>40.949375</rc-lat>
+<rc-lon>-80.660105</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>367</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXFRS1</switch>
+<switchname>WARREN</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>368</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>YNTWOH020MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>369</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXGRS1</switch>
+<switchname>WARREN</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>372</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXBDSA</switch>
+<switchname></switchname>
+<switchtype>DMH</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>373</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>380</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>381</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>382</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>ELVROH3838F</switch>
+<switchname>EAST LIVERPOOL</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>383</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>385</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>ELVROH3838F</switch>
+<switchname>EAST LIVERPOOL</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>386</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>ELVROH3838F</switch>
+<switchname>EAST LIVERPOOL</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>387</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>YNTWOHIK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>394</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH740MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7520</ocn>
+<company-name>XO OHIO, INC.                                             </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>398</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>399</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>402</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>404</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>406</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74JMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>261E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - OH                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>420</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>LSBNOH42RS1</switch>
+<switchname>LISBON (COLUMBIANA)</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>423</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHHD7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4863</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - OH                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>424</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>LSBNOH42RS1</switch>
+<switchname>LISBON (COLUMBIANA)</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>426</nxx>
+<x>A</x>
+<exch>140960</exch>
+<rc>East Palestine</rc>
+<region>OH</region>
+<switch>EPLSOH42RS1</switch>
+<switchname>EAST PALESTINE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5596</rc-v>
+<rc-h>2306</rc-h>
+<rc-lat>40.834206</rc-lat>
+<rc-lon>-80.534811</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>427</nxx>
+<x>A</x>
+<exch>142430</exch>
+<rc>Leetonia</rc>
+<region>OH</region>
+<switch>LTNAOH02RS1</switch>
+<switchname>LEETONIA</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5606</rc-v>
+<rc-h>2342</rc-h>
+<rc-lat>40.884272</rc-lat>
+<rc-lon>-80.751089</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>429</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>442</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>141830</exch>
+<rc>Hartford (Trumbull)</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>464C</ocn>
+<company-name>ONVOY, LLC - OH                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5511</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.313447</rc-lat>
+<rc-lon>-80.5667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-08-25 11:12:54</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>444</nxx>
+<x>A</x>
+<exch>144870</exch>
+<rc>Salem</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2358</rc-h>
+<rc-lat>40.90037</rc-lat>
+<rc-lon>-80.852391</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>446</nxx>
+<x>A</x>
+<exch>140710</exch>
+<rc>Damascus</rc>
+<region>OH</region>
+<switch>WRRNOHXAKMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5621</rc-v>
+<rc-h>2372</rc-h>
+<rc-lat>40.89984</rc-lat>
+<rc-lon>-80.953289</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>448</nxx>
+<x>A</x>
+<exch>145010</exch>
+<rc>Sharon (Trumbull)</rc>
+<region>OH</region>
+<switch>BRFDOH44RS1</switch>
+<switchname>BROOKFIELD</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5522</rc-v>
+<rc-h>2352</rc-h>
+<rc-lat>41.233867</rc-lat>
+<rc-lon>-80.526199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>457</nxx>
+<x>A</x>
+<exch>143720</exch>
+<rc>New Waterford</rc>
+<region>OH</region>
+<switch>NWWTOH45RS1</switch>
+<switchname>NEW WATERFORD</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5602</rc-v>
+<rc-h>2318</rc-h>
+<rc-lat>40.840623</rc-lat>
+<rc-lon>-80.615599</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>469</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXA4MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>480</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>482</nxx>
+<x>A</x>
+<exch>140470</exch>
+<rc>Columbiana</rc>
+<region>OH</region>
+<switch>CLBNOH4848C</switch>
+<switchname>COLUMBIANA</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5601</rc-v>
+<rc-h>2334</rc-h>
+<rc-lat>40.883932</rc-lat>
+<rc-lon>-80.693914</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>501</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>502</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>503</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>505</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>NILSOH65DS1</switch>
+<switchname>NILES</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>506</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>507</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>509</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>518</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>519</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>530</nxx>
+<x>A</x>
+<exch>141470</exch>
+<rc>Girard</rc>
+<region>OH</region>
+<switch>NILSOH65DS1</switch>
+<switchname>NILES</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.158753</rc-lat>
+<rc-lon>-80.698594</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>531</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>532</nxx>
+<x>A</x>
+<exch>145940</exch>
+<rc>Wellsville</rc>
+<region>OH</region>
+<switch>WLVLOH53RS1</switch>
+<switchname>WELLSVILLE</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5648</rc-v>
+<rc-h>2295</rc-h>
+<rc-lat>40.605934</rc-lat>
+<rc-lon>-80.648758</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>533</nxx>
+<x>A</x>
+<exch>140080</exch>
+<rc>Canfield</rc>
+<region>OH</region>
+<switch>CNFDOH0253A</switch>
+<switchname>CANFIELD</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5581</rc-v>
+<rc-h>2360</rc-h>
+<rc-lat>41.025382</rc-lat>
+<rc-lon>-80.761246</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>534</nxx>
+<x>A</x>
+<exch>142020</exch>
+<rc>Hubbard</rc>
+<region>OH</region>
+<switch>HBRDOH02RS1</switch>
+<switchname>HUBBARD</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5539</rc-v>
+<rc-h>2349</rc-h>
+<rc-lat>41.160754</rc-lat>
+<rc-lon>-80.566944</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>536</nxx>
+<x>A</x>
+<exch>142660</exch>
+<rc>Lowellville</rc>
+<region>OH</region>
+<switch>LLVLOH53RS2</switch>
+<switchname>LOWELLVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5559</rc-v>
+<rc-h>2329</rc-h>
+<rc-lat>41.034041</rc-lat>
+<rc-lon>-80.530586</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>537</nxx>
+<x>A</x>
+<exch>140710</exch>
+<rc>Damascus</rc>
+<region>OH</region>
+<switch>DMSCOHXARS1</switch>
+<switchname>DAMASCUS</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5621</rc-v>
+<rc-h>2372</rc-h>
+<rc-lat>40.89984</rc-lat>
+<rc-lon>-80.953289</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>538</nxx>
+<x>A</x>
+<exch>143900</exch>
+<rc>North Jackson</rc>
+<region>OH</region>
+<switch>NJSNOH53RS1</switch>
+<switchname>NORTH JACKSON</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5577</rc-v>
+<rc-h>2385</rc-h>
+<rc-lat>41.102353</rc-lat>
+<rc-lon>-80.876122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>539</nxx>
+<x>A</x>
+<exch>141470</exch>
+<rc>Girard</rc>
+<region>OH</region>
+<switch>LRTPOH7575G</switch>
+<switchname>LIBERTY (TWP) (TRUMBULL)</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.158753</rc-lat>
+<rc-lon>-80.698594</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>540</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>542</nxx>
+<x>A</x>
+<exch>143920</exch>
+<rc>North Lima</rc>
+<region>OH</region>
+<switch>NWMLOH54RS1</switch>
+<switchname>NEW MIDDLETOWN</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5586</rc-v>
+<rc-h>2337</rc-h>
+<rc-lat>40.949375</rc-lat>
+<rc-lon>-80.660105</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>544</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>NILSOH65DS1</switch>
+<switchname>NILES</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>545</nxx>
+<x>A</x>
+<exch>141470</exch>
+<rc>Girard</rc>
+<region>OH</region>
+<switch>LRTPOH7575G</switch>
+<switchname>LIBERTY (TWP) (TRUMBULL)</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5551</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.158753</rc-lat>
+<rc-lon>-80.698594</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>547</nxx>
+<x>A</x>
+<exch>139610</exch>
+<rc>Berlin Center</rc>
+<region>OH</region>
+<switch>BRCTOHXARP0</switch>
+<switchname>BERLIN CENTER</switchname>
+<switchtype>RP</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5598</rc-v>
+<rc-h>2386</rc-h>
+<rc-lat>41.02339</rc-lat>
+<rc-lon>-80.949915</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>549</nxx>
+<x>A</x>
+<exch>143920</exch>
+<rc>North Lima</rc>
+<region>OH</region>
+<switch>NLIMOH54RS1</switch>
+<switchname>NORTH LIMA</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5586</rc-v>
+<rc-h>2337</rc-h>
+<rc-lat>40.949375</rc-lat>
+<rc-lon>-80.660105</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>550</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>553</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>557</nxx>
+<x>A</x>
+<exch>142360</exch>
+<rc>Lake Milton</rc>
+<region>OH</region>
+<switch>WRRNOHXAKMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5585</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>41.100794</rc-lat>
+<rc-lon>-80.963805</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>559</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHIGBMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>565</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>568</nxx>
+<x>A</x>
+<exch>142020</exch>
+<rc>Hubbard</rc>
+<region>OH</region>
+<switch>LRTPOH7575G</switch>
+<switchname>LIBERTY (TWP) (TRUMBULL)</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5539</rc-v>
+<rc-h>2349</rc-h>
+<rc-lat>41.160754</rc-lat>
+<rc-lon>-80.566944</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>YNTWOH02JMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>583</nxx>
+<x>A</x>
+<exch>141620</exch>
+<rc>Greene</rc>
+<region>OH</region>
+<switch>GRNEOHXARS2</switch>
+<switchname>GREENE</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5502</rc-v>
+<rc-h>2412</rc-h>
+<rc-lat>41.459264</rc-lat>
+<rc-lon>-80.768076</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>584</nxx>
+<x>A</x>
+<exch>143830</exch>
+<rc>North Benton</rc>
+<region>OH</region>
+<switch>NBENOHXARP0</switch>
+<switchname>NORTH BENTON</switchname>
+<switchtype>RP</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5611</rc-v>
+<rc-h>2389</rc-h>
+<rc-lat>40.980314</rc-lat>
+<rc-lon>-81.007687</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>586</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOHIK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>589</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>YNTWOHIK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>599</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>609</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXFRS1</switch>
+<switchname>WARREN</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>610</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>613</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>619</nxx>
+<x>A</x>
+<exch>145010</exch>
+<rc>Sharon (Trumbull)</rc>
+<region>OH</region>
+<switch>YNTWOH78X1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5522</rc-v>
+<rc-h>2352</rc-h>
+<rc-lat>41.233867</rc-lat>
+<rc-lon>-80.526199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>623</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>629</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDMNOH7575A</switch>
+<switchname>BOARDMAN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>637</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>CRLDOHXARS1</switch>
+<switchname>CORTLAND</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>638</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch>CRLDOHXARS1</switch>
+<switchname>CORTLAND</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>640</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>646</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAKMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>647</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>HLTPOH021MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>651</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDTMOHIDCM0</switch>
+<switchname></switchname>
+<switchtype>DMW</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>652</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>NILSOH65DS1</switch>
+<switchname>NILES</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>654</nxx>
+<x>A</x>
+<exch>142360</exch>
+<rc>Lake Milton</rc>
+<region>OH</region>
+<switch>LKMLOHXARS1</switch>
+<switchname>LAKE MILTON</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5585</rc-v>
+<rc-h>2397</rc-h>
+<rc-lat>41.100794</rc-lat>
+<rc-lon>-80.963805</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>660</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHIK0MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>675</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>679</nxx>
+<x>A</x>
+<exch>144880</exch>
+<rc>Salineville</rc>
+<region>OH</region>
+<switch>SAVLOH67RS1</switch>
+<switchname>SALINEVILLE</switchname>
+<switchtype>5ER</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5660</rc-v>
+<rc-h>2322</rc-h>
+<rc-lat>40.625888</rc-lat>
+<rc-lon>-80.825095</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>692</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>702</nxx>
+<x>A</x>
+<exch>140080</exch>
+<rc>Canfield</rc>
+<region>OH</region>
+<switch>CNFDOH0253A</switch>
+<switchname>CANFIELD</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5581</rc-v>
+<rc-h>2360</rc-h>
+<rc-lat>41.025382</rc-lat>
+<rc-lon>-80.761246</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>707</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>POLDOH75RS2</switch>
+<switchname>POLAND</switchname>
+<switchtype>EXM</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>708</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>716</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>717</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>718</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>719</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>720</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>726</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDMNOH7575A</switch>
+<switchname>BOARDMAN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>727</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>728</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>729</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDMNOH7575A</switch>
+<switchname>BOARDMAN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>740</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>742</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>743</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>744</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>746</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>747</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>750</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>STRTOH7575A</switch>
+<switchname>STRUTHERS</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>755</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>STRTOH7575A</switch>
+<switchname>STRUTHERS</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>757</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>POLDOH75RS2</switch>
+<switchname>POLAND</switchname>
+<switchtype>EXM</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>758</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDMNOH7575A</switch>
+<switchname>BOARDMAN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>759</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>LRTPOH7575G</switch>
+<switchname>LIBERTY (TWP) (TRUMBULL)</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>766</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXA8MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>770</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>141830</exch>
+<rc>Hartford (Trumbull)</rc>
+<region>OH</region>
+<switch>HRFROHXARS2</switch>
+<switchname>HARTFORD</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5511</rc-v>
+<rc-h>2367</rc-h>
+<rc-lat>41.313447</rc-lat>
+<rc-lon>-80.5667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>779</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH79DS1</switch>
+<switchname>YOUNGSTOWN 79</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>781</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH7878E</switch>
+<switchname>YOUNGSTOWN 78</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>782</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH7878E</switch>
+<switchname>YOUNGSTOWN 78</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>783</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH7878E</switch>
+<switchname>YOUNGSTOWN 78</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>787</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOHHD7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4863</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - OH                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>788</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH7878E</switch>
+<switchname>YOUNGSTOWN 78</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>792</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH79DS1</switch>
+<switchname>YOUNGSTOWN 79</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>793</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH79DS1</switch>
+<switchname>YOUNGSTOWN 79</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH79DS1</switch>
+<switchname>YOUNGSTOWN 79</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>799</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH79DS1</switch>
+<switchname>YOUNGSTOWN 79</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>817</nxx>
+<x>A</x>
+<exch>142430</exch>
+<rc>Leetonia</rc>
+<region>OH</region>
+<switch>YNTWOH78KMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8070</ocn>
+<company-name>COMCAST PHONE OF OHIO, LLC - OH                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5606</rc-v>
+<rc-h>2342</rc-h>
+<rc-lat>40.884272</rc-lat>
+<rc-lon>-80.751089</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH029MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6630</ocn>
+<company-name>USA MOBILITY WIRELESS, INC.                               </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>822</nxx>
+<x>A</x>
+<exch>144760</exch>
+<rc>Rogers</rc>
+<region>OH</region>
+<switch>YNTWOH020MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5612</rc-v>
+<rc-h>2314</rc-h>
+<rc-lat>40.792072</rc-lat>
+<rc-lon>-80.627937</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>824</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>LRTWOHXBRS1</switch>
+<switchname></switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>831</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>841</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAPS0</switch>
+<switchname>WARREN</switchname>
+<switchtype>PEO</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>843</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>846</nxx>
+<x>A</x>
+<exch>143720</exch>
+<rc>New Waterford</rc>
+<region>OH</region>
+<switch>YNTWOH020MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5602</rc-v>
+<rc-h>2318</rc-h>
+<rc-lat>40.840623</rc-lat>
+<rc-lon>-80.615599</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>847</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXERS2</switch>
+<switchname>WARREN</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOH78ZMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>856</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXFRS1</switch>
+<switchname>WARREN</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>870</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOH020MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>872</nxx>
+<x>A</x>
+<exch>143780</exch>
+<rc>Newton Falls</rc>
+<region>OH</region>
+<switch>NWFLOHXARS1</switch>
+<switchname>NEWTON FALLS</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5569</rc-v>
+<rc-h>2408</rc-h>
+<rc-lat>41.189833</rc-lat>
+<rc-lon>-80.967886</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>876</nxx>
+<x>A</x>
+<exch>142310</exch>
+<rc>Kinsman</rc>
+<region>OH</region>
+<switch>KNMNOHXARS2</switch>
+<switchname>KINSMAN</switchname>
+<switchtype>RSC</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5487</rc-v>
+<rc-h>2385</rc-h>
+<rc-lat>41.450677</rc-lat>
+<rc-lon>-80.579635</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>881</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78X1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>883</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>884</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>885</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>886</nxx>
+<x>A</x>
+<exch>140960</exch>
+<rc>East Palestine</rc>
+<region>OH</region>
+<switch>YNTWOH020MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5596</rc-v>
+<rc-h>2306</rc-h>
+<rc-lat>40.834206</rc-lat>
+<rc-lon>-80.534811</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>889</nxx>
+<x>A</x>
+<exch>139880</exch>
+<rc>Bristolville</rc>
+<region>OH</region>
+<switch>BIVLOHXARS1</switch>
+<switchname>BRISTOLVILLE</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5525</rc-v>
+<rc-h>2417</rc-h>
+<rc-lat>41.382496</rc-lat>
+<rc-lon>-80.869652</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>891</nxx>
+<x>A</x>
+<exch>140590</exch>
+<rc>Cortland</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5521</rc-v>
+<rc-h>2391</rc-h>
+<rc-lat>41.333992</rc-lat>
+<rc-lon>-80.722859</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>892</nxx>
+<x>A</x>
+<exch>140470</exch>
+<rc>Columbiana</rc>
+<region>OH</region>
+<switch>YNTWOH020MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5601</rc-v>
+<rc-h>2334</rc-h>
+<rc-lat>40.883932</rc-lat>
+<rc-lon>-80.693914</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>LVBGOHXARS2</switch>
+<switchname>LEAVITTSBURG</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>918</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-12-19 02:26:52</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>921</nxx>
+<x>A</x>
+<exch>140470</exch>
+<rc>Columbiana</rc>
+<region>OH</region>
+<switch>YNTWOHIGCMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5601</rc-v>
+<rc-h>2334</rc-h>
+<rc-lat>40.883932</rc-lat>
+<rc-lon>-80.693914</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>924</nxx>
+<x>A</x>
+<exch>142180</exch>
+<rc>Johnston</rc>
+<region>OH</region>
+<switch>JHTNOHXARS2</switch>
+<switchname>JOHNSTON</switchname>
+<switchtype>DRL</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5505</rc-v>
+<rc-h>2390</rc-h>
+<rc-lat>41.393428</rc-lat>
+<rc-lon>-80.664895</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>932</nxx>
+<x>A</x>
+<exch>140940</exch>
+<rc>East Liverpool</rc>
+<region>OH</region>
+<switch>YNTWOH78KMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8070</ocn>
+<company-name>COMCAST PHONE OF OHIO, LLC - OH                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5640</rc-v>
+<rc-h>2287</rc-h>
+<rc-lat>40.617163</rc-lat>
+<rc-lon>-80.582038</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>941</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74DS1</switch>
+<switchname>YOUNGSTOWN 74 DS1</switchname>
+<switchtype>DE5</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>942</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78X1X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>951</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH74IMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9682</ocn>
+<company-name>FIRST COMMUNICATIONS, LLC - OH                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>953</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH78MMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>024E</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - OH                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>964</nxx>
+<x>A</x>
+<exch>142540</exch>
+<rc>Lisbon (Columbiana)</rc>
+<region>OH</region>
+<switch>YNTWOHHD7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4863</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - OH                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5627</rc-v>
+<rc-h>2331</rc-h>
+<rc-lat>40.775875</rc-lat>
+<rc-lon>-80.763537</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>965</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>BDMNOH7575A</switch>
+<switchname>BOARDMAN</switchname>
+<switchtype>5E</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>967</nxx>
+<x>A</x>
+<exch>140080</exch>
+<rc>Canfield</rc>
+<region>OH</region>
+<switch>WRRNOHXALMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7532</ocn>
+<company-name>TELEPORT COMMUNICATIONS AMERICA, LLC - OH                 </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5581</rc-v>
+<rc-h>2360</rc-h>
+<rc-lat>41.025382</rc-lat>
+<rc-lon>-80.761246</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>969</nxx>
+<x>A</x>
+<exch>145010</exch>
+<rc>Sharon (Trumbull)</rc>
+<region>OH</region>
+<switch>BRFDOH44RS1</switch>
+<switchname>BROOKFIELD</switchname>
+<switchtype>5BR</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5522</rc-v>
+<rc-h>2352</rc-h>
+<rc-lat>41.233867</rc-lat>
+<rc-lon>-80.526199</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>974</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>YNTWOHHD0MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4863</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - OH                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>978</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>HLTPOH021MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>979</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>HLTPOH021MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6534</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC - IL                       </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>980</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>WRRNOHXAZMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7443</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC. - OH                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>984</nxx>
+<x>A</x>
+<exch>145810</exch>
+<rc>Warren</rc>
+<region>OH</region>
+<switch>YNTWOHHD7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>4863</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - OH                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5548</rc-v>
+<rc-h>2392</rc-h>
+<rc-lat>41.231921</rc-lat>
+<rc-lon>-80.816882</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>986</nxx>
+<x>A</x>
+<exch>146360</exch>
+<rc>Youngstown</rc>
+<region>OH</region>
+<switch>YNTWOH780MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5557</rc-v>
+<rc-h>2353</rc-h>
+<rc-lat>41.101023</rc-lat>
+<rc-lon>-80.646667</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>143810</exch>
+<rc>Niles</rc>
+<region>OH</region>
+<switch>NILSOH65DS1</switch>
+<switchname>NILES</switchname>
+<switchtype>DMH</switchtype>
+<ocn>9321</ocn>
+<company-name>AMERITECH OHIO                                            </company-name>
+<company-type>I</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5552</rc-v>
+<rc-h>2379</rc-h>
+<rc-lat>41.18444</rc-lat>
+<rc-lon>-80.763361</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>992</nxx>
+<x>A</x>
+<exch>143900</exch>
+<rc>North Jackson</rc>
+<region>OH</region>
+<switch>YNTWOH78MMD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>024E</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - OH                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>9321</ilec-ocn>
+<ilec-name>AMERITECH OHIO                                            </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5577</rc-v>
+<rc-h>2385</rc-h>
+<rc-lat>41.102353</rc-lat>
+<rc-lon>-80.876122</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>993</nxx>
+<x>A</x>
+<exch>145880</exch>
+<rc>Wayland</rc>
+<region>OH</region>
+<switch>WRRNOHXAYMD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6025</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - OH              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5582</rc-v>
+<rc-h>2419</rc-h>
+<rc-lat>41.166356</rc-lat>
+<rc-lon>-81.066889</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>330</npa>
+<nxx>997</nxx>
+<x>A</x>
+<exch>139610</exch>
+<rc>Berlin Center</rc>
+<region>OH</region>
+<switch>WRRNOHXA3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>024E</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - OH                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5598</rc-v>
+<rc-h>2386</rc-h>
+<rc-lat>41.02339</rc-lat>
+<rc-lon>-80.949915</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>440</npa>
+<nxx>293</nxx>
+<x>A</x>
+<exch>139120</exch>
+<rc>Andover</rc>
+<region>OH</region>
+<switch>ANDVOHXARS1</switch>
+<switchname>ANDOVER</switchname>
+<switchtype>RSS</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5457</rc-v>
+<rc-h>2402</rc-h>
+<rc-lat>41.608619</rc-lat>
+<rc-lon>-80.567472</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>440</npa>
+<nxx>294</nxx>
+<x>A</x>
+<exch>143630</exch>
+<rc>New Lyme</rc>
+<region>OH</region>
+<switch>NWLYOHXARS1</switch>
+<switchname>NEW LYME</switchname>
+<switchtype>RLC</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5474</rc-v>
+<rc-h>2428</rc-h>
+<rc-lat>41.60705</rc-lat>
+<rc-lon>-80.757836</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>440</npa>
+<nxx>576</nxx>
+<x>A</x>
+<exch>142130</exch>
+<rc>Jefferson (Ashtabula)</rc>
+<region>OH</region>
+<switch>JFSAOHXARP0</switch>
+<switchname>JEFFERSON (ASHTABULA)</switchname>
+<switchtype>RP</switchtype>
+<ocn>0661</ocn>
+<company-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </company-name>
+<company-type>I</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5452</rc-v>
+<rc-h>2444</rc-h>
+<rc-lat>41.731613</rc-lat>
+<rc-lon>-80.767411</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>440</npa>
+<nxx>624</nxx>
+<x>A</x>
+<exch>142130</exch>
+<rc>Jefferson (Ashtabula)</rc>
+<region>OH</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>547D</ocn>
+<company-name>TIME WARNER CABLE INFORMATION SVCS (OHIO) - OH            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5452</rc-v>
+<rc-h>2444</rc-h>
+<rc-lat>41.731613</rc-lat>
+<rc-lon>-80.767411</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>440</npa>
+<nxx>689</nxx>
+<x>A</x>
+<exch>139120</exch>
+<rc>Andover</rc>
+<region>OH</region>
+<switch>WRRNOHXA3MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>024E</ocn>
+<company-name>ARMSTRONG TELECOMMUNICATIONS, INC. - OH                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>0661</ilec-ocn>
+<ilec-name>UNITED TEL. CO. OF OHIO - CENTURYLINK                     </ilec-name>
+<lata>322</lata>
+<lir></lir>
+<rc-v>5457</rc-v>
+<rc-h>2402</rc-h>
+<rc-lat>41.608619</rc-lat>
+<rc-lon>-80.567472</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>

@@ -1,0 +1,5031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE root [
+<!ENTITY Aacute           "&#x000C1;" >
+<!ENTITY aacute           "&#x000E1;" >
+<!ENTITY Acirc            "&#x000C2;" >
+<!ENTITY acirc            "&#x000E2;" >
+<!ENTITY acute            "&#x000B4;" >
+<!ENTITY AElig            "&#x000C6;" >
+<!ENTITY aelig            "&#x000E6;" >
+<!ENTITY Agrave           "&#x000C0;" >
+<!ENTITY agrave           "&#x000E0;" >
+<!ENTITY Aring            "&#x000C5;" >
+<!ENTITY aring            "&#x000E5;" >
+<!ENTITY Atilde           "&#x000C3;" >
+<!ENTITY atilde           "&#x000E3;" >
+<!ENTITY Auml             "&#x000C4;" >
+<!ENTITY auml             "&#x000E4;" >
+<!ENTITY brvbar           "&#x000A6;" >
+<!ENTITY Ccedil           "&#x000C7;" >
+<!ENTITY ccedil           "&#x000E7;" >
+<!ENTITY cedil            "&#x000B8;" >
+<!ENTITY cent             "&#x000A2;" >
+<!ENTITY copy             "&#x000A9;" >
+<!ENTITY curren           "&#x000A4;" >
+<!ENTITY deg              "&#x000B0;" >
+<!ENTITY divide           "&#x000F7;" >
+<!ENTITY Eacute           "&#x000C9;" >
+<!ENTITY eacute           "&#x000E9;" >
+<!ENTITY Ecirc            "&#x000CA;" >
+<!ENTITY ecirc            "&#x000EA;" >
+<!ENTITY Egrave           "&#x000C8;" >
+<!ENTITY egrave           "&#x000E8;" >
+<!ENTITY ETH              "&#x000D0;" >
+<!ENTITY eth              "&#x000F0;" >
+<!ENTITY Euml             "&#x000CB;" >
+<!ENTITY euml             "&#x000EB;" >
+<!ENTITY frac12           "&#x000BD;" >
+<!ENTITY frac14           "&#x000BC;" >
+<!ENTITY frac34           "&#x000BE;" >
+<!ENTITY Iacute           "&#x000CD;" >
+<!ENTITY iacute           "&#x000ED;" >
+<!ENTITY Icirc            "&#x000CE;" >
+<!ENTITY icirc            "&#x000EE;" >
+<!ENTITY iexcl            "&#x000A1;" >
+<!ENTITY Igrave           "&#x000CC;" >
+<!ENTITY igrave           "&#x000EC;" >
+<!ENTITY iquest           "&#x000BF;" >
+<!ENTITY Iuml             "&#x000CF;" >
+<!ENTITY iuml             "&#x000EF;" >
+<!ENTITY laquo            "&#x000AB;" >
+<!ENTITY macr             "&#x000AF;" >
+<!ENTITY micro            "&#x000B5;" >
+<!ENTITY middot           "&#x000B7;" >
+<!ENTITY nbsp             "&#x000A0;" >
+<!ENTITY not              "&#x000AC;" >
+<!ENTITY Ntilde           "&#x000D1;" >
+<!ENTITY ntilde           "&#x000F1;" >
+<!ENTITY Oacute           "&#x000D3;" >
+<!ENTITY oacute           "&#x000F3;" >
+<!ENTITY Ocirc            "&#x000D4;" >
+<!ENTITY ocirc            "&#x000F4;" >
+<!ENTITY Ograve           "&#x000D2;" >
+<!ENTITY ograve           "&#x000F2;" >
+<!ENTITY ordf             "&#x000AA;" >
+<!ENTITY ordm             "&#x000BA;" >
+<!ENTITY Oslash           "&#x000D8;" >
+<!ENTITY oslash           "&#x000F8;" >
+<!ENTITY Otilde           "&#x000D5;" >
+<!ENTITY otilde           "&#x000F5;" >
+<!ENTITY Ouml             "&#x000D6;" >
+<!ENTITY ouml             "&#x000F6;" >
+<!ENTITY para             "&#x000B6;" >
+<!ENTITY plusmn           "&#x000B1;" >
+<!ENTITY pound            "&#x000A3;" >
+<!ENTITY raquo            "&#x000BB;" >
+<!ENTITY reg              "&#x000AE;" >
+<!ENTITY sect             "&#x000A7;" >
+<!ENTITY shy              "&#x000AD;" >
+<!ENTITY sup1             "&#x000B9;" >
+<!ENTITY sup2             "&#x000B2;" >
+<!ENTITY sup3             "&#x000B3;" >
+<!ENTITY szlig            "&#x000DF;" >
+<!ENTITY THORN            "&#x000DE;" >
+<!ENTITY thorn            "&#x000FE;" >
+<!ENTITY times            "&#x000D7;" >
+<!ENTITY Uacute           "&#x000DA;" >
+<!ENTITY uacute           "&#x000FA;" >
+<!ENTITY Ucirc            "&#x000DB;" >
+<!ENTITY ucirc            "&#x000FB;" >
+<!ENTITY Ugrave           "&#x000D9;" >
+<!ENTITY ugrave           "&#x000F9;" >
+<!ENTITY uml              "&#x000A8;" >
+<!ENTITY Uuml             "&#x000DC;" >
+<!ENTITY uuml             "&#x000FC;" >
+<!ENTITY Yacute           "&#x000DD;" >
+<!ENTITY yacute           "&#x000FD;" >
+<!ENTITY yen              "&#x000A5;" >
+<!ENTITY yuml             "&#x000FF;" >
+<!ELEMENT root         (inputdata,prefixdata*,error*)>
+<!ELEMENT error         (#PCDATA)>
+<!ELEMENT inputdata    (npa?,nxx?,x?,exch?,rc?,region?,switch?,lata?,lir?,ocn?,blocks?,pastdays?,nextdays?,udate?)>
+<!ELEMENT prefixdata   (npa,nxx,x,exch,udate,rc,region,switch,switchname,switchtype,lata,lir,ocn,company-name,ilec-ocn,ilec-name,rc-v,rc-h,rc-lat,rc-lon,effdate,discdate)>
+<!ELEMENT npa          (#PCDATA)>
+<!ELEMENT nxx          (#PCDATA)>
+<!ELEMENT x            (#PCDATA)>
+<!ELEMENT exch         (#PCDATA)>
+<!ELEMENT udate        (#PCDATA)>
+<!ELEMENT rc           (#PCDATA)>
+<!ELEMENT region       (#PCDATA)>
+<!ELEMENT switch       (#PCDATA)>
+<!ELEMENT switchname   (#PCDATA)>
+<!ELEMENT switchtype   (#PCDATA)>
+<!ELEMENT lata         (#PCDATA)>
+<!ELEMENT lir          (#PCDATA)>
+<!ELEMENT ocn          (#PCDATA)>
+<!ELEMENT company-name (#PCDATA)>
+<!ELEMENT company-type (#PCDATA)>
+<!ELEMENT ilec-ocn     (#PCDATA)>
+<!ELEMENT ilec-name    (#PCDATA)>
+<!ELEMENT rc-v         (#PCDATA)>
+<!ELEMENT rc-h         (#PCDATA)>
+<!ELEMENT rc-lat       (#PCDATA)>
+<!ELEMENT rc-lon       (#PCDATA)>
+<!ELEMENT effdate      (#PCDATA)>
+<!ELEMENT discdate     (#PCDATA)>
+]>
+<root>
+<inputdata>
+<lata>973</lata>
+</inputdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>025610</exch>
+<rc>Yucca Valley</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>899D</ocn>
+<company-name>METROPCS NETWORKS, LLC                                    </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9146</rc-v>
+<rc-h>7557</rc-h>
+<rc-lat>34.116208</rc-lat>
+<rc-lon>-116.443202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>212</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>214</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>899D</ocn>
+<company-name>METROPCS NETWORKS, LLC                                    </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>215</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>252F</ocn>
+<company-name>WIDE VOICE, LLC - CA                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>234</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>241</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>060G</ocn>
+<company-name>AIRUS, INC. - CA                                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>246</nxx>
+<x>A</x>
+<exch>022370</exch>
+<rc>Morongo Valley</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7240</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC., CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9162</rc-v>
+<rc-h>7577</rc-h>
+<rc-lat>34.059586</rc-lat>
+<rc-lon>-116.567693</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>256</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>260</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>145J</ocn>
+<company-name>TERRA NOVA TELECOM INC.                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-04-25 01:03:39</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>268</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>269</nxx>
+<x>A</x>
+<exch>021140</exch>
+<rc>Joshua Tree</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9137</rc-v>
+<rc-h>7535</rc-h>
+<rc-lat>34.139531</rc-lat>
+<rc-lon>-116.314755</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>274</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>275</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>293G</ocn>
+<company-name>MOSAIC NETWORX LLC - CA                                   </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>276</nxx>
+<x>A</x>
+<exch>023260</exch>
+<rc>Pinyon</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9255</rc-v>
+<rc-h>7535</rc-h>
+<rc-lat>33.606925</rc-lat>
+<rc-lon>-116.433597</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>282</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>290</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>197D</ocn>
+<company-name>VONAGE NETWORK INC.                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-06-14 22:03:08</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>300</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-11-02 02:02:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>304</nxx>
+<x>A</x>
+<exch>019890</exch>
+<rc>Eagle Mountain</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>373F</ocn>
+<company-name>PEERLESS NETWORK OF CALIFORNIA, LLC - CA                  </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9171</rc-v>
+<rc-h>7375</rc-h>
+<rc-lat>33.856264</rc-lat>
+<rc-lon>-115.483796</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-10-27 02:36:37</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>305</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-09 02:08:02</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>306</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-21 01:13:46</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>321</nxx>
+<x>A</x>
+<exch>020870</exch>
+<rc>Homestead Valley</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7240</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC., CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9113</rc-v>
+<rc-h>7560</rc-h>
+<rc-lat>34.267518</rc-lat>
+<rc-lon>-116.426417</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>324</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>576C</ocn>
+<company-name>TIME WARNER CBL INFO SVCS (CA) DBA TIME WARNER CAB        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>334</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>073H</ocn>
+<company-name>TELNYX LLC                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-11 17:50:55</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>400</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-09-22 18:12:03</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>443</nxx>
+<x>A</x>
+<exch>022370</exch>
+<rc>Morongo Valley</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9162</rc-v>
+<rc-h>7577</rc-h>
+<rc-lat>34.059586</rc-lat>
+<rc-lon>-116.567693</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-11-16 01:51:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>484</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-01-30 02:15:20</udate>
+</prefixdata>
+<prefixdata>
+<npa>442</npa>
+<nxx>666</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2018-11-02 02:02:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>200</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>BRDNCAXF34G</switch>
+<switchname>BERMUDA DUNES WASHINGTON ST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>202</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>RNMGCAXFDS0</switch>
+<switchname>RANCHO MIRAGE</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>205</nxx>
+<x>A</x>
+<exch>019730</exch>
+<rc>Desert Center</rc>
+<region>CA</region>
+<switch>PLSPCAXGX2Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>748D</ocn>
+<company-name>MPOWER NETWORKS SERVICES INC. - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9200</rc-v>
+<rc-h>7354</rc-h>
+<rc-lat>33.707916</rc-lat>
+<rc-lon>-115.401265</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>218</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>219</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>227</nxx>
+<x>A</x>
+<exch>019730</exch>
+<rc>Desert Center</rc>
+<region>CA</region>
+<switch>DSCTCAXGRS1</switch>
+<switchname>DESERT CENTER</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9200</rc-v>
+<rc-h>7354</rc-h>
+<rc-lat>33.707916</rc-lat>
+<rc-lon>-115.401265</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>228</nxx>
+<x>A</x>
+<exch>025610</exch>
+<rc>Yucca Valley</rc>
+<region>CA</region>
+<switch>YCVYCAXG36X</switch>
+<switchname>YUCCA VALLEY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9146</rc-v>
+<rc-h>7557</rc-h>
+<rc-lat>34.116208</rc-lat>
+<rc-lon>-116.443202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>229</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXG88T</switch>
+<switchname></switchname>
+<switchtype>GT5</switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>238</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>250</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>251</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch>DHSPCAXF32X</switch>
+<switchname>DESERT HOT SPRINGS</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>262</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>272</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>275</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>285</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>288</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch>DHSPCAXF32X</switch>
+<switchname>DESERT HOT SPRINGS</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>289</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>296</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>313</nxx>
+<x>A</x>
+<exch>019890</exch>
+<rc>Eagle Mountain</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>576C</ocn>
+<company-name>TIME WARNER CBL INFO SVCS (CA) DBA TIME WARNER CAB        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9171</rc-v>
+<rc-h>7375</rc-h>
+<rc-lat>33.856264</rc-lat>
+<rc-lon>-115.483796</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>318</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGDS0</switch>
+<switchname>PALM SPRINGS EAST 2</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>319</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6906</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>320</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGDS0</switch>
+<switchname>PALM SPRINGS EAST 2</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>321</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>RNMGCAXFDS0</switch>
+<switchname>RANCHO MIRAGE</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>322</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>323</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGDS0</switch>
+<switchname>PALM SPRINGS EAST 2</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>324</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>RNMGCAXFDS0</switch>
+<switchname>RANCHO MIRAGE</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>325</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>327</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>328</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>RNMGCAXFDS0</switch>
+<switchname>RANCHO MIRAGE</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>329</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch>DHSPCAXF32X</switch>
+<switchname>DESERT HOT SPRINGS</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>333</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>340</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>341</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>342</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>INDICAXGDS0</switch>
+<switchname>INDIO</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>343</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>THPLCAXFDS0</switch>
+<switchname>THOUSAND PALMS</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>345</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>BRDNCAXF34G</switch>
+<switchname>BERMUDA DUNES WASHINGTON ST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>346</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>347</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>INDICAXGDS0</switch>
+<switchname>INDIO</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>349</nxx>
+<x>A</x>
+<exch>023260</exch>
+<rc>Pinyon</rc>
+<region>CA</region>
+<switch>PNYNCAXFRS7</switch>
+<switchname>PINYON</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9255</rc-v>
+<rc-h>7535</rc-h>
+<rc-lat>33.606925</rc-lat>
+<rc-lon>-116.433597</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>360</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>BRDNCAXF34G</switch>
+<switchname>BERMUDA DUNES WASHINGTON ST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>361</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>TWPLCAXF36K</switch>
+<switchname>TWENTYNINE PALMS</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>362</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>DSHGCAXFRS2</switch>
+<switchname>DESERT HEIGHTS</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>363</nxx>
+<x>A</x>
+<exch>022370</exch>
+<rc>Morongo Valley</rc>
+<region>CA</region>
+<switch>MRVYCAXFRS5</switch>
+<switchname>MORONGO VALLEY</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9162</rc-v>
+<rc-h>7577</rc-h>
+<rc-lat>34.059586</rc-lat>
+<rc-lon>-116.567693</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>364</nxx>
+<x>A</x>
+<exch>020870</exch>
+<rc>Homestead Valley</rc>
+<region>CA</region>
+<switch>HMVYCAXFRS4</switch>
+<switchname>HOMESTEAD VALLEY</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9113</rc-v>
+<rc-h>7560</rc-h>
+<rc-lat>34.267518</rc-lat>
+<rc-lon>-116.426417</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>365</nxx>
+<x>A</x>
+<exch>025610</exch>
+<rc>Yucca Valley</rc>
+<region>CA</region>
+<switch>YCVYCAXG36X</switch>
+<switchname>YUCCA VALLEY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9146</rc-v>
+<rc-h>7557</rc-h>
+<rc-lat>34.116208</rc-lat>
+<rc-lon>-116.443202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>366</nxx>
+<x>A</x>
+<exch>021140</exch>
+<rc>Joshua Tree</rc>
+<region>CA</region>
+<switch>JSTRCAXFRS2</switch>
+<switchname>JOSHUA TREE</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9137</rc-v>
+<rc-h>7535</rc-h>
+<rc-lat>34.139531</rc-lat>
+<rc-lon>-116.314755</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>367</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>TWPLCAXF36K</switch>
+<switchname>TWENTYNINE PALMS</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>368</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>TWPLCAXGRS1</switch>
+<switchname>MARINE PALMS</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>369</nxx>
+<x>A</x>
+<exch>025610</exch>
+<rc>Yucca Valley</rc>
+<region>CA</region>
+<switch>YCVYCAXG36X</switch>
+<switchname>YUCCA VALLEY</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9146</rc-v>
+<rc-h>7557</rc-h>
+<rc-lat>34.116208</rc-lat>
+<rc-lon>-116.443202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>391</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>CCHLCAXF39L</switch>
+<switchname>COACHELLA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>392</nxx>
+<x>A</x>
+<exch>019890</exch>
+<rc>Eagle Mountain</rc>
+<region>CA</region>
+<switch>CCHLCAXF39L</switch>
+<switchname>COACHELLA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9171</rc-v>
+<rc-h>7375</rc-h>
+<rc-lat>33.856264</rc-lat>
+<rc-lon>-115.483796</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>393</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>NSHRCAXFRS6</switch>
+<switchname>NORTH SHORES</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>394</nxx>
+<x>A</x>
+<exch>023880</exch>
+<rc>Salton</rc>
+<region>CA</region>
+<switch>SLCYCAXFRS8</switch>
+<switchname>SALTON CITY</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9298</rc-v>
+<rc-h>7443</rc-h>
+<rc-lat>33.339309</rc-lat>
+<rc-lon>-115.982445</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>395</nxx>
+<x>A</x>
+<exch>023880</exch>
+<rc>Salton</rc>
+<region>CA</region>
+<switch>DSSHCAXFRS9</switch>
+<switchname>DESERT SHORES</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9298</rc-v>
+<rc-h>7443</rc-h>
+<rc-lat>33.339309</rc-lat>
+<rc-lon>-115.982445</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>396</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>MECCCAXFRS6</switch>
+<switchname>MECCA</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>397</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>OASSCAXFRS0</switch>
+<switchname>OASIS</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>398</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>CCHLCAXF39L</switch>
+<switchname>COACHELLA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>399</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>THRMCAXFRS5</switch>
+<switchname>THERMAL</switchname>
+<switchtype>GTR</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>401</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>404</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXGXOX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>406</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>408</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>409</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>413</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>416</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGDS0</switch>
+<switchname>PALM SPRINGS EAST 2</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>418</nxx>
+<x>A</x>
+<exch>025610</exch>
+<rc>Yucca Valley</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9146</rc-v>
+<rc-h>7557</rc-h>
+<rc-lat>34.116208</rc-lat>
+<rc-lon>-116.443202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>422</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX2Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8322</ocn>
+<company-name>MPOWER COMMUNICATIONS CORP - CA                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>423</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXGX2Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8322</ocn>
+<company-name>MPOWER COMMUNICATIONS CORP - CA                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>424</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>437</nxx>
+<x>A</x>
+<exch>019730</exch>
+<rc>Desert Center</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9200</rc-v>
+<rc-h>7354</rc-h>
+<rc-lat>33.707916</rc-lat>
+<rc-lon>-115.401265</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>449</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX4Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>459</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXLY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>464</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>469</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>485</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>501</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGXOX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>507</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-05-07 01:18:43</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>534</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>537</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXHY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>981E</ocn>
+<company-name>BANDWIDTH.COM CLEC, LLC - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>538</nxx>
+<x>A</x>
+<exch>023880</exch>
+<rc>Salton</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7575</ocn>
+<company-name>CENTURYLINK COMMUNICATIONS LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9298</rc-v>
+<rc-h>7443</rc-h>
+<rc-lat>33.339309</rc-lat>
+<rc-lon>-115.982445</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>541</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>548</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>321J</ocn>
+<company-name>HD CARRIER LLC                                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-03-04 03:07:16</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>558</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>624H</ocn>
+<company-name>ONVOY SPECTRUM, LLC                                       </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2019-10-09 01:49:53</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>564</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>LAQNCAXG56L</switch>
+<switchname>LA QUINTA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>565</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXGXLY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>4129</ocn>
+<company-name>O1 COMMUNICATIONS, INC. - CA                              </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>567</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>568</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>569</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXOY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>252F</ocn>
+<company-name>WIDE VOICE, LLC - CA                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>574</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>578</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>600</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>601</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>609</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>610</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXGXBY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>619</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>620</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXPY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>649C</ocn>
+<company-name>ONVOY, LLC - CA                                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>625</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>636</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>641</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>656</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXBZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7718</ocn>
+<company-name>LEVEL 3 TELECOM OF CALIFORNIA, LP - CA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>660</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXAX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>667</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6967</ocn>
+<company-name>33 WIRELESS INC.                                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>668</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>671</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>673</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>674</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>676</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>698</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGX5Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>899D</ocn>
+<company-name>METROPCS NETWORKS, LLC                                    </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>699</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX0Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>808C</ocn>
+<company-name>WEST TELECOM SERVICES, LLC - CA                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>702</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>766</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>770</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>RNMGCAXFDS0</switch>
+<switchname>RANCHO MIRAGE</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>771</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>LAQNCAXG56L</switch>
+<switchname>LA QUINTA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>772</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>BRDNCAXF34G</switch>
+<switchname>BERMUDA DUNES WASHINGTON ST</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>773</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>774</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>775</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>INDICAXGDS0</switch>
+<switchname>INDIO</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>776</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>777</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>LAQNCAXG56L</switch>
+<switchname>LA QUINTA</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>778</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>779</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>794</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>551G</ocn>
+<company-name>BRIGHTLINK COMMUNICATIONS, LLC                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>797</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>799</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>800</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7421</ocn>
+<company-name>AT&amp;T LOCAL                                                </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>808</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>819</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>PLSPCAXGDS0</switch>
+<switchname>PALM SPRINGS EAST 2</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>820</nxx>
+<x>A</x>
+<exch>025610</exch>
+<rc>Yucca Valley</rc>
+<region>CA</region>
+<switch>PLSPCAXGDS0</switch>
+<switchname>PALM SPRINGS EAST 2</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9146</rc-v>
+<rc-h>7557</rc-h>
+<rc-lat>34.116208</rc-lat>
+<rc-lon>-116.443202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>821</nxx>
+<x>A</x>
+<exch>021140</exch>
+<rc>Joshua Tree</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9137</rc-v>
+<rc-h>7535</rc-h>
+<rc-lat>34.139531</rc-lat>
+<rc-lon>-116.314755</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>830</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7240</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC., CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>831</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>832</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>833</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>834</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXGDS0</switch>
+<switchname>PALM SPRINGS EAST 2</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>835</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>836</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>837</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>841</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG1KD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7379</ocn>
+<company-name>MATRIX TELECOM, LLC. SII TNCI - CA                        </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>844</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>848</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGXAX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>851</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>853</nxx>
+<x>A</x>
+<exch>025610</exch>
+<rc>Yucca Valley</rc>
+<region>CA</region>
+<switch>PLSPCAXGXPX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7240</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC., CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9146</rc-v>
+<rc-h>7557</rc-h>
+<rc-lat>34.116208</rc-lat>
+<rc-lon>-116.443202</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>861</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>862</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLDSCAXF34A</switch>
+<switchname>PALM DESERT</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>863</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>INDICAXGDS0</switch>
+<switchname>INDIO</switchname>
+<switchtype>5E</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>864</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>865</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch>TWPLCAXF36K</switch>
+<switchname>TWENTYNINE PALMS</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>866</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>869</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9748</ocn>
+<company-name>AMERICAN MESSAGING SERVICES, LLC                          </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>880</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX0Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6529</ocn>
+<company-name>T-MOBILE USA, INC.                                        </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>883</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG32G</switch>
+<switchname>PALM SPRINGS EAST GTD5</switchname>
+<switchtype>GT5</switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>894</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXBZ</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7718</ocn>
+<company-name>LEVEL 3 TELECOM OF CALIFORNIA, LP - CA                    </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>895</nxx>
+<x>A</x>
+<exch>022960</exch>
+<rc>Palm Desert</rc>
+<region>CA</region>
+<switch>PLSPCAXGXRY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>7139</ocn>
+<company-name>TELEPORT COMMUNICATIONS GROUP - LOS ANGELES               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9228</rc-v>
+<rc-h>7529</rc-h>
+<rc-lat>33.724062</rc-lat>
+<rc-lon>-116.374059</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>898</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>899</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>902</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXG7MD</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6006</ocn>
+<company-name>CELLCO PARTNERSHIP DBA VERIZON WIRELESS - CA              </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>904</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX4X</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>905</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGX5Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>899D</ocn>
+<company-name>METROPCS NETWORKS, LLC                                    </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>910</nxx>
+<x>A</x>
+<exch>025020</exch>
+<rc>Twentynine Palms</rc>
+<region>CA</region>
+<switch></switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9126</rc-v>
+<rc-h>7499</rc-h>
+<rc-lat>34.160565</rc-lat>
+<rc-lon>-116.108218</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2017-05-05 23:36:25</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>968</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXCY</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>9262</ocn>
+<company-name>UTILITY TELECOM GROUP, LLC - CA                           </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>969</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXOX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7453</ocn>
+<company-name>U.S. TELEPACIFIC CORP. - CA                               </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>972</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGXGX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6664</ocn>
+<company-name>SPRINT SPECTRUM L.P.                                      </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>974</nxx>
+<x>A</x>
+<exch>021140</exch>
+<rc>Joshua Tree</rc>
+<region>CA</region>
+<switch>PLSPCAXGXTY</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>8826</ocn>
+<company-name>LEVEL 3 COMMUNICATIONS, LLC - CA                          </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9137</rc-v>
+<rc-h>7535</rc-h>
+<rc-lat>34.139531</rc-lat>
+<rc-lon>-116.314755</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>980</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCA191MD</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>258E</ocn>
+<company-name>YMAX COMMUNICATIONS CORP. - CA                            </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>984</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGX9Z</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>252F</ocn>
+<company-name>WIDE VOICE, LLC - CA                                      </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>989</nxx>
+<x>A</x>
+<exch>021020</exch>
+<rc>Indio</rc>
+<region>CA</region>
+<switch>PLSPCAXGX6Y</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>6010</ocn>
+<company-name>NEW CINGULAR WIRELESS PCS, LLC                            </company-name>
+<company-type>W</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9223</rc-v>
+<rc-h>7501</rc-h>
+<rc-lat>33.724413</rc-lat>
+<rc-lon>-116.217858</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>992</nxx>
+<x>A</x>
+<exch>022970</exch>
+<rc>Palm Springs</rc>
+<region>CA</region>
+<switch>PLSPCAXGXPX</switch>
+<switchname></switchname>
+<switchtype>POI</switchtype>
+<ocn>7240</ocn>
+<company-name>MCI WORLDCOM COMMUNICATIONS, INC., CA                     </company-name>
+<company-type>C</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9212</rc-v>
+<rc-h>7565</rc-h>
+<rc-lat>33.82453</rc-lat>
+<rc-lon>-116.552525</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+<prefixdata>
+<npa>760</npa>
+<nxx>993</nxx>
+<x>A</x>
+<exch>019740</exch>
+<rc>Desert Hot Springs</rc>
+<region>CA</region>
+<switch>DHSPCAXFPS0</switch>
+<switchname></switchname>
+<switchtype></switchtype>
+<ocn>2319</ocn>
+<company-name>FRONTIER CALIFORNIA INC.                                  </company-name>
+<company-type>I</company-type>
+<ilec-ocn>2319</ilec-ocn>
+<ilec-name>FRONTIER CALIFORNIA INC.                                  </ilec-name>
+<lata>973</lata>
+<lir></lir>
+<rc-v>9180</rc-v>
+<rc-h>7561</rc-h>
+<rc-lat>33.96586</rc-lat>
+<rc-lon>-116.498924</rc-lon>
+<effdate></effdate>
+<discdate></discdate>
+<udate>2013-10-12 00:37:30</udate>
+</prefixdata>
+</root>
